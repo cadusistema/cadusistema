@@ -12,6 +12,9 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
+    <script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
     <title>{title_for_layout}</title>
 
     {css_for_layout}
@@ -20,33 +23,12 @@
 </head>
 <body>
 <div id="geral">
-
-    <div id="topo">
-        <ul id="menu">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
-    </div>
-
     <div id="meio">
-
-        {content_for_layout}
+        <div class="content">
+            {content_for_layout}
+        </div>
 
     </div>
-
-    <br style="clear: both;"/>
-
-    <div id="rodape">
-        <p class="rodape">
-            Todos os direitos reservados - Bla Bla Bla
-        </p>
-    </div>
-
 </div>
 </body>
 </html>

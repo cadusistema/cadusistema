@@ -11,20 +11,20 @@ Class login extends CI_Controller {
     /**
      * Layout default utilizado pelo controlador.
      */
-    public $layout = 'default';
+//    public $layout = 'default';
     /**
      * Titulo default.
      */
-    public $title = '::: Login :::';
+    public $title = '::: Login1 :::';
+
+    /*
+     * CSS default.
+     */
+    public $css = array('basic');
 
     public function __construct() {
         parent::__construct();
     }
-
-    public function index() {
-        #$this->load->view('home_sistema');
-    }
-
     /*
      * Função para carregar a view de login
      */
@@ -42,6 +42,7 @@ Class login extends CI_Controller {
         $nomeBanco = $dadosBanco->name;
         $senhaBanco = $dadosBanco->password;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
+            $this->layout = 'layoutSistema';
             $this->load->view('admin/home_sistema');
         } else {
             $this->load->view('login_view');

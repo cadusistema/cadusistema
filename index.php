@@ -254,6 +254,6 @@ define('EXT', '.php');
 //define('FCPATH', str_replace(SELF, '', __FILE__));
 //define('BASEPATH', $system_folder . '/');
 define('LAYOUTPATH', $application_folder . '/layouts/');
-define('JSPATH', $application_folder . '/js/');
+define('JSPATH', $application_folder . '/layouts/js/');
 define('CSSPATH', $application_folder . '/css/');
 require_once BASEPATH . 'core/CodeIgniter.php';
