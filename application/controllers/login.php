@@ -20,7 +20,7 @@ Class login extends CI_Controller {
     /*
      * CSS default.
      */
-    public $css = array('basic');
+//    public $css = array('basic');
 
     public function __construct() {
         parent::__construct();
