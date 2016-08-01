@@ -15,9 +15,13 @@
     <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
     <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
-    <link rel="stylesheet" href="<? CSSPATH . 'basic.css' ?>"/>
+
+    <link rel="stylesheet" href="<? echo CSSPATH.'application/layouts/css/basic.css' ?>"/>
+
     <script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
-    <!--    <script src="--><? // echo base_url('includes/font-awesome/js/font-awesome.min.js') ?><!--"></script>-->
+
+
+
     <title>{title_for_layout}</title>
 
     {css_for_layout}

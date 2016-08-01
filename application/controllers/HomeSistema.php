@@ -12,6 +12,8 @@ class HomeSistema extends CI_Controller {
 
     public $titlePage = "Home Sistema";
 
+    public $layout = "layoutSistema";
+
     public function __construct() {
         parent::__construct();
     }
