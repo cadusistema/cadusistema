@@ -15,8 +15,13 @@
 
 <p>Home do Sistema</p>
 
-
-
+<?
+echo anchor('HomeSistema/fichaautorizacao', 'Ficha Autorização', array(
+    "id"    => "fichaautorizacao",
+    "name"  => "fichaautorizacao",
+    "class" => "btn btn-primary",
+))
+?>
 
 </body>
 </html>

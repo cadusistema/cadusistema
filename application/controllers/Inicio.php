@@ -12,12 +12,12 @@ Class Inicio extends CI_Controller {
     /**
      * Layout default utilizado pelo controlador.
      */
-    public $layout = 'outro';
+    public $layout = 'layoutSite';
 
     /**
      * Titulo default.
      */
-    public $title = '::: Site46789 :::';
+    public $title = 'Parque das Andorinhas';
 
     public function index() {
         $this->load->view('site');

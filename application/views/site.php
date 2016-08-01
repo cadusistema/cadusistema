@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inicio</title>
-</head>
-<body>
 
 <p>Site</p>
 
 
-<p>Area Administrativa</p>
+<h1>Area Administrativa</h1>
 
-<?echo anchor("login/fazerlogin","Fazer Login")?>
+<?echo anchor("login/fazerlogin","Fazer Login",array("class" => "btn btn-primary"))?>
 
-</body>
-</html>
+
