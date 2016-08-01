@@ -6,6 +6,7 @@
  * Time: 13:37
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
+
 echo form_open("login/login");
 echo form_label("Usuario");
 echo form_input(array(

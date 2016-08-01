@@ -2,7 +2,7 @@
 <p>Site</p>
 
 
-<h1>Area Administrativa</h1>
+<h1>Área Administrativa</h1>
 
 <?echo anchor("login/fazerlogin","Fazer Login",array("class" => "btn btn-primary"))?>
 

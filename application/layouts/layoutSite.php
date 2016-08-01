@@ -10,8 +10,6 @@
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 <head>
-
-
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
@@ -37,7 +35,9 @@
 
     <div id="meio">
 
+
         {content_for_layout}
+
 
     </div>
 

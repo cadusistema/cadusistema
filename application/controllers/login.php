@@ -7,7 +7,7 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-Class login extends CI_Controller {
+Class Login extends CI_Controller {
     /**
      * Layout default utilizado pelo controlador.
      */
@@ -15,7 +15,7 @@ Class login extends CI_Controller {
     /**
      * Titulo default.
      */
-    public $title = '::: Login1 :::';
+    public $title = 'Área Administrativa';
 
     /*
      * CSS default.
