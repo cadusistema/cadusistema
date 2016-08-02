@@ -104,8 +104,8 @@ $system_path = 'C:\xampp\htdocs\parque\system';
  *
  * NO TRAILING SLASH!
  */
-#$application_folder = 'application';
-$application_folder = 'C:\xampp\htdocs\parque\application';
+$application_folder = 'application';
+//$application_folder = 'C:\xampp\htdocs\parque\application';
 /*
  *---------------------------------------------------------------
  * VIEW DIRECTORY NAME
@@ -255,5 +255,5 @@ define('EXT', '.php');
 //define('BASEPATH', $system_folder . '/');
 define('LAYOUTPATH', $application_folder . '/layouts/');
 //define('JSPATH', $application_folder . '/layouts/js/');
-//define('CSSPATH', $application_folder . '/layouts/css/');
+define('CSSPATH',LAYOUTPATH.'css/');
 require_once BASEPATH . 'core/CodeIgniter.php';

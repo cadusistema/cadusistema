@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
     <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
 
-    <link rel="stylesheet" href="<? echo CSSPATH.'application/layouts/css/basic.css' ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/basic.css') ?>"/>
 
     <script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
-
 
 
     <title>{title_for_layout}</title>
@@ -89,11 +88,15 @@
         </nav>
     </div>
 
-    <div id="meio">
+<!--    <div id="meio">-->
 
-        {content_for_layout}
+        <div class="content">
 
-    </div>
+            {content_for_layout}
+
+        </div>
+
+<!--    </div>-->
 
     <!--    <br style="clear: both;"/>-->
     <!---->

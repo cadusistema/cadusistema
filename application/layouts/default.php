@@ -12,8 +12,12 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
+    <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
+
+    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/basic.css') ?>"/>
+
     <script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
     <title>{title_for_layout}</title>
 
@@ -23,12 +27,12 @@
 </head>
 <body>
 <div id="geral">
-    <div id="meio">
+
         <div class="content">
             {content_for_layout}
         </div>
 
-    </div>
+
 </div>
 </body>
 </html>
