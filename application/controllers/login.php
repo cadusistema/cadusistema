@@ -11,6 +11,8 @@ Class Login extends CI_Controller {
 
     public $title = 'Área Administrativa';
 
+    public $layout = "layoutSistema";
+
 
     public function __construct() {
         parent::__construct();
@@ -34,7 +36,8 @@ Class Login extends CI_Controller {
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
             $this->load->view('admin/home_sistema');
         } else {
-            $this->load->view('login_view');
+            //$this->load->view('login_view');
+            redirect('/');
         }
     }
 }
