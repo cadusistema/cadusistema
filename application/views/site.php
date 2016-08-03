@@ -27,9 +27,9 @@
 <!-- Header -->
 <header id="top" class="header">
     <div class="text-vertical-center">
-        <h1>Start Bootstrap</h1>
-        <h3>Free Bootstrap Themes &amp; Templates</h3>
-        <br>
+        <h1>Parque das Andorinhas</h1>
+<!--        <h3>Free Bootstrap Themes &amp; Templates</h3>-->
+<!--        <br>-->
         <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
     </div>
 </header>
