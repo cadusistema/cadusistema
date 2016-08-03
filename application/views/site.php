@@ -52,7 +52,7 @@
 
 <!-- Services -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-<section id="services" class="services bg-primary">
+<section id="services" class="services bg-success">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
@@ -176,7 +176,7 @@
 </section>
 
 <!-- Call to Action -->
-<aside class="call-to-action bg-primary">
+<aside class="call-to-action bg-success">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -191,10 +191,10 @@
 <!-- Map -->
 <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2224.08243618946!2d-43.49180690951908!3d-20.364497119114585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470248529628"></iframe>
     <br/>
     <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2224.08243618946!2d-43.49180690951908!3d-20.364497119114585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470248529628"></a>
     </small>
     </iframe>
 </section>

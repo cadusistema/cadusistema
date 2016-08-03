@@ -24,9 +24,6 @@
     <!--    carregando font-awesome-->
     <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
 
-    <!--    carregando basic.css-->
-
-
     <!--    carregando site.css-->
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/site.css') ?>"/>
 
