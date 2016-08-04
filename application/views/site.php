@@ -16,11 +16,14 @@
 
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
-    <div class="container">
+    <div class="container nav-justified">
         <ul class="main-nav">
             <li><a href="#header">Home</a></li>
-            <li><a href="#service">Serviços</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Portfolio">Histórico</a></li>
+            <li><a href="#Portfolio">Infra-Estrutura</a></li>
+            <li><a href="#service">Esportes</a></li>
+            <li><a href="#Portfolio">Atividades Desenvolvidas</a></li>
+            <li><a href="#Portfolio">Atrativos</a></li>
 <!--            <li class="small-logo"><a href="#header"><img src="--><?// echo base_url(IMG_SITE . 'small-logo.png') ?><!--" alt=""></a>-->
 <!--            </li>-->
 <!--            <li><a href="#client">Clients</a></li>-->
@@ -34,16 +37,16 @@
 
 <section class="main-section" id="service"><!--main-section-start-->
     <div class="container">
-        <h2>Services</h2>
-        <h6>We offer exceptional service with complimentary hugs.</h6>
+        <h2>Esportes</h2>
+        <h6>O parque oferece.</h6>
         <div class="row">
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-paw"></i>
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>branding &amp; identity</h3>
+                        <h3>Bicicleta</h3>
                         <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
                     </div>
                 </div>
@@ -52,7 +55,7 @@
                         <i class="fa-gear"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>web development</h3>
+                        <h3>Rapel</h3>
                         <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
                     </div>
                 </div>
@@ -61,7 +64,7 @@
                         <i class="fa-apple"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>mobile design</h3>
+                        <h3>Caminhada</h3>
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
@@ -76,7 +79,7 @@
                 </div>
             </div>
             <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                <img src="<? echo base_url(IMG_SITE . 'macbook-pro.png') ?>" alt="">
+                <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
 
         </div>
