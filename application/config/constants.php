@@ -87,3 +87,9 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 //Constante para definir onde esta os css e js
 //define('JSPATH', $application_folder . '/layouts/js/');
 //define('CSSPATH','application/layouts/css/');
+
+//define o diretorio de imagens do site
+define ('IMG_SITE','application/layouts/img_site/');
+
+//define o diretorio dos JS
+define ('JS','application/layouts/js/');
