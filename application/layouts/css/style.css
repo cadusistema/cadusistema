@@ -95,11 +95,10 @@ p{
 
 /* Header Styles
 ---------------------------------*/
-
 .header{
 	text-align:center;
-	background:url(../img_site/bg.jpg) no-repeat center center scroll;
-	padding:280px 0;
+	background:url(../img_site/img.jpg) no-repeat center scroll;
+	padding:350px 0 ;
 }
 .logo{
 	width:130px;
@@ -179,7 +178,7 @@ color: #fff;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background:#BDBDBD;
 }
 .main-nav{
 	text-align:center;
@@ -193,7 +192,7 @@ color: #fff;
 }
 .main-nav li a{
 	display:inline-block;
-	color:#222222;
+	color:#FFFFFF;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -240,6 +239,9 @@ color: #fff;
 }
 .service-list-col2{
 	overflow:hidden;	
+}
+.main-section-esporte{
+	background-color: #C8E6C9;
 }
 .main-section.alabaster{
 	background:#fafafa;

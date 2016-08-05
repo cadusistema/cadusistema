@@ -24,18 +24,94 @@
             <li><a href="#service">Esportes</a></li>
             <li><a href="#Portfolio">Atividades Desenvolvidas</a></li>
             <li><a href="#Portfolio">Atrativos</a></li>
-<!--            <li class="small-logo"><a href="#header"><img src="--><?// echo base_url(IMG_SITE . 'small-logo.png') ?><!--" alt=""></a>-->
-<!--            </li>-->
-<!--            <li><a href="#client">Clients</a></li>-->
-<!--            <li><a href="#team">Team</a></li>-->
             <li><a href="#contact">Contato</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
+<section class="main-section paddind" id="Portfolio"><!--main-section-historico-->
+    <div class="container">
+        <h2>Histórico</h2>
+        <!--        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum quam non nibh tristique, vel commodo
+            enim lobortis. Integer venenatis tincidunt posuere. Etiam dapibus pellentesque sem vitae venenatis. Ut
+            lobortis iaculis elit et pulvinar. Morbi non tortor nisi. Fusce eu lectus enim. Aliquam vitae dolor non est
+            sagittis lacinia. Integer a pharetra nisi, scelerisque tempus enim.</p>  <br>
 
-
+        <p>Phasellus gravida est augue. Nullam massa nisl, gravida vitae commodo vel, suscipit vitae mauris.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent
+            posuere purus semper, convallis risus posuere, mattis nisi. Vestibulum tempor felis massa, eget scelerisque
+            mauris rutrum vitae. Sed suscipit, massa vel molestie tincidunt, mauris lectus tempus augue, nec maximus
+            augue sem ut enim. Morbi eget aliquet tellus. Maecenas in tortor quis dui vehicula hendrerit at eu erat.
+            Nullam elit lorem, suscipit quis enim eget, molestie tincidunt eros. Nullam facilisis lectus eu diam tempor,
+            nec convallis sapien finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. In quis odio et orci faucibus aliquam vel quis felis. Ut rutrum laoreet metus, nec
+            cursus velit semper sed. In magna enim, volutpat maximus nunc non, consequat bibendum tortor. Aliquam eget
+            sapien sagittis, imperdiet augue a, commodo lacus.</p>
+        <br>
+        <p>Quisque euismod est tellus, ac mattis leo finibus sed. Duis non dui magna. Maecenas vulputate, magna sit amet
+            dapibus lacinia, nisl sapien gravida justo, ac lacinia sem nisl eu lectus. Aliquam eu tempor augue, sit amet
+            sollicitudin justo. Sed accumsan est nec tristique vehicula. Ut finibus, lorem ut tristique scelerisque, est
+            magna luctus ex, aliquam iaculis leo turpis eu elit. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aliquam varius ligula finibus orci faucibus, sed ultrices orci dapibus. Praesent at lorem arcu. Ut
+            blandit odio ac tortor consequat cursus. Nullam iaculis, dolor eget commodo ultricies, leo diam condimentum
+            diam, at blandit libero nisi nec ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Donec cursus interdum tellus, at consectetur nisi luctus nec. Vivamus quis posuere arcu.
+            Nulla molestie ultrices nisl, nec pellentesque libero.</p>
+        <br>
+    </div>
+</section><!--main-section-end-->
 <section class="main-section" id="service"><!--main-section-start-->
+    <div class="container">
+        <h2>Infra-Estrutura</h2>
+        <h6>O parque oferece.</h6>
+        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
+            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
+        </figure>
+        <div class="row">
+            <div class="col-lg-8 col-sm-6 wow fadeInRight delay-05s">
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Bicicleta</h3>
+                        <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <i class="fa-gear"></i>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Rapel</h3>
+                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <i class="fa-apple"></i>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Caminhada</h3>
+                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <i class="fa-medkit"></i>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>24/7 Support</h3>
+                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section><!--main-section-end-->
+<section class="main-section-esporte" id="service"><!--main-section-start-->
     <div class="container">
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
@@ -133,56 +209,6 @@
         </div>
     </div>
 </section><!--main-section alabaster-end-->
-
-
-<section class="main-section paddind" id="Portfolio"><!--main-section-start-->
-    <div class="container">
-        <h2>Portfolio</h2>
-        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-        <div class="portfolioFilter">
-            <ul class="Portfolio-nav wow fadeIn delay-02s">
-                <li><a href="#" data-filter="*" class="current">All</a></li>
-                <li><a href="#" data-filter=".branding">Branding</a></li>
-                <li><a href="#" data-filter=".webdesign">Web design</a></li>
-                <li><a href="#" data-filter=".printdesign">Print design</a></li>
-                <li><a href="#" data-filter=".photography">Photography</a></li>
-            </ul>
-        </div>
-
-    </div>
-    <div class="portfolioContainer wow fadeInUp delay-04s">
-        <div class=" Portfolio-box printdesign">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic1.jpg') ?>" alt=""></a>
-            <h3>Foto Album</h3>
-            <p>Print Design</p>
-        </div>
-        <div class="Portfolio-box webdesign">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic2.jpg') ?>" alt=""></a>
-            <h3>Luca Theme</h3>
-            <p>Web Design</p>
-        </div>
-        <div class=" Portfolio-box branding">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic3.jpg') ?>" alt=""></a>
-            <h3>Uni Sans</h3>
-            <p>Branding</p>
-        </div>
-        <div class=" Portfolio-box photography">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic4.jpg') ?>" alt=""></a>
-            <h3>Vinyl Record</h3>
-            <p>Photography</p>
-        </div>
-        <div class=" Portfolio-box branding">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic5.jpg') ?>" alt=""></a>
-            <h3>Hipster</h3>
-            <p>Branding</p>
-        </div>
-        <div class=" Portfolio-box photography">
-            <a href="#"><img src="<? echo base_url(IMG_SITE . 'Portfolio-pic6.jpg') ?>" alt=""></a>
-            <h3>Windmills</h3>
-            <p>Photography</p>
-        </div>
-    </div>
-</section><!--main-section-end-->
 
 
 <section class="main-section client-part" id="client"><!--main-section client-part-start-->
