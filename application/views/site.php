@@ -69,13 +69,13 @@
             <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
         </figure>
         <div class="row">
-            <div class="col-lg-8 col-sm-6 wow fadeInRight delay-05s">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <i class="fa fa-bicycle" aria-hidden="true"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>Bicicleta</h3>
+                        <h3>Vesti</h3>
                         <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
                     </div>
                 </div>
@@ -107,7 +107,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section><!--main-section-end-->
