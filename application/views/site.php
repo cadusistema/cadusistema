@@ -25,6 +25,7 @@
             <li><a href="#Portfolio">Atividades Desenvolvidas</a></li>
             <li><a href="#Portfolio">Atrativos</a></li>
             <li><a href="#contact">Contato</a></li>
+            <li><a href="<?echo site_url('login/fazerlogin')?>">Acesso Restrito</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -72,7 +73,7 @@
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'administracao.ico')?>" height="55px" />
+                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Centro Administrativo</h3>
@@ -81,7 +82,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'areasports.ico') ?>" />
+                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Área de Lazer</h3>
@@ -90,7 +91,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'ordonance.ico')?>" />
+                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Portaria</h3>
@@ -99,7 +100,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'flaldario.ico')?>" height="50px" />
+                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Fraldário</h3>
@@ -118,7 +119,7 @@
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'bike.ico')?>"/>
+                        <img src="<? echo base_url(ICONE . 'bike.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
@@ -127,7 +128,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'rapel.ico')?>"/>
+                        <img src="<? echo base_url(ICONE . 'rapel.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Rapel</h3>
@@ -136,7 +137,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'caminhada.ico')?>" />
+                        <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Caminhada</h3>
@@ -145,7 +146,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<?echo base_url(ICONE.'escalada.ico')?>"/>
+                        <img src="<? echo base_url(ICONE . 'escalada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
@@ -351,15 +352,8 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <div class="footer-logo"><a href="#"><img src="<? echo base_url(IMG_SITE . 'footer-logo.png') ?>" alt=""></a>
-        </div>
-        <span class="copyright">Copyright © 2015 | <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste</span>
+        <p style="text-align: center">Fundação Gorceix</p>
     </div>
-    <!-- 
-        All links in the footer should remain intact. 
-        Licenseing information is available at: http://bootstraptaste.com/license/
-        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
-    -->
 </footer>
 
 

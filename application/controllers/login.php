@@ -8,15 +8,13 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 Class Login extends CI_Controller {
-
     public $title = 'Área Administrativa';
-
-    public $layout = "layoutSistema";
-
+    public $layout;
 
     public function __construct() {
         parent::__construct();
     }
+
     /*
      * Função para carregar a view de login
      */
@@ -28,6 +26,7 @@ Class Login extends CI_Controller {
      * Função para efetuar o login
      */
     public function login() {
+        $this->layout = "layoutSistema";
         $nomeFormulario = $this->input->post('usuario');
         $senhaFormulario = $this->input->post('senha');
         $dadosBanco = Person::find(array('name' => $nomeFormulario));
