@@ -72,37 +72,37 @@
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                        <img src="<?echo base_url(ICONE.'administracao.ico')?>" height="55px" />
                     </div>
                     <div class="service-list-col2">
-                        <h3>Vesti</h3>
-                        <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+                        <h3>Centro Administrativo</h3>
+                        <p>Centro Administrativo conta com dois vestiários.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-gear"></i>
+                        <img src="<?echo base_url(ICONE.'areasports.ico') ?>" />
                     </div>
                     <div class="service-list-col2">
-                        <h3>Rapel</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
+                        <h3>Área de Lazer</h3>
+                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-apple"></i>
+                        <img src="<?echo base_url(ICONE.'ordonance.ico')?>" />
                     </div>
                     <div class="service-list-col2">
-                        <h3>Caminhada</h3>
+                        <h3>Portaria</h3>
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-medkit"></i>
+                        <img src="<?echo base_url(ICONE.'flaldario.ico')?>" height="50px" />
                     </div>
                     <div class="service-list-col2">
-                        <h3>24/7 Support</h3>
+                        <h3>Fraldário</h3>
                         <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                        <img src="<?echo base_url(ICONE.'bike.ico')?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-gear"></i>
+                        <img src="<?echo base_url(ICONE.'rapel.ico')?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Rapel</h3>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-apple"></i>
+                        <img src="<?echo base_url(ICONE.'caminhada.ico')?>" />
                     </div>
                     <div class="service-list-col2">
                         <h3>Caminhada</h3>
@@ -145,10 +145,10 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-medkit"></i>
+                        <img src="<?echo base_url(ICONE.'escalada.ico')?>"/>
                     </div>
                     <div class="service-list-col2">
-                        <h3>24/7 Support</h3>
+                        <h3>Escalada</h3>
                         <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                     </div>
                 </div>

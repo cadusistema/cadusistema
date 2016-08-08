@@ -90,6 +90,8 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 //define o diretorio de imagens do site
 define ('IMG_SITE','application/layouts/img_site/');
+define ('ICONE',IMG_SITE.'icon/');
 
 //define o diretorio dos JS
 define ('JS','application/layouts/js/');
+

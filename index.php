@@ -89,6 +89,7 @@ switch (ENVIRONMENT) {
  * Set the path if it is not in the same directory as this file.
  */
 $system_path = 'C:\xampp\htdocs\parque\system';
+//$system_path = '';
 /*
  *---------------------------------------------------------------
  * APPLICATION DIRECTORY NAME
