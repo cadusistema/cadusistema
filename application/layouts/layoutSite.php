@@ -19,8 +19,8 @@
     <meta name="author" content="">
 
 
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+<!--    <link rel="icon" href="favicon.png" type="image/png">-->
+    <link rel="shortcut icon" href="<?echo base_url(ICONE.'andorinhas_logo.ico')?>" type="img/x-icon">
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link
@@ -51,18 +51,14 @@
     <!--    carregando jquery-->
     <script src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
 
-    <script src="<? echo base_url(JS.'classie.js') ?>"></script>
-    <script src="<? echo base_url(JS.'html5element.js') ?>"></script>
-    <script src="<? echo base_url(JS.'html5shiv.js') ?>"></script>
-    <script src="<? echo base_url(JS.'jquery.easing.1.3.js') ?>"></script>
-    <script src="<? echo base_url(JS.'jquery.isotope.js') ?>"></script>
-    <script src="<? echo base_url(JS.'jquery-scrolltofixed.js') ?>"></script>
-    <script src="<? echo base_url(JS.'respond-1.1.0.min.js') ?>"></script>
-    <script src="<? echo base_url(JS.'wow.js') ?>"></script>
-
-
-
-
+    <script src="<? echo base_url(JS . 'classie.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'html5element.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'html5shiv.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'jquery.easing.1.3.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'jquery.isotope.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'jquery-scrolltofixed.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'respond-1.1.0.min.js') ?>"></script>
+    <script src="<? echo base_url(JS . 'wow.js') ?>"></script>
 
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
