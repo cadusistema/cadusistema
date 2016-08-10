@@ -24,14 +24,15 @@
             <li><a href="#esportes">Esportes</a></li>
             <li><a href="#atividade">Atividades Desenvolvidas</a></li>
             <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#localizacao">Localização</a></li>
             <li><a href="#contact">Contato</a></li>
-            <li><a href="<?echo site_url('login/fazerlogin')?>">Acesso Restrito</a></li>
+            <li><a href="<? echo site_url('login/fazerlogin') ?>">Acesso Restrito</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
-    <div class="container">
+    <div class="container text-left wow fadeInUp delay-03s ">
         <h2>Histórico</h2>
         <!--        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>-->
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum quam non nibh tristique, vel commodo
@@ -259,8 +260,15 @@
         </div>
     </div>
 </section><!--main-section-end-->
+<section class="main-section" id="localizacao"><!--main-section-start-->
+    <div class="container">
+        <h2>Localização</h2>
+        <iframe class=" text-left wow fadeInUp delay-06s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.4519230294645!2d-43.49199828452232!3d-20.364248386362057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470850218849"
+            width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-
+    </div>
+</section><!--main-section-end-->
 
 
 <section class="business-talking"><!--business-talking-start-->
@@ -274,11 +282,11 @@
         <div class="row">
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
                 <div class="contact-info-box address clearfix">
-                    <h3><i class=" icon-map-marker"></i>Address:</h3>
+                    <h3><i class=" icon-map-marker"></i>Endereço:</h3>
                     <span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
-                    <h3><i class="fa-phone"></i>Phone:</h3>
+                    <h3><i class="fa-phone"></i>Telefone:</h3>
                     <span>1-800-BOO-YAHH</span>
                 </div>
                 <div class="contact-info-box email clearfix">
@@ -289,26 +297,26 @@
                     <h3><i class="fa-clock-o"></i>Hours:</h3>
                     <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
                 </div>
-<!--                <ul class="social-link">-->
-<!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
-<!--                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
-<!--                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
-<!--                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
-<!--                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
-<!--                </ul>-->
+                <!--                <ul class="social-link">-->
+                <!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
+                <!--                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
+                <!--                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
+                <!--                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
+                <!--                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
+                <!--                </ul>-->
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
                 <div class="form">
-                    <input class="input-text" type="text" name="" value="Your Name *"
+                    <input class="input-text" type="text" name="" value="Seu Nome *"
                            onfocus="if(this.value==this.defaultValue)this.value='';"
                            onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="text" name="" value="Your E-mail *"
+                    <input class="input-text" type="text" name="" value="Seu E-mail *"
                            onfocus="if(this.value==this.defaultValue)this.value='';"
                            onblur="if(this.value=='')this.value=this.defaultValue;">
                     <textarea class="input-text text-area" cols="0" rows="0"
                               onfocus="if(this.value==this.defaultValue)this.value='';"
-                              onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                    <input class="input-btn" type="submit" value="send message">
+                              onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
+                    <input class="input-btn" type="submit" value="Enviar Mensagem">
                 </div>
             </div>
         </div>
