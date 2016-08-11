@@ -212,60 +212,85 @@
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="fotos"><!--main-section-start-->
-    <div class="container">
-        <h2>Fotos</h2>
-        <h6>O parque oferece.</h6>
-        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
-            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
-        </figure>
-        <div class="row">
-            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Centro Administrativo</h3>
-                        <p>Centro Administrativo conta com dois vestiários.</p>
-                    </div>
+    <h2>Fotos</h2>
+    <div class="wrapper">
+
+        <ul id="sb-slider" class="sb-slider">
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '1.jpg') ?>" alt="image1"/>
+                <div class="sb-description">
+                    <h3>Creative Lifesaver</h3>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Área de Lazer</h3>
-                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
-                    </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '2.jpg') ?>" alt="image2"/>
+                <div class="sb-description">
+                    <h3>Honest Entertainer</h3>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Portaria</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '3.jpg') ?>" alt="image1"/>
+                <div class="sb-description">
+                    <h3>Brave Astronaut</h3>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Fraldário</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '4.jpg') ?>"
+                     alt="image1"/>
+                <div class="sb-description">
+                    <h3>Affectionate Decision Maker</h3>
                 </div>
-            </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '5.jpg') ?>"
+                     alt="image1"/>
+                <div class="sb-description">
+                    <h3>Faithful Investor</h3>
+                </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '6.jpg') ?>"
+                     alt="image1"/>
+                <div class="sb-description">
+                    <h3>Groundbreaking Artist</h3>
+                </div>
+            </li>
+            <li>
+                <img src="<? echo base_url(IMG_SITE . '7.jpg') ?>"
+                     alt="image1"/>
+                <div class="sb-description">
+                    <h3>Selfless Philantropist</h3>
+                </div>
+            </li>
+        </ul>
+
+        <div id="shadow" class="shadow"></div>
+
+        <div id="nav-arrows" class="nav-arrows">
+            <a href="#">Next</a>
+            <a href="#">Previous</a>
         </div>
-    </div>
+
+        <div id="nav-dots" class="nav-dots">
+            <span class="nav-dot-current"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div><!-- /wrapper -->
+
+
 </section><!--main-section-end-->
 <section class="main-section" id="localizacao"><!--main-section-start-->
     <div class="container">
         <h2>Localização</h2>
         <iframe class=" text-left wow fadeInUp delay-06s"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.4519230294645!2d-43.49199828452232!3d-20.364248386362057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470850218849"
-            width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.4519230294645!2d-43.49199828452232!3d-20.364248386362057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470850218849"
+                width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     </div>
 </section><!--main-section-end-->
@@ -416,6 +441,83 @@
             });
             return false;
         });
+
+    });
+
+    //    funções do carousel
+    $(function () {
+
+        var Page = (function () {
+
+            var $navArrows = $('#nav-arrows').hide(),
+                $navDots = $('#nav-dots').hide(),
+                $nav = $navDots.children('span'),
+                $shadow = $('#shadow').hide(),
+                slicebox = $('#sb-slider').slicebox({
+                    onReady: function () {
+
+                        $navArrows.show();
+                        $navDots.show();
+                        $shadow.show();
+
+                    },
+                    onBeforeChange: function (pos) {
+
+                        $nav.removeClass('nav-dot-current');
+                        $nav.eq(pos).addClass('nav-dot-current');
+
+                    }
+                }),
+
+                init = function () {
+
+                    initEvents();
+
+                },
+                initEvents = function () {
+
+                    // add navigation events
+                    $navArrows.children(':first').on('click', function () {
+
+                        slicebox.next();
+                        return false;
+
+                    });
+
+                    $navArrows.children(':last').on('click', function () {
+
+                        slicebox.previous();
+                        return false;
+
+                    });
+
+                    $nav.each(function (i) {
+
+                        $(this).on('click', function (event) {
+
+                            var $dot = $(this);
+
+                            if (!slicebox.isActive()) {
+
+                                $nav.removeClass('nav-dot-current');
+                                $dot.addClass('nav-dot-current');
+
+                            }
+
+                            slicebox.jump(i + 1);
+                            return false;
+
+                        });
+
+                    });
+
+                };
+
+            return {init: init};
+
+        })();
+
+        Page.init();
 
     });
 

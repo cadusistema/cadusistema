@@ -85,7 +85,7 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 //Constante para definir onde esta os css e js
-//define('JSPATH', $application_folder . '/layouts/js/');
+
 //define('CSSPATH','application/layouts/css/');
 
 //define o diretorio de imagens do site
@@ -93,5 +93,5 @@ define ('IMG_SITE','application/layouts/img_site/');
 define ('ICONE',IMG_SITE.'icon/');
 
 //define o diretorio dos JS
-define ('JS','application/layouts/js/');
+define ('JSPATH','application/layouts/js/');
 

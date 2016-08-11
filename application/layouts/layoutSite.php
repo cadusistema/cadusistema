@@ -19,8 +19,8 @@
     <meta name="author" content="">
 
 
-<!--    <link rel="icon" href="favicon.png" type="image/png">-->
-    <link rel="shortcut icon" href="<?echo base_url(ICONE.'andorinhas_logo.ico')?>" type="img/x-icon">
+    <!--    <link rel="icon" href="favicon.png" type="image/png">-->
+    <link rel="shortcut icon" href="<? echo base_url(ICONE . 'andorinhas_logo.ico') ?>" type="img/x-icon">
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link
@@ -46,20 +46,23 @@
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/animate.css') ?>"/>
 
     <!--    carregando bootstrap.min.js-->
-    <script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
 
     <!--    carregando jquery-->
-    <script src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
 
-    <script src="<? echo base_url(JS . 'classie.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'html5element.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'html5shiv.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'jquery.easing.1.3.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'jquery.isotope.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'jquery-scrolltofixed.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'respond-1.1.0.min.js') ?>"></script>
-    <script src="<? echo base_url(JS . 'wow.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'classie.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5element.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5shiv.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.easing.1.3.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.isotope.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery-scrolltofixed.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'respond-1.1.0.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'wow.js') ?>"></script>
 
+    <!--    script carousel-->
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.slicebox.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'modernizr.custom.46884.js') ?>"></script>
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
           rel="stylesheet" type="text/css">
