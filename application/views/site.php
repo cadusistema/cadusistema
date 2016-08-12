@@ -1,5 +1,5 @@
-<div style="overflow:hidden;">
-    <header class="header" id="header"><!--header-start-->
+<div style="overflow:hidden;" class="parallax">
+    <header class="header id="header"><!--header-start-->
         <!--        <div class="container">-->
         <!--            <figure class="logo animated fadeInDown delay-07s">-->
         <!--                <a href="#"><img src="--><? // echo base_url(IMG_SITE.'logo.png') ?><!--" alt=""></a>-->
@@ -295,9 +295,9 @@
 </section><!--main-section-end-->
 
 
-<section class="business-talking"><!--business-talking-start-->
+<section class="parallax1"><!--business-talking-start-->
     <div class="container">
-        <h2>Let’s Talk Business.</h2>
+<!--        <h2>Let’s Talk Business.</h2>-->
     </div>
 </section><!--business-talking-end-->
 <div class="container">

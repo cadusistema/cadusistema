@@ -112,7 +112,7 @@ p {
 ---------------------------------*/
 .header {
     text-align: center;
-    background: url(../img_site/img.jpg) no-repeat center scroll;
+    /*background: url(../img_site/img.jpg) no-repeat center scroll;*/
     padding: 350px 0;
 }
 
@@ -708,4 +708,37 @@ p {
     -o-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
+}
+
+ /*parallax*/
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img_site/p2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../img_site/parallax1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
