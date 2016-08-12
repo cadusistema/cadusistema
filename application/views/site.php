@@ -211,10 +211,9 @@
         </div>
     </div>
 </section><!--main-section-end-->
-<section class="main-section" id="fotos"><!--main-section-start-->
+<section class="main-section-carousel" id="fotos"><!--main-section-start-->
     <h2>Fotos</h2>
     <div class="wrapper">
-
         <ul id="sb-slider" class="sb-slider">
             <li>
                 <img src="<? echo base_url(IMG_SITE . '1.jpg') ?>" alt="image1"/>
@@ -444,6 +443,8 @@
 
     });
 
+</script>
+<script type="text/javascript">
     //    funções do carousel
     $(function () {
 

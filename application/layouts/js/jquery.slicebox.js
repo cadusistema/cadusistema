@@ -856,7 +856,6 @@
 	};
 	
 	$.fn.slicebox = function( options ) {
-
 		var self = $.data( this, 'slicebox' );
 		
 		if ( typeof options === 'string' ) {
