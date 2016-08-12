@@ -348,7 +348,7 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <p style="text-align: center">Fundação Gorceix</p>
+        <p style="text-align: center"><a href="wwww.gorceixonline.com.br/" target="_blank">Fundação Gorceix</a></p>
     </div>
 </footer>
 
