@@ -52,8 +52,9 @@
                 abastecimento da Região Metropolitana de Belo Horizonte, através do Sistema Rio Manso.</p>
             <br>
         </div>
-        <button type="button" class="link animated fadeInUp delay-6s btn bg-primary btn-toggle" data-element="#tgl">Ler <i class="fa fa-plus"
-                                                                                         aria-hidden="true"></i>
+        <button type="button" class="link animated fadeInUp delay-6s btn bg-primary btn-toggle" data-element="#tgl">Ler
+            <i class="fa fa-plus"
+               aria-hidden="true"></i>
         </button>
 
     </div>
