@@ -33,28 +33,6 @@
     </div>
 </nav><!--main-nav-end-->
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
-
-
-    <!--    <div id="box-toggle">-->
-    <!---->
-    <!--        <div class="tgl">-->
-    <!--            <h2>Conteúdo um</h2>-->
-    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
-    <!--        </div>-->
-    <!---->
-    <!--        <div class="tgl">-->
-    <!--            <h2>Conteúdo dois</h2>-->
-    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
-    <!--        </div>-->
-    <!---->
-    <!--        <div class="tgl">-->
-    <!--            <h2>Conteúdo três</h2>-->
-    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
-    <!--        </div>-->
-    <!---->
-    <!--    </div>-->
-
-
     <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
         <!--        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>-->
@@ -66,7 +44,7 @@
             Minas Gerais, referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
             originou a cidade de Ouro Preto. Daí sua importância cultural e histórica.</p>  <br>
         <!--        </div>-->
-        <div class="tgl">
+        <div id="tgl">
             <p>O Parque visa à preservação do seu alto valor biológico, turístico, histórico e de nascentes
                 formadoras do Rio das Velhas, importante sub-bacia do Rio São Francisco, que contribui
                 significativamente para a qualidade de vida da população, na manutenção da permeabilidade do
@@ -74,7 +52,8 @@
                 abastecimento da Região Metropolitana de Belo Horizonte, através do Sistema Rio Manso.</p>
             <br>
         </div>
-        <button class="link animated fadeInUp delay-6s btn bg-primary" onclick="">Ler <i class="fa fa-plus" aria-hidden="true"></i>
+        <button type="button" class="link animated fadeInUp delay-6s btn bg-primary btn-toggle" data-element="#tgl">Ler <i class="fa fa-plus"
+                                                                                         aria-hidden="true"></i>
         </button>
 
     </div>
@@ -382,7 +361,7 @@
     });
 </script>
 
-<script>
+<script type="text/javascript">
     wow = new WOW(
         {
             animateClass: 'animated',
@@ -549,16 +528,26 @@
         }));
     }
 
-    $(document).ready(function () {
-        $('.tgl').before('<span>Revelar conteúdo</span>');
-        $('.tgl').css('display', 'none')
-        $('span', '#box-toggle').click(function () {
-            $(this).next().slideToggle('slow')
-                .siblings('.tgl:visible').slideToggle('fast');
-// aqui começa o funcionamento do plugin
-            $(this).toggleText('Revelar', 'Esconder')
-                .siblings('span').next('.tgl:visible').prev()
-                .toggleText('Revelar', 'Esconder')
+    //    $(document).ready(function () {
+    //        $('.tgl').before('<span>Revelar conteúdo</span>');
+    //        $('.tgl').css('display', 'none')
+    //        $('span', '#box-toggle').click(function () {
+    //            $(this).next().slideToggle('slow')
+    //                .siblings('.tgl:visible').slideToggle('fast');
+    //// aqui começa o funcionamento do plugin
+    //            $(this).toggleText('Revelar', 'Esconder')
+    //                .siblings('span').next('.tgl:visible').prev()
+    //                .toggleText('Revelar', 'Esconder')
+    //        });
+    //    })
+
+    $(function () {
+        $(".btn-toggle").click(function (e) {
+            e.preventDefault();
+            el = $(this).data('element');
+            $(el).toggle();
         });
-    })
+    });
+
+
 </script>
