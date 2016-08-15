@@ -51,7 +51,7 @@
     <!--    carregando jquery-->
     <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
 
-<!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+    <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
 
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'classie.js') ?>"></script>
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5element.js') ?>"></script>
