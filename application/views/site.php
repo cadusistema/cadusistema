@@ -1,16 +1,17 @@
 <div style="overflow:hidden;" class="parallax">
-    <header class="header id="header"><!--header-start-->
-        <!--        <div class="container">-->
-        <!--            <figure class="logo animated fadeInDown delay-07s">-->
-        <!--                <a href="#"><img src="--><? // echo base_url(IMG_SITE.'logo.png') ?><!--" alt=""></a>-->
-        <!--            </figure>-->
-        <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
-        <!--            <ul class="we-create animated fadeInUp delay-1s">-->
-        <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
-        <!--            </ul>-->
-        <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
-        <!--        </div>-->
-        <!--</div>-->
+    <header class="header id=" header
+    "><!--header-start-->
+    <!--        <div class="container">-->
+    <!--            <figure class="logo animated fadeInDown delay-07s">-->
+    <!--                <a href="#"><img src="--><? // echo base_url(IMG_SITE.'logo.png') ?><!--" alt=""></a>-->
+    <!--            </figure>-->
+    <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
+    <!--            <ul class="we-create animated fadeInUp delay-1s">-->
+    <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
+    <!--            </ul>-->
+    <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
+    <!--        </div>-->
+    <!--</div>-->
     </header><!--header-end-->
 </div>
 
@@ -32,36 +33,52 @@
     </div>
 </nav><!--main-nav-end-->
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
-    <div class="container text-left wow fadeInUp delay-03s ">
+
+
+    <!--    <div id="box-toggle">-->
+    <!---->
+    <!--        <div class="tgl">-->
+    <!--            <h2>Conteúdo um</h2>-->
+    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
+    <!--        </div>-->
+    <!---->
+    <!--        <div class="tgl">-->
+    <!--            <h2>Conteúdo dois</h2>-->
+    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
+    <!--        </div>-->
+    <!---->
+    <!--        <div class="tgl">-->
+    <!--            <h2>Conteúdo três</h2>-->
+    <!--            <p>Lorem ipsum dolor sit amet, consectetuer...</p>-->
+    <!--        </div>-->
+    <!---->
+    <!--    </div>-->
+
+
+    <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
         <!--        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>-->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum quam non nibh tristique, vel commodo
-            enim lobortis. Integer venenatis tincidunt posuere. Etiam dapibus pellentesque sem vitae venenatis. Ut
-            lobortis iaculis elit et pulvinar. Morbi non tortor nisi. Fusce eu lectus enim. Aliquam vitae dolor non est
-            sagittis lacinia. Integer a pharetra nisi, scelerisque tempus enim.</p>  <br>
+        <!--        <div class="tgl">-->
+        <p>Contido na Área de Proteção Ambiental Estadual da Cachoeira das Andorinhas, foi criado pela
+            Lei nº 390 de 30 de dezembro de 1968 para preservar os recursos naturais da região e a nascente
+            do Rio das Velhas. Atualmente, possui uma área de 557,9 ha. O ponto central e o principal
+            atrativo é a Cachoeira que dá o nome ao Parque. Nessa região iniciou-se o Ciclo do Ouro das
+            Minas Gerais, referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
+            originou a cidade de Ouro Preto. Daí sua importância cultural e histórica.</p>  <br>
+        <!--        </div>-->
+        <div class="tgl">
+            <p>O Parque visa à preservação do seu alto valor biológico, turístico, histórico e de nascentes
+                formadoras do Rio das Velhas, importante sub-bacia do Rio São Francisco, que contribui
+                significativamente para a qualidade de vida da população, na manutenção da permeabilidade do
+                solo e na conservação dos recursos hídricos, faz parte da maior captação de água do sistema de
+                abastecimento da Região Metropolitana de Belo Horizonte, através do Sistema Rio Manso.</p>
+            <br>
+        </div>
+        <button class="link animated fadeInUp delay-6s btn bg-primary" onclick="">Ler <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
 
-        <p>Phasellus gravida est augue. Nullam massa nisl, gravida vitae commodo vel, suscipit vitae mauris.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent
-            posuere purus semper, convallis risus posuere, mattis nisi. Vestibulum tempor felis massa, eget scelerisque
-            mauris rutrum vitae. Sed suscipit, massa vel molestie tincidunt, mauris lectus tempus augue, nec maximus
-            augue sem ut enim. Morbi eget aliquet tellus. Maecenas in tortor quis dui vehicula hendrerit at eu erat.
-            Nullam elit lorem, suscipit quis enim eget, molestie tincidunt eros. Nullam facilisis lectus eu diam tempor,
-            nec convallis sapien finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos. In quis odio et orci faucibus aliquam vel quis felis. Ut rutrum laoreet metus, nec
-            cursus velit semper sed. In magna enim, volutpat maximus nunc non, consequat bibendum tortor. Aliquam eget
-            sapien sagittis, imperdiet augue a, commodo lacus.</p>
-        <br>
-        <p>Quisque euismod est tellus, ac mattis leo finibus sed. Duis non dui magna. Maecenas vulputate, magna sit amet
-            dapibus lacinia, nisl sapien gravida justo, ac lacinia sem nisl eu lectus. Aliquam eu tempor augue, sit amet
-            sollicitudin justo. Sed accumsan est nec tristique vehicula. Ut finibus, lorem ut tristique scelerisque, est
-            magna luctus ex, aliquam iaculis leo turpis eu elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Aliquam varius ligula finibus orci faucibus, sed ultrices orci dapibus. Praesent at lorem arcu. Ut
-            blandit odio ac tortor consequat cursus. Nullam iaculis, dolor eget commodo ultricies, leo diam condimentum
-            diam, at blandit libero nisi nec ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus. Donec cursus interdum tellus, at consectetur nisi luctus nec. Vivamus quis posuere arcu.
-            Nulla molestie ultrices nisl, nec pellentesque libero.</p>
-        <br>
     </div>
+
 </section><!--main-section-end-->
 <section class="main-section" id="infraestrutura"><!--main-section-start-->
     <div class="container">
@@ -297,7 +314,7 @@
 
 <section class="parallax1"><!--business-talking-start-->
     <div class="container">
-<!--        <h2>Let’s Talk Business.</h2>-->
+        <!--        <h2>Let’s Talk Business.</h2>-->
     </div>
 </section><!--business-talking-end-->
 <div class="container">
@@ -522,4 +539,26 @@
 
     });
 
+</script>
+
+<!--botao esconder/mostrar-->
+<script type="text/javascript">
+    jQuery.fn.toggleText = function (a, b) {
+        return this.html(this.html().replace(new RegExp("(" + a + "|" + b + ")"), function (x) {
+            return (x == a) ? b : a;
+        }));
+    }
+
+    $(document).ready(function () {
+        $('.tgl').before('<span>Revelar conteúdo</span>');
+        $('.tgl').css('display', 'none')
+        $('span', '#box-toggle').click(function () {
+            $(this).next().slideToggle('slow')
+                .siblings('.tgl:visible').slideToggle('fast');
+// aqui começa o funcionamento do plugin
+            $(this).toggleText('Revelar', 'Esconder')
+                .siblings('span').next('.tgl:visible').prev()
+                .toggleText('Revelar', 'Esconder')
+        });
+    })
 </script>
