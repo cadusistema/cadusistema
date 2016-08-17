@@ -1,3 +1,5 @@
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<!--<link rel="stylesheet" href="--><? // echo base_url('includes/bootstrap/css/bootstrap.min.css') ?><!--"/>-->
 <div style="overflow:hidden;" class="parallax">
     <header class="header" id="header"
     "><!--header-start-->
@@ -35,16 +37,16 @@
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
-        <!--        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>-->
-        <!--        <div class="tgl">-->
+
         <p>Contido na Área de Proteção Ambiental Estadual da Cachoeira das Andorinhas, foi criado pela
             Lei nº 390 de 30 de dezembro de 1968 para preservar os recursos naturais da região e a nascente
             do Rio das Velhas. Atualmente, possui uma área de 557,9 ha. O ponto central e o principal
             atrativo é a Cachoeira que dá o nome ao Parque. Nessa região iniciou-se o Ciclo do Ouro das
             Minas Gerais, referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
             originou a cidade de Ouro Preto. Daí sua importância cultural e histórica.</p>  <br>
-        <!--        </div>-->
-        <div id="tgl">
+
+
+        <div class="collapse" id="collapsExemplo">
             <p>O Parque visa à preservação do seu alto valor biológico, turístico, histórico e de nascentes
                 formadoras do Rio das Velhas, importante sub-bacia do Rio São Francisco, que contribui
                 significativamente para a qualidade de vida da população, na manutenção da permeabilidade do
@@ -52,11 +54,17 @@
                 abastecimento da Região Metropolitana de Belo Horizonte, através do Sistema Rio Manso.</p>
             <br>
         </div>
-        <button type="button" class="link animated fadeInUp delay-6s btn bg-primary btn-toggle" data-element="#tgl">Ler
+        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg" onclick="trocaBotao('mais')"
+                data-toggle="collapse" data-target="#collapsExemplo">Ler
             <i class="fa fa-plus"
                aria-hidden="true"></i>
         </button>
-
+        <button id="lermenos" type="button" class=" botaoler btn  btn-success btn-lg hidden"
+                onclick="trocaBotao('menos')"
+                data-toggle="collapse" data-target="#collapsExemplo">Ler
+            <i class="fa fa-minus"
+               aria-hidden="true"></i>
+        </button>
     </div>
 
 </section><!--main-section-end-->
@@ -361,7 +369,6 @@
 
     });
 </script>
-
 <script type="text/javascript">
     wow = new WOW(
         {
@@ -373,8 +380,6 @@
 
 
 </script>
-
-
 <script type="text/javascript">
     $(window).load(function () {
 
@@ -394,7 +399,6 @@
         });
     })
 </script>
-
 <script type="text/javascript">
 
     $(window).load(function () {
@@ -521,34 +525,19 @@
 
 </script>
 
-<!--botao esconder/mostrar-->
 <script type="text/javascript">
-    jQuery.fn.toggleText = function (a, b) {
-        return this.html(this.html().replace(new RegExp("(" + a + "|" + b + ")"), function (x) {
-            return (x == a) ? b : a;
-        }));
+    function trocaBotao(arg) {
+
+        switch (arg) {
+            case "mais":
+                $("#lermenos").removeClass('hidden');
+                $("#lermais").addClass('hidden');
+                break;
+            case "menos":
+                $("#lermais").removeClass('hidden');
+                $("#lermenos").addClass('hidden');
+                break;
+        }
+
     }
-
-    //    $(document).ready(function () {
-    //        $('.tgl').before('<span>Revelar conteúdo</span>');
-    //        $('.tgl').css('display', 'none')
-    //        $('span', '#box-toggle').click(function () {
-    //            $(this).next().slideToggle('slow')
-    //                .siblings('.tgl:visible').slideToggle('fast');
-    //// aqui começa o funcionamento do plugin
-    //            $(this).toggleText('Revelar', 'Esconder')
-    //                .siblings('span').next('.tgl:visible').prev()
-    //                .toggleText('Revelar', 'Esconder')
-    //        });
-    //    })
-
-    $(function () {
-        $(".btn-toggle").click(function (e) {
-            e.preventDefault();
-            el = $(this).data('element');
-            $(el).toggle();
-        });
-    });
-
-
 </script>

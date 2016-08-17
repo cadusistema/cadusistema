@@ -30,6 +30,7 @@
 
     <!--    carregando bootstrap-->
     <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
+    <!--    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 
     <!--    carregando font-awesome-->
     <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
@@ -46,12 +47,13 @@
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/animate.css') ?>"/>
 
     <!--    carregando bootstrap.min.js-->
-    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <!--    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
     <!--    carregando jquery-->
     <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
 
-    <!--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+
+    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
 
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'classie.js') ?>"></script>
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5element.js') ?>"></script>

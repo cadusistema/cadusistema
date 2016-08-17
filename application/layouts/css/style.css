@@ -742,3 +742,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*botao ler mais*/
+.botaoler{
+    margin-left: 45%;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* Declaração para aparecer no Firefox */
+    -moz-border-radius: 10px;
+    /* Para exibir nos outros navegadores como Chrome, safari, opera*/
+    -webkit-border-radius: 10px;
+}
