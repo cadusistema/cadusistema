@@ -400,6 +400,8 @@
 
 			}
 
+
+
 			this.isAnimating = true;
 			
 			// current item's index

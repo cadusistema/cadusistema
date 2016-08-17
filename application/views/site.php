@@ -399,6 +399,7 @@
         });
     })
 </script>
+<script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.slicebox.js') ?>"></script>
 <script type="text/javascript">
 
     $(window).load(function () {

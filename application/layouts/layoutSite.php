@@ -35,13 +35,11 @@
     <!--    carregando font-awesome-->
     <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
 
-    <!--    carregando site.css-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/style.css') ?>"/>
-
-
     <!--    carreganod responsive.css-->
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/responsive.css') ?>"/>
 
+    <!--    carregando site.css-->
+    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/style.css') ?>"/>
 
     <!--    carregando animate.css-->
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/animate.css') ?>"/>
@@ -65,7 +63,7 @@
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'wow.js') ?>"></script>
 
     <!--    script carousel-->
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.slicebox.js') ?>"></script>
+    
     <script type="text/javascript" src="<? echo base_url(JSPATH . 'modernizr.custom.46884.js') ?>"></script>
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
