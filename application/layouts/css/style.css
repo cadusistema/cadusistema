@@ -49,6 +49,7 @@
 
 img {
     max-width: 100%;
+
 }
 
 a, a:hover, a:active {
@@ -233,6 +234,7 @@ p {
 
 .main-section-esporte {
     background-color: #C8E6C9;
+    /*background: url("../img_site/fundoverde.jpg");*/
 }
 .main-section-carousel {
     background-color: #C8E6C9;

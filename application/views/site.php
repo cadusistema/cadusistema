@@ -72,8 +72,8 @@
     <div class="container">
         <h2>Infra-Estrutura</h2>
         <h6>O parque oferece.</h6>
-        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
-            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
+        <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">
+            <img  src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
         </figure>
         <div class="row">
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
@@ -160,10 +160,10 @@
                     </div>
                 </div>
             </div>
-            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+
+            <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">
                 <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
-
         </div>
     </div>
 </section><!--main-section-end-->
@@ -353,7 +353,7 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <p style="text-align: center"><a href="wwww.gorceixonline.com.br/" target="_blank">Fundação Gorceix</a></p>
+        <p style="text-align: center"><?echo anchor('http://www.gorceixonline.com.br','Fundação Gorceix',array('target'=>'_blank'))?></p>
     </div>
 </footer>
 
@@ -527,6 +527,7 @@
 </script>
 
 <script type="text/javascript">
+    //    função para trocar o botao de lermais para lermenos ou vice-versa
     function trocaBotao(arg) {
 
         switch (arg) {
@@ -541,4 +542,14 @@
         }
 
     }
+
+    $(function(){
+        $("a").click(function (event) {
+            event.preventDefault();
+            var idElemento = $(this).attr("href");
+            var deslocamento = $(idElemento).offset().top;
+            $('html, body').animate({ scrollTop: deslocamento }, 'slow');
+        });
+    });
+
 </script>
