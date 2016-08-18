@@ -12,7 +12,6 @@
     <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
     <!--            </ul>-->
     <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
-    <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
     <!--        </div>-->
     <!--</div>-->
     </header><!--header-end-->
