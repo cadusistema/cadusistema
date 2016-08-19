@@ -1,19 +1,18 @@
 <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <!--<link rel="stylesheet" href="--><? // echo base_url('includes/bootstrap/css/bootstrap.min.css') ?><!--"/>-->
 <div style="overflow:hidden;" class="parallax">
-    <header class="header" id="header"
-    "><!--header-start-->
-    <!--        <div class="container">-->
-                <figure  >
-                    <a href="#"><img align="left" src="<? echo base_url(IMG_SITE.'pedratransparente.png') ?>" alt=""></a>
-                </figure>
-    <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
-    <!--            <ul class="we-create animated fadeInUp delay-1s">-->
-    <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
-    <!--            </ul>-->
-    <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
-    <!--        </div>-->
-    <!--</div>-->
+    <header class="header" id="header"><!--header-start-->
+        <!--        <div class="container">-->
+        <figure>
+            <img align="left" src="<? echo base_url(IMG_SITE . 'pedratransparente.png') ?>" alt="">
+        </figure>
+        <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
+        <!--            <ul class="we-create animated fadeInUp delay-1s">-->
+        <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
+        <!--            </ul>-->
+        <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
+        <!--        </div>-->
+        <!--</div>-->
     </header><!--header-end-->
 </div>
 
@@ -73,7 +72,7 @@
         <h2>Infra-Estrutura</h2>
         <h6>O parque oferece.</h6>
         <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">
-            <img  src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
+            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
         </figure>
         <div class="row">
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
@@ -353,7 +352,7 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <p style="text-align: center"><?echo anchor('http://www.gorceixonline.com.br','Fundação Gorceix',array('target'=>'_blank'))?></p>
+        <p style="text-align: center"><? echo anchor('http://www.gorceixonline.com.br', 'Fundação Gorceix', array('target' => '_blank')) ?></p>
     </div>
 </footer>
 
@@ -543,12 +542,12 @@
 
     }
 
-    $(function(){
+    $(function () {
         $("a").click(function (event) {
             event.preventDefault();
             var idElemento = $(this).attr("href");
             var deslocamento = $(idElemento).offset().top;
-            $('html, body').animate({ scrollTop: deslocamento }, 'slow');
+            $('html, body').animate({scrollTop: deslocamento}, 'slow');
         });
     });
 

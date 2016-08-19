@@ -29,11 +29,11 @@
 
 
     <!--    carregando bootstrap-->
-    <link rel="stylesheet" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
     <!--    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 
     <!--    carregando font-awesome-->
-    <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
 
     <!--    carreganod responsive.css-->
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/responsive.css') ?>"/>
