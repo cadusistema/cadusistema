@@ -49,7 +49,6 @@
 
 img {
     max-width: 100%;
-
 }
 
 a, a:hover, a:active {
@@ -236,6 +235,7 @@ p {
     background-color: #C8E6C9;
     /*background: url("../img_site/fundoverde.jpg");*/
 }
+
 .main-section-carousel {
     background-color: #C8E6C9;
 }
@@ -272,7 +272,6 @@ p {
     margin-bottom: 40px;
 }
 
-
 /* Talk Business
 ---------------------------------*/
 .business-talking {
@@ -301,6 +300,7 @@ p {
 .main-section.contact {
     /*background: url(../img_site/bg-map.png) left 190px no-repeat;*/
 }
+
 .contact-info-box {
     font-size: 15px;
     margin: 0 0 14px 68px;
@@ -495,7 +495,6 @@ p {
     -webkit-animation-delay: 1.2s;
 }
 
-
 /*define corousel*/
 .shadow {
     width: 100%;
@@ -510,12 +509,12 @@ p {
 
 .sb-description h3 {
     font-size: 20px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .sb-description h3 a {
     color: #4a3c27;
-    text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .nav-arrows {
@@ -534,10 +533,10 @@ p {
     margin-top: -21px;
     opacity: 0.9;
     border-radius: 50%;
-    box-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
 
-.nav-arrows a:first-child{
+.nav-arrows a:first-child {
     left: auto;
     right: 2px;
     background-position: top right;
@@ -565,17 +564,15 @@ p {
     margin: 3px;
     background: #cbbfae;
     cursor: pointer;
-    box-shadow:
-            0 1px 1px rgba(255,255,255,0.6),
-            inset 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .nav-dots span.nav-dot-current {
-    box-shadow:
-            0 1px 1px rgba(255,255,255,0.6),
-            inset 0 1px 1px rgba(0,0,0,0.1),
-            inset 0 0 0 3px #cbbfae,
-            inset 0 0 0 8px #fff;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0 1px 1px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 3px #cbbfae,
+    inset 0 0 0 8px #fff;
 }
 
 .nav-options {
@@ -598,7 +595,7 @@ p {
     border-radius: 50%;
 }
 
-.nav-options span:first-child{
+.nav-options span:first-child {
     background-position: -30px 0px;
     margin-right: 3px;
 }
@@ -613,6 +610,7 @@ p {
     width: 100%;
     padding: 0 50px;
     margin: 0 auto;
+
 }
 
 /* Slicebox Style */
@@ -652,9 +650,9 @@ p {
     z-index: 1000;
     position: absolute;
     background: #CBBFAE;
-    background: rgba(190,176,155, 0.4);
-    border-left: 4px solid rgba(255,255,255,0.7);
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: rgba(190, 176, 155, 0.4);
+    border-left: 4px solid rgba(255, 255, 255, 0.7);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
     color: #fff;
@@ -667,15 +665,15 @@ p {
 }
 
 .sb-slider li.sb-current .sb-description {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=80);
     opacity: 1;
 }
 
 .sb-slider li.sb-current .sb-description:hover {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
     filter: alpha(opacity=99);
-    background: rgba(190,176,155, 0.7);
+    background: rgba(190, 176, 155, 0.7);
 }
 
 .sb-perspective {
@@ -691,11 +689,11 @@ p {
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
-    -webkit-backface-visibility : hidden;
-    -moz-backface-visibility : hidden;
-    -o-backface-visibility : hidden;
-    -ms-backface-visibility : hidden;
-    backface-visibility : hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .sb-side {
@@ -703,7 +701,7 @@ p {
     display: block;
     position: absolute;
 
-    -moz-backface-visibility : hidden;
+    -moz-backface-visibility: hidden;
 
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -712,18 +710,19 @@ p {
     transform-style: preserve-3d;
 }
 
- /*parallax*/
+/*parallax*/
 body, html {
     height: 100%;
 }
 
 .parallax {
     /* The image used */
-    background-image: url("../img_site/p2.jpg");
+    /*background-image: url("../img_site/p2.jpg");*/
+    background-image: url("../img_site/02.jpg");
     /*background-image: url("../img_site/vista.jpg");*/
 
     /* Full height */
-    height: 80%;
+    height: 90%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -747,7 +746,7 @@ body, html {
 }
 
 /*botao ler mais*/
-.botaoler{
+.botaoler {
     margin-left: 45%;
     margin-top: 10px;
     border-radius: 10px;

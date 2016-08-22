@@ -221,46 +221,46 @@
     <div class="wrapper">
         <ul id="sb-slider" class="sb-slider">
             <li>
-                <img src="<? echo base_url(IMG_SITE . '1.jpg') ?>" alt="image1"/>
+                <img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/>
                 <div class="sb-description">
                     <h3>Creative Lifesaver</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '2.jpg') ?>" alt="image2"/>
+                <img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/>
                 <div class="sb-description">
                     <h3>Honest Entertainer</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '3.jpg') ?>" alt="image1"/>
+                <img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image1"/>
                 <div class="sb-description">
                     <h3>Brave Astronaut</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '4.jpg') ?>"
+                <img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>"
                      alt="image1"/>
                 <div class="sb-description">
                     <h3>Affectionate Decision Maker</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '5.jpg') ?>"
+                <img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>"
                      alt="image1"/>
                 <div class="sb-description">
                     <h3>Faithful Investor</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '6.jpg') ?>"
+                <img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>"
                      alt="image1"/>
                 <div class="sb-description">
                     <h3>Groundbreaking Artist</h3>
                 </div>
             </li>
             <li>
-                <img src="<? echo base_url(IMG_SITE . '7.jpg') ?>"
+                <img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>"
                      alt="image1"/>
                 <div class="sb-description">
                     <h3>Selfless Philantropist</h3>
