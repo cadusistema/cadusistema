@@ -20,7 +20,7 @@ Class Inicio extends CI_Controller {
     public $title = 'Parque das Andorinhas';
 
     public function index() {
-//        $this->load->view('site');
-        $this->load->view('teste');
+        $this->load->view('site');
+//        $this->load->view('teste');
     }
 }

@@ -25,7 +25,7 @@
         map = new google.maps.Map(document.getElementById('map'), {
             center: {lat: -20.364325, lng: -43.489792},
             mapTypeId: 'satellite',
-            scrollwheel: false,
+            scrollwheel: true,
             zoom: 16
         });
     }

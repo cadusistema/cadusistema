@@ -719,8 +719,8 @@ body, html {
 
 .parallax {
     /* The image used */
-    /*background-image: url("../img_site/p2.jpg");*/
-    background-image: url("../img_site/vista.jpg");
+    background-image: url("../img_site/p2.jpg");
+    /*background-image: url("../img_site/vista.jpg");*/
 
     /* Full height */
     height: 80%;

@@ -3,9 +3,9 @@
 <div style="overflow:hidden;" class="parallax">
     <header class="header" id="header"><!--header-start-->
         <!--        <div class="container">-->
-        <figure>
-            <img align="left" src="<? echo base_url(IMG_SITE . 'pedratransparente.png') ?>" alt="">
-        </figure>
+<!--        <figure>-->
+<!--            <img align="left" src="--><?// echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
+<!--        </figure>-->
         <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
         <!--            <ul class="we-create animated fadeInUp delay-1s">-->
         <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
@@ -292,7 +292,7 @@
     <div class="container">
         <h2>Localização</h2>
         <iframe class=" text-left wow fadeInUp delay-06s"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.4519230294645!2d-43.49199828452232!3d-20.364248386362057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40b4e8f8623ff%3A0x993ec00e29f4d88b!2sParque+Natural+Municipal+Cachoeira+das+Andorinhas!5e0!3m2!1spt-BR!2sbr!4v1470850218849"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1JFdIPLpp43YDDGb40JBpMvjJmXU"
                 width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     </div>
@@ -523,7 +523,6 @@
     });
 
 </script>
-
 <script type="text/javascript">
     //    função para trocar o botao de lermais para lermenos ou vice-versa
     function trocaBotao(arg) {
