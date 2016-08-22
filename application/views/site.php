@@ -3,9 +3,10 @@
 <div style="overflow:hidden;" class="parallax">
     <header class="header" id="header"><!--header-start-->
         <!--        <div class="container">-->
-<!--        <figure>-->
-<!--            <img align="left" src="--><?// echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
-<!--        </figure>-->
+        <!--        <figure>-->
+        <!--            <img align="left" src="-->
+        <? // echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
+        <!--        </figure>-->
         <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
         <!--            <ul class="we-create animated fadeInUp delay-1s">-->
         <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
