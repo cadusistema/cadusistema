@@ -22,4 +22,9 @@ class HomeSistema extends CI_Controller {
         $this->titlePage = "Ficha de Cadastro";
         $this->load->view("admin/autorizacaoparapesquisa");
     }
+    
+    public function fichavisitante(){
+        $this->titlePage = "Ficha do Visitante";
+        $this->load->view("admin/avaliacaovisitante");
+    }
 }

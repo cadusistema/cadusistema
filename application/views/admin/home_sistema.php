@@ -16,12 +16,19 @@
 <p>Home do Sistema</p>
 
 <?
+//botao ficha de autorização
 echo anchor('HomeSistema/fichaautorizacao', 'Ficha Autorização', array(
     "id"    => "fichaautorizacao",
     "name"  => "fichaautorizacao",
     "class" => "btn btn-primary",
+));
+echo anchor('HomeSistema/fichavisitante', 'Ficha Visitante', array(
+    'id'    => "fichavisitante",
+    'name'  => "fichavisitante",
+    'class' => 'btn btn-primary' ,
 ))
 ?>
+
 
 </body>
 </html>
