@@ -68,13 +68,13 @@
     </div>
 
 </section><!--main-section-end-->
-<section class="main-section" id="infraestrutura"><!--main-section-start-->
+<section class="main-section portaria" id="infraestrutura"><!--main-section-start-->
     <div class="container">
         <h2>Infra-Estrutura</h2>
         <h6>O parque oferece.</h6>
-        <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">
-            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
-        </figure>
+<!--        <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">-->
+<!--            <img src="--><?// echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
+<!--        </figure>-->
         <div class="row">
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
                 <div class="service-list">

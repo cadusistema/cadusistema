@@ -755,3 +755,8 @@ body, html {
     /* Para exibir nos outros navegadores como Chrome, safari, opera*/
     -webkit-border-radius: 10px;
 }
+
+.portaria{
+    background: url("../img_site/portaria.jpg") no-repeat center;
+    background-size: 100%;
+}

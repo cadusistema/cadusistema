@@ -9,9 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!--<div class="field form-group">-->
 <?
-echo form_open('avalicao');
+echo form_open('avaliacao');
 echo form_label("Como ficou sabendo do parque?");
-echo form
+//echo form
 echo form_close();
 ?>
 <!--</div>-->
