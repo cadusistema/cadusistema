@@ -29,6 +29,9 @@ Class Login extends CI_Controller {
         $this->layout = "layoutSistema";
         $nomeFormulario = $this->input->post('usuario');
         $senhaFormulario = $this->input->post('senha');
+        $teste = array();
+        $teste['dados'] = $dados = Person::all();
+
         $dadosBanco = Person::find(array('name' => $nomeFormulario));
         $nomeBanco = $dadosBanco->name;
         $senhaBanco = $dadosBanco->password;
@@ -38,5 +41,6 @@ Class Login extends CI_Controller {
             //$this->load->view('login_view');
             redirect('/');
         }
+        $this->load->view('lendobanco',$teste);
     }
 }
