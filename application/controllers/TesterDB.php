@@ -30,26 +30,36 @@ Class TesterDB extends CI_Controller {
         $auxUser = User::first();
 //        acessa atraves da tabela user a tabela historic
         $teste['user_historic'] = $auxUser->historic;
-
 //        le a tabela visitor
         $teste['visitor'] = Visitor::all();
-
 //        acessando da tabela visitor atraves da tabela person
         $teste['visitor_person'] = $auxPerson->visitor;
-
 //        lendo a tabela DateVisit
         $teste['datevisit'] = DateVisit::all();
-
 //        acessando a tabela Datevisit atraves da tabela visitor
-
         $auxVisitor = Visitor::first();
-
         $teste['datevisit_visitor'] = $auxVisitor->datevisit;
-
+//        acessando a tabela phone_to_person
         $teste['phone_to_person'] = PhoneToPerson::all();
-
+//        acessando a tabela phone -- ERRO
         $teste['phone'] = Phone::all();
-        
+//        acessando a tabela authorizationsearch
+        $teste['authorizationsearch'] = AuthorizationSearch::all();
+//        acessando a tabela authorizationsearch via user
+        $teste['authorizationsearch_user'] = $auxUser->authorizationsearch;
+
+//        acessando a tabela members
+        $teste['members'] = Member::all();
+
+        $auxAuthorization = AuthorizationSearch::first();
+
+//        acessando members via authorization
+        $teste['auxAuthorization_member'] = $auxAuthorization->member;
+
+//        acessando a tabela activities of information
+        $teste['activities'] = ActivitesInformation::all();
+         
+
         $this->load->view('testerDB/testerDB', $teste);
     }
 }

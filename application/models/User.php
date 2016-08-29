@@ -7,8 +7,15 @@
  * Time: 10:27
  */
 class User extends ActiveRecord\Model {
-    static $table = 'user';
+    static $table_name = 'user';
     static $has_many = array(
-        array('historic','foreign_key'=>'userid')
+        array(
+            'historic',
+            'foreign_key' => 'userid'
+        ),
+        array(
+            'authorizationsearch',
+            'foreign_key' => 'userid'
+        )
     );
 }

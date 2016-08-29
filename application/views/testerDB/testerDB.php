@@ -48,4 +48,25 @@ echo 'Tabela Phone';
 echo '<pre>';
 print_r($phone);
 echo '</pre>';
+echo 'AuthorizationSearch';
+echo '<pre>';
+print_r($authorizationsearch);
+echo '</pre>';
+echo 'AuthorizationSearch atraves de User';
+echo '<pre>';
+print_r($authorizationsearch_user);
+echo '</pre>';
+echo 'Tabela Members';
+echo '<pre>';
+print_r($members);
+echo '</pre>';
+echo 'Tabela Members via Authorization';
+echo '<pre>';
+print_r($members);
+echo '</pre>';
+echo 'Tabela Activities of information';
+echo '<pre>';
+print_r($activities);
+echo '</pre>';
+
 ?>
