@@ -29,18 +29,19 @@ Class Login extends CI_Controller {
         $this->layout = "layoutSistema";
         $nomeFormulario = $this->input->post('usuario');
         $senhaFormulario = $this->input->post('senha');
-        $teste = array();
-        $teste['dados'] = $dados = Person::all();
-
+        
+        
+        
         $dadosBanco = Person::find(array('name' => $nomeFormulario));
+        
+        
         $nomeBanco = $dadosBanco->name;
-        $senhaBanco = $dadosBanco->password;
+        $senhaBanco = $dadosBanco->user[0]->password;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
             $this->load->view('admin/home_sistema');
         } else {
-            //$this->load->view('login_view');
+            $this->load->view('login_view');
             redirect('/');
         }
-        $this->load->view('lendobanco',$teste);
     }
 }
