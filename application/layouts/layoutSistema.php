@@ -28,6 +28,8 @@
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/basic.css') ?>"/>
 
     <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery-ui.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
 
 
     <title>{title_for_layout}</title>

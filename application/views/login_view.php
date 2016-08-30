@@ -31,10 +31,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="field form-group">
         <? echo form_submit(array(
             'id'    => 'submit',
-            'value' => 'Submit',
+            'value' => 'Acessar',
             'class' => 'btn btn-primary'
         )); ?>
         <? echo form_close(); ?>
     </div>
+    
+    <?echo anchor('login/criarConta','Criar Conta', array('class' => 'btn btn-primary'))?>
+    
 </div>
 

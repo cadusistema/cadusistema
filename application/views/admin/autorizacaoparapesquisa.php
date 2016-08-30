@@ -9,18 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <? echo form_open("Autorizacao/salvaAutorizacaoDB"); ?>
-<div class="field form-group">
-    <? echo form_label("Data de Emissão"); ?>
-    <? echo form_input(array(
-        "id"    => "dataemissao",
-        "name"  => "dataemissao",
-        "class" => "form-control input-sm",
-    )); ?>
-</div>
+
 <div class="field form-group">
     <?
     //informações sobre o projeto
-    echo form_label("Titulo"); ?>
+    echo form_label("Titulo*"); ?>
     <? echo form_input(array(
         "id"        => "title",
         "name"      => "title",
@@ -40,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="field form-group">
     <?
-    echo form_label("Responsável"); ?>
+    echo form_label("Responsável*"); ?>
     <? echo form_input(array(
         "id"    => "responsible",
         "name"  => "responsible",
@@ -50,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="field form-group">
     <?
-    echo form_label("CPF"); ?>
+    echo form_label("CPF*"); ?>
     <? echo form_input(array(
         "id"    => "cpf",
         "name"  => "cpf",
