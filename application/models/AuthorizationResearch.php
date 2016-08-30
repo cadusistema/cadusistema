@@ -6,12 +6,12 @@
  * Date: 29/08/2016
  * Time: 09:34
  */
-class AuthorizationSearch extends ActiveRecord\Model {
-    static $table_name = 'authorizationsearch';
+class AuthorizationResearch extends ActiveRecord\Model {
+    static $table_name = 'authorizationresearch';
     static $has_many = array(
         array(
             'member',
-            'foreign_key' => 'authorizationsearchid'
+            'foreign_key' => 'authorizationresearchid'
         )
     );
 }

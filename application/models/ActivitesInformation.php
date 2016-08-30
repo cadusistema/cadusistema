@@ -10,7 +10,7 @@ class ActivitesInformation extends ActiveRecord\Model {
     static $table_name = 'activitiesofinformation';
     static $has_many = array(
         array(
-            'authorizationsearch',
+            'authorizationresearch',
             'foreign_key' => 'activitiesofinformationid'
         )
     );

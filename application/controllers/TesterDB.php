@@ -44,14 +44,14 @@ Class TesterDB extends CI_Controller {
 //        acessando a tabela phone -- ERRO
         $teste['phone'] = Phone::all();
 //        acessando a tabela authorizationsearch
-        $teste['authorizationsearch'] = AuthorizationSearch::all();
+        $teste['authorizationsearch'] = AuthorizationResearch::all();
 //        acessando a tabela authorizationsearch via user
-        $teste['authorizationsearch_user'] = $auxUser->authorizationsearch;
+        $teste['authorizationsearch_user'] = $auxUser->authorizationresearch;
 
 //        acessando a tabela members
         $teste['members'] = Member::all();
 
-        $auxAuthorization = AuthorizationSearch::first();
+        $auxAuthorization = AuthorizationResearch::first();
 
 //        acessando members via authorization
         $teste['auxAuthorization_member'] = $auxAuthorization->member;

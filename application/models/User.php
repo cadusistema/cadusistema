@@ -14,7 +14,7 @@ class User extends ActiveRecord\Model {
             'foreign_key' => 'userid'
         ),
         array(
-            'authorizationsearch',
+            'authorizationresearch',
             'foreign_key' => 'userid'
         )
     );

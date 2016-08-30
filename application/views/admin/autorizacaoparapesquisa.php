@@ -9,9 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <? echo form_open("Autorizacao/salvaAutorizacaoDB"); ?>
-
 <div class="field form-group">
-    <? echo form_label("Data de Emissão") ;?>
+    <? echo form_label("Data de Emissão"); ?>
     <? echo form_input(array(
         "id"    => "dataemissao",
         "name"  => "dataemissao",
@@ -21,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="field form-group">
     <?
     //informações sobre o projeto
-    echo form_label("Titulo") ;?>
+    echo form_label("Titulo"); ?>
     <? echo form_input(array(
         "id"        => "title",
         "name"      => "title",
@@ -114,8 +113,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     //confirmar dispois
     echo form_label("UF"); ?>
     <? echo form_input(array(
-        "id"    => "dataemissao",
-        "name"  => "dataemissao",
+        "id"    => "uf",
+        "name"  => "uf",
         "class" => "form-control input-sm",
     ));
     ?>
@@ -182,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="field form-group">
     <?
-    echo form_label("CPF / RG");?>
+    echo form_label("CPF / RG"); ?>
     <? echo form_input(array(
         "id"    => "cpfrg",
         "name"  => "cpfrg",
@@ -192,7 +191,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="field form-group">
     <?
-    echo form_label("Função do Integrante");?>
+    echo form_label("Função do Integrante"); ?>
     <? echo form_input(array(
         "id"    => "functionmember",
         "name"  => "functionmember",
@@ -202,11 +201,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <?
 echo form_submit(array(
-    'id'      => "salvaautorizacao",
+    'id'      => "submit",
     'name'    => "salvaautorizacao",
     'class'   => 'btn btn-primary fa fa-floppy-o',
     'type'    => 'submit',
-    'value' => 'Submit',
+    'value'   => 'Submit',
     'content' => 'Salvar'
 ));
 echo form_close();
