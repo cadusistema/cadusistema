@@ -37,6 +37,7 @@ $config['base_url'] = 'http://localhost:8080/parque/';
 |
 */
 $config['index_page'] = 'index.php';
+//$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

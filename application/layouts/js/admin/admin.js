@@ -9,18 +9,22 @@ function salvar(form) {
     if (validar(form)) {
         var dados = jQuery("#" + form).serializeArray();
         // var url = '<?php echo base_url(Autorizacao/salvaAutorizacaoDB);?>';
+        var url = 'Autorizacao/salvaAutorizacaoDB';
 
-        console.log(dados);
+        $.post(
+            url,
+            dados
+        );
+
+        // console.log(dados);
         // console.log(url);
-
-
 
 
         // alert("if-validar");
     }
     else {
         // feedback('feedback', 'salvar');
-        // alert('else-validar');
+        alert('else-validar');
     }
 
 
