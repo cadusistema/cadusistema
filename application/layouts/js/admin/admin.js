@@ -44,16 +44,16 @@ function createDivFields() {
      E um link para para chamar o evento de adicionar;
      */
     var html = '<div class="field form-group novomembro">';
-    html += '<label>Nome do Integrante</label>    <input type="text" name="namemember[]" value="" id="namemember" class="form-control input-sm"  />';
-    html += '<label>Instituição do Integrante</label>    <input type="text" name="institutionmember[]" value="" id="institutionmember" class="form-control input-sm"  />';
-    html += '<label>CPF / RG</label>    <input type="text" name="cpfrg[]" value="" id="cpfrg" class="form-control input-sm"  />';
+    html += '<label for="name">Nome do Integrante</label>    <input type="text" name="namemember[]" value="" id="namemember" class="form-control input-sm" placeholder="Nome do Integrante" onfocus="remove_erro_validacao(this.id)" required ="required" />';
+    html += '<label for="institution">Instituição do Integrante</label>    <input type="text" name="institutionmember[]" value="" id="institutionmember" class="form-control input-sm" placeholder="Instituição do Integrante" onfocus="remove_erro_validacao(this.id)" required ="required" />';
+    html += '<label for="cpf">CPF</label>    <input type="text" name="cpfmember[]" value="" id="cpfmember" class="form-control input-sm" placeholder="CPF/RG" onfocus="remove_erro_validacao(this.id)" required ="required"  />';
     html += '<a href="#" id="buttonremovemembro" onclick="removemembro()">Remover Membro</a>';
     html += '<div class="item"></div>';
     html += '<div>';
     return html;
 }
 
-function removemembro () {
+function removemembro() {
     console.log("etateteta");
     $(".novomembro").remove();
 }

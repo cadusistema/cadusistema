@@ -6,6 +6,9 @@
  * Time: 14:00
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
+//echo '<pre>';
+//print_r($opcao);
+//echo '</pre>';
 ?>
 
 <? echo form_open("Autorizacao/salvaAutorizacaoDB", array('id' => 'formautorizacao')); ?>
@@ -14,6 +17,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?
     //informações sobre o projeto
     echo form_label("Titulo*", 'title'); ?>
+    <? echo form_input(array(
+        "id"    => "userid",
+        "name"  => "userid",
+        "class" => "form-control input-sm",
+        "type"  => "hidden",
+        "value" => '1'
+    )); ?>
+
+
     <? echo form_input(array(
         "id"          => "title",
         "name"        => "title",
@@ -129,8 +141,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     //confirmar dispois
     echo form_label("UF*", 'uf'); ?>
     <? echo form_input(array(
-        "id"          => "uf",
-        "name"        => "uf",
+        "id"          => "state",
+        "name"        => "state",
         "class"       => "form-control input-sm",
         "onfocus"     => 'remove_erro_validacao(this.id)',
         'placeholder' => 'UF',
@@ -142,8 +154,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?
     echo form_label("CEP*", 'zipecode'); ?>
     <? echo form_input(array(
-        "id"          => "zipecode",
-        "name"        => "zipecode",
+        "id"          => "zipcode",
+        "name"        => "zipcode",
         "class"       => "form-control input-sm",
         "onfocus"     => 'remove_erro_validacao(this.id)',
         'placeholder' => 'CEP',
@@ -190,63 +202,58 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     ));
     ?>
 </div>
+<!--<div class="field form-group">-->
+<!--    --><? //
+//    echo form_label("Nome do Integrante"); ?>
+<!--    --><? // echo form_input(array(
+//        "id"    => "namemember",
+//        "name"  => "namemember[]",
+//        "class" => "form-control input-sm",
+//    ));
+//    ?>
+<!--</div>-->
+<!--<div class="field form-group">-->
+<!--    --><? //
+//    echo form_label("Instituição do Integrante"); ?>
+<!--    --><? // echo form_input(array(
+//        "id"    => "institutionmember",
+//        "name"  => "institutionmember[]",
+//        "class" => "form-control input-sm",
+//    ));
+//    ?>
+<!--</div>-->
+<!--<div class="field form-group">-->
+<!--    --><? //
+//    echo form_label("CPF / RG"); ?>
+<!--    --><? // echo form_input(array(
+//        "id"    => "cpfrg",
+//        "name"  => "cpfrg[]",
+//        "class" => "form-control input-sm",
+//    ));
+//    ?>
+<!--</div>-->
+<!--<div class="field form-group" id="teste">-->
+<!--    --><? //
+//    echo form_label("Função do Integrante"); ?>
+<!--    --><? // echo form_input(array(
+//        "id"    => "functionmember",
+//        "name"  => "functionmember[]",
+//        "class" => "form-control input-sm",
+//    ));
+//    ?>
+<!--</div>-->
+
+<div id="teste"></div>
+
 <div class="field form-group">
     <?
-    echo form_label("Nome do Integrante"); ?>
-    <? echo form_input(array(
-        "id"    => "namemember",
-        "name"  => "namemember[]",
-        "class" => "form-control input-sm",
-    ));
+    echo form_label("Tipo de Atividades*:", 'tipodeatividades'); ?>
+    <? echo form_dropdown('activitiesofinformationid', $opcao,0, array('class' => 'form-control'));
     ?>
 </div>
-<div class="field form-group">
-    <?
-    echo form_label("Instituição do Integrante"); ?>
-    <? echo form_input(array(
-        "id"    => "institutionmember",
-        "name"  => "institutionmember[]",
-        "class" => "form-control input-sm",
-    ));
-    ?>
-</div>
-<div class="field form-group">
-    <?
-    echo form_label("CPF / RG"); ?>
-    <? echo form_input(array(
-        "id"    => "cpfrg",
-        "name"  => "cpfrg[]",
-        "class" => "form-control input-sm",
-    ));
-    ?>
-</div>
-<div class="field form-group" id="teste">
-    <?
-    echo form_label("Função do Integrante"); ?>
-    <? echo form_input(array(
-        "id"    => "functionmember",
-        "name"  => "functionmember[]",
-        "class" => "form-control input-sm",
-    ));
-    ?>
-</div>
-<?
-//echo form_submit(array(
-//    'id'      => "submit",
-//    'name'    => "salvaautorizacao",
-//    'class'   => 'btn btn-primary fa fa-floppy-o',
-//    'type'    => 'submit',
-//    'value'   => 'Submit',
-//    'content' => 'Salvar'
-//));
-echo form_close();
-//echo anchor('javascript:void(0)','Salvar', array(
-//    'id'      => "salvaautorizacao",
-//    'name'    => "salvaautorizacao",
-//    'class'   => 'btn btn-primary fa fa-floppy-o',
-//    'onclick' => "validar('formautorizacao')"
-//));
-?>
+
+
+<? echo form_close(); ?>
 <a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="addMembros()"> Adicionar Membros</a>
 <a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="salvar('formautorizacao')"><i
         class="fa fa-floppy-o"> Salvar</i></a>
