@@ -54,11 +54,17 @@ Class TesterDB extends CI_Controller {
         $auxAuthorization = AuthorizationResearch::first();
 
 //        acessando members via authorization
-        $teste['auxAuthorization_member'] = $auxAuthorization->member;
+//        $teste['auxAuthorization_member'] = $auxAuthorization->member;
 
 //        acessando a tabela activities of information
         $teste['activities'] = ActivitesInformation::all();
          
+
+        $teste['membertoauthorizationresearch'] = MemberToAuthorizationResearch::all();
+//        echo '<pre>';
+//        print_r($auxAuthorization->member);
+//        echo '</pre>';
+
 
         $this->load->view('testerDB/testerDB', $teste);
     }

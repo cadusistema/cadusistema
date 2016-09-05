@@ -10,8 +10,8 @@ class AuthorizationResearch extends ActiveRecord\Model {
     static $table_name = 'authorizationresearch';
     static $has_many = array(
         array(
-            'member',
-            'foreign_key' => 'authorizationresearchid'
+            'member_to_authorizationresearch',
+            'foreign_key' => 'authorizationresearchid',
         )
     );
 }

@@ -68,5 +68,9 @@ echo 'Tabela Activities of information';
 echo '<pre>';
 print_r($activities);
 echo '</pre>';
+echo 'Tabela MemberToAuthorizationResearch';
+echo '<pre>';
+print_r($membertoauthorizationresearch);
+echo '</pre>';
 
 ?>

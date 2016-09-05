@@ -8,4 +8,9 @@
  */
 class Member extends ActiveRecord\Model{
     static $table_name = 'member';
+    static $has_many = array(
+        array('member_to_authorizationresearch'),
+        array('authorizationresearch','through'=>'member_to_authorizationresearch')
+    );
+
 }
