@@ -31,14 +31,14 @@ Class TesterDB extends CI_Controller {
 //        acessa atraves da tabela user a tabela historic
         $teste['user_historic'] = $auxUser->historic;
 //        le a tabela visitor
-        $teste['visitor'] = Visitor::all();
+        $teste['visitor'] = PersonToDateVisit::all();
 //        acessando da tabela visitor atraves da tabela person
-        $teste['visitor_person'] = $auxPerson->visitor;
+//        $teste['visitor_person'] = $auxPerson->visitor;
 //        lendo a tabela DateVisit
         $teste['datevisit'] = DateVisit::all();
 //        acessando a tabela Datevisit atraves da tabela visitor
-        $auxVisitor = Visitor::first();
-        $teste['datevisit_visitor'] = $auxVisitor->datevisit;
+        $auxVisitor = PersonToDateVisit::first();
+//        $teste['datevisit_visitor'] = $auxVisitor->datevisit;
 //        acessando a tabela phone_to_person
         $teste['phone_to_person'] = PhoneToPerson::all();
 //        acessando a tabela phone -- ERRO

@@ -23,15 +23,15 @@ class Autorizacao extends CI_Controller {
             print_r($dadosForm);
             echo '</pre>';
         } else {
-            echo "else";
+//            echo "else";
             try {
                 AuthorizationResearch::create($this->input->post());
             } catch (ActiveRecordException $exception) {
                 echo $exception->getMessage();
             }
-            echo '<pre>';
-            print_r($dadosForm);
-            echo '</pre>';
+//            echo '<pre>';
+//            print_r($dadosForm);
+//            echo '</pre>';
         }
     }
 }

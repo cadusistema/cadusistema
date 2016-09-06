@@ -14,7 +14,7 @@ Class Person extends ActiveRecord\Model {
             'foreign_key' => 'personid'
         ),
         array(
-            'visitor',
+            'person_to_datevisit',
             'foreign_key' => 'personid'
         ),
         array(
