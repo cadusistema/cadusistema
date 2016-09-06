@@ -20,18 +20,15 @@ class Autorizacao extends CI_Controller {
         $dadosForm = $this->input->post();
         if (isset($dadosForm['namemember'])) {
             echo '<pre>';
-            print_r($dadosForm);
+            print_r($dadosForm['namemember']);
             echo '</pre>';
         } else {
-//            echo "else";
+            //caso nao haja nenhum membro
             try {
                 AuthorizationResearch::create($this->input->post());
             } catch (ActiveRecordException $exception) {
                 echo $exception->getMessage();
             }
-//            echo '<pre>';
-//            print_r($dadosForm);
-//            echo '</pre>';
         }
     }
 }

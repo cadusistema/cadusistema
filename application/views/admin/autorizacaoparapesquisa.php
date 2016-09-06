@@ -254,11 +254,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <? echo form_close(); ?>
-<a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="addMembros()"> Adicionar Membros</a>
+<a href="javascript:void(0)" class="btn btn-primary" id="addmembros" onclick="addMembros()"> Adicionar Membros</a>
 <a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="salvar('formautorizacao')"><i
         class="fa fa-floppy-o"> Salvar</i></a>
 <a href="javascript:history.go(-1)" class="btn btn-default" title="Cancelar"><i class="fa fa-arrow-left"></i>
     Cancelar</a>
 <script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'util.js') ?>"></script>
 <script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'admin.js') ?>"></script>
-
