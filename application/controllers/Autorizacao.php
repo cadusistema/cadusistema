@@ -19,9 +19,23 @@ class Autorizacao extends CI_Controller {
 //        TODO capturar o formulario e fazer os devidos tratamentos do formulario. Dividir em dois processo: Com membros adicionais e sem membros adicionais
         $dadosForm = $this->input->post();
         if (isset($dadosForm['namemember'])) {
-            echo '<pre>';
-            print_r($dadosForm['namemember']);
-            echo '</pre>';
+            $total = count($dadosForm['namemember']);
+            $nomes = $dadosForm['namemember'];
+            $insts = $dadosForm['institutionmember'];
+            $cpfs = $dadosForm['cpfmember'];
+            for ($i = 0; $i < $total; $i++) {
+                $salvarDB = array(
+                    'name'        => $nomes[$i][0],
+                    'institution' => $insts[$i][0],
+                    'cpf'         => $cpfs[$i][0]
+                );
+
+                Member::create($salvarDB);
+
+                echo '<pre>';
+                print_r($salvarDB);
+                echo '</pre>';
+            }
         } else {
             //caso nao haja nenhum membro
             try {
