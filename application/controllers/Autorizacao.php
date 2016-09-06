@@ -23,17 +23,17 @@ class Autorizacao extends CI_Controller {
             $nomes = $dadosForm['namemember'];
             $insts = $dadosForm['institutionmember'];
             $cpfs = $dadosForm['cpfmember'];
+//            recuperando os membros do formulario
             for ($i = 0; $i < $total; $i++) {
                 $salvarDB = array(
                     'name'        => $nomes[$i][0],
                     'institution' => $insts[$i][0],
                     'cpf'         => $cpfs[$i][0]
                 );
-
-                Member::create($salvarDB);
-
+//                salva os membros no banco
+                $aux = Member::create($salvarDB);
                 echo '<pre>';
-                print_r($salvarDB);
+                print_r($aux->membersid);
                 echo '</pre>';
             }
         } else {
