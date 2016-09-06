@@ -23,6 +23,12 @@ class Autorizacao extends CI_Controller {
             $nomes = $dadosForm['namemember'];
             $insts = $dadosForm['institutionmember'];
             $cpfs = $dadosForm['cpfmember'];
+//          apagando os dados do post
+            unset($dadosForm['namemember']);
+            unset($dadosForm['institutionmember']);
+            unset($dadosForm['cpfmember']);
+//            salvando na tabela na authorizationResearch
+            $authorization_id = AuthorizationResearch::create($dadosForm);
 //            recuperando os membros do formulario
             for ($i = 0; $i < $total; $i++) {
                 $salvarDB = array(
@@ -30,11 +36,16 @@ class Autorizacao extends CI_Controller {
                     'institution' => $insts[$i][0],
                     'cpf'         => $cpfs[$i][0]
                 );
+
 //                salva os membros no banco
-                $aux = Member::create($salvarDB);
-                echo '<pre>';
-                print_r($aux->membersid);
-                echo '</pre>';
+                $member_id = Member::create($salvarDB);
+
+//                criando o array com os dados a serem salvos na tabela MemberToAuthorizationResearch
+                $salvamembertoauthorization = array(
+                    'memberid'                => $member_id->membersid,
+                    'authorizationresearchid' => $authorization_id->authorizationresearchid
+                );
+                MemberToAuthorizationResearch::create($salvamembertoauthorization);
             }
         } else {
             //caso nao haja nenhum membro
