@@ -17,8 +17,6 @@ class HomeSistema extends CI_Controller {
         parent::__construct();
     }
 
-
-
     public function fichavisitante() {
         $this->titlePage = "Ficha do Visitante";
         $this->load->view("admin/avaliacaovisitante");

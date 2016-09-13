@@ -54,6 +54,7 @@ $route['default_controller'] = 'login/fazerlogin';
 
 $route['HomeSistema/Autorizacao/salvaAutorizacaoDB'] = 'Autorizacao/salvaAutorizacaoDB';
 
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 //$route['admin'] = 'Login/login';

@@ -35,9 +35,6 @@ Class Login extends CI_Controller {
      * Função para efetuar o login
      */
     public function login() {
-//        echo '<pre>';
-//        print_r($this->input->post());
-//        echo '</pre>';
         $nomeFormulario = $this->input->post('usuario');
         $senhaFormulario = $this->input->post('senha');
         try {
@@ -45,28 +42,23 @@ Class Login extends CI_Controller {
         } catch (ActiveRecordException $e) {
             echo $e->getMessage();
         }
-//        echo '<pre>';
-//        print_r($dadosBanco);
-//        echo '</pre>';
         $nomeBanco = $dadosBanco->name;
         $senhaBanco = $dadosBanco->user[0]->password;
         $nivelAcesso = $dadosBanco->user[0]->accesslevel;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
-//            echo '<pre>';
-//            print_r("if");
-//            echo '</pre>';
+
+            //criando array para adicionar a session
+            $dadosSession = array('nome' => $nomeBanco);
+
+            $this->session->set_userdata($dadosSession);
+
+
             //nivel ao acesso ao sistema
             if ($nivelAcesso == 2) {
                 $this->layout = "layoutSistema";
                 $this->load->view('admin/home_sistema');
-//                echo '<pre>';
-//                print_r("2");
-//                echo '</pre>';
             }//nivel para acesso a ficha de autorização
             else if ($nivelAcesso == 1) {
-//                echo '<pre>';
-//                print_r('1');
-//                echo '</pre>';
                 $this->titlePage = "Ficha de Autorização para Pesquisa";
 //        recuperar as opçao para informações das atividades, buscando na tabela ActivitesInformation
                 $opInformAtividades = [];
@@ -85,7 +77,7 @@ Class Login extends CI_Controller {
                 $this->load->view("admin/autorizacaoparapesquisa", $dateBD);
             }
         } else {
-//            $this->load->view('login_view');
+            $this->load->view('login_view');
 //            redirect('/');
         }
     }

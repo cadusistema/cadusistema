@@ -202,54 +202,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     ));
     ?>
 </div>
-<!--<div class="field form-group">-->
-<!--    --><? //
-//    echo form_label("Nome do Integrante"); ?>
-<!--    --><? // echo form_input(array(
-//        "id"    => "namemember",
-//        "name"  => "namemember[]",
-//        "class" => "form-control input-sm",
-//    ));
-//    ?>
-<!--</div>-->
-<!--<div class="field form-group">-->
-<!--    --><? //
-//    echo form_label("Instituição do Integrante"); ?>
-<!--    --><? // echo form_input(array(
-//        "id"    => "institutionmember",
-//        "name"  => "institutionmember[]",
-//        "class" => "form-control input-sm",
-//    ));
-//    ?>
-<!--</div>-->
-<!--<div class="field form-group">-->
-<!--    --><? //
-//    echo form_label("CPF / RG"); ?>
-<!--    --><? // echo form_input(array(
-//        "id"    => "cpfrg",
-//        "name"  => "cpfrg[]",
-//        "class" => "form-control input-sm",
-//    ));
-//    ?>
-<!--</div>-->
-<!--<div class="field form-group" id="teste">-->
-<!--    --><? //
-//    echo form_label("Função do Integrante"); ?>
-<!--    --><? // echo form_input(array(
-//        "id"    => "functionmember",
-//        "name"  => "functionmember[]",
-//        "class" => "form-control input-sm",
-//    ));
-//    ?>
-<!--</div>-->
-
 <div id="teste"></div>
 
 <div class="field form-group">
     <?
     echo form_label("Tipo de Atividades*:", 'tipodeatividades'); ?>
-    <? echo form_dropdown('activitiesofinformationid', $opcao, 0, array('class'     => 'form-control',
-                                                                        'required ' => 'required'
+    <? echo form_dropdown('activitiesofinformationid', $opcao, 0, array(
+        'class'     => 'form-control',
+        'required ' => 'required'
     ));
     ?>
 </div>
@@ -262,4 +222,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <a href="javascript:history.go(-1)" class="btn btn-default" title="Cancelar"><i class="fa fa-arrow-left"></i>
     Cancelar</a>
 <script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'util.js') ?>"></script>
-<script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'admin.js') ?>"></script>
+<script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'autorizacao.js') ?>"></script>
