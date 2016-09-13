@@ -5,6 +5,8 @@
  * Date: 14/07/2016
  * Time: 13:35
  */
+use ActiveRecord\ActiveRecordException;
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 Class Login extends CI_Controller {
@@ -25,7 +27,6 @@ Class Login extends CI_Controller {
     /**
      * Função para carregar a view de criar novo usuario
      */
-
     public function criarConta() {
         $this->load->view('criarconta');
     }
@@ -34,33 +35,71 @@ Class Login extends CI_Controller {
      * Função para efetuar o login
      */
     public function login() {
-        $this->layout = "layoutSistema";
+//        echo '<pre>';
+//        print_r($this->input->post());
+//        echo '</pre>';
         $nomeFormulario = $this->input->post('usuario');
         $senhaFormulario = $this->input->post('senha');
-        $dadosBanco = Person::find(array('name' => $nomeFormulario));
+        try {
+            $dadosBanco = Person::find(array('name' => $nomeFormulario));
+        } catch (ActiveRecordException $e) {
+            echo $e->getMessage();
+        }
+//        echo '<pre>';
+//        print_r($dadosBanco);
+//        echo '</pre>';
         $nomeBanco = $dadosBanco->name;
         $senhaBanco = $dadosBanco->user[0]->password;
+        $nivelAcesso = $dadosBanco->user[0]->accesslevel;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
-            $this->load->view('admin/home_sistema');
+//            echo '<pre>';
+//            print_r("if");
+//            echo '</pre>';
+            //nivel ao acesso ao sistema
+            if ($nivelAcesso == 2) {
+                $this->layout = "layoutSistema";
+                $this->load->view('admin/home_sistema');
+//                echo '<pre>';
+//                print_r("2");
+//                echo '</pre>';
+            }//nivel para acesso a ficha de autorização
+            else if ($nivelAcesso == 1) {
+//                echo '<pre>';
+//                print_r('1');
+//                echo '</pre>';
+                $this->titlePage = "Ficha de Autorização para Pesquisa";
+//        recuperar as opçao para informações das atividades, buscando na tabela ActivitesInformation
+                $opInformAtividades = [];
+                $dateBD = array();
+                $opcao = array();
+                try {
+                    $opInformAtividades = ActivitesInformation::all();
+                } catch (ActiveRecordException $expection) {
+                    echo $expection->getMessage();
+                }
+                $opcao['0'] = 'Escolha uma opcao';
+                foreach ($opInformAtividades as $aux) {
+                    $opcao[$aux->activitiesofinformationid] = $aux->occupation;
+                }
+                $dateBD['opcao'] = $opcao;
+                $this->load->view("admin/autorizacaoparapesquisa", $dateBD);
+            }
         } else {
-            $this->load->view('login_view');
-            redirect('/');
+//            $this->load->view('login_view');
+//            redirect('/');
         }
     }
 
     /**
      * Função para enviar email ao novo usuario
      */
-    public function enviarEmail(){
+    public function enviarEmail() {
         $this->email->from('voce@seu-site.com', 'Seu Nome');
         $this->email->to('alguem@algum-site.com');
         $this->email->cc('outro@outro-site.com');
         $this->email->bcc('fulano@qualquer-site.com');
-
         $this->email->subject('Teste de Email');
         $this->email->message('Testando a classe de email.');
-
         $this->email->send();
-
     }
 }

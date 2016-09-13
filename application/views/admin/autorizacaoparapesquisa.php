@@ -248,7 +248,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="field form-group">
     <?
     echo form_label("Tipo de Atividades*:", 'tipodeatividades'); ?>
-    <? echo form_dropdown('activitiesofinformationid', $opcao,0, array('class' => 'form-control'));
+    <? echo form_dropdown('activitiesofinformationid', $opcao, 0, array('class'     => 'form-control',
+                                                                        'required ' => 'required'
+    ));
     ?>
 </div>
 
