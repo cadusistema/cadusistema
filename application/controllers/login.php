@@ -46,17 +46,17 @@ Class Login extends CI_Controller {
         $senhaBanco = $dadosBanco->user[0]->password;
         $nivelAcesso = $dadosBanco->user[0]->accesslevel;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
-
-            //criando array para adicionar a session
+            //criando array para adicionar na session
             $dadosSession = array('nome' => $nomeBanco);
-
             $this->session->set_userdata($dadosSession);
-
-
             //nivel ao acesso ao sistema
             if ($nivelAcesso == 2) {
                 $this->layout = "layoutSistema";
-                $this->load->view('admin/home_sistema');
+                $dados = array();
+                //carregando informações sobre autorização para pesquisa e exibilas na view da home do sistema
+                $autorizacaoDB = AuthorizationResearch::find('all', array('conditions' => 'authorized = 0'));
+                $dados['dados'] = $autorizacaoDB;
+                $this->load->view('admin/home_sistema', $dados);
             }//nivel para acesso a ficha de autorização
             else if ($nivelAcesso == 1) {
                 $this->titlePage = "Ficha de Autorização para Pesquisa";

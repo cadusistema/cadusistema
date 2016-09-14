@@ -21,4 +21,12 @@ class HomeSistema extends CI_Controller {
         $this->titlePage = "Ficha do Visitante";
         $this->load->view("admin/avaliacaovisitante");
     }
+
+//    funcao para exibir os datelhes da autorização
+    public function detalhes($id) {
+        $dados = array();
+        $autorizacaoDetalhe = AuthorizationResearch::find($id);
+        $dados['autorizacaoDetalhe'] = $autorizacaoDetalhe;
+        $this->load->view('admin/detalheautorizacao', $dados);
+    }
 }

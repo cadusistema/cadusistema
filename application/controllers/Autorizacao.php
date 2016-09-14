@@ -36,10 +36,8 @@ class Autorizacao extends CI_Controller {
                     'institution' => $insts[$i][0],
                     'cpf'         => $cpfs[$i][0]
                 );
-
 //                salva os membros no banco
                 $member_id = Member::create($salvarDB);
-
 //                criando o array com os dados a serem salvos na tabela MemberToAuthorizationResearch
                 $salvamembertoauthorization = array(
                     'memberid'                => $member_id->membersid,

@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$route['default_controller'] = 'testerdb';
 $route['default_controller'] = 'login/fazerlogin';
 
-$route['HomeSistema/Autorizacao/salvaAutorizacaoDB'] = 'Autorizacao/salvaAutorizacaoDB';
+//$route['HomeSistema/Autorizacao/salvaAutorizacaoDB'] = 'Autorizacao/salvaAutorizacaoDB';
 
 
 $route['404_override'] = '';

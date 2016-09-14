@@ -6,9 +6,13 @@
  * Time: 14:00
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
+$date = date('Y-m-d');
+
 //echo '<pre>';
-//print_r($opcao);
+//print_r($date);
 //echo '</pre>';
+
+
 ?>
 
 <? echo form_open("Autorizacao/salvaAutorizacaoDB", array('id' => 'formautorizacao')); ?>
@@ -23,6 +27,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         "class" => "form-control input-sm",
         "type"  => "hidden",
         "value" => '1'
+    )); ?>
+
+    <? echo form_input(array(
+        "id"    => "authorized",
+        "name"  => "authorized",
+        "class" => "form-control input-sm",
+        "type"  => "hidden",
+        "value" => '0'
+    )); ?>
+    
+    <? echo form_input(array(
+        "id"    => "dateofissue",
+        "name"  => "dateofissue",
+        "class" => "form-control input-sm",
+        "type"  => "hidden",
+        "value" => $date
     )); ?>
 
 
@@ -214,11 +234,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     ?>
 </div>
 
+<? echo form_submit(array(
+    'id'    => 'submit',
+    'value' => 'Salva',
+    'class' => 'btn btn-primary'
+)); ?>
 
 <? echo form_close(); ?>
 <a href="javascript:void(0)" class="btn btn-primary" id="addmembros" onclick="addMembros()"> Adicionar Membros</a>
-<a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="salvar('formautorizacao')"><i
-        class="fa fa-floppy-o"> Salvar</i></a>
+<!--<a href="javascript:void(0)" class="btn btn-primary" id="salvar" onclick="salvar('formautorizacao')"><i-->
+<!--        class="fa fa-floppy-o"> Salvar</i></a>-->
 <a href="javascript:history.go(-1)" class="btn btn-default" title="Cancelar"><i class="fa fa-arrow-left"></i>
     Cancelar</a>
 <script type="text/javascript" src="<? echo base_url(JSPATHADMIN . 'util.js') ?>"></script>
