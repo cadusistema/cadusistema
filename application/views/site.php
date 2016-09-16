@@ -22,7 +22,7 @@
     <div class="container nav-justified">
         <ul class="main-nav">
             <li><a href="#header">Home</a></li>
-            <li><a href="#historico">Histórico</a></li>
+            <li><a href="#historico">Parque</a></li>
             <li><a href="#infraestrutura">Infra-Estrutura</a></li>
             <li><a href="#esportes">Esportes</a></li>
             <li><a href="#atividade">Atividades Desenvolvidas</a></li>
