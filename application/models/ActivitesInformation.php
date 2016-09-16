@@ -8,10 +8,12 @@
  */
 class ActivitesInformation extends ActiveRecord\Model {
     static $table_name = 'activitiesofinformation';
-    static $has_many = array(
-        array(
-            'authorizationresearch',
-            'foreign_key' => 'activitiesofinformationid'
-        )
-    );
+    static $primary_key = 'activitiesofinformationid';
+//    static $has_many = array(
+//        array(
+//            'authorizationresearch',
+//            'foreign_key' => 'activitiesofinformationid',
+//            'class_name' => 'AuthorizationResearch'
+//        )
+//    );
 }

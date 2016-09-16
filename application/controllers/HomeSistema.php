@@ -25,7 +25,16 @@ class HomeSistema extends CI_Controller {
 //    funcao para exibir os datelhes da autorização
     public function detalhes($id) {
         $dados = array();
-        $autorizacaoDetalhe = AuthorizationResearch::find($id);
+//        $join = "inner join authorizationresearch on authorizationresearch.activitiesofinformationid = activitiesofinformation.activitiesofinformationid";
+//        $autorizacaoDetalhe = ActivitesInformation::all(array('joins' =>$join));
+
+        $join = "inner join activitiesofinformation on authorizationResearch.activitiesofinformationid = activitiesofinformation.activitiesofinformationid";
+        $autorizacaoDetalhe = AuthorizationResearch::all(array('joins' => $join));
+        echo '<pre>';
+        print_r($autorizacaoDetalhe);
+        echo '</pre>';
+
+
         $dados['autorizacaoDetalhe'] = $autorizacaoDetalhe;
         $this->load->view('admin/detalheautorizacao', $dados);
     }

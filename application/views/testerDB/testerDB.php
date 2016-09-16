@@ -4,6 +4,9 @@
  * Date: 25/08/2016
  * Time: 11:24
  */
+echo '<pre>';
+print_r($cont);
+echo '</pre>';
 echo 'Tabela Person';
 echo '<pre>';
 print_r($person);
@@ -72,5 +75,4 @@ echo 'Tabela MemberToAuthorizationResearch';
 echo '<pre>';
 print_r($membertoauthorizationresearch);
 echo '</pre>';
-
 ?>

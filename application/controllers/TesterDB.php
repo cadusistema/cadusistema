@@ -47,25 +47,40 @@ Class TesterDB extends CI_Controller {
         $teste['authorizationsearch'] = AuthorizationResearch::all();
 //        acessando a tabela authorizationsearch via user
         $teste['authorizationsearch_user'] = $auxUser->authorizationresearch;
-
 //        acessando a tabela members
         $teste['members'] = Member::all();
-
         $auxAuthorization = AuthorizationResearch::first();
-
-//        acessando members via authorization
-//        $teste['auxAuthorization_member'] = $auxAuthorization->member;
-
 //        acessando a tabela activities of information
         $teste['activities'] = ActivitesInformation::all();
-         
-
         $teste['membertoauthorizationresearch'] = MemberToAuthorizationResearch::all();
-//        echo '<pre>';
-//        print_r($auxAuthorization->member);
-//        echo '</pre>';
 
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+//        verifica se ha alguma tabela que esta retornando vazio
+        $cont = 0;
+        foreach ($teste as $aux) {
+            if (count($aux) == 0) {
+                $teste['cont'] = "ERRO ERRO ERRO NO BANCO!!!!!!!!!!!! ";
+                $cont = 1;
+                break;
+            }
+        }
+        if ($cont == 0) {
+            $teste['cont'] = "BANCO 100% !!!!!!!!!!!! ";
+        }
         $this->load->view('testerDB/testerDB', $teste);
     }
 }

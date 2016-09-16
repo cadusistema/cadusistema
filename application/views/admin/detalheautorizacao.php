@@ -5,48 +5,50 @@
  * Date: 14/09/2016
  * Time: 16:49
  */
-
 defined('BASEPATH') OR exit('No direct script access allowed');
+echo '<pre>';
+print_r($autorizacaoDetalhe);
+echo '</pre>';
+
+
 ?>
-//echo "teste";
-<div class="field form-group">
-    <?
-    //informações sobre o projeto
-    echo form_label("Titulo*", 'title'); ?>
-    <? echo form_input(array(
-    "id"    => "userid",
-    "name"  => "userid",
-    "class" => "form-control input-sm",
-    "type"  => "hidden",
-    "value" => '1'
-)); ?>
 
-    <? echo form_input(array(
-    "id"    => "authorized",
-    "name"  => "authorized",
-    "class" => "form-control input-sm",
-    "type"  => "hidden",
-    "value" => '0'
-)); ?>
+    <div class="field form-group">
+        <?
+        //informações sobre o projeto
+        echo form_label("Titulo*", 'title'); ?>
+        <? echo form_input(array(
+            "id"    => "userid",
+            "name"  => "userid",
+            "class" => "form-control input-sm",
+            "type"  => "hidden",
+            "value" => '1'
+        )); ?>
 
-    <? echo form_input(array(
-    "id"    => "dateofissue",
-    "name"  => "dateofissue",
-    "class" => "form-control input-sm",
-    "type"  => "hidden",
-    "value" => $date
-)); ?>
+        <? echo form_input(array(
+            "id"    => "authorized",
+            "name"  => "authorized",
+            "class" => "form-control input-sm",
+            "type"  => "hidden",
+            "value" => '0'
+        )); ?>
+
+        <? echo form_input(array(
+            "id"    => "dateofissue",
+            "name"  => "dateofissue",
+            "class" => "form-control input-sm",
+            "type"  => "hidden",
+            //    "value" => $date
+        )); ?>
 
 
-    <? echo form_input(array(
-    "id"          => "title",
-    "name"        => "title",
-    "class"       => "form-control input-sm",
-    "maxlength"   => "255",
-    "onfocus"     => 'remove_erro_validacao(this.id)',
-    'required '   => 'required',
-    'placeholder' => 'Titulo'
-)); ?>
+        <? echo form_input(array(
+            "id"    => "title",
+            "name"  => "title",
+            "class" => "form-control input-sm",
+            'value' => $autorizacaoDetalhe->title,
+            'readonly' => 'readonly'
+        )); ?>
     </div>
     <div class="field form-group">
         <?
@@ -55,10 +57,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "institution",
             "name"        => "institution",
             "class"       => "form-control input-sm",
-            "maxlength"   => "255",
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'placeholder' => "Instituição",
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->institution,
+            'readonly' => 'readonly'
         )); ?>
     </div>
     <div class="field form-group">
@@ -68,9 +68,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "responsible",
             "name"        => "responsible",
             "class"       => "form-control input-sm",
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'placeholder' => 'Responsável',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->responsible,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -81,9 +80,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "cpf",
             "name"        => "cpf",
             "class"       => "form-control input-sm",
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'placeholder' => "CPF",
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->cpf,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -94,9 +92,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "address",
             "name"        => "address",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Endereço',
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->address,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -107,7 +104,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "number",
             "name"        => "number",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Número / Km',
+            'value' => $autorizacaoDetalhe->number,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -118,9 +116,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "neighborhood",
             "name"        => "neighborhood",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Bairro',
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->neighborhood,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -131,7 +128,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "complement",
             "name"        => "complement",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Complemento',
+            'value' => $autorizacaoDetalhe->complement,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -142,9 +140,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "city",
             "name"        => "city",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Cidade',
-            'required '   => 'required',
-            "onfocus"     => 'remove_erro_validacao(this.id)'
+            'value' => $autorizacaoDetalhe->city,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -156,9 +153,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "state",
             "name"        => "state",
             "class"       => "form-control input-sm",
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'placeholder' => 'UF',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->state,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -169,9 +165,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "zipcode",
             "name"        => "zipcode",
             "class"       => "form-control input-sm",
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'placeholder' => 'CEP',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->zipcode,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -182,9 +177,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "phone",
             "name"        => "phone",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Telefone',
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->phone,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -195,9 +189,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "cellphone",
             "name"        => "cellphone",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Endereço',
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->cellphone,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
@@ -208,22 +201,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             "id"          => "email",
             "name"        => "email",
             "class"       => "form-control input-sm",
-            'placeholder' => 'Email',
-            "onfocus"     => 'remove_erro_validacao(this.id)',
-            'required '   => 'required',
+            'value' => $autorizacaoDetalhe->email,
+            'readonly' => 'readonly'
         ));
         ?>
     </div>
     <div id="teste"></div>
 
     <div class="field form-group">
-        <?
-        echo form_label("Tipo de Atividades*:", 'tipodeatividades'); ?>
-        <? echo form_dropdown('activitiesofinformationid', $opcao, 0, array(
-            'class'     => 'form-control',
-            'required ' => 'required'
-        ));
-        ?>
+        <?echo form_label("Tipo de Atividade:", 'email'); ?>
+        <? echo form_input(array(
+            "id"    => "title",
+            "name"  => "title",
+            "class" => "form-control input-sm",
+            'value' => $autorizacaoDetalhe->occupation,
+            'readonly' => 'readonly'
+        )); ?>
     </div>
 
 <? echo form_submit(array(
