@@ -5,7 +5,6 @@
  * Date: 19/07/2016
  * Time: 16:10
  */
-
 ?>
 <p>Home do Sistema</p>
 
@@ -31,7 +30,10 @@
                 <td><?= $dado->responsible ?></td>
                 <!--                <td>--><? //= $dado->authorizationresearchid ?><!--</td>-->
                 <td align="right">
-                    <button class="btn btn-info" title="Detalhes" onclick="window.location='<?echo site_url(array('HomeSistema/detalhes',$dado->authorizationresearchid))?>'"><i class="fa fa-info"></i></button>
+                    <button class="btn btn-info" title="Detalhes" onclick="window.location='<? echo site_url(array(
+                        'HomeSistema/detalhes',
+                        $dado->authorizationresearchid
+                    )) ?>'"><i class="fa fa-info"></i></button>
                 </td>
 
             </tr>
