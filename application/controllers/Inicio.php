@@ -8,12 +8,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 Class Inicio extends CI_Controller {
-
     /**
      * Layout default utilizado pelo controlador.
      */
     public $layout = 'layoutSite';
-
     /**
      * Titulo default.
      */
@@ -21,6 +19,5 @@ Class Inicio extends CI_Controller {
 
     public function index() {
         $this->load->view('site');
-//        $this->load->view('teste');
     }
 }

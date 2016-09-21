@@ -88,4 +88,6 @@ define('ICONE', IMG_SITE . 'icon/');
 define('JSPATH', 'application/layouts/js/');
 //define o diretorio das fotos do carousel
 define('IMG_CAROUSEL', IMG_SITE . '/img_carousel/');
+//diretorio responsavel em armazenar o diretorio js da parte do admin
+define('JSPATHADMIN','application/layouts/js/admin/');
 

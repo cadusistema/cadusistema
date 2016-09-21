@@ -49,7 +49,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'inicio';
+//$route['default_controller'] = 'testerdb';
+//$route['default_controller'] = 'login/fazerlogin';
+
+//$route['HomeSistema/Autorizacao/salvaAutorizacaoDB'] = 'Autorizacao/salvaAutorizacaoDB';
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
-$route['admin'] = 'Login/login';
+//$route['admin'] = 'Login/login';
 
