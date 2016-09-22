@@ -21,14 +21,14 @@ Class Login extends CI_Controller {
      * Função para carregar a view de login
      */
     public function fazerlogin() {
-        $this->load->view('login_view');
+        $this->load->view('site/login_view');
     }
 
     /**
      * Função para carregar a view de criar novo usuario
      */
     public function criarConta() {
-        $this->load->view('criarconta');
+        $this->load->view('site/criarconta');
     }
 
     /*
@@ -77,7 +77,7 @@ Class Login extends CI_Controller {
                 $this->load->view("admin/autorizacaoparapesquisa", $dateBD);
             }
         } else {
-            $this->load->view('login_view');
+            $this->load->view('site/login_view');
 //            redirect('/');
         }
     }

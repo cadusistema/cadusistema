@@ -29,43 +29,43 @@
 
 
     <!--    carregando bootstrap-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>/bootstrap/css/bootstrap.min.css"/>
     <!--    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 
     <!--    carregando font-awesome-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>/font-awesome/css/font-awesome.min.css"/>
 
     <!--    carreganod responsive.css-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/responsive.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>responsive.css"/>
 
     <!--    carregando site.css-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/style.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>style.css"/>
 
     <!--    carregando animate.css-->
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/animate.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>animate.css"/>
 
     <!--    carregando bootstrap.min.js-->
     <!--    <script src="htgit tp://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
     <!--    carregando jquery-->
-    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>jquery/jquery.min.js"></script>
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+    <!--    <script type="text/javascript" src="-->
 
 
-    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>bootstrap/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'classie.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5element.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5shiv.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.easing.1.3.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery.isotope.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'jquery-scrolltofixed.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'respond-1.1.0.min.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'wow.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>jquery.easing.1.3.js"></script>
 
-    <!--    script carousel-->
-    
-    <script type="text/javascript" src="<? echo base_url(JSPATH . 'modernizr.custom.46884.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>jquery.isotope.js"></script>
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>wow.js"></script>
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>classie.js"></script>
 
+    <!--    <script type="text/javascript" src="-->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
           rel="stylesheet" type="text/css">
 
@@ -74,6 +74,9 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5element.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'html5shiv.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url(JSPATH . 'respond-1.1.0.min.js') ?>"></script>
     <![endif]-->
 
     <title>{title_for_layout}</title>

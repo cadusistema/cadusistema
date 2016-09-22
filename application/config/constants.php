@@ -90,4 +90,7 @@ define('JSPATH', 'application/layouts/js/');
 define('IMG_CAROUSEL', IMG_SITE . '/img_carousel/');
 //diretorio responsavel em armazenar o diretorio js da parte do admin
 define('JSPATHADMIN','application/layouts/js/admin/');
-
+//diretorio onde se encontra bootstrap,jquery e font-awesome
+define('INCLUDEPATH','application/layouts/includes/');
+//diretorio CSS
+define('CSS','application/layouts/css/');
