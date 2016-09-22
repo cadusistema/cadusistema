@@ -241,6 +241,11 @@ p {
     background-color: #C8E6C9;
 }
 
+.aux {
+    max-width: 1000px;
+    margin:0 auto;
+}
+
 .main-section.alabaster {
     background: #fafafa;
 }

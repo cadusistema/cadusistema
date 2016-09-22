@@ -46,6 +46,10 @@
     <!--    carregando animate.css-->
     <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>animate.css"/>
 
+    <!--    carregando pgwslideshow.css -->
+    <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>pgwslideshow.css"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url() . CSS ?>pgwslideshow_light.css"/>
+
     <!--    carregando bootstrap.min.js-->
     <!--    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
@@ -64,6 +68,9 @@
     <script type="text/javascript" src="<? echo base_url() . JSPATH ?>jquery.isotope.js"></script>
     <script type="text/javascript" src="<? echo base_url() . JSPATH ?>wow.js"></script>
     <script type="text/javascript" src="<? echo base_url() . JSPATH ?>classie.js"></script>
+
+    <!--    carousel-->
+    <script type="text/javascript" src="<? echo base_url() . JSPATH ?>pgwslideshow.js"></script>
 
     <!--    <script type="text/javascript" src="-->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"

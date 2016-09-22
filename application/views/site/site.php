@@ -219,77 +219,19 @@
         </div>
     </div>
 </section><!--main-section-end-->
-<section class="main-section-carousel" id="fotos"><!--main-section-start-->
+<section id="fotos" class="main-section-carousel"><!--main-section-start-->
     <h2>Fotos</h2>
-    <div class="wrapper">
-        <ul id="sb-slider" class="sb-slider">
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/>
-                <div class="sb-description">
-                    <h3>Creative Lifesaver</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/>
-                <div class="sb-description">
-                    <h3>Honest Entertainer</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image1"/>
-                <div class="sb-description">
-                    <h3>Brave Astronaut</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Affectionate Decision Maker</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Faithful Investor</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Groundbreaking Artist</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Selfless Philantropist</h3>
-                </div>
-            </li>
+    <div class="aux">
+        <ul class="pgwSlideshowLight">
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image3"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="image4"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>" alt="image5"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>" alt="image6"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>" alt="image7"/></li>
         </ul>
-
-        <div id="shadow" class="shadow"></div>
-
-        <div id="nav-arrows" class="nav-arrows">
-            <a href="#">Next</a>
-            <a href="#">Previous</a>
-        </div>
-
-        <div id="nav-dots" class="nav-dots">
-            <span class="nav-dot-current"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-    </div><!-- /wrapper -->
-
+    </div>
 
 </section><!--main-section-end-->
 <section class="main-section" id="localizacao"><!--main-section-start-->
@@ -465,14 +407,21 @@
 
     }
 
-//    $(function () {
-//        $("a").click(function (event) {
-//            event.preventDefault();
-//            var idElemento = $(this).attr("href");
-//            var deslocamento = $(idElemento).offset().top;
-//            $('html, body').animate({scrollTop: deslocamento}, 'slow');
-//        });
-//    });
+    //    $(function () {
+    //        $("a").click(function (event) {
+    //            event.preventDefault();
+    //            var idElemento = $(this).attr("href");
+    //            var deslocamento = $(idElemento).offset().top;
+    //            $('html, body').animate({scrollTop: deslocamento}, 'slow');
+    //        });
+    //    });
+
+    $(document).ready(function () {
+        var pgwSlideshow = $('.pgwSlideshowLight').pgwSlideshow();
+        pgwSlideshow.startSlide();
+        pgwSlideshow.displayList(false);
+
+    });
 
 </script>
 
