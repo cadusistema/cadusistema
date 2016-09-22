@@ -359,18 +359,18 @@
     </div>
 </footer>
 
-<!---->
-<!--<script type="text/javascript">-->
-<!--    $(document).ready(function (e) {-->
-<!--        $('#test').scrollToFixed();-->
-<!--        $('.res-nav_click').click(function () {-->
-<!--            $('.main-nav').slideToggle();-->
-<!--            return false-->
-<!---->
-<!--        });-->
-<!---->
-<!--    });-->
-<!--</script>-->
+
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function () {
+            $('.main-nav').slideToggle();
+            return false
+
+        });
+
+    });
+</script>
 <script type="text/javascript">
     wow = new WOW(
         {
