@@ -18,7 +18,7 @@
 </div>
 
 
-<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+<nav class="main-nav-outer " id="test"><!--main-nav-start-->
     <div class="container nav-justified">
         <ul class="main-nav">
             <li><a href="#header">Home</a></li>
@@ -359,18 +359,18 @@
     </div>
 </footer>
 
-
-<script type="text/javascript">
-    $(document).ready(function (e) {
-        $('#test').scrollToFixed();
-        $('.res-nav_click').click(function () {
-            $('.main-nav').slideToggle();
-            return false
-
-        });
-
-    });
-</script>
+<!---->
+<!--<script type="text/javascript">-->
+<!--    $(document).ready(function (e) {-->
+<!--        $('#test').scrollToFixed();-->
+<!--        $('.res-nav_click').click(function () {-->
+<!--            $('.main-nav').slideToggle();-->
+<!--            return false-->
+<!---->
+<!--        });-->
+<!---->
+<!--    });-->
+<!--</script>-->
 <script type="text/javascript">
     wow = new WOW(
         {
@@ -465,13 +465,14 @@
 
     }
 
-    $(function () {
-        $("a").click(function (event) {
-            event.preventDefault();
-            var idElemento = $(this).attr("href");
-            var deslocamento = $(idElemento).offset().top;
-            $('html, body').animate({scrollTop: deslocamento}, 'slow');
-        });
-    });
+//    $(function () {
+//        $("a").click(function (event) {
+//            event.preventDefault();
+//            var idElemento = $(this).attr("href");
+//            var deslocamento = $(idElemento).offset().top;
+//            $('html, body').animate({scrollTop: deslocamento}, 'slow');
+//        });
+//    });
 
 </script>
+

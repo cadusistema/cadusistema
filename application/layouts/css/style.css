@@ -162,6 +162,7 @@ p {
     box-shadow: 0 4px 5px -3px #ececec;
     position: relative;
     background: #BDBDBD;
+
 }
 
 .main-nav {
@@ -495,7 +496,6 @@ p {
     -webkit-animation-delay: 1.2s;
 }
 
-
 /*!*parallax*!*/
 body, html {
     height: 100%;
@@ -542,7 +542,7 @@ body, html {
     -webkit-border-radius: 10px;
 }
 
-.portaria{
+.portaria {
     background: url("../img_site/portaria.jpg") no-repeat center;
     background-size: 100%;
 }
