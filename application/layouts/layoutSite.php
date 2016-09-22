@@ -45,7 +45,7 @@
     <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/animate.css') ?>"/>
 
     <!--    carregando bootstrap.min.js-->
-    <!--    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <!--    <script src="htgit tp://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
     <!--    carregando jquery-->
     <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
