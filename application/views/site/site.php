@@ -1,42 +1,3 @@
-<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-<!--<link rel="stylesheet" href="--><? // echo base_url('includes/bootstrap/css/bootstrap.min.css') ?><!--"/>-->
-<div style="overflow:hidden;" class="parallax">
-    <header class="header" id="header"><!--header-start-->
-        <!--        <div class="container">-->
-        <!--        <figure>-->
-        <!--            <img align="left" src="-->
-        <? // echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
-        <!--        </figure>-->
-        <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
-        <!--            <ul class="we-create animated fadeInUp delay-1s">-->
-        <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
-        <!--            </ul>-->
-        <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
-        <!--        </div>-->
-        <!--</div>-->
-    </header><!--header-end-->
-</div>
-
-
-<nav class="main-nav-outer " id="test"><!--main-nav-start-->
-    <div class="container nav-justified">
-        <ul class="main-nav">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#historico">Parque</a></li>
-            <li><a href="#infraestrutura">Infra-Estrutura</a></li>
-            <li><a href="#esportes">Esportes</a></li>
-            <li><a href="#atividade">Atividades Desenvolvidas</a></li>
-            <li><a href="#fotos">Fotos</a></li>
-            <li><a href="#localizacao">Localização</a></li>
-            <li><a href="#contact">Contato</a></li>
-            <li><a href="<? echo site_url(array(
-                    'login',
-                    'fazerlogin'
-                )) ?>">Acesso Restrito</a></li>
-        </ul>
-        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-    </div>
-</nav><!--main-nav-end-->
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
@@ -107,15 +68,16 @@
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Fraldário</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
-                </div>
+                <!--                <div class="service-list">-->
+                <!--                    <div class="service-list-col1">-->
+                <!--                        <img src="-->
+                <? // echo base_url(ICONE . 'flaldario.ico') ?><!--" height="50px"/>-->
+                <!--                    </div>-->
+                <!--                    <div class="service-list-col2">-->
+                <!--                        <h3>Fraldário</h3>-->
+                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -135,15 +97,15 @@
                         <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
                     </div>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'rapel.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Rapel</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                    </div>
-                </div>
+                <!--                <div class="service-list">-->
+                <!--                    <div class="service-list-col1">-->
+                <!--                        <img src="--><? // echo base_url(ICONE . 'rapel.ico') ?><!--"/>-->
+                <!--                    </div>-->
+                <!--                    <div class="service-list-col2">-->
+                <!--                        <h3>Rapel</h3>-->
+                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
@@ -301,7 +263,18 @@
     </div>
 </footer>
 
-
+<!--<script>-->
+<!--    $(function () {-->
+<!--        var nav = $('#menuHeader');-->
+<!--        $(window).scroll(function () {-->
+<!--            if ($(this).scrollTop() > 150) {-->
+<!--                nav.addClass("menu-fixo");-->
+<!--            } else {-->
+<!--                nav.removeClass("menu-fixo");-->
+<!--            }-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
 <script type="text/javascript">
     $(document).ready(function (e) {
         $('#test').scrollToFixed();
@@ -422,6 +395,5 @@
         pgwSlideshow.displayList(false);
 
     });
-
 </script>
 

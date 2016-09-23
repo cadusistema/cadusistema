@@ -160,10 +160,11 @@ p {
     padding: 0px;
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 4px 5px -3px #ececec;
-    position: relative;
+    /*position: relative;*/
     background: #BDBDBD;
 
 }
+
 
 .main-nav {
     text-align: center;
@@ -244,6 +245,7 @@ p {
 .aux {
     max-width: 1000px;
     margin:0 auto;
+    margin-bottom: 20px;
 }
 
 .main-section.alabaster {
@@ -550,4 +552,11 @@ body, html {
 .portaria {
     background: url("../img_site/portaria.jpg") no-repeat center;
     background-size: 100%;
+}
+
+/*.pgwSlideshow .ps-current > ul > li img{*/
+    /*max-width:50%;*/
+/*}*/
+.carousel-top > ul > li > img{
+    max-width:50%;
 }

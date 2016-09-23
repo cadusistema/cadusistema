@@ -31,6 +31,14 @@ Class Login extends CI_Controller {
         $this->load->view('site/criarconta');
     }
 
+    /**
+     * funçao para carregar view atrativos
+     */
+    public function viewAtrativos(){
+        $this->layout = 'layoutSite';
+        $this->load->view('site/atrativos');
+    }
+
     /*
      * Função para efetuar o login
      */
