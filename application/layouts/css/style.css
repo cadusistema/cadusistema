@@ -165,7 +165,6 @@ p {
 
 }
 
-
 .main-nav {
     text-align: center;
     margin: 10px 0 0px;
@@ -244,7 +243,7 @@ p {
 
 .aux {
     max-width: 1000px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
@@ -398,8 +397,9 @@ p {
 ---------------------------------*/
 
 .footer {
-    background: url(../img_site/pw_maze_black_2X.png) left top repeat;
+    /*background: url(../img_site/pw_maze_black_2X.png) left top repeat;*/
     padding: 35px 0 35px;
+    background-color: #d2dcd3;
 }
 
 .footer-logo {
@@ -542,11 +542,15 @@ body, html {
 .botaoler {
     margin-left: 45%;
     margin-top: 10px;
-    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+    background-color: rgba(113, 195, 129, 0.7);
+
     /* Declaração para aparecer no Firefox */
-    -moz-border-radius: 10px;
+    -moz-border-radius: 20px;
     /* Para exibir nos outros navegadores como Chrome, safari, opera*/
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 20px;
 }
 
 .portaria {
@@ -555,8 +559,8 @@ body, html {
 }
 
 /*.pgwSlideshow .ps-current > ul > li img{*/
-    /*max-width:50%;*/
+/*max-width:50%;*/
 /*}*/
-.carousel-top > ul > li > img{
-    max-width:50%;
+.carousel-top > ul > li > img {
+    max-width: 50%;
 }

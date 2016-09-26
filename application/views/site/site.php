@@ -1,3 +1,61 @@
+<div style="overflow:hidden;">
+    <header class="header" id="header"><!--header-start-->
+        <!--        <div class="container">-->
+        <!--        <figure>-->
+        <!--            <img align="left" src="-->
+        <? // echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
+        <!--        </figure>-->
+        <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
+        <!--            <ul class="we-create animated fadeInUp delay-1s">-->
+        <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
+        <!--            </ul>-->
+        <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
+        <!--        </div>-->
+        <!--</div>-->
+
+        <div class="carousel-top">
+            <ul class="pgwSlideshowLight">
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image3"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="image4"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>" alt="image5"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>" alt="image6"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>" alt="image7"/></li>
+            </ul>
+        </div>
+
+    </header><!--header-end-->
+</div>
+<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+    <div class="container nav-justified">
+        <ul class="main-nav">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#historico">Parque</a></li>
+            <li><a href="#infraestrutura">Infra-Estrutura</a></li>
+            <li><a href="#esportes">Esportes</a></li>
+            <li><a href="<? echo site_url(array(
+                    'login',
+                    'viewAtrativos'
+                )) ?>">Atrativos</a></li>
+            <li><a href="#atividade">Atividades Desenvolvidas</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="<? echo site_url(array(
+                    'login',
+                    'viewnoticias'
+                )) ?>">Noticias</a></li>
+            <li><a href="<? echo site_url(array(
+                    'login',
+                    'fazerlogin'
+                )) ?>">Acesso Restrito</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav>
+
+
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
@@ -130,6 +188,14 @@
                 <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
         </div>
+        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg wow fadeInLeft delay-05s" onclick="window.location='<? echo site_url(array(
+            'login',
+            'viewAtrativos'
+        )) ?>'"
+                data-toggle="collapse" data-target="#collapsExemplo">Ler
+            <i class="fa fa-plus"
+               aria-hidden="true"></i>
+        </button>
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="atividade"><!--main-section-start-->
@@ -259,7 +325,14 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <p style="text-align: center"><? echo anchor('http://www.gorceixonline.com.br', 'Fundação Gorceix', array('target' => '_blank')) ?></p>
+<!--        <p style="text-align: center">--><?// echo anchor('http://www.gorceixonline.com.br', 'Fundação Gorceix', array('target' => '_blank')) ?><!--</p>-->
+        
+        <figure>
+            <img src="<?echo base_url().ICONE?>fgnova.png" alt="logo fg">
+            <img src="<?echo base_url().ICONE?>demamnova.png" alt="logo fg">
+
+        </figure>
+        
     </div>
 </footer>
 

@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <? echo form_close(); ?>
     </div>
 
-    <? echo anchor('login/criarConta', 'Cancelar', array('class' => 'btn btn-danger')) ?>
+    <? echo anchor('inicio', 'Cancelar', array('class' => 'btn btn-danger')) ?>
 
 </div>
 
