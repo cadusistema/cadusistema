@@ -140,6 +140,10 @@
             <li><a href="#contact">Contato</a></li>
             <li><a href="<? echo site_url(array(
                     'login',
+                    'viewnoticias'
+                )) ?>">Noticias</a></li>
+            <li><a href="<? echo site_url(array(
+                    'login',
                     'fazerlogin'
                 )) ?>">Acesso Restrito</a></li>
         </ul>

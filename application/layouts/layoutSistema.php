@@ -22,14 +22,15 @@
 
     <link rel="shortcut icon" href="<? echo base_url(ICONE . 'andorinhas_logo.ico') ?>" type="img/x-icon">
 
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
-    <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>/font-awesome/css/font-awesome.min.css"/>
 
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/basic.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url().CSSPATH?>basic.css"/>
 
-    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery-ui.min.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>bootstrap/js/bootstrap.min.js"></script>
 
 
     <title>{title_for_layout}</title>
@@ -74,12 +75,12 @@
                             </ul>
                         </li>
                     </ul>
-<!--                    <form class="navbar-form navbar-left">-->
-<!--                        <div class="form-group">-->
-<!--                            <input type="text" class="form-control" placeholder="Search">-->
-<!--                        </div>-->
-<!--                        <button type="submit" class="btn btn-default">Submit</button>-->
-<!--                    </form>-->
+                    <!--                    <form class="navbar-form navbar-left">-->
+                    <!--                        <div class="form-group">-->
+                    <!--                            <input type="text" class="form-control" placeholder="Search">-->
+                    <!--                        </div>-->
+                    <!--                        <button type="submit" class="btn btn-default">Submit</button>-->
+                    <!--                    </form>-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Link</a></li>
                         <li class="dropdown">

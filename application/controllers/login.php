@@ -21,6 +21,7 @@ Class Login extends CI_Controller {
      * Função para carregar a view de login
      */
     public function fazerlogin() {
+//        $this->layout = 'layoutSistema';
         $this->load->view('site/login_view');
     }
 
@@ -38,6 +39,15 @@ Class Login extends CI_Controller {
         $this->layout = 'layoutSite';
         $this->load->view('site/atrativos');
     }
+
+    /**
+     * funçao para carregar a view noticias
+     */
+    public function viewNoticias(){
+        $this->layout = 'layoutSite';
+        $this->load->view('site/noticias');
+    }
+    
 
     /*
      * Função para efetuar o login
