@@ -108,7 +108,7 @@ Class Login extends CI_Controller {
         $this->email->to('fabio.jose.mendonca@gmail.com');
 //        $this->email->cc('outro@outro-site.com');
 //        $this->email->bcc('fulano@qualquer-site.com');
-        $this->email->subject('Teste de Email 2');
+        $this->email->subject('Teste de Email 32');
         $this->email->message('Testando a classe de email.');
         $this->email->send();
     }

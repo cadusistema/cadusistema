@@ -21,6 +21,7 @@ $config['smtp_user'] = 'testesiteop';
 $config['smtp_pass'] = 'teste1234';
 $config['charset'] = 'utf-8';
 $config['newline'] = "\r\n";
+$config['mailtype'] = 'html';
 
 /* End of file email.php */
 /* Location: ./system/application/config/email.php */
