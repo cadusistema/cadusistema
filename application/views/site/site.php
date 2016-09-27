@@ -1,3 +1,5 @@
+<?// echo base_url() ?>
+
 <div style="overflow:hidden;">
     <header class="header" id="header"><!--header-start-->
         <!--        <div class="container">-->
@@ -188,10 +190,11 @@
                 <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
         </div>
-        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg wow fadeInLeft delay-05s" onclick="window.location='<? echo site_url(array(
-            'login',
-            'viewAtrativos'
-        )) ?>'"
+        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg wow fadeInLeft delay-05s"
+                onclick="window.location='<? echo site_url(array(
+                    'login',
+                    'viewAtrativos'
+                )) ?>'"
                 data-toggle="collapse" data-target="#collapsExemplo">Ler
             <i class="fa fa-plus"
                aria-hidden="true"></i>
@@ -324,16 +327,22 @@
     </section>
 </div>
 <footer class="footer">
-    <div class="container">
-<!--        <p style="text-align: center">--><?// echo anchor('http://www.gorceixonline.com.br', 'Fundação Gorceix', array('target' => '_blank')) ?><!--</p>-->
-        
-        <figure>
-            <img src="<?echo base_url().ICONE?>fgnova.png" alt="logo fg">
-            <img src="<?echo base_url().ICONE?>demamnova.png" alt="logo fg">
-
-        </figure>
-        
-    </div>
+    <figure>
+        <?
+        $site_fundacao = 'http://www.gorceixonline.com.br';
+        $site_demam = 'http://www.gorceixonline.com.br/demam';
+        $img_fundacao = array(
+            'src' => base_url() . ICONE . "fg.png",
+            'alt' => 'logo da fundação gorceix'
+        );
+        $img_demam = array(
+            'src' => base_url() . ICONE . "demam.png",
+            'alt' => 'logo do departamento de meio ambiente'
+        );
+        echo anchor($site_fundacao, img($img_fundacao), array('target' => '_blank'));
+        echo anchor($site_demam, img($img_demam), array('target' => '_blank'));
+        ?>
+    </figure>
 </footer>
 
 <!--<script>-->

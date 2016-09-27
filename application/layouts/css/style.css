@@ -70,7 +70,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    /*color: #888888;*/
     margin: 0;
 }
 
@@ -397,9 +397,9 @@ p {
 ---------------------------------*/
 
 .footer {
-    /*background: url(../img_site/pw_maze_black_2X.png) left top repeat;*/
     padding: 35px 0 35px;
     background-color: #d2dcd3;
+    text-align: center;
 }
 
 .footer-logo {

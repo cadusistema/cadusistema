@@ -104,11 +104,11 @@ Class Login extends CI_Controller {
      * Função para enviar email ao novo usuario
      */
     public function enviarEmail() {
-        $this->email->from('voce@seu-site.com', 'Seu Nome');
-        $this->email->to('alguem@algum-site.com');
-        $this->email->cc('outro@outro-site.com');
-        $this->email->bcc('fulano@qualquer-site.com');
-        $this->email->subject('Teste de Email');
+        $this->email->from('fabio.jose.mendonca@gmail.com', 'Fábio');
+        $this->email->to('fabio.jose.mendonca@gmail.com');
+//        $this->email->cc('outro@outro-site.com');
+//        $this->email->bcc('fulano@qualquer-site.com');
+        $this->email->subject('Teste de Email 2');
         $this->email->message('Testando a classe de email.');
         $this->email->send();
     }
