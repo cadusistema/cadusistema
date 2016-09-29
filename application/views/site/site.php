@@ -298,20 +298,19 @@
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
                 <div class="contact-info-box address clearfix">
                     <h3><i class=" icon-map-marker"></i>Endereço:</h3>
-                    <span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
+                    <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                     <h3><i class="fa-phone"></i>Telefone:</h3>
-                    <span>1-800-BOO-YAHH</span>
+                    <span>(31) 9 7163 04 84 </span>
                 </div>
                 <div class="contact-info-box email clearfix">
                     <h3><i class="fa-pencil"></i>email:</h3>
-                    <span>hello@knightstudios.com</span>
+                    <span>pnma@gorceix.org.br</span>
                 </div>
                 <div class="contact-info-box hours clearfix">
-                    <h3><i class="fa-clock-o"></i>Hours:</h3>
-                    <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday
-                            - Sunday:</strong> Best not to ask.</span>
+                    <h3><i class="fa-clock-o"></i>Horário:</h3>
+                    <span><strong>Diaramente:</strong> 07:30 - 18:30.<br></span>
                 </div>
                 <!--                <ul class="social-link">-->
                 <!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
