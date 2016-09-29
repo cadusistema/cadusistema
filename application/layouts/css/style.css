@@ -215,6 +215,11 @@ nav, .nav{
     padding: 90px 0 110px;
 }
 
+.main-section-atividade{
+    background:url(../img_site/vista.jpg) ;
+    background-size:cover;
+}
+
 /* Services
 ---------------------------------*/
 
@@ -578,4 +583,20 @@ body, html {
 /*}*/
 .carousel-top > ul > li > img {
     max-width: 50%;
+}
+
+/*img ler+*/
+#imghistorico{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#container {
+    position:relative;
+}
+
+#img2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
 }

@@ -73,15 +73,22 @@
     <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
         <h2>Histórico</h2>
 
-        <p>Contido na Área de Proteção Ambiental Estadual da Cachoeira das Andorinhas, foi criado pela
-            Lei nº 390 de 30 de dezembro de 1968 para preservar os recursos naturais da região e a nascente
-            do Rio das Velhas. Atualmente, possui uma área de 557,9 ha. O ponto central e o principal
-            atrativo é a Cachoeira que dá o nome ao Parque. Nessa região iniciou-se o Ciclo do Ouro das
-            Minas Gerais, referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
-            originou a cidade de Ouro Preto. Daí sua importância cultural e histórica.</p>  <br>
-
+        <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção Ambiental (APA) com 558 ha
+            de extensão, criada em 1968 com o intuito de preservar os recursos naturais da região e sua exuberante
+            beleza natural. O parque conta com vários atrativos turísticos naturais, como a Cachoeira das Andorinhas,
+            que deu nome ao parque; o mirante da Pedra do Jacaré de magnífica beleza cênica; trilhas de vários níveis de
+            dificuldade onde é possível observar de perto encantadoras fauna e flora nativas. Além disso, o parque
+            abriga a cabeceira do rio das Velhas, afluente do rio São Francisco de grande importância para grande parte
+            do Brasil, o que torna intensifica a relevância da preservação ambiental desta área. O PNMA apresenta também
+            um grande valor cultural e histórico, pois nesta área se iniciaram os primeiros caminhos percorridos pelos
+            bandeirantes que deram início ao Ciclo do Ouro das Minas Gerais.</p>  <br>
 
         <div class="collapse" id="collapsExemplo">
+
+            <div id="imghistorico">
+                <img src="<? echo base_url() . IMG_SITE ?>site-historico.png" alt="">
+            </div>
+
             <p>O Parque visa à preservação do seu alto valor biológico, turístico, histórico e de nascentes
                 formadoras do Rio das Velhas, importante sub-bacia do Rio São Francisco, que contribui
                 significativamente para a qualidade de vida da população, na manutenção da permeabilidade do
@@ -127,7 +134,7 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Área de Lazer</h3>
-                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                        <p>1 campo de futebol, 1 quadra de areia, 1 quadra poliesportiva .</p>
                     </div>
                 </div>
                 <div class="service-list">
@@ -136,7 +143,8 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Portaria</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                        <p>Ocupada por guarda-parques e vigias noturnos para garantir a segurança dos <br> visitantes
+                            além de funcionar com um ponto de informações turísticas.</p>
                     </div>
                 </div>
                 <!--                <div class="service-list">-->
@@ -165,7 +173,9 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
-                        <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+                        <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um destaque
+                            especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive acentuado,
+                            perfeito para a prática de downhill.</p>
                     </div>
                 </div>
                 <!--                <div class="service-list">-->
@@ -183,7 +193,8 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Caminhada</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                        <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,
+                            classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>
                     </div>
                 </div>
                 <div class="service-list">
@@ -192,7 +203,7 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                        <p>Há três setores de escalada, cada um com sua dificuldade e modalidades específicas.</p>
                     </div>
                 </div>
             </div>
@@ -213,8 +224,23 @@
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="atividade"><!--main-section-start-->
-    <div class="container">
+<!--    <div class="container">-->
         <h2>Atividades Desenvolvidas</h2>
+        <!---->
+        <!--        <div class="main-section-atividade">-->
+        <!---->
+        <!--            <img style="background-size: 100%" src="-->
+        <? // echo base_url(IMG_SITE . 'transparencia.png') ?><!--" alt="">-->
+        <!---->
+        <!--        </div>-->
+
+        <div style="position: relative;left: 0; top: 0;width: 100% ">
+            <img style="position: relative;top: 0;left: 0" src="<? echo base_url() . IMG_SITE ?>criancas.jpg"/>
+            <img style="position: absolute;top: 0;left: 0" src="<? echo base_url() . IMG_SITE ?>transparencia.png""/>
+
+        </div>
+
+
         <h6>O parque oferece.</h6>
         <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
             <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
@@ -259,7 +285,7 @@
                 </div>
             </div>
         </div>
-    </div>
+<!--    </div>-->
 </section><!--main-section-end-->
 <section id="fotos" class="main-section-carousel"><!--main-section-start-->
     <h2>Fotos</h2>
@@ -333,6 +359,13 @@
                               onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
                     <input class="input-btn" type="submit" value="Enviar Mensagem">
                 </div>
+
+<!--                --><?//
+//                echo form_open();
+//
+//
+//                ?>
+
             </div>
         </div>
     </section>
