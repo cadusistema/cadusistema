@@ -29,7 +29,7 @@
 
     </header><!--header-end-->
 </div>
-<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+<nav class="main-nav-outer" id="menu-header"><!--main-nav-start-->
     <div class="container nav-justified">
         <ul class="main-nav">
             <li><a href="#header">Home</a></li>
@@ -345,28 +345,28 @@
     </figure>
 </footer>
 
-<!--<script>-->
-<!--    $(function () {-->
-<!--        var nav = $('#menuHeader');-->
-<!--        $(window).scroll(function () {-->
-<!--            if ($(this).scrollTop() > 150) {-->
-<!--                nav.addClass("menu-fixo");-->
-<!--            } else {-->
-<!--                nav.removeClass("menu-fixo");-->
-<!--            }-->
-<!--        });-->
-<!--    });-->
-<!--</script>-->
-<script type="text/javascript">
-    $(document).ready(function (e) {
-        $('#test').scrollToFixed();
-        $('.res-nav_click').click(function () {
-            $('.main-nav').slideToggle();
-            return false
-
+<script>
+    $(document).ready(function () {
+        var nav = $('#menu-header');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 421) {
+                nav.addClass("menu-fixo");
+            } else {
+                nav.removeClass("menu-fixo");
+            }
         });
-
     });
+</script>
+<script type="text/javascript">
+//    $(document).ready(function (e) {
+//        $('#test').scrollToFixed();
+//        $('.res-nav_click').click(function () {
+//            $('.main-nav').slideToggle();
+//            return false
+//
+//        });
+//
+//    });
 </script>
 <script type="text/javascript">
     wow = new WOW(
