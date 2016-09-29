@@ -1,4 +1,4 @@
-<?// echo base_url() ?>
+<? // echo base_url() ?>
 
 <div style="overflow:hidden;">
     <header class="header" id="header"><!--header-start-->
@@ -29,30 +29,41 @@
 
     </header><!--header-end-->
 </div>
-<nav class="main-nav-outer" id="menu-header"><!--main-nav-start-->
-    <div class="container nav-justified">
-        <ul class="main-nav">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#historico">Parque</a></li>
-            <li><a href="#infraestrutura">Infra-Estrutura</a></li>
-            <li><a href="#esportes">Esportes</a></li>
-            <li><a href="<? echo site_url(array(
-                    'login',
-                    'viewAtrativos'
-                )) ?>">Atrativos</a></li>
-            <li><a href="#atividade">Atividades Desenvolvidas</a></li>
-            <li><a href="#fotos">Fotos</a></li>
-            <li><a href="#localizacao">Localização</a></li>
-            <li><a href="#contact">Contato</a></li>
-            <li><a href="<? echo site_url(array(
-                    'login',
-                    'viewnoticias'
-                )) ?>">Noticias</a></li>
-            <li><a href="<? echo site_url(array(
-                    'login',
-                    'fazerlogin'
-                )) ?>">Acesso Restrito</a></li>
-        </ul>
+<nav class="navbar-nav navbar-inverse nav-justified" id="menu-header"><!--main-nav-start-->
+    <div class="container-fluid ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#menu-site" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="menu-site">
+            <ul class="nav navbar-nav">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#historico">Parque</a></li>
+                <li><a href="#infraestrutura">Infra-Estrutura</a></li>
+                <li><a href="#esportes">Esportes</a></li>
+                <li><a href="<? echo site_url(array(
+                        'login',
+                        'viewAtrativos'
+                    )) ?>">Atrativos</a></li>
+                <li><a href="#atividade">Atividades Desenvolvidas</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="<? echo site_url(array(
+                        'login',
+                        'viewnoticias'
+                    )) ?>">Noticias</a></li>
+                <li><a href="<? echo site_url(array(
+                        'login',
+                        'fazerlogin'
+                    )) ?>">Acesso Restrito</a></li>
+            </ul>
+        </div>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav>
@@ -299,7 +310,8 @@
                 </div>
                 <div class="contact-info-box hours clearfix">
                     <h3><i class="fa-clock-o"></i>Hours:</h3>
-                    <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+                    <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday
+                            - Sunday:</strong> Best not to ask.</span>
                 </div>
                 <!--                <ul class="social-link">-->
                 <!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
@@ -358,15 +370,15 @@
     });
 </script>
 <script type="text/javascript">
-//    $(document).ready(function (e) {
-//        $('#test').scrollToFixed();
-//        $('.res-nav_click').click(function () {
-//            $('.main-nav').slideToggle();
-//            return false
-//
-//        });
-//
-//    });
+    //    $(document).ready(function (e) {
+    //        $('#test').scrollToFixed();
+    //        $('.res-nav_click').click(function () {
+    //            $('.main-nav').slideToggle();
+    //            return false
+    //
+    //        });
+    //
+    //    });
 </script>
 <script type="text/javascript">
     wow = new WOW(
