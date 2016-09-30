@@ -158,10 +158,11 @@ p {
 /* Navigation
 ---------------------------------*/
 
-nav, .nav{
-    width:100%;
+nav, .nav {
+    width: 100%;
     /*background-color: #696969;*/
 }
+
 .main-nav-outer {
     padding: 0px;
     border-bottom: 1px solid #dddddd;
@@ -201,9 +202,9 @@ nav, .nav{
     color: #7cc576;
 }
 
-.menu-fixo{
+.menu-fixo {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 10;
 }
 
@@ -215,9 +216,9 @@ nav, .nav{
     padding: 90px 0 110px;
 }
 
-.main-section-atividade{
-    background:url(../img_site/vista.jpg) ;
-    background-size:cover;
+.main-section-atividade {
+    background: url(../img_site/vista.jpg);
+    background-size: cover;
 }
 
 /* Services
@@ -414,7 +415,7 @@ nav, .nav{
 ---------------------------------*/
 
 .footer {
-    padding: 35px 0 35px;
+    padding: 15px;
     background-color: #d2dcd3;
     text-align: center;
 }
@@ -575,7 +576,7 @@ body, html {
     width: auto;
     height: auto;
 
-    background-size:cover;
+    background-size: cover;
 }
 
 /*.pgwSlideshow .ps-current > ul > li img{*/
@@ -586,17 +587,37 @@ body, html {
 }
 
 /*img ler+*/
-#imghistorico{
+#imghistorico {
     text-align: center;
     margin-bottom: 15px;
 }
 
-#container {
-    position:relative;
+#testeimg {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    width: auto;
+    height: auto;
+}
+
+#img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: auto;
+    height: auto;
 }
 
 #img2 {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.navbar-nav{
+    margin: 0;
 }

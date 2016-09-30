@@ -46,18 +46,18 @@
                 <li><a href="#historico">Parque</a></li>
                 <li><a href="#infraestrutura">Infra-Estrutura</a></li>
                 <li><a href="#esportes">Esportes</a></li>
-                <li><a href="<? echo site_url(array(
-                        'login',
-                        'viewAtrativos'
-                    )) ?>">Atrativos</a></li>
+<!--                <li><a href="--><?// echo site_url(array(
+//                        'login',
+//                        'viewAtrativos'
+//                    )) ?><!--">Atrativos</a></li>-->
                 <li><a href="#atividade">Atividades Desenvolvidas</a></li>
                 <li><a href="#fotos">Fotos</a></li>
                 <li><a href="#localizacao">Localização</a></li>
                 <li><a href="#contact">Contato</a></li>
-                <li><a href="<? echo site_url(array(
-                        'login',
-                        'viewnoticias'
-                    )) ?>">Noticias</a></li>
+<!--                <li><a href="--><?// echo site_url(array(
+//                        'login',
+//                        'viewnoticias'
+//                    )) ?><!--">Noticias</a></li>-->
                 <li><a href="<? echo site_url(array(
                         'login',
                         'fazerlogin'
@@ -70,7 +70,7 @@
 
 
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
-    <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
+    <div class="container text-left wow fadeInUp delay-02s" id="box-toggle">
         <h2>Histórico</h2>
 
         <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção Ambiental (APA) com 558 ha
@@ -114,11 +114,8 @@
     <div class="container">
         <h2>Infra-Estrutura</h2>
         <h6>O parque oferece.</h6>
-        <!--        <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">-->
-        <!--            <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
-        <!--        </figure>-->
         <div class="row">
-            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
@@ -147,16 +144,6 @@
                             além de funcionar com um ponto de informações turísticas.</p>
                     </div>
                 </div>
-                <!--                <div class="service-list">-->
-                <!--                    <div class="service-list-col1">-->
-                <!--                        <img src="-->
-                <? // echo base_url(ICONE . 'flaldario.ico') ?><!--" height="50px"/>-->
-                <!--                    </div>-->
-                <!--                    <div class="service-list-col2">-->
-                <!--                        <h3>Fraldário</h3>-->
-                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -166,7 +153,7 @@
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'bike.ico') ?>"/>
@@ -188,7 +175,7 @@
                 <!--                    </div>-->
                 <!--                </div>-->
                 <div class="service-list">
-                    <div class="service-list-col1">
+                    <div class="service-list-col1 img">
                         <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
@@ -224,68 +211,71 @@
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="atividade"><!--main-section-start-->
-<!--    <div class="container">-->
-        <h2>Atividades Desenvolvidas</h2>
-        <!---->
-        <!--        <div class="main-section-atividade">-->
-        <!---->
-        <!--            <img style="background-size: 100%" src="-->
-        <? // echo base_url(IMG_SITE . 'transparencia.png') ?><!--" alt="">-->
-        <!---->
-        <!--        </div>-->
+    <!--    <div class="container">-->
+    <h2>Atividades Desenvolvidas</h2>
+    <!---->
+    <!--        <div class="main-section-atividade">-->
+    <!---->
+    <!--            <img style="background-size: 100%" src="-->
+    <? // echo base_url(IMG_SITE . 'transparencia.png') ?><!--" alt="">-->
+    <!---->
+    <!--        </div>-->
 
-        <div style="position: relative;left: 0; top: 0;width: 100% ">
-            <img style="position: relative;top: 0;left: 0" src="<? echo base_url() . IMG_SITE ?>criancas.jpg"/>
-            <img style="position: absolute;top: 0;left: 0" src="<? echo base_url() . IMG_SITE ?>transparencia.png""/>
+<!--    <div id="testeimg">-->
+<!--        <img id="img1" src="--><?// echo base_url() . IMG_SITE ?><!--criancas.jpg"/>-->
+<!--        <img id="img2" src="--><?// echo base_url() . IMG_SITE ?><!--transparencia.png""/>-->
+<!--    </div>-->
 
-        </div>
 
-
-        <h6>O parque oferece.</h6>
-        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
-            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
-        </figure>
-        <div class="row">
-            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Centro Administrativo</h3>
-                        <p>Centro Administrativo conta com dois vestiários.</p>
-                    </div>
+    <h6>O parque oferece.</h6>
+    <!--        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">-->
+    <!--            <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
+    <!--        </figure>-->
+    <div class="row" >
+        <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
+            <div class="service-list">
+                <div class="service-list-col1">
+                    <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Área de Lazer</h3>
-                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
-                    </div>
+                <div class="service-list-col2">
+                    <h3>Centro Administrativo</h3>
+                    <p>Centro Administrativo conta com dois vestiários.</p>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Portaria</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-col1">
+                    <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Fraldário</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
+                <div class="service-list-col2">
+                    <h3>Área de Lazer</h3>
+                    <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-col1">
+                    <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
+                </div>
+                <div class="service-list-col2">
+                    <h3>Portaria</h3>
+                    <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                </div>
+            </div>
+            <div class="service-list">
+                <div class="service-list-col1">
+                    <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
+                </div>
+                <div class="service-list-col2">
+                    <h3>Fraldário</h3>
+                    <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                 </div>
             </div>
         </div>
-<!--    </div>-->
+    </div>
+    <div id="testeimg">
+        <img id="img1" src="<? echo base_url() . IMG_SITE ?>criancas.jpg"/>
+        <img id="img2" src="<? echo base_url() . IMG_SITE ?>transparencia.png""/>
+    </div>
+    <!--    </div>-->
 </section><!--main-section-end-->
 <section id="fotos" class="main-section-carousel"><!--main-section-start-->
     <h2>Fotos</h2>
@@ -305,7 +295,7 @@
 <section class="main-section" id="localizacao"><!--main-section-start-->
     <div class="container">
         <h2>Localização</h2>
-        <iframe class=" text-left wow fadeInUp delay-06s"
+        <iframe class=" text-left wow fadeInUp delay-02s"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1JFdIPLpp43YDDGb40JBpMvjJmXU"
                 width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -338,15 +328,15 @@
                     <h3><i class="fa-clock-o"></i>Horário:</h3>
                     <span><strong>Diaramente:</strong> 07:30 - 18:30.<br></span>
                 </div>
-                <!--                <ul class="social-link">-->
-                <!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
-                <!--                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
-                <!--                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
-                <!--                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
-                <!--                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
-                <!--                </ul>-->
+                <!--                                <ul class="social-link">-->
+                <!--                                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
+                <!--                                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
+                <!--                                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
+                <!--                                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
+                <!--                                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
+                <!--                                </ul>-->
             </div>
-            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-02s">
                 <div class="form">
                     <input class="input-text" type="text" name="" value="Seu Nome *"
                            onfocus="if(this.value==this.defaultValue)this.value='';"
@@ -360,11 +350,11 @@
                     <input class="input-btn" type="submit" value="Enviar Mensagem">
                 </div>
 
-<!--                --><?//
-//                echo form_open();
-//
-//
-//                ?>
+                <!--                --><? //
+                //                echo form_open();
+                //
+                //
+                //                ?>
 
             </div>
         </div>
@@ -401,17 +391,7 @@
         });
     });
 </script>
-<script type="text/javascript">
-    //    $(document).ready(function (e) {
-    //        $('#test').scrollToFixed();
-    //        $('.res-nav_click').click(function () {
-    //            $('.main-nav').slideToggle();
-    //            return false
-    //
-    //        });
-    //
-    //    });
-</script>
+
 <script type="text/javascript">
     wow = new WOW(
         {
