@@ -29,7 +29,7 @@
 
     </header><!--header-end-->
 </div>
-<nav class="navbar-nav navbar-inverse nav-justified" id="menu-header"><!--main-nav-start-->
+<nav class="navbar navbar-inverse" id="menu-header"><!--main-nav-start-->
     <div class="container-fluid ">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -46,18 +46,18 @@
                 <li><a href="#historico">Parque</a></li>
                 <li><a href="#infraestrutura">Infra-Estrutura</a></li>
                 <li><a href="#esportes">Esportes</a></li>
-<!--                <li><a href="--><?// echo site_url(array(
-//                        'login',
-//                        'viewAtrativos'
-//                    )) ?><!--">Atrativos</a></li>-->
+                <!--                <li><a href="--><? // echo site_url(array(
+                //                        'login',
+                //                        'viewAtrativos'
+                //                    )) ?><!--">Atrativos</a></li>-->
                 <li><a href="#atividade">Atividades Desenvolvidas</a></li>
                 <li><a href="#fotos">Fotos</a></li>
                 <li><a href="#localizacao">Localização</a></li>
                 <li><a href="#contact">Contato</a></li>
-<!--                <li><a href="--><?// echo site_url(array(
-//                        'login',
-//                        'viewnoticias'
-//                    )) ?><!--">Noticias</a></li>-->
+                <!--                <li><a href="--><? // echo site_url(array(
+                //                        'login',
+                //                        'viewnoticias'
+                //                    )) ?><!--">Noticias</a></li>-->
                 <li><a href="<? echo site_url(array(
                         'login',
                         'fazerlogin'
@@ -210,72 +210,52 @@
         </button>
     </div>
 </section><!--main-section-end-->
-<section class="main-section" id="atividade"><!--main-section-start-->
-    <!--    <div class="container">-->
-    <h2>Atividades Desenvolvidas</h2>
-    <!---->
-    <!--        <div class="main-section-atividade">-->
-    <!---->
-    <!--            <img style="background-size: 100%" src="-->
-    <? // echo base_url(IMG_SITE . 'transparencia.png') ?><!--" alt="">-->
-    <!---->
-    <!--        </div>-->
-
-<!--    <div id="testeimg">-->
-<!--        <img id="img1" src="--><?// echo base_url() . IMG_SITE ?><!--criancas.jpg"/>-->
-<!--        <img id="img2" src="--><?// echo base_url() . IMG_SITE ?><!--transparencia.png""/>-->
-<!--    </div>-->
-
-
-    <h6>O parque oferece.</h6>
-    <!--        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">-->
-    <!--            <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
-    <!--        </figure>-->
-    <div class="row" >
-        <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
-            <div class="service-list">
-                <div class="service-list-col1">
-                    <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
+<section class="main-section atividade" id="atividade"><!--main-section-start-->
+    <div class="container">
+        <h2>Atividades Desenvolvidas</h2>
+        <h6>O parque oferece.</h6>
+        <div class="row">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Centro Administrativo</h3>
+                        <p>Centro Administrativo conta com dois vestiários.</p>
+                    </div>
                 </div>
-                <div class="service-list-col2">
-                    <h3>Centro Administrativo</h3>
-                    <p>Centro Administrativo conta com dois vestiários.</p>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Área de Lazer</h3>
+                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                    </div>
                 </div>
-            </div>
-            <div class="service-list">
-                <div class="service-list-col1">
-                    <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Portaria</h3>
+                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                    </div>
                 </div>
-                <div class="service-list-col2">
-                    <h3>Área de Lazer</h3>
-                    <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
-                </div>
-            </div>
-            <div class="service-list">
-                <div class="service-list-col1">
-                    <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
-                </div>
-                <div class="service-list-col2">
-                    <h3>Portaria</h3>
-                    <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                </div>
-            </div>
-            <div class="service-list">
-                <div class="service-list-col1">
-                    <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                </div>
-                <div class="service-list-col2">
-                    <h3>Fraldário</h3>
-                    <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Fraldário</h3>
+                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-    <div id="testeimg">
-        <img id="img1" src="<? echo base_url() . IMG_SITE ?>criancas.jpg"/>
-        <img id="img2" src="<? echo base_url() . IMG_SITE ?>transparencia.png""/>
-    </div>
-    <!--    </div>-->
 </section><!--main-section-end-->
 <section id="fotos" class="main-section-carousel"><!--main-section-start-->
     <h2>Fotos</h2>
