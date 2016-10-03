@@ -2,19 +2,6 @@
 
 <div style="overflow:hidden;">
     <header class="header" id="header"><!--header-start-->
-        <!--        <div class="container">-->
-        <!--        <figure>-->
-        <!--            <img align="left" src="-->
-        <? // echo base_url(IMG_SITE . 'pedratransparente.png') ?><!--" alt="">-->
-        <!--        </figure>-->
-        <!--            <h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>-->
-        <!--            <ul class="we-create animated fadeInUp delay-1s">-->
-        <!--                <li>We are a digital agency that loves crafting beautiful websites.</li>-->
-        <!--            </ul>-->
-        <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
-        <!--        </div>-->
-        <!--</div>-->
-
         <div class="carousel-top">
             <ul class="pgwSlideshowLight">
                 <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
@@ -165,15 +152,6 @@
                             perfeito para a prática de downhill.</p>
                     </div>
                 </div>
-                <!--                <div class="service-list">-->
-                <!--                    <div class="service-list-col1">-->
-                <!--                        <img src="--><? // echo base_url(ICONE . 'rapel.ico') ?><!--"/>-->
-                <!--                    </div>-->
-                <!--                    <div class="service-list-col2">-->
-                <!--                        <h3>Rapel</h3>-->
-                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
                 <div class="service-list">
                     <div class="service-list-col1 img">
                         <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
@@ -243,16 +221,6 @@
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
-                <!--                <div class="service-list">-->
-                <!--                    <div class="service-list-col1">-->
-                <!--                        <img src="-->
-                <? // echo base_url(ICONE . 'flaldario.ico') ?><!--" height="50px"/>-->
-                <!--                    </div>-->
-                <!--                    <div class="service-list-col2">-->
-                <!--                        <h3>Fraldário</h3>-->
-                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </div>
         </div>
 
@@ -318,20 +286,6 @@
                 <!--                                </ul>-->
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-02s">
-<!--                <div class="form">-->
-<!--                    <input class="input-text" type="text" name="" value="Seu Nome *"-->
-<!--                           onfocus="if(this.value==this.defaultValue)this.value='';"-->
-<!--                           onblur="if(this.value=='')this.value=this.defaultValue;">-->
-<!--                    <input class="input-text" type="text" name="" value="Seu E-mail *"-->
-<!--                           onfocus="if(this.value==this.defaultValue)this.value='';"-->
-<!--                           onblur="if(this.value=='')this.value=this.defaultValue;">-->
-<!--                                    <textarea class="input-text text-area" cols="0" rows="0"-->
-<!--                                              onfocus="if(this.value==this.defaultValue)this.value='';"-->
-<!--                                              onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>-->
-<!--                    <input class="input-btn" type="submit" value="Enviar Mensagem">-->
-<!--                </div>-->
-
-
                 <div class="form">
                     <? //
                     echo form_open("Inicio/perguntaviasite");
