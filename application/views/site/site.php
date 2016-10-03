@@ -243,15 +243,16 @@
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Fraldário</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
-                </div>
+                <!--                <div class="service-list">-->
+                <!--                    <div class="service-list-col1">-->
+                <!--                        <img src="-->
+                <? // echo base_url(ICONE . 'flaldario.ico') ?><!--" height="50px"/>-->
+                <!--                    </div>-->
+                <!--                    <div class="service-list-col2">-->
+                <!--                        <h3>Fraldário</h3>-->
+                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
             </div>
         </div>
 
@@ -317,24 +318,49 @@
                 <!--                                </ul>-->
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-02s">
+<!--                <div class="form">-->
+<!--                    <input class="input-text" type="text" name="" value="Seu Nome *"-->
+<!--                           onfocus="if(this.value==this.defaultValue)this.value='';"-->
+<!--                           onblur="if(this.value=='')this.value=this.defaultValue;">-->
+<!--                    <input class="input-text" type="text" name="" value="Seu E-mail *"-->
+<!--                           onfocus="if(this.value==this.defaultValue)this.value='';"-->
+<!--                           onblur="if(this.value=='')this.value=this.defaultValue;">-->
+<!--                                    <textarea class="input-text text-area" cols="0" rows="0"-->
+<!--                                              onfocus="if(this.value==this.defaultValue)this.value='';"-->
+<!--                                              onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>-->
+<!--                    <input class="input-btn" type="submit" value="Enviar Mensagem">-->
+<!--                </div>-->
+
+
                 <div class="form">
-                    <input class="input-text" type="text" name="" value="Seu Nome *"
-                           onfocus="if(this.value==this.defaultValue)this.value='';"
-                           onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="text" name="" value="Seu E-mail *"
-                           onfocus="if(this.value==this.defaultValue)this.value='';"
-                           onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <textarea class="input-text text-area" cols="0" rows="0"
-                              onfocus="if(this.value==this.defaultValue)this.value='';"
-                              onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
-                    <input class="input-btn" type="submit" value="Enviar Mensagem">
+                    <? //
+                    echo form_open("Inicio/perguntaviasite");
+                    echo form_input(array(
+                        'class'       => 'input-text',
+                        'type'        => 'text',
+                        'name'        => 'nome',
+                        'placeholder' => 'Seu Nome'
+                    ));
+                    echo form_input(array(
+                        'class'       => 'input-text',
+                        'name'        => 'email',
+                        'type'        => 'email',
+                        'placeholder' => 'Seu E-mail'
+                    ));
+                    echo form_textarea(array(
+                        'class'       => 'input-text text-area',
+                        'cols'        => '0',
+                        'rows'        => '0',
+                        'name'        => 'mensagem',
+                        'placeholder' => 'Sua Mensagem'
+                    ));
+                    echo form_submit(array(
+                        'class' => 'input-btn',
+                    ), 'Enviar Mensagem');
+                    echo form_close();
+                    ?>
                 </div>
 
-                <!--                --><? //
-                //                echo form_open();
-                //
-                //
-                //                ?>
 
             </div>
         </div>
