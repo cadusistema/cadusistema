@@ -22,14 +22,15 @@
 
     <link rel="shortcut icon" href="<? echo base_url(ICONE . 'andorinhas_logo.ico') ?>" type="img/x-icon">
 
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('includes/bootstrap/css/bootstrap.min.css') ?>"/>
-    <link rel="stylesheet" href="<? echo base_url('includes/font-awesome/css/font-awesome.min.css') ?>"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="<? echo base_url() . INCLUDEPATH ?>font-awesome/css/font-awesome.min.css"/>
 
-    <link rel="stylesheet" type="text/css" href="<? echo base_url('application/layouts/css/basic.css') ?>"/>
+    <link rel="stylesheet" type="text/css" href="<? echo base_url().CSS?>basic.css"/>
 
-    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery.min.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url('includes/jquery/jquery-ui.min.js') ?>"></script>
-    <script type="text/javascript" src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="<? echo base_url() . INCLUDEPATH ?>bootstrap/js/bootstrap.min.js"></script>
 
 
     <title>{title_for_layout}</title>

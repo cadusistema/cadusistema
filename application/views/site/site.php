@@ -1,6 +1,6 @@
-<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-<!--<link rel="stylesheet" href="--><? // echo base_url('includes/bootstrap/css/bootstrap.min.css') ?><!--"/>-->
-<div style="overflow:hidden;" class="parallax">
+<? // echo base_url() ?>
+
+<div style="overflow:hidden;">
     <header class="header" id="header"><!--header-start-->
         <!--        <div class="container">-->
         <!--        <figure>-->
@@ -14,42 +14,81 @@
         <!--            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
         <!--        </div>-->
         <!--</div>-->
+
+        <div class="carousel-top">
+            <ul class="pgwSlideshowLight">
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image3"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="image4"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>" alt="image5"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>" alt="image6"/></li>
+                <li><img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>" alt="image7"/></li>
+            </ul>
+        </div>
+
     </header><!--header-end-->
 </div>
-
-
-<nav class="main-nav-outer " id="test"><!--main-nav-start-->
-    <div class="container nav-justified">
-        <ul class="main-nav">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#historico">Parque</a></li>
-            <li><a href="#infraestrutura">Infra-Estrutura</a></li>
-            <li><a href="#esportes">Esportes</a></li>
-            <li><a href="#atividade">Atividades Desenvolvidas</a></li>
-            <li><a href="#fotos">Fotos</a></li>
-            <li><a href="#localizacao">Localização</a></li>
-            <li><a href="#contact">Contato</a></li>
-            <li><a href="<? echo site_url(array(
-                    'login',
-                    'fazerlogin'
-                )) ?>">Acesso Restrito</a></li>
-        </ul>
+<nav class="navbar-nav navbar-inverse" id="menu-header"><!--main-nav-start-->
+    <div class="container-fluid ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#menu-site" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="menu-site">
+            <ul class="nav navbar-nav nav-justified">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#historico">Parque</a></li>
+                <li><a href="#infraestrutura">Infra-Estrutura</a></li>
+                <li><a href="#esportes">Esportes</a></li>
+                <!--                <li><a href="--><? // echo site_url(array(
+                //                        'login',
+                //                        'viewAtrativos'
+                //                    )) ?><!--">Atrativos</a></li>-->
+                <li><a href="#atividade">Atividades Desenvolvidas</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <!--                <li><a href="--><? // echo site_url(array(
+                //                        'login',
+                //                        'viewnoticias'
+                //                    )) ?><!--">Noticias</a></li>-->
+                <li><a href="<? echo site_url(array(
+                        'login',
+                        'fazerlogin'
+                    )) ?>">Acesso Restrito</a></li>
+            </ul>
+        </div>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
-</nav><!--main-nav-end-->
+</nav>
+
+
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
-    <div class="container text-left wow fadeInUp delay-03s" id="box-toggle">
+    <div class="container text-left wow fadeInUp delay-02s" id="box-toggle">
         <h2>Histórico</h2>
 
-        <p>Contido na Área de Proteção Ambiental Estadual da Cachoeira das Andorinhas, foi criado pela
-            Lei nº 390 de 30 de dezembro de 1968 para preservar os recursos naturais da região e a nascente
-            do Rio das Velhas. Atualmente, possui uma área de 557,9 ha. O ponto central e o principal
-            atrativo é a Cachoeira que dá o nome ao Parque. Nessa região iniciou-se o Ciclo do Ouro das
-            Minas Gerais, referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
-            originou a cidade de Ouro Preto. Daí sua importância cultural e histórica.</p>  <br>
-
+        <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção Ambiental (APA) com 558 ha
+            de extensão, criada em 1968 com o intuito de preservar os recursos naturais da região e sua exuberante
+            beleza natural. O parque conta com vários atrativos turísticos naturais, como a Cachoeira das Andorinhas,
+            que deu nome ao parque; o mirante da Pedra do Jacaré de magnífica beleza cênica; trilhas de vários níveis de
+            dificuldade onde é possível observar de perto encantadoras fauna e flora nativas. Além disso, o parque
+            abriga a cabeceira do rio das Velhas, afluente do rio São Francisco de grande importância para grande parte
+            do Brasil, o que torna intensifica a relevância da preservação ambiental desta área. O PNMA apresenta também
+            um grande valor cultural e histórico, pois nesta área se iniciaram os primeiros caminhos percorridos pelos
+            bandeirantes que deram início ao Ciclo do Ouro das Minas Gerais.</p>  <br>
 
         <div class="collapse" id="collapsExemplo">
+
+            <div id="imghistorico">
+                <img src="<? echo base_url() . IMG_SITE ?>site-historico.png" alt="">
+            </div>
+
             <p>O Parque visa à preservação do seu alto valor biológico, turístico, histórico e de nascentes
                 formadoras do Rio das Velhas, importante sub-bacia do Rio São Francisco, que contribui
                 significativamente para a qualidade de vida da população, na manutenção da permeabilidade do
@@ -75,11 +114,8 @@
     <div class="container">
         <h2>Infra-Estrutura</h2>
         <h6>O parque oferece.</h6>
-        <!--        <figure class="col-lg-4 col-sm-9 wow fadeInUp delay-02s">-->
-        <!--            <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
-        <!--        </figure>-->
         <div class="row">
-            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
@@ -95,7 +131,7 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Área de Lazer</h3>
-                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                        <p>1 campo de futebol, 1 quadra de areia, 1 quadra poliesportiva .</p>
                     </div>
                 </div>
                 <div class="service-list">
@@ -104,16 +140,8 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Portaria</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'flaldario.ico') ?>" height="50px"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Fraldário</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                        <p>Ocupada por guarda-parques e vigias noturnos para garantir a segurança dos <br> visitantes
+                            além de funcionar com um ponto de informações turísticas.</p>
                     </div>
                 </div>
             </div>
@@ -125,32 +153,35 @@
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'bike.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
-                        <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+                        <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um destaque
+                            especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive acentuado,
+                            perfeito para a prática de downhill.</p>
                     </div>
                 </div>
+                <!--                <div class="service-list">-->
+                <!--                    <div class="service-list-col1">-->
+                <!--                        <img src="--><? // echo base_url(ICONE . 'rapel.ico') ?><!--"/>-->
+                <!--                    </div>-->
+                <!--                    <div class="service-list-col2">-->
+                <!--                        <h3>Rapel</h3>-->
+                <!--                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>-->
+                <!--                    </div>-->
+                <!--                </div>-->
                 <div class="service-list">
-                    <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'rapel.ico') ?>"/>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>Rapel</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
+                    <div class="service-list-col1 img">
                         <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Caminhada</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                        <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,
+                            classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>
                     </div>
                 </div>
                 <div class="service-list">
@@ -159,7 +190,7 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+                        <p>Há três setores de escalada, cada um com sua dificuldade e modalidades específicas.</p>
                     </div>
                 </div>
             </div>
@@ -168,17 +199,23 @@
                 <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
         </div>
+        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg wow fadeInLeft delay-05s"
+                onclick="window.location='<? echo site_url(array(
+                    'login',
+                    'viewAtrativos'
+                )) ?>'"
+                data-toggle="collapse" data-target="#collapsExemplo">Ler
+            <i class="fa fa-plus"
+               aria-hidden="true"></i>
+        </button>
     </div>
 </section><!--main-section-end-->
-<section class="main-section" id="atividade"><!--main-section-start-->
+<section class="main-section atividade" id="atividade"><!--main-section-start-->
     <div class="container">
         <h2>Atividades Desenvolvidas</h2>
         <h6>O parque oferece.</h6>
-        <figure class="col-lg-4 col-sm-6  text-left wow fadeInUp delay-02s">
-            <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
-        </figure>
         <div class="row">
-            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-05s" style="float: right">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
@@ -217,85 +254,28 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section><!--main-section-end-->
-<section class="main-section-carousel" id="fotos"><!--main-section-start-->
+<section id="fotos" class="main-section-carousel"><!--main-section-start-->
     <h2>Fotos</h2>
-    <div class="wrapper">
-        <ul id="sb-slider" class="sb-slider">
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/>
-                <div class="sb-description">
-                    <h3>Creative Lifesaver</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/>
-                <div class="sb-description">
-                    <h3>Honest Entertainer</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image1"/>
-                <div class="sb-description">
-                    <h3>Brave Astronaut</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Affectionate Decision Maker</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Faithful Investor</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Groundbreaking Artist</h3>
-                </div>
-            </li>
-            <li>
-                <img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>"
-                     alt="image1"/>
-                <div class="sb-description">
-                    <h3>Selfless Philantropist</h3>
-                </div>
-            </li>
+    <div class="aux">
+        <ul class="pgwSlideshowLight">
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image3"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="image4"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>" alt="image5"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>" alt="image6"/></li>
+            <li><img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>" alt="image7"/></li>
         </ul>
-
-        <div id="shadow" class="shadow"></div>
-
-        <div id="nav-arrows" class="nav-arrows">
-            <a href="#">Next</a>
-            <a href="#">Previous</a>
-        </div>
-
-        <div id="nav-dots" class="nav-dots">
-            <span class="nav-dot-current"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-    </div><!-- /wrapper -->
-
+    </div>
 
 </section><!--main-section-end-->
 <section class="main-section" id="localizacao"><!--main-section-start-->
     <div class="container">
         <h2>Localização</h2>
-        <iframe class=" text-left wow fadeInUp delay-06s"
+        <iframe class=" text-left wow fadeInUp delay-02s"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1JFdIPLpp43YDDGb40JBpMvjJmXU"
                 width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -314,29 +294,29 @@
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
                 <div class="contact-info-box address clearfix">
                     <h3><i class=" icon-map-marker"></i>Endereço:</h3>
-                    <span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
+                    <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                     <h3><i class="fa-phone"></i>Telefone:</h3>
-                    <span>1-800-BOO-YAHH</span>
+                    <span>(31) 9 7163 04 84 </span>
                 </div>
                 <div class="contact-info-box email clearfix">
                     <h3><i class="fa-pencil"></i>email:</h3>
-                    <span>hello@knightstudios.com</span>
+                    <span>pnma@gorceix.org.br</span>
                 </div>
                 <div class="contact-info-box hours clearfix">
-                    <h3><i class="fa-clock-o"></i>Hours:</h3>
-                    <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+                    <h3><i class="fa-clock-o"></i>Horário:</h3>
+                    <span><strong>Diaramente:</strong> 07:30 - 18:30.<br></span>
                 </div>
-                <!--                <ul class="social-link">-->
-                <!--                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
-                <!--                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
-                <!--                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
-                <!--                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
-                <!--                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
-                <!--                </ul>-->
+                <!--                                <ul class="social-link">-->
+                <!--                                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
+                <!--                                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
+                <!--                                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>-->
+                <!--                                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>-->
+                <!--                                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
+                <!--                                </ul>-->
             </div>
-            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-02s">
                 <div class="form">
                     <input class="input-text" type="text" name="" value="Seu Nome *"
                            onfocus="if(this.value==this.defaultValue)this.value='';"
@@ -349,28 +329,49 @@
                               onblur="if(this.value=='')this.value=this.defaultValue;">Sua Mensagem *</textarea>
                     <input class="input-btn" type="submit" value="Enviar Mensagem">
                 </div>
+
+                <!--                --><? //
+                //                echo form_open();
+                //
+                //
+                //                ?>
+
             </div>
         </div>
     </section>
 </div>
 <footer class="footer">
-    <div class="container">
-        <p style="text-align: center"><? echo anchor('http://www.gorceixonline.com.br', 'Fundação Gorceix', array('target' => '_blank')) ?></p>
-    </div>
+    <figure>
+        <?
+        $site_fundacao = 'http://www.gorceixonline.com.br';
+        $site_demam = 'http://www.gorceixonline.com.br/demam';
+        $img_fundacao = array(
+            'src' => base_url() . ICONE . "fg.png",
+            'alt' => 'logo da fundação gorceix'
+        );
+        $img_demam = array(
+            'src' => base_url() . ICONE . "demam.png",
+            'alt' => 'logo do departamento de meio ambiente'
+        );
+        echo anchor($site_fundacao, img($img_fundacao), array('target' => '_blank'));
+        echo anchor($site_demam, img($img_demam), array('target' => '_blank'));
+        ?>
+    </figure>
 </footer>
 
-
-<script type="text/javascript">
-    $(document).ready(function (e) {
-        $('#test').scrollToFixed();
-        $('.res-nav_click').click(function () {
-            $('.main-nav').slideToggle();
-            return false
-
+<script>
+    $(document).ready(function () {
+        var nav = $('#menu-header');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 421) {
+                nav.addClass("menu-fixo");
+            } else {
+                nav.removeClass("menu-fixo");
+            }
         });
-
     });
 </script>
+
 <script type="text/javascript">
     wow = new WOW(
         {
@@ -465,14 +466,20 @@
 
     }
 
-//    $(function () {
-//        $("a").click(function (event) {
-//            event.preventDefault();
-//            var idElemento = $(this).attr("href");
-//            var deslocamento = $(idElemento).offset().top;
-//            $('html, body').animate({scrollTop: deslocamento}, 'slow');
-//        });
-//    });
+    //    $(function () {
+    //        $("a").click(function (event) {
+    //            event.preventDefault();
+    //            var idElemento = $(this).attr("href");
+    //            var deslocamento = $(idElemento).offset().top;
+    //            $('html, body').animate({scrollTop: deslocamento}, 'slow');
+    //        });
+    //    });
 
+    $(document).ready(function () {
+        var pgwSlideshow = $('.pgwSlideshowLight').pgwSlideshow();
+        pgwSlideshow.startSlide();
+        pgwSlideshow.displayList(false);
+
+    });
 </script>
 

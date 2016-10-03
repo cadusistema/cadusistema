@@ -30,6 +30,7 @@ class HomeSistema extends CI_Controller {
 
         $join = "inner join activitiesofinformation on authorizationResearch.activitiesofinformationid = activitiesofinformation.activitiesofinformationid";
         $autorizacaoDetalhe = AuthorizationResearch::all(array('joins' => $join));
+
         echo '<pre>';
         print_r($autorizacaoDetalhe);
         echo '</pre>';

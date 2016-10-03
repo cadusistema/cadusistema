@@ -21,6 +21,7 @@ Class Login extends CI_Controller {
      * Função para carregar a view de login
      */
     public function fazerlogin() {
+//        $this->layout = 'layoutSistema';
         $this->load->view('site/login_view');
     }
 
@@ -30,6 +31,23 @@ Class Login extends CI_Controller {
     public function criarConta() {
         $this->load->view('site/criarconta');
     }
+
+    /**
+     * funçao para carregar view atrativos
+     */
+    public function viewAtrativos(){
+        $this->layout = 'layoutSite';
+        $this->load->view('site/atrativos');
+    }
+
+    /**
+     * funçao para carregar a view noticias
+     */
+    public function viewNoticias(){
+        $this->layout = 'layoutSite';
+        $this->load->view('site/noticias');
+    }
+    
 
     /*
      * Função para efetuar o login
@@ -86,11 +104,11 @@ Class Login extends CI_Controller {
      * Função para enviar email ao novo usuario
      */
     public function enviarEmail() {
-        $this->email->from('voce@seu-site.com', 'Seu Nome');
-        $this->email->to('alguem@algum-site.com');
-        $this->email->cc('outro@outro-site.com');
-        $this->email->bcc('fulano@qualquer-site.com');
-        $this->email->subject('Teste de Email');
+        $this->email->from('fabio.jose.mendonca@gmail.com', 'Fábio');
+        $this->email->to('fabio.jose.mendonca@gmail.com');
+//        $this->email->cc('outro@outro-site.com');
+//        $this->email->bcc('fulano@qualquer-site.com');
+        $this->email->subject('Teste de Email 32');
         $this->email->message('Testando a classe de email.');
         $this->email->send();
     }

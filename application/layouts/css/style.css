@@ -70,7 +70,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    /*color: #888888;*/
     margin: 0;
 }
 
@@ -113,7 +113,8 @@ p {
 .header {
     text-align: center;
     /*background: url(../img_site/img.jpg) no-repeat center scroll;*/
-    padding: 350px 0;
+    padding: 0px 0;
+    /*background-color: #696969;*/
 }
 
 .header h1 {
@@ -156,12 +157,18 @@ p {
 
 /* Navigation
 ---------------------------------*/
+
+nav, .nav {
+    width: 100%;
+    /*background-color: #696969;*/
+}
+
 .main-nav-outer {
     padding: 0px;
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 4px 5px -3px #ececec;
-    position: relative;
-    background: #BDBDBD;
+    /*position: relative;*/
+    background: #696969;
 
 }
 
@@ -195,12 +202,23 @@ p {
     color: #7cc576;
 }
 
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
 .small-logo {
     padding: 0 32px;
 }
 
 .main-section {
     padding: 90px 0 110px;
+}
+
+.main-section-atividade {
+    background: url(../img_site/vista.jpg);
+    background-size: cover;
 }
 
 /* Services
@@ -239,6 +257,12 @@ p {
 
 .main-section-carousel {
     background-color: #C8E6C9;
+}
+
+.aux {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .main-section.alabaster {
@@ -391,8 +415,9 @@ p {
 ---------------------------------*/
 
 .footer {
-    background: url(../img_site/pw_maze_black_2X.png) left top repeat;
-    padding: 35px 0 35px;
+    padding: 15px;
+    background-color: #d2dcd3;
+    text-align: center;
 }
 
 .footer-logo {
@@ -535,14 +560,53 @@ body, html {
 .botaoler {
     margin-left: 45%;
     margin-top: 10px;
-    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+    background-color: rgba(113, 195, 129, 0.7);
+
     /* Declaração para aparecer no Firefox */
-    -moz-border-radius: 10px;
+    -moz-border-radius: 20px;
     /* Para exibir nos outros navegadores como Chrome, safari, opera*/
-    -webkit-border-radius: 10px;
+    -webkit-border-radius: 20px;
 }
 
 .portaria {
     background: url("../img_site/portaria.jpg") no-repeat center;
-    background-size: 100%;
+    width: auto;
+    height: auto;
+
+    background-size: cover;
+}
+
+/*.pgwSlideshow .ps-current > ul > li img{*/
+/*max-width:50%;*/
+/*}*/
+.carousel-top > ul > li > img {
+    max-width: 50%;
+}
+
+/*img ler+*/
+#imghistorico {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*configuração para mobile*/
+.navbar-nav{
+    margin: 0;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+.atividade{
+    background: url("../img_site/atividade.png") no-repeat center;
+    width: auto;
+    height: auto;
+    background-size: cover;
 }
