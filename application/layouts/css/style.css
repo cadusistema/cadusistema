@@ -610,3 +610,6 @@ body, html {
     height: auto;
     background-size: cover;
 }
+ul{
+    padding: 0;
+}
