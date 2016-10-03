@@ -29,7 +29,7 @@
 
     </header><!--header-end-->
 </div>
-<nav class="navbar navbar-inverse" id="menu-header"><!--main-nav-start-->
+<nav class="navbar-nav navbar-inverse" id="menu-header"><!--main-nav-start-->
     <div class="container-fluid ">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -41,7 +41,7 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="menu-site">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav nav-justified">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#historico">Parque</a></li>
                 <li><a href="#infraestrutura">Infra-Estrutura</a></li>

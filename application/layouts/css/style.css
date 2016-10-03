@@ -597,6 +597,13 @@ body, html {
     margin: 0;
 }
 
+.navbar-nav>li {
+    float: none;
+}
+.navbar {
+    border-radius: 0px;
+}
+
 .atividade{
     background: url("../img_site/atividade.png") no-repeat center;
     width: auto;
