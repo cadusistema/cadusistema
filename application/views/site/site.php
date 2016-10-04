@@ -196,28 +196,42 @@
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
                     </div>
                     <div class="service-list-col2">
-                        <i class="fa fa-check" aria-hidden="true"><h3>Centro Administrativo</h3></i>
-                        <p>Centro Administrativo conta com dois vestiários.</p>
+                        <h3>Educação Ambiental</h3>
+                        <p>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma
+                            lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,
+                            sustentabilidade e educação patrimonial.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
                     </div>
                     <div class="service-list-col2">
-                        <h3>Área de Lazer</h3>
-                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                        <h3>Gerenciamento de resíduos sólidos</h3>
+                        <p>Está em elaboração um plano de gerenciamento de resíduos gerados no PNMA, que inclui a
+                            avaliação dos detritos, segregação, manejo e coleta seletiva, treinamento dos guardas do
+                            parque, abordagem e educação ambiental aos visitantes, ações de limpeza e conservação.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
+
+                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
                     </div>
                     <div class="service-list-col2">
-                        <h3>Portaria</h3>
+                        <h3>Programa de visitação</h3>
+                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Combate a incêndios</h3>
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
                     </div>
                 </div>
