@@ -424,6 +424,9 @@ nav, .nav {
     margin: 15px auto 35px;
     width: 76px;
 }
+.footer-img{
+    padding: 5px;
+}
 
 .copyright {
     color: #cccccc;

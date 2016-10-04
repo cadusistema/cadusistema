@@ -325,6 +325,8 @@
         <?
         $site_fundacao = 'http://www.gorceixonline.com.br';
         $site_demam = 'http://www.gorceixonline.com.br/demam';
+        $site_prefeitura ='http://www.ouropreto.mg.gov.br/';
+
         $img_fundacao = array(
             'src' => base_url() . ICONE . "fg.png",
             'alt' => 'logo da fundação gorceix'
@@ -333,8 +335,13 @@
             'src' => base_url() . ICONE . "demam.png",
             'alt' => 'logo do departamento de meio ambiente'
         );
-        echo anchor($site_fundacao, img($img_fundacao), array('target' => '_blank'));
-        echo anchor($site_demam, img($img_demam), array('target' => '_blank'));
+        $img_pm = array(
+            'src' => base_url() . ICONE . "logopm.png",
+            'alt' => 'logo da prefeitura municipal de ouro preto'
+        );
+        echo anchor($site_prefeitura, img($img_pm), array('target' => '_blank','class'=>'footer-img'));
+        echo anchor($site_fundacao, img($img_fundacao), array('target' => '_blank','class'=>'footer-img'));
+        echo anchor($site_demam, img($img_demam), array('target' => '_blank','class'=>'footer-img'));
         ?>
     </figure>
 </footer>
