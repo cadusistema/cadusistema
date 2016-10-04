@@ -58,7 +58,7 @@
 
 <section class="main-section paddind" id="historico"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-02s" id="box-toggle">
-        <h2>Histórico</h2>
+        <h2>O Parque</h2>
 
         <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção Ambiental (APA) com 558 ha
             de extensão, criada em 1968 com o intuito de preservar os recursos naturais da região e sua exuberante
