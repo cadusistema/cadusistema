@@ -192,37 +192,37 @@
     <div class="container">
         <h2>Atividades Desenvolvidas</h2>
         <h6>O parque oferece.</h6>
-<!--        <div class="row">-->
-<!--            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">-->
-<!--                <div class="service-list">-->
-<!--                    <div class="service-list-col1">-->
-<!--                        <img src="--><?// echo base_url(ICONE . 'administracao.ico') ?><!--" height="55px"/>-->
-<!--                    </div>-->
-<!--                    <div class="service-list-col2">-->
-<!--                        <h3>Centro Administrativo</h3>-->
-<!--                        <p>Centro Administrativo conta com dois vestiários.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="service-list">-->
-<!--                    <div class="service-list-col1">-->
-<!--                        <img src="--><?// echo base_url(ICONE . 'areasports.ico') ?><!--"/>-->
-<!--                    </div>-->
-<!--                    <div class="service-list-col2">-->
-<!--                        <h3>Área de Lazer</h3>-->
-<!--                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="service-list">-->
-<!--                    <div class="service-list-col1">-->
-<!--                        <img src="--><?// echo base_url(ICONE . 'ordonance.ico') ?><!--"/>-->
-<!--                    </div>-->
-<!--                    <div class="service-list-col2">-->
-<!--                        <h3>Portaria</h3>-->
-<!--                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="row">
+            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <i class="fa fa-check" aria-hidden="true"><h3>Centro Administrativo</h3></i>
+                        <p>Centro Administrativo conta com dois vestiários.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Área de Lazer</h3>
+                        <p>1 campo de futebol,1quadra de areia,1 quadra poliesportiva .</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Portaria</h3>
+                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </section><!--main-section-end-->
@@ -325,8 +325,7 @@
         <?
         $site_fundacao = 'http://www.gorceixonline.com.br';
         $site_demam = 'http://www.gorceixonline.com.br/demam';
-        $site_prefeitura ='http://www.ouropreto.mg.gov.br/';
-
+        $site_prefeitura = 'http://www.ouropreto.mg.gov.br/';
         $img_fundacao = array(
             'src' => base_url() . ICONE . "fg.png",
             'alt' => 'logo da fundação gorceix'
@@ -339,9 +338,18 @@
             'src' => base_url() . ICONE . "logopm.png",
             'alt' => 'logo da prefeitura municipal de ouro preto'
         );
-        echo anchor($site_prefeitura, img($img_pm), array('target' => '_blank','class'=>'footer-img'));
-        echo anchor($site_fundacao, img($img_fundacao), array('target' => '_blank','class'=>'footer-img'));
-        echo anchor($site_demam, img($img_demam), array('target' => '_blank','class'=>'footer-img'));
+        echo anchor($site_prefeitura, img($img_pm), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
+        echo anchor($site_fundacao, img($img_fundacao), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
+        echo anchor($site_demam, img($img_demam), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
         ?>
     </figure>
 </footer>
