@@ -13,12 +13,12 @@ if (!defined('BASEPATH'))
 | -------------------------------------------------------------------
 | Configuration of outgoing mail server.
 | */
-$config['protocol'] = 'smtp';
-$config['smtp_host'] = 'ssl://smtp.googlemail.com';
-$config['smtp_port'] = '465';
+$config['protocol'] = 'pop';
+$config['smtp_host'] = 'email-ssl.com.br';
+$config['smtp_port'] = '110';
 $config['smtp_timeout'] = '60';
-$config['smtp_user'] = 'testesiteop';
-$config['smtp_pass'] = 'teste1234';
+$config['smtp_user'] = 'contato.pnma';
+$config['smtp_pass'] = 'gx@pnma1';
 $config['charset'] = 'utf-8';
 $config['newline'] = "\r\n";
 $config['mailtype'] = 'html';
