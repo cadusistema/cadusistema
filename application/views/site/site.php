@@ -105,7 +105,7 @@
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" height="55px"/>
+                        <img src="<? echo base_url() . ICONE ?>administracao.ico" height="55px"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Centro Administrativo</h3>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>"/>
+                        <img src="<? echo base_url() . ICONE ?>areasports.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Área de Lazer</h3>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>"/>
+                        <img src="<? echo base_url() . ICONE ?>ordonance.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Portaria</h3>
@@ -245,7 +245,7 @@
 </section><!--main-section-end-->
 <section id="fotos" class="main-section carousel"><!--main-section-start-->
     <h2>Fotos</h2>
-    <div class="aux">
+    <div class="aux wow fadeInRight delay-02s">
         <ul class="pgwSlideshowLight">
             <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
             <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
