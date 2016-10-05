@@ -478,14 +478,14 @@
 
     }
 
-    //    $(function () {
-    //        $("a").click(function (event) {
-    //            event.preventDefault();
-    //            var idElemento = $(this).attr("href");
-    //            var deslocamento = $(idElemento).offset().top;
-    //            $('html, body').animate({scrollTop: deslocamento}, 'slow');
-    //        });
-    //    });
+//    $(function () {
+//        $("a").click(function (event) {
+//            event.preventDefault();
+//            var idElemento = $(this).attr("href");
+//            var deslocamento = $(idElemento).offset().top;
+//            $('html, body').animate({scrollTop: deslocamento}, 'slow');
+//        });
+//    });
 
     $(document).ready(function () {
         var pgwSlideshow = $('.pgwSlideshowLight').pgwSlideshow();
