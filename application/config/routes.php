@@ -52,7 +52,7 @@ $route['default_controller'] = 'inicio';
 //$route['default_controller'] = 'testerdb';
 //$route['default_controller'] = 'login/fazerlogin';
 
-//$route['HomeSistema/Autorizacao/salvaAutorizacaoDB'] = 'Autorizacao/salvaAutorizacaoDB';
+
 
 
 $route['404_override'] = '';
