@@ -100,7 +100,7 @@
 <section class="main-section portaria" id="infraestrutura"><!--main-section-start-->
     <div class="container">
         <h2>Infra-Estrutura</h2>
-        <h6>O parque oferece.</h6>
+        <h6>O parque tem.</h6>
         <div class="row">
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
@@ -135,7 +135,7 @@
         </div>
     </div>
 </section><!--main-section-end-->
-<section class="main-section-esporte" id="esportes"><!--main-section-start-->
+<section class="main-section esporte" id="esportes"><!--main-section-start-->
     <div class="container">
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
@@ -191,7 +191,7 @@
 <section class="main-section atividade" id="atividade"><!--main-section-start-->
     <div class="container">
         <h2>Atividades Desenvolvidas</h2>
-        <h6>O parque oferece.</h6>
+        <h6>O parque desenvolve.</h6>
         <div class="row">
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
@@ -211,19 +211,20 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Gerenciamento de resíduos sólidos</h3>
-                        <p>Está em elaboração um plano de gerenciamento de resíduos gerados no PNMA, que inclui a
-                            avaliação dos detritos, segregação, manejo e coleta seletiva, treinamento dos guardas do
+                        <p>Está em elaboração um plano de gerenciamento de resíduos gerados pelo parque, incluindo a
+                            avaliação dos detritos, segregação, manejo, coleta seletiva, treinamento dos guardas do
                             parque, abordagem e educação ambiental aos visitantes, ações de limpeza e conservação.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-
                         <img src="<? echo base_url() . ICONE ?>check.ico""/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Programa de visitação</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                        <p>Esta ação visa informar melhor o visitante sobre pontos turísticos, trilhas e atividades
+                            esportivas que podem ser realizadas no parque. As atividades de classificação de trilhas são
+                            realizadas conforme a ABNT NBR 15505-2/2008.</p>
                     </div>
                 </div>
                 <div class="service-list">
@@ -232,7 +233,9 @@
                     </div>
                     <div class="service-list-col2">
                         <h3>Combate a incêndios</h3>
-                        <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                        <p>Diariamente são realizadas vistorias no parque para identificação de focos de incêndio e sua
+                            extinção. Abordagens e palestras serão realizadas para os moradores nos bairros limítrofes,
+                            promovendo a educação patrimonial.</p>
                     </div>
                 </div>
             </div>
@@ -240,7 +243,7 @@
 
     </div>
 </section><!--main-section-end-->
-<section id="fotos" class="main-section-carousel"><!--main-section-start-->
+<section id="fotos" class="main-section carousel"><!--main-section-start-->
     <h2>Fotos</h2>
     <div class="aux">
         <ul class="pgwSlideshowLight">

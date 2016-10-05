@@ -14,11 +14,11 @@ if (!defined('BASEPATH'))
 | Configuration of outgoing mail server.
 | */
 $config['protocol'] = 'pop';
-$config['smtp_host'] = 'email-ssl.com.br';
-$config['smtp_port'] = '110';
-$config['smtp_timeout'] = '60';
-$config['smtp_user'] = 'contato.pnma';
-$config['smtp_pass'] = 'gx@pnma1';
+$config['pop_host'] = 'email-ssl.com.br';
+$config['pop_port'] = '110';
+$config['pop_timeout'] = '60';
+$config['pop_user'] = 'contato.pnma';
+$config['pop_pass'] = 'gx@pnma1';
 $config['charset'] = 'utf-8';
 $config['newline'] = "\r\n";
 $config['mailtype'] = 'html';

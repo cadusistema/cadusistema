@@ -250,12 +250,12 @@ nav, .nav {
     overflow: hidden;
 }
 
-.main-section-esporte {
+.esporte {
     background-color: #C8E6C9;
     /*background: url("../img_site/fundoverde.jpg");*/
 }
 
-.main-section-carousel {
+.carousel {
     background-color: #C8E6C9;
 }
 
