@@ -94,3 +94,6 @@ define('JSPATHADMIN','application/layouts/js/admin/');
 define('INCLUDEPATH','application/layouts/includes/');
 //diretorio CSS
 define('CSS','application/layouts/css/');
+
+//diretorio img_atrativos
+define('IMG_ATRATIVOS',IMG_SITE.'img_atrativos/');
