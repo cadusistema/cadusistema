@@ -616,3 +616,14 @@ body, html {
 ul{
     padding: 0;
 }
+
+.atrativos{
+
+    background-color: #FCEEC7;
+}
+.atrativos div{
+    padding: 10px;
+}
+.atrativos h2{
+    padding-top: 80px;
+}
