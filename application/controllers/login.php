@@ -37,8 +37,15 @@ Class Login extends CI_Controller {
      */
     public function viewAtrativos() {
         $this->layout = 'layoutSite';
+//        $this->load->view('site/atrativos');
+        redirect('atrativos');
+    }
+
+    public function carregaview(){
+        $this->layout = 'layoutSite';
         $this->load->view('site/atrativos');
     }
+
 
     /**
      * funçao para carregar a view noticias
