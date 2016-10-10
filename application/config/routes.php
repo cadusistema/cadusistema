@@ -53,6 +53,9 @@ $route['default_controller'] = 'inicio';
 //$route['default_controller'] = 'login/fazerlogin';
 
 
+$route['atrativos'] = "login/viewAtrativos";
+
+
 
 
 $route['404_override'] = '';

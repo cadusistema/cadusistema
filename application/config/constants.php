@@ -97,3 +97,6 @@ define('CSS','application/layouts/css/');
 
 //diretorio img_atrativos
 define('IMG_ATRATIVOS',IMG_SITE.'img_atrativos/');
+
+define('LAYOUTPATH', $application_folder . '/layouts/');
+define('CSSPATH',LAYOUTPATH.'css/');
