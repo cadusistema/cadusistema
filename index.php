@@ -251,10 +251,5 @@ define('VIEWPATH', $view_folder . DIRECTORY_SEPARATOR);
 |
 */
 define('EXT', '.php');
-//define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
-//define('FCPATH', str_replace(SELF, '', __FILE__));
-//define('BASEPATH', $system_folder . '/');
-//define('LAYOUTPATH', $application_folder . '/layouts/');
-//define('JSPATH', $application_folder . '/layouts/js/');
-//define('CSSPATH',LAYOUTPATH.'css/');
+
 require_once BASEPATH . 'core/CodeIgniter.php';

@@ -55,7 +55,7 @@ $route['default_controller'] = 'inicio';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
-$route['atrativos'] = 'login/carregaview';
+$route['maisesportes'] = 'login/carregaview';
 
 //$route['admin'] = 'Login/login';
 
