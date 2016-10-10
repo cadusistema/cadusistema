@@ -51,13 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'inicio';
 //$route['default_controller'] = 'testerdb';
 //$route['default_controller'] = 'login/fazerlogin';
-
-
-$route['atrativos'] = "login/viewAtrativos";
-
-
-
-
+//$route['atrativos'] = "login/viewAtrativos";
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 //$route['admin'] = 'Login/login';
