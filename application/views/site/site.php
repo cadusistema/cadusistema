@@ -119,7 +119,7 @@
                 <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
             </figure>
         </div>
-        <button id="lermais" type="button" class=" botaoler btn  btn-success btn-lg wow fadeInLeft delay-05s"
+        <button id="lermais" type="button" class=" botaoler btn btn-success btn-lg wow fadeInLeft delay-05s"
                 onclick="window.location='<? echo site_url(array(
                     'login',
                     'viewAtrativos'

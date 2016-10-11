@@ -41,6 +41,7 @@ Class Login extends CI_Controller {
 
     public function carregaview(){
         $this->layout = 'layoutSite';
+        $this->title = 'Parque das Andorinhas';
         $this->load->view('site/atrativos');
     }
 
