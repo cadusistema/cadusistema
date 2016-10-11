@@ -17,6 +17,7 @@ class Autorizacao extends CI_Controller {
 
     public function salvaAutorizacaoDB() {
 //        TODO capturar o formulario e fazer os devidos tratamentos do formulario. Dividir em dois processo: Com membros adicionais e sem membros adicionais
+//        TODO salvar o tipo de atividade no banco de dados.
         $dadosForm = $this->input->post();
         if (isset($dadosForm['namemember'])) {
             $total = count($dadosForm['namemember']);

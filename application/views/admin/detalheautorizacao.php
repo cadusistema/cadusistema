@@ -9,8 +9,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 echo '<pre>';
 print_r($autorizacaoDetalhe);
 echo '</pre>';
-
-
 ?>
 
     <div class="field form-group">
@@ -43,10 +41,10 @@ echo '</pre>';
 
 
         <? echo form_input(array(
-            "id"    => "title",
-            "name"  => "title",
-            "class" => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->title,
+            "id"       => "title",
+            "name"     => "title",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->title,
             'readonly' => 'readonly'
         )); ?>
     </div>
@@ -54,10 +52,10 @@ echo '</pre>';
         <?
         echo form_label("Instituição*", 'institution'); ?>
         <? echo form_input(array(
-            "id"          => "institution",
-            "name"        => "institution",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->institution,
+            "id"       => "institution",
+            "name"     => "institution",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->institution,
             'readonly' => 'readonly'
         )); ?>
     </div>
@@ -65,10 +63,10 @@ echo '</pre>';
         <?
         echo form_label("Responsável*", 'responsible'); ?>
         <? echo form_input(array(
-            "id"          => "responsible",
-            "name"        => "responsible",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->responsible,
+            "id"       => "responsible",
+            "name"     => "responsible",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->responsible,
             'readonly' => 'readonly'
         ));
         ?>
@@ -77,10 +75,10 @@ echo '</pre>';
         <?
         echo form_label("CPF*", 'cpf'); ?>
         <? echo form_input(array(
-            "id"          => "cpf",
-            "name"        => "cpf",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->cpf,
+            "id"       => "cpf",
+            "name"     => "cpf",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->cpf,
             'readonly' => 'readonly'
         ));
         ?>
@@ -89,10 +87,10 @@ echo '</pre>';
         <?
         echo form_label("Endereço*", 'address'); ?>
         <? echo form_input(array(
-            "id"          => "address",
-            "name"        => "address",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->address,
+            "id"       => "address",
+            "name"     => "address",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->address,
             'readonly' => 'readonly'
         ));
         ?>
@@ -101,10 +99,10 @@ echo '</pre>';
         <?
         echo form_label("Número / Km"); ?>
         <? echo form_input(array(
-            "id"          => "number",
-            "name"        => "number",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->number,
+            "id"       => "number",
+            "name"     => "number",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->number,
             'readonly' => 'readonly'
         ));
         ?>
@@ -113,10 +111,10 @@ echo '</pre>';
         <?
         echo form_label("Bairro*", 'neighborhood'); ?>
         <? echo form_input(array(
-            "id"          => "neighborhood",
-            "name"        => "neighborhood",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->neighborhood,
+            "id"       => "neighborhood",
+            "name"     => "neighborhood",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->neighborhood,
             'readonly' => 'readonly'
         ));
         ?>
@@ -125,10 +123,10 @@ echo '</pre>';
         <?
         echo form_label("Complemento"); ?>
         <? echo form_input(array(
-            "id"          => "complement",
-            "name"        => "complement",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->complement,
+            "id"       => "complement",
+            "name"     => "complement",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->complement,
             'readonly' => 'readonly'
         ));
         ?>
@@ -137,10 +135,10 @@ echo '</pre>';
         <?
         echo form_label("Município*", 'city'); ?>
         <? echo form_input(array(
-            "id"          => "city",
-            "name"        => "city",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->city,
+            "id"       => "city",
+            "name"     => "city",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->city,
             'readonly' => 'readonly'
         ));
         ?>
@@ -150,10 +148,10 @@ echo '</pre>';
         //confirmar dispois
         echo form_label("UF*", 'uf'); ?>
         <? echo form_input(array(
-            "id"          => "state",
-            "name"        => "state",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->state,
+            "id"       => "state",
+            "name"     => "state",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->state,
             'readonly' => 'readonly'
         ));
         ?>
@@ -162,10 +160,10 @@ echo '</pre>';
         <?
         echo form_label("CEP*", 'zipecode'); ?>
         <? echo form_input(array(
-            "id"          => "zipcode",
-            "name"        => "zipcode",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->zipcode,
+            "id"       => "zipcode",
+            "name"     => "zipcode",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->zipcode,
             'readonly' => 'readonly'
         ));
         ?>
@@ -174,10 +172,10 @@ echo '</pre>';
         <?
         echo form_label("Telefone*:", 'phone'); ?>
         <? echo form_input(array(
-            "id"          => "phone",
-            "name"        => "phone",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->phone,
+            "id"       => "phone",
+            "name"     => "phone",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->phone,
             'readonly' => 'readonly'
         ));
         ?>
@@ -186,10 +184,10 @@ echo '</pre>';
         <?
         echo form_label("Celular:", 'cellphone'); ?>
         <? echo form_input(array(
-            "id"          => "cellphone",
-            "name"        => "cellphone",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->cellphone,
+            "id"       => "cellphone",
+            "name"     => "cellphone",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->cellphone,
             'readonly' => 'readonly'
         ));
         ?>
@@ -198,10 +196,10 @@ echo '</pre>';
         <?
         echo form_label("E-mail*:", 'email'); ?>
         <? echo form_input(array(
-            "id"          => "email",
-            "name"        => "email",
-            "class"       => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->email,
+            "id"       => "email",
+            "name"     => "email",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->email,
             'readonly' => 'readonly'
         ));
         ?>
@@ -209,20 +207,15 @@ echo '</pre>';
     <div id="teste"></div>
 
     <div class="field form-group">
-        <?echo form_label("Tipo de Atividade:", 'email'); ?>
+        <? echo form_label("Tipo de Atividade:", 'email'); ?>
         <? echo form_input(array(
-            "id"    => "title",
-            "name"  => "title",
-            "class" => "form-control input-sm",
-            'value' => $autorizacaoDetalhe->occupation,
+            "id"       => "title",
+            "name"     => "title",
+            "class"    => "form-control input-sm",
+            'value'    => $autorizacaoDetalhe->occupation,
             'readonly' => 'readonly'
         )); ?>
     </div>
 
-<? echo form_submit(array(
-    'id'    => 'submit',
-    'value' => 'Salva',
-    'class' => 'btn btn-primary'
-)); ?>
 
 <? echo form_close(); ?>
