@@ -123,18 +123,19 @@
         </div>
         <div class="collapse navbar-collapse" id="menu-site">
             <ul class="nav navbar-nav nav-justified">
-                <li><a href="/parque/#header">Home</a></li>
-                <li><a href="/parque/#historico">Parque</a></li>
-                <li><a href="/parque/#infraestrutura">Infra-Estrutura</a></li>
+                <li><a href="/parque/#header" rel="relativeanchor">Home</a></li>
+                <li><a href="/parque/#historico" rel="relativeanchor">Parque</a></li>
+                <li><a href="/parque/#infraestrutura" rel="relativeanchor">Infra-Estrutura</a></li>
                 <li><a href="/parque/#esportes">Esportes</a></li>
                 <!--                <li><a href="--><? // echo site_url(array(
                 //                        'login',
                 //                        'viewAtrativos'
                 //                    )) ?><!--">Atrativos</a></li>-->
-                <li><a href="/parque/#atividade">Atividades Desenvolvidas</a></li>
-                <li><a href="/parque/#fotos">Fotos</a></li>
-                <li><a href="/parque/#localizacao">Localização</a></li>
-                <li><a href="/parque/#contact">Contato</a></li>
+                <li><a href="/parque/#atividade" rel="relativeanchor">Atividades Desenvolvidas</a></li>
+                <li><a href="/parque/#atrativosturisticos" rel="relativeanchor">Atrativos Turisticos</a></li>
+                <li><a href="/parque/#fotos" rel="relativeanchor">Fotos</a></li>
+                <li><a href="/parque/#localizacao" rel="relativeanchor">Localização</a></li>
+                <li><a href="/parque/#contact" rel="relativeanchor">Contato</a></li>
                 <!--                <li><a href="--><? // echo site_url(array(
                 //                        'login',
                 //                        'viewnoticias'
@@ -278,7 +279,7 @@
     $(document).ready(function () {
         var pgwSlideshow = $('.pgwSlideshowLight').pgwSlideshow();
         pgwSlideshow.startSlide();
-        pgwSlideshow.displayList(false);
+        pgwSlideshow.displayList(true);
 
     });
 </script>
