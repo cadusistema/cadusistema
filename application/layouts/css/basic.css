@@ -138,3 +138,8 @@ em {
     display: none;
     cursor: pointer;
 }
+
+
+.panel-heading {
+    cursor: pointer;
+}

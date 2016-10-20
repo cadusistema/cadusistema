@@ -95,20 +95,20 @@
 </head>
 <body>
 <div style="overflow:hidden;">
-    <header class="header" id="header"><!--header-start-->
-        <div class="carousel-top">
-            <ul class="pgwSlideshowLight">
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '1.jpg') ?>" alt="image1"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="image2"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="image3"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="image4"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '5.jpg') ?>" alt="image5"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '6.jpg') ?>" alt="image6"/></li>
-                <li><img src="<? echo base_url(IMG_CAROUSEL . '7.jpg') ?>" alt="image7"/></li>
-            </ul>
-        </div>
-
-    </header><!--header-end-->
+<!--    <header class="header" id="header"><!--header-start-->
+<!--        <div class="carousel-top">-->
+<!--            <ul class="pgwSlideshowLight">-->
+<!--                <li><img src="--><?// echo base_url(IMG_SITE . 'bolder.jpg') ?><!--" alt="image1"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '2.jpg') ?><!--" alt="image2"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '3.jpg') ?><!--" alt="image3"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '4.jpg') ?><!--" alt="image4"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '5.jpg') ?><!--" alt="image5"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '6.jpg') ?><!--" alt="image6"/></li>-->
+<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '7.jpg') ?><!--" alt="image7"/></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!---->
+<!--    </header><!--header-end-->
 </div>
 <nav class="navbar-nav navbar-inverse" id="menu-header"><!--main-nav-start-->
     <div class="container-fluid ">

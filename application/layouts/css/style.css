@@ -251,8 +251,10 @@ nav, .nav {
 }
 
 .esporte {
-    background-color: #C8E6C9;
-    /*background: url("../img_site/fundoverde.jpg");*/
+    background: url("../img_site/bolder.jpg") no-repeat center;
+    width: auto;
+    height: auto;
+    background-size: cover;
 }
 
 .carousel {
@@ -424,7 +426,8 @@ nav, .nav {
     margin: 15px auto 35px;
     width: 76px;
 }
-.footer-img{
+
+.footer-img {
     padding: 5px;
 }
 
@@ -596,34 +599,65 @@ body, html {
 }
 
 /*configuração para mobile*/
-.navbar-nav{
+.navbar-nav {
     margin: 0;
 }
 
-.navbar-nav>li {
+.navbar-nav > li {
     float: none;
 }
+
 .navbar {
     border-radius: 0px;
 }
 
-.atividade{
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.atividade {
     background: url("../img_site/atividade.png") no-repeat center;
     width: auto;
     height: auto;
     background-size: cover;
 }
-ul{
+
+ul {
     padding: 0;
 }
 
-.atrativos{
+.atrativos {
 
     background-color: #FCEEC7;
 }
-.atrativos div{
+
+.atrativos div {
     padding: 10px;
 }
-.atrativos h2{
+
+.atrativos h2 {
     padding-top: 80px;
+}
+
+#atrativosturisticos {
+    /*background: url("../img_site/bolder.jpg") no-repeat center;*/
+    /*width: auto;*/
+    /*height: 85%;*/
+    /*background-size: cover;*/
+}
+
+#esportes h2 {
+    color: white;
+}
+
+#esportes h3 {
+    color: white;
+}
+
+#esportes p {
+    color: white;
+}
+
+#esportes h6 {
+    color: white;
 }

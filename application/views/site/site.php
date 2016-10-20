@@ -115,9 +115,9 @@
                 </div>
             </div>
 
-            <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">
-                <img src="<? echo base_url(IMG_SITE . 'imagemservico.jpg') ?>" alt="">
-            </figure>
+            <!--            <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">-->
+            <!--                <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
+            <!--            </figure>-->
         </div>
         <button id="lermais" type="button" class=" botaoler btn btn-success btn-lg wow fadeInLeft delay-05s"
                 onclick="window.location='<? echo site_url(array(
@@ -186,213 +186,113 @@
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="atrativosturisticos"><!--main-section-start-->
-    <div class="container">
+    <div class="container" style="position: relative;height: 500px">
         <h2>Atrativos Turísticos</h2>
-        <h6>O parque desenvolve.</h6>
-        <!--        <div class="row">-->
-        <!--            <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">-->
-        <!--                <div class="service-list">-->
-        <!--                    <div class="service-list-col1">-->
-        <!--                        <img src="--><? // echo base_url() . ICONE ?><!--check.ico""/>-->
-        <!--                    </div>-->
-        <!--                    <div class="service-list-col2">-->
-        <!--                        <h3>Educação Ambiental</h3>-->
-        <!--                        <p>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma-->
-        <!--                            lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,-->
-        <!--                            sustentabilidade e educação patrimonial.</p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--                <div class="service-list">-->
-        <!--                    <div class="service-list-col1">-->
-        <!--                        <img src="--><? // echo base_url() . ICONE ?><!--check.ico""/>-->
-        <!--                    </div>-->
-        <!--                    <div class="service-list-col2">-->
-        <!--                        <h3>Gerenciamento de resíduos sólidos</h3>-->
-        <!--                        <p>Está em elaboração um plano de gerenciamento de resíduos gerados pelo parque, incluindo a-->
-        <!--                            avaliação dos detritos, segregação, manejo, coleta seletiva, treinamento dos guardas do-->
-        <!--                            parque, abordagem e educação ambiental aos visitantes, ações de limpeza e conservação.</p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--                <div class="service-list">-->
-        <!--                    <div class="service-list-col1">-->
-        <!--                        <img src="--><? // echo base_url() . ICONE ?><!--check.ico""/>-->
-        <!--                    </div>-->
-        <!--                    <div class="service-list-col2">-->
-        <!--                        <h3>Programa de visitação</h3>-->
-        <!--                        <p>Esta ação visa informar melhor o visitante sobre pontos turísticos, trilhas e atividades-->
-        <!--                            esportivas que podem ser realizadas no parque. As atividades de classificação de trilhas são-->
-        <!--                            realizadas conforme a ABNT NBR 15505-2/2008.</p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--                <div class="service-list">-->
-        <!--                    <div class="service-list-col1">-->
-        <!--                        <img src="--><? // echo base_url() . ICONE ?><!--check.ico""/>-->
-        <!--                    </div>-->
-        <!--                    <div class="service-list-col2">-->
-        <!--                        <h3>Combate a incêndios</h3>-->
-        <!--                        <p>Diariamente são realizadas vistorias no parque para identificação de focos de incêndio e sua-->
-        <!--                            extinção. Abordagens e palestras serão realizadas para os moradores nos bairros limítrofes,-->
-        <!--                            promovendo a educação patrimonial.</p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <div class="row">
-            <div class="panel-group" id="accordion">
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+        <h6>O parque oferece.</h6>
+        <a href="javascript:void(0)" class="btn btn-primary" onclick="teste('link1')">Mirante</a>
+        <a href="javascript:void(0)" class="btn btn-success" onclick="teste('link2')">Cachoeiras</a>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: absolute; height:500px ">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+                <div class="item ">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                ...
             </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="row">
-            <div class="panel-group" id="accordion1">
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion1" data-target="#collapseOne1">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne1" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+        <div id="carousel-example-generic1" class="carousel slide  " data-ride="carousel" style="position: absolute; height:500px">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/4.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion1" data-target="#collapseTwo1">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo1" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/5.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion1" data-target="#collapseThree1">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree1" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+                <div class="item ">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/4.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
                     </div>
                 </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/5.jpg') ?>" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                ...
             </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="row">
-            <div class="panel-group" id="accordion2">
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion2" data-target="#collapseOne2">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"  data-toggle="collapse" data-parent="#accordion2" data-target="#collapseTwo2">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion2" data-target="#collapseThree2">
-                                <a class="accordion-toggle">
-                                    Collapsible Group Item #3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+
     </div>
 </section><!--main-section-end-->
 <section id="fotos" class="main-section carousel"><!--main-section-start-->
@@ -506,5 +406,25 @@
         }
 
     }
+</script>
+<script type="text/javascript">
+    function teste(arq) {
+        switch (arq) {
+            case 'link1':
+                $("#carousel-example-generic").fadeOut(1000);
+                    $("#carousel-example-generic1").fadeIn(1000);
+
+                break;
+
+            case 'link2':
+                $("#carousel-example-generic1").fadeOut(1000);
+                    $("#carousel-example-generic").fadeIn(1000);
+
+                break;
+
+        }
+
+    }
+
 </script>
 
