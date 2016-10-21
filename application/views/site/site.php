@@ -85,7 +85,7 @@
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'bike.ico') ?>"/>
+                        <img src="<? echo base_url(ICONE . 'whitebike.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1 img">
-                        <img src="<? echo base_url(ICONE . 'caminhada.ico') ?>"/>
+                        <img src="<? echo base_url(ICONE . 'whitecaminhada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Caminhada</h3>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url(ICONE . 'escalada.ico') ?>"/>
+                        <img src="<? echo base_url(ICONE . 'whiteescalada.ico') ?>"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
@@ -138,7 +138,7 @@
             <div class="col-lg-7 col-sm-6 wow fadeInRight delay-02s" style="float: right">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Educação Ambiental</h3>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Gerenciamento de resíduos sólidos</h3>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Programa de visitação</h3>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <img src="<? echo base_url() . ICONE ?>check.ico""/>
+                        <img src="<? echo base_url() . ICONE ?>check.ico"/>
                     </div>
                     <div class="service-list-col2">
                         <h3>Combate a incêndios</h3>
@@ -186,14 +186,16 @@
     </div>
 </section><!--main-section-end-->
 <section class="main-section" id="atrativosturisticos"><!--main-section-start-->
-    <div class="container" style="position: relative;height: 500px">
+    <div class="container">
         <h2>Atrativos Turísticos</h2>
         <h6>O parque oferece.</h6>
-        <a href="javascript:void(0)" class="btn btn-primary" onclick="teste('link1')">Mirante</a>
-        <a href="javascript:void(0)" class="btn btn-success" onclick="teste('link2')">Cachoeiras</a>
+        <a href="javascript:void(0)"onclick="teste('link1')"> <img
+                src="<? echo base_url(ICONE) ?>/whitewaterfall.ico"alt=""></a>
+        <a href="javascript:void(0)" onclick="teste('link2')"><img
+                src="<? echo base_url(ICONE) ?>/whitecamera.ico" alt=""></a>
 
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: absolute; height:500px ">
+        <!--        carousel responsavel pelas fotos dos mirantes-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -242,7 +244,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div id="carousel-example-generic1" class="carousel slide  " data-ride="carousel" style="position: absolute; height:500px">
+        <!--        carousel respnosavel pela fotos das cachoeiras-->
+        <div id="carousel-example-generic1" class="carousel slide animated fadeOut" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
@@ -411,17 +414,16 @@
     function teste(arq) {
         switch (arq) {
             case 'link1':
-                $("#carousel-example-generic").fadeOut(1000);
-                    $("#carousel-example-generic1").fadeIn(1000);
-
+                $("#carousel-example-generic").fadeOut('fast', function () {
+                    $("#carousel-example-generic1").fadeIn('fast');
+                });
                 break;
 
             case 'link2':
-                $("#carousel-example-generic1").fadeOut(1000);
-                    $("#carousel-example-generic").fadeIn(1000);
-
+                $("#carousel-example-generic1").fadeOut('fast', function () {
+                    $("#carousel-example-generic").fadeIn('fast');
+                });
                 break;
-
         }
 
     }
