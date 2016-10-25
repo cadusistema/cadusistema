@@ -110,7 +110,7 @@
 <!---->
 <!--    </header><!--header-end-->
 </div>
-<nav class="navbar-nav navbar-inverse" id="menu-header"><!--main-nav-start-->
+<nav class="navbar-nav navbar-inverse menu-fixo" id="menu-header"><!--main-nav-start-->
     <div class="container-fluid ">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -187,18 +187,18 @@
         ?>
     </figure>
 </footer>
-<script>
-    $(document).ready(function () {
-        var nav = $('#menu-header');
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 421) {
-                nav.addClass("menu-fixo");
-            } else {
-                nav.removeClass("menu-fixo");
-            }
-        });
-    });
-</script>
+<!--<script>-->
+<!--    $(document).ready(function () {-->
+<!--        var nav = $('#menu-header');-->
+<!--        $(window).scroll(function () {-->
+<!--            if ($(this).scrollTop() > 1) {-->
+<!--                nav.addClass("menu-fixo");-->
+<!--            } else {-->
+<!--                nav.removeClass("menu-fixo");-->
+<!--            }-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
 
 <script type="text/javascript">
     wow = new WOW(

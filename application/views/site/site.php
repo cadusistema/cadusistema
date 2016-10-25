@@ -81,8 +81,41 @@
     <div class="container">
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
+
+
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'whitebike.ico') ?>"/>
@@ -90,10 +123,15 @@
                     <div class="service-list-col2">
                         <h3>Bicicleta</h3>
                         <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um destaque
-                            especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive acentuado,
+                            especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive
+                            acentuado,
                             perfeito para a prática de downhill.</p>
+                        <button type="button" data-toggle="modal" data-target="#myModal">
+                            Ler +
+                        </button>
                     </div>
                 </div>
+
                 <div class="service-list">
                     <div class="service-list-col1 img">
                         <img src="<? echo base_url(ICONE . 'whitecaminhada.ico') ?>"/>
@@ -102,8 +140,12 @@
                         <h3>Caminhada</h3>
                         <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,
                             classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>
+                        <button type="button" data-toggle="modal" data-target="#myModal">
+                            Ler +
+                        </button>
                     </div>
                 </div>
+
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'whiteescalada.ico') ?>"/>
@@ -111,23 +153,27 @@
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
                         <p>Há três setores de escalada, cada um com sua dificuldade e modalidades específicas.</p>
+                        <button type="button" data-toggle="modal" data-target="#myModal">
+                            Ler +
+                        </button>
                     </div>
                 </div>
+
             </div>
 
             <!--            <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">-->
             <!--                <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
             <!--            </figure>-->
         </div>
-        <button id="lermais" type="button" class=" botaoler btn btn-success btn-lg wow fadeInLeft delay-05s"
-                onclick="window.location='<? echo site_url(array(
-                    'login',
-                    'viewAtrativos'
-                )) ?>'"
-                data-toggle="collapse" data-target="#collapsExemplo">Ler
-            <i class="fa fa-plus"
-               aria-hidden="true"></i>
-        </button>
+        <!--        <button id="lermais" type="button" class=" botaoler btn btn-success btn-lg wow fadeInLeft delay-05s"-->
+        <!--                onclick="window.location='--><? // echo site_url(array(
+        //                    'login',
+        //                    'viewAtrativos'
+        //                )) ?>//'"
+        <!--//                data-toggle="collapse" data-target="#collapsExemplo">Ler-->
+        <!--//            <i class="fa fa-plus"-->
+        <!--//               aria-hidden="true"></i>-->
+        <!--//        </button>-->
     </div>
 </section><!--main-section-end-->
 <section class="main-section atividade" id="atividade"><!--main-section-start-->
@@ -189,112 +235,92 @@
     <div class="container">
         <h2>Atrativos Turísticos</h2>
         <h6>O parque oferece.</h6>
-        <a href="javascript:void(0)"onclick="teste('link1')"> <img
-                src="<? echo base_url(ICONE) ?>/whitewaterfall.ico"alt=""></a>
-        <a href="javascript:void(0)" onclick="teste('link2')"><img
-                src="<? echo base_url(ICONE) ?>/whitecamera.ico" alt=""></a>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
+                <div class="service-list">
+                    <div class="service-list-col1">
+                        <img src="<? echo base_url(ICONE) ?>/waterfall.ico" alt="">
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Cachoeiras</h3>
+                        <!--                        <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um destaque-->
+                        <!--                            especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive acentuado,-->
+                        <!--                            perfeito para a prática de downhill.</p>-->
+                    </div>
+                </div>
+                <div class="service-list">
+                    <div class="service-list-col1 img">
+                        <img src="<? echo base_url(ICONE) ?>/camera2.ico" alt="">
+                    </div>
+                    <div class="service-list-col2">
+                        <h3>Mirantes</h3>
+                        <!--                        <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,-->
+                        <!--                            classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>-->
+                    </div>
+                </div>
+            </div>
 
+            <!--            <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s">-->
+            <!--                <img src="--><? // echo base_url(IMG_SITE . 'imagemservico.jpg') ?><!--" alt="">-->
+            <!--            </figure>-->
+        </div>
         <!--        carousel responsavel pelas fotos dos mirantes-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 
-            </ol>
+        <div class="col-lg-8 col-sm-6 wow fadeInLeft delay-02s">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>"
+                             alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
+                    <div class="item">
+                        <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>"
+                             alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
                     </div>
-                </div>
-                <div class="item ">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
+                    <div class="item ">
+                        <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/1.jpg') ?>"
+                             alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
+                    <div class="item">
+                        <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/3.jpg') ?>"
+                             alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
                     </div>
+                    ...
                 </div>
-                ...
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        <!--        carousel respnosavel pela fotos das cachoeiras-->
-        <div id="carousel-example-generic1" class="carousel slide animated fadeOut" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic1" data-slide-to="3"></li>
-
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/4.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/5.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                <div class="item ">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/4.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive center-block" src="<? echo base_url(IMG_SITE . '/5.jpg') ?>" alt="...">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                ...
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
 
     </div>
 </section><!--main-section-end-->
@@ -410,23 +436,3 @@
 
     }
 </script>
-<script type="text/javascript">
-    function teste(arq) {
-        switch (arq) {
-            case 'link1':
-                $("#carousel-example-generic").fadeOut('fast', function () {
-                    $("#carousel-example-generic1").fadeIn('fast');
-                });
-                break;
-
-            case 'link2':
-                $("#carousel-example-generic1").fadeOut('fast', function () {
-                    $("#carousel-example-generic").fadeIn('fast');
-                });
-                break;
-        }
-
-    }
-
-</script>
-
