@@ -85,14 +85,13 @@
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
             <div class="modal-dialog">
-
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Modal Header</h4>
                     </div>
-                    <div class="modal-body">
+                    <div id ="modalbody1" class="modal-body">
                         <p style="color: #1f1d1d">Some text in the modal.</p>
                         <p style="color: #1f1d1d">Some text in the modal.</p>
                         <p style="color: #1f1d1d">Some text in the modal.</p>
@@ -105,6 +104,33 @@
                         <p style="color: #1f1d1d">Some text in the modal.</p>
 
                     </div>
+                    <div id="modalbody2" class="modal-body">
+                        <p style="color: #1f1d1d">Some text in the modal2.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+
+                    </div>
+                    <div id="modalbody3" class="modal-body">
+                        <p style="color: #1f1d1d">Some text in the modal3.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+                        <p style="color: #1f1d1d">Some text in the modal.</p>
+
+                    </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -112,10 +138,10 @@
 
             </div>
         </div>
+
+
         <div class="row">
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-02s">
-
-
                 <div class="service-list">
                     <div class="service-list-col1">
                         <img src="<? echo base_url(ICONE . 'whitebike.ico') ?>"/>
@@ -126,7 +152,7 @@
                             especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive
                             acentuado,
                             perfeito para a prática de downhill.</p>
-                        <button type="button" data-toggle="modal" data-target="#myModal">
+                        <button id="1" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -140,7 +166,7 @@
                         <h3>Caminhada</h3>
                         <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,
                             classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>
-                        <button type="button" data-toggle="modal" data-target="#myModal">
+                        <button id="2" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -153,7 +179,7 @@
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
                         <p>Há três setores de escalada, cada um com sua dificuldade e modalidades específicas.</p>
-                        <button type="button" data-toggle="modal" data-target="#myModal">
+                        <button id="3" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -434,5 +460,18 @@
                 break;
         }
 
+    }
+</script>
+<script>
+    function modaler(element){
+
+        var name = '#modalbody'+$(element).attr('id');
+
+        for(var i=1;i<=3;i++){
+            var aux = '#modalbody'+i;
+            $(aux).hide();
+
+        }
+        $(name).show();
     }
 </script>
