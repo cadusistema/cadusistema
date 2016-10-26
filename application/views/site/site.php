@@ -1,4 +1,4 @@
-<section class="main-section paddind" id="historico"><!--main-section-historico-->
+<section class="main-section paddind page-section" id="historico"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-02s" id="box-toggle">
         <h2>O Parque</h2>
 
@@ -39,7 +39,7 @@
     </div>
 
 </section><!--main-section-end-->
-<section class="main-section portaria" id="infraestrutura"><!--main-section-start-->
+<section class="main-section portaria page-section" id="infraestrutura"><!--main-section-start-->
     <div class="container">
         <h2>Infra-Estrutura</h2>
         <h6>O parque tem.</h6>
@@ -77,7 +77,7 @@
         </div>
     </div>
 </section><!--main-section-end-->
-<section class="main-section esporte" id="esportes"><!--main-section-start-->
+<section class="main-section esporte page-section" id="esportes"><!--main-section-start-->
     <div class="container">
         <h2>Esportes</h2>
         <h6>O parque oferece.</h6>
@@ -91,7 +91,7 @@
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Modal Header</h4>
                     </div>
-                    <div id ="modalbody1" class="modal-body">
+                    <div id="modalbody1" class="modal-body">
                         <p style="color: #1f1d1d">Some text in the modal.</p>
                         <p style="color: #1f1d1d">Some text in the modal.</p>
                         <p style="color: #1f1d1d">Some text in the modal.</p>
@@ -152,7 +152,8 @@
                             especial para a Trilha do Vermelhão, com mais de 3,0 km de extensão em declive
                             acentuado,
                             perfeito para a prática de downhill.</p>
-                        <button id="1" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
+                        <button id="1" type="button" data-toggle="modal" data-target="#myModal"
+                                onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -166,7 +167,8 @@
                         <h3>Caminhada</h3>
                         <p>Existem várias trilhas de beleza encantadora e diferentes níveis de dificuldade,
                             classificadas e mapeadas conforme a ABNT NBR 15505-2/2008.</p>
-                        <button id="2" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
+                        <button id="2" type="button" data-toggle="modal" data-target="#myModal"
+                                onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -179,7 +181,8 @@
                     <div class="service-list-col2">
                         <h3>Escalada</h3>
                         <p>Há três setores de escalada, cada um com sua dificuldade e modalidades específicas.</p>
-                        <button id="3" type="button"  data-toggle="modal" data-target="#myModal" onclick="modaler(this);">
+                        <button id="3" type="button" data-toggle="modal" data-target="#myModal"
+                                onclick="modaler(this);">
                             Ler +
                         </button>
                     </div>
@@ -202,7 +205,7 @@
         <!--//        </button>-->
     </div>
 </section><!--main-section-end-->
-<section class="main-section atividade" id="atividade"><!--main-section-start-->
+<section class="main-section atividade page-section" id="atividade"><!--main-section-start-->
     <div class="container">
         <h2>Atividades Desenvolvidas</h2>
         <h6>O parque desenvolve.</h6>
@@ -257,7 +260,7 @@
 
     </div>
 </section><!--main-section-end-->
-<section class="main-section" id="atrativosturisticos"><!--main-section-start-->
+<section class="main-section page-section" id="atrativosturisticos"><!--main-section-start-->
     <div class="container">
         <h2>Atrativos Turísticos</h2>
         <h6>O parque oferece.</h6>
@@ -350,7 +353,7 @@
 
     </div>
 </section><!--main-section-end-->
-<section id="fotos" class="main-section carousel"><!--main-section-start-->
+<section id="fotos" class="main-section carousel page-section"><!--main-section-start-->
     <h2>Fotos</h2>
     <div class="aux wow fadeInRight delay-02s">
         <ul class="pgwSlideshowLight">
@@ -365,7 +368,7 @@
     </div>
 
 </section><!--main-section-end-->
-<section class="main-section" id="localizacao"><!--main-section-start-->
+<section class="main-section page-section" id="localizacao"><!--main-section-start-->
     <div class="container">
         <h2>Localização</h2>
         <iframe class=" text-left wow fadeInUp delay-02s"
@@ -380,8 +383,8 @@
         <!--        <h2>Let’s Talk Business.</h2>-->
     </div>
 </section><!--business-talking-end-->
-<div class="container">
-    <section class="main-section contact" id="contact">
+<div class="container ">
+    <section class="main-section contact page-section" id="contact">
 
         <div class="row">
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
@@ -399,7 +402,7 @@
                 </div>
                 <div class="contact-info-box hours clearfix">
                     <h3><i class="fa-clock-o"></i>Horário:</h3>
-                    <span><strong>Diaramente:</strong> 07:30 - 18:30.<br></span>
+                    <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
                 </div>
                 <!--                                <ul class="social-link">-->
                 <!--                                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>-->
@@ -463,15 +466,52 @@
     }
 </script>
 <script>
-    function modaler(element){
+    function modaler(element) {
 
-        var name = '#modalbody'+$(element).attr('id');
+        var name = '#modalbody' + $(element).attr('id');
 
-        for(var i=1;i<=3;i++){
-            var aux = '#modalbody'+i;
+        for (var i = 1; i <= 3; i++) {
+            var aux = '#modalbody' + i;
             $(aux).hide();
 
         }
         $(name).show();
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // navigation click actions
+        $('.scroll-link').on('click', function (event) {
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function (event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 'slow');
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed) {
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop: targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function () {
+            }
+        };
     }
 </script>

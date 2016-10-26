@@ -94,22 +94,6 @@
 
 </head>
 <body>
-<div style="overflow:hidden;">
-<!--    <header class="header" id="header"><!--header-start-->
-<!--        <div class="carousel-top">-->
-<!--            <ul class="pgwSlideshowLight">-->
-<!--                <li><img src="--><?// echo base_url(IMG_SITE . 'bolder.jpg') ?><!--" alt="image1"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '2.jpg') ?><!--" alt="image2"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '3.jpg') ?><!--" alt="image3"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '4.jpg') ?><!--" alt="image4"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '5.jpg') ?><!--" alt="image5"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '6.jpg') ?><!--" alt="image6"/></li>-->
-<!--                <li><img src="--><?// echo base_url(IMG_CAROUSEL . '7.jpg') ?><!--" alt="image7"/></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!---->
-<!--    </header><!--header-end-->
-</div>
 <nav class="navbar-nav navbar-inverse menu-fixo" id="menu-header"><!--main-nav-start-->
     <div class="container-fluid ">
         <div class="navbar-header">
@@ -123,19 +107,18 @@
         </div>
         <div class="collapse navbar-collapse" id="menu-site">
             <ul class="nav navbar-nav nav-justified">
-                <li><a href="/parque/#header" rel="relativeanchor">Home</a></li>
-                <li><a href="/parque/#historico" rel="relativeanchor">Parque</a></li>
-                <li><a href="/parque/#infraestrutura" rel="relativeanchor">Infra-Estrutura</a></li>
-                <li><a href="/parque/#esportes">Esportes</a></li>
-                <!--                <li><a href="--><? // echo site_url(array(
-                //                        'login',
-                //                        'viewAtrativos'
-                //                    )) ?><!--">Atrativos</a></li>-->
-                <li><a href="/parque/#atividade" rel="relativeanchor">Atividades Desenvolvidas</a></li>
-                <li><a href="/parque/#atrativosturisticos" rel="relativeanchor">Atrativos Turisticos</a></li>
-                <li><a href="/parque/#fotos" rel="relativeanchor">Fotos</a></li>
-                <li><a href="/parque/#localizacao" rel="relativeanchor">Localização</a></li>
-                <li><a href="/parque/#contact" rel="relativeanchor">Contato</a></li>
+                <li><a href="#" class="scroll-link" data-id="header">Home</a></li>
+                <li><a href="#" class="scroll-link" data-id="historico">Parque</a></li>
+                <li><a href="/parque/#infraestrutura" class="scroll-link" data-id="infraestrutura">Infra-Estrutura</a>
+                </li>
+                <li><a href="/parque/#esportes" class="scroll-link" data-id="esportes">Esportes</a></li>
+                <li><a href="/parque/#atividade" class="scroll-link" data-id="atividade">Atividades Desenvolvidas</a>
+                </li>
+                <li><a href="/parque/#atrativosturisticos" class="scroll-link" data-id="atrativosturisticos">Atrativos
+                        Turisticos</a></li>
+                <li><a href="/parque/#fotos" class="scroll-link" data-id="fotos">Fotos</a></li>
+                <li><a href="/parque/#localizacao" class="scroll-link" data-id="localizacao">Localização</a></li>
+                <li><a href="/parque/#contact" class="scroll-link" data-id="contact">Contato</a></li>
                 <!--                <li><a href="--><? // echo site_url(array(
                 //                        'login',
                 //                        'viewnoticias'
@@ -282,6 +265,12 @@
         pgwSlideshow.displayList(true);
 
     });
+    $(document).on('click.nav','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).removeClass('in').addClass('collapse');
+        }
+    });
+
 </script>
 </body>
 </html>
