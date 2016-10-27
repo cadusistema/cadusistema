@@ -101,24 +101,11 @@
         </nav>
     </div>
 
-    <!--    <div id="meio">-->
-
     <div class="content">
 
         {content_for_layout}
 
     </div>
-
-    <!--    </div>-->
-
-    <!--    <br style="clear: both;"/>-->
-    <!---->
-    <!--    <div class="container-fluid">-->
-    <!--        <p class="rodape">-->
-    <!--            Todos os direitos reservados - Bla Bla Bla-->
-    <!--        </p>-->
-    <!--    </div>-->
-
 </div>
 </body>
 </html>
