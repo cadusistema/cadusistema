@@ -60,10 +60,3 @@ $route['translate_uri_dashes'] = TRUE;
 //$route['maisesportes'] = 'login/carregaview';
 
 $route['maisesportes'] = 'login/carregaview';
-
-$route['maisesportes'] = 'login/carregaview';
-
-
-
-//$route['admin'] = 'Login/login';
-

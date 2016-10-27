@@ -39,12 +39,11 @@ Class Login extends CI_Controller {
         redirect('maisesportes');
     }
 
-    public function carregaview(){
+    public function carregaview() {
         $this->layout = 'layoutSite';
         $this->title = 'Parque das Andorinhas';
         $this->load->view('site/atrativos');
     }
-
 
     /**
      * funçao para carregar a view noticias
@@ -70,7 +69,9 @@ Class Login extends CI_Controller {
         $nivelAcesso = $dadosBanco->user[0]->accesslevel;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
             //criando array para adicionar na session
-            $dadosSession = array('nome' => $nomeBanco,'logged_in'=>True);
+            $dadosSession = array('nome'      => $nomeBanco,
+                                  'logged_in' => TRUE
+            );
             $this->session->set_userdata($dadosSession);
             //nivel ao acesso ao sistema
             if ($nivelAcesso == 2) {

@@ -38,11 +38,6 @@ class HomeSistema extends CI_Controller {
 
     public function logout() {
         $this->session->sess_destroy();
-
-//        $this->layout = 'default';
-//
-//        $this->load->view('site/login_view');
-
         redirect('Login/fazerlogin');
     }
 }
