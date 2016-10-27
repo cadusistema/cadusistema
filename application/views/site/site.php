@@ -1,4 +1,4 @@
-<section class="main-section paddind page-section" id="historico"><!--main-section-historico-->
+<section class="main-section paddind page-section" id="home"><!--main-section-historico-->
     <div class="container text-left wow fadeInUp delay-02s" id="box-toggle">
         <h2>O Parque</h2>
 
@@ -369,11 +369,11 @@
 
 </section><!--main-section-end-->
 <section class="main-section page-section" id="localizacao"><!--main-section-start-->
-    <div class="container">
-        <h2>Localização</h2>
+    <h2>Localização</h2>
+    <div class="container maps">
         <iframe class=" text-left wow fadeInUp delay-02s"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1JFdIPLpp43YDDGb40JBpMvjJmXU"
-                width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                width="90%" height="500" frameborder="0"></iframe>
 
     </div>
 </section><!--main-section-end-->
@@ -514,4 +514,8 @@
             }
         };
     }
+
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
 </script>

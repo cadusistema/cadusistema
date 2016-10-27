@@ -107,8 +107,7 @@
         </div>
         <div class="collapse navbar-collapse" id="menu-site">
             <ul class="nav navbar-nav nav-justified">
-                <li><a href="#" class="scroll-link" data-id="header">Home</a></li>
-                <li><a href="#" class="scroll-link" data-id="historico">Parque</a></li>
+                <li><a href="#" class="scroll-link" data-id="home">Home</a></li>
                 <li><a href="/parque/#infraestrutura" class="scroll-link" data-id="infraestrutura">Infra-Estrutura</a>
                 </li>
                 <li><a href="/parque/#esportes" class="scroll-link" data-id="esportes">Esportes</a></li>

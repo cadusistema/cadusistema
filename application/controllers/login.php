@@ -70,7 +70,7 @@ Class Login extends CI_Controller {
         $nivelAcesso = $dadosBanco->user[0]->accesslevel;
         if ($nomeFormulario == $nomeBanco && $senhaFormulario == $senhaBanco) {
             //criando array para adicionar na session
-            $dadosSession = array('nome' => $nomeBanco);
+            $dadosSession = array('nome' => $nomeBanco,'logged_in'=>True);
             $this->session->set_userdata($dadosSession);
             //nivel ao acesso ao sistema
             if ($nivelAcesso == 2) {

@@ -22,14 +22,27 @@ class HomeSistema extends CI_Controller {
         $this->load->view("admin/avaliacaovisitante");
     }
 
+    public function index() {
+        $autorizacaoDB = AuthorizationResearch::find('all', array('conditions' => 'authorized = 0'));
+        $dados['dados'] = $autorizacaoDB;
+        $this->load->view('admin/home_sistema', $dados);
+    }
+
 //    funcao para exibir os datelhes da autorização
     public function detalhes($id) {
         $dados = array();
         $autorizacaoDetalhe = AuthorizationResearch::find_by_sql("select * from activitiesofinformation ac inner join authorizationresearch au on au.activitiesofinformationid = ac.activitiesofinformationid WHERE authorizationresearchid={$id} ;");
-//        echo '<pre>';
-//        print_r($autorizacaoDetalhe);
-//        echo '</pre>';
         $dados['autorizacaoDetalhe'] = $autorizacaoDetalhe[0];
         $this->load->view('admin/detalheautorizacao', $dados);
+    }
+
+    public function logout() {
+        $this->session->sess_destroy();
+
+//        $this->layout = 'default';
+//
+//        $this->load->view('site/login_view');
+
+        redirect('Login/fazerlogin');
     }
 }

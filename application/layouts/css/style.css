@@ -662,15 +662,8 @@ ul {
     color: white;
 }
 
-.right {
-    width: 500px;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    left: 3000px;
-    padding: 0.5em;
-    border: 2px solid #000;
-    background-color: whitesmoke;
-
-    /*border-radius: 1em 0;*/
+.maps iframe{
+    pointer-events: none;
 }
+
+
