@@ -1,51 +1,115 @@
 /*negrito parque das andorinhas na nav bar*/
-b{
+b {
     color: black;
 }
+
 /*configuração da nav-bar*/
-.navbar-nav>li {
+.navbar-nav > li {
     float: none;
 }
-.navbar{
+
+.navbar {
     margin-bottom: 0%;
-    opacity: 0.7;
+    opacity: 0.85;
 }
-.carousel-inner img {
-    margin: auto;
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
 }
-.carousel-control{
+
+/*.item img {*/
+/*margin: auto;*/
+/*height: 10px;*/
+/*}*/
+.carousel-control {
     width: 70px;
     height: 80px;
     margin-top: 300px;
 
 }
-.img-carousel{
-    height: 10%;
-}
+
+/*.img-carousel{*/
+/*height: 50px;*/
+/*}*/
 .carousel-inner > .item > img {
-    position:relative;
-    min-width: 100%;
-    /*height: 80%; !* Altura da imagem dentro do Carousel *!*/
+    margin: auto;
+    width: 100%;
+    /*height: 825px;*/
+    max-height: 800px;
+    /*min-height: 80%;*/
 }
+
+.carousel-control {
+    height: auto;
+    width: auto;
+    /*overflow: hidden;*/
+
+}
+
 /*configuração do tamanho dos icones*/
-.icone img{
-    height: 50px;
-    margin-top: 19px;
+.icone img {
+    height: 95px;
+    margin-top: 10%;
 }
-.iten-list{
-    margin-bottom: 40px;
+
+.iten-list {
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
+
 .iten-list-col1 {
     float: left;
     width: 60px;
     /*margin: 15px 15px 15px 15px ;*/
     margin-right: 15px;
 }
+
 .iten-list-col2 {
     overflow: hidden;
+    margin-left: 20%;
 }
-.img-infra{
-    width: 150px;
+
+.img-infra {
+    width: 200px;
     height: 150px;
-    padding: 15px;
+    /*padding: 10px 0px 0px 10px;*/
+    margin-bottom: 10%;
+    margin-left: 100%;
+}
+
+.col-md-4 {
+    width: 22.0%;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0 70px 0;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+h5 {
+    margin-left: 2%;
+    color: black;
+}
+
+#esportes {
+    background-image: url("../img_site/img_esportes/bike-fundo.jpg");
+    background-size: cover;
+}
+.tituloesportes {
+    background-color: black;
+    opacity: 0.85;
+}
+.tituloesportes h1 {
+    color: whitesmoke;
 }

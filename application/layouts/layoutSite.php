@@ -107,21 +107,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="img-responsive" src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>" alt="...">
+                <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>" alt="...">
                 <div class="carousel-caption">
                     <h3>Foto Parque</h3>
                     <p>Vista do parque das Andorinhas</p>
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="...">
+                <img src="<? echo base_url(IMG_CAROUSEL . '2.jpg') ?>" alt="...">
                 <div class="carousel-caption">
                     <h3>Foto Parque</h3>
                     <p>Vista do parque das Andorinhas</p>
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                <img src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                 <div class="carousel-caption">
                     <h3>Foto Parque</h3>
                     <p>Vista do parque das Andorinhas</p>
