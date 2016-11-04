@@ -84,7 +84,7 @@ b {
 
 h1 {
     text-align: center;
-    padding: 30px 0 70px 0;
+    padding: 30px 0 30px 0;
     text-transform: uppercase;
     font-family: Verdana;
     font-weight: bold;
@@ -103,13 +103,51 @@ h5 {
 }
 
 #esportes {
-    background-image: url("../img_site/img_esportes/bike-fundo.jpg");
+    background: url("../img_site/img_esportes/bike-fundo.jpg");
+    /*background-position: center;*/
     background-size: cover;
 }
+
 .tituloesportes {
     background-color: black;
     opacity: 0.85;
+    height: 7%;
 }
+
 .tituloesportes h1 {
     color: whitesmoke;
+    /*height: 1px;*/
+    /*margin: auto;*/
+}
+
+.conteudocentral {
+    /*background-color: whitesmoke;*/
+    width: 65%;
+    /*height: 80em;*/
+    margin: 13% auto;
+}
+
+.textocentral {
+    margin: auto;
+}
+
+.fotocentral {
+    margin: auto;
+    padding: 1%;
+}
+
+/*configuraçao da navbar de esportes*/
+.nav-tabs > li > a {
+    color: whitesmoke;
+}
+
+.btn-black{
+    border-color: black;
+    background-color: black;
+    border-radius: 0 !important;
+    border:0;
+}
+.opaque{
+    background-color: rgba(0,0,0,0.6);
+    border:0;
 }
