@@ -121,19 +121,17 @@
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
-                <input type="submit" class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#trilhas"
-                       value="ESCALADA"/>
-                <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" href="#mountainbike"
-                       value="BOULDER"/>
-                <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" value="MOUNTAIN BIKE"/>
-                <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" value="HIGHLINE"/>
+                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#tab1">ESCALADA</a></li>
+                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab2">BOULDER</a></li>
+                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab3">MOUNTAIN BIKE</a></li>
+                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab4">HIGHLINE</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active colordiv" id="tab1">
                     <div class="row">
                         <div class="col-md-5">
-                            <div id="texto" class="textocentral">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                            <div id="tab1" class="textocentral">
+                                <p>1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                     pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
                                     malesuada
                                     fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
@@ -160,7 +158,7 @@
                 <div class="tab-pane colordiv" id="tab2">
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                            <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
                                 vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
@@ -187,7 +185,7 @@
                 <div class="tab-pane  colordiv" id="tab3">
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                            <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
                                 vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
@@ -214,7 +212,7 @@
                 <div class="tab-pane  colordiv" id="tab4">
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                            <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
                                 vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
