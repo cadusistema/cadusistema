@@ -48,8 +48,9 @@ b {
 
 /*configuração do tamanho dos icones*/
 .icone img {
-    height: 95px;
-    margin-top: 10%;
+    /*height: 95px;*/
+    /*margin-top: 10%;*/
+    margin-left: 25%;
 }
 
 .iten-list {
@@ -88,13 +89,14 @@ h1 {
     text-transform: uppercase;
     font-family: Verdana;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 300%;
     color: black;
 }
 
 h3 {
     text-transform: uppercase;
     color: black;
+    margin-top: 6%;
 }
 
 h5 {
@@ -123,8 +125,9 @@ h5 {
 .conteudocentral {
     /*background-color: whitesmoke;*/
     width: 65%;
-    /*height: 80em;*/
-    margin: 13% auto;
+    height: 600px;
+    margin: auto;
+    margin-top: 10%;
 }
 
 .textocentral {
@@ -151,3 +154,7 @@ h5 {
     background-color: rgba(0,0,0,0.6);
     border:0;
 }
+.colordiv{
+    background: whitesmoke;
+}
+

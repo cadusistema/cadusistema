@@ -2,29 +2,38 @@
     <h1>Infra-Estrutura</h1>
     <div class="row">
         <div class="col-md-6">
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>Centro Administrativo</h3>
                     <h5>Conta com dois vestiários</h5>
                 </div>
+
             </div>
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
+                    </figure>
+                </div>
+
+                <div class="col-md-9">
                     <h3>Área de Lazer</h3>
                     <h5>Campo de futebol, quadra de areia, quadra poliesportiva e churrasqueira</h5>
                 </div>
             </div>
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>Portaria</h3>
                     <h5>Ocupada por guarda-parques além de funcionar como um ponto de informações turísticas</h5>
                 </div>
@@ -104,20 +113,23 @@
     </div>
 </section>
 <section id="esportes">
+
     <div class="tituloesportes">
         <h1>Esportes</h1>
     </div>
 
-    <div id="conteudocentral" class="conteudocentral">
+    <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
-                <input type="submit" class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#trilhas" value="ESCALADA"/>
-                <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" href="#mountainbike" value="BOULDER"/>
+                <input type="submit" class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#trilhas"
+                       value="ESCALADA"/>
+                <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" href="#mountainbike"
+                       value="BOULDER"/>
                 <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" value="MOUNTAIN BIKE"/>
                 <input type="submit" class="btn btn-primary btn-black" data-toggle="tab" value="HIGHLINE"/>
             </ul>
-            <div class="tab-content" style="background-color: whitesmoke">
-                <div class="tab-pane active" id="tab1">
+            <div class="tab-content">
+                <div class="tab-pane active colordiv" id="tab1">
                     <div class="row">
                         <div class="col-md-5">
                             <div id="texto" class="textocentral">
@@ -145,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="tab2">
+                <div class="tab-pane colordiv" id="tab2">
                     <div class="row">
                         <div class="col-md-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
@@ -172,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="tab3">
+                <div class="tab-pane  colordiv" id="tab3">
                     <div class="row">
                         <div class="col-md-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
@@ -199,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="tab4">
+                <div class="tab-pane  colordiv" id="tab4">
                     <div class="row">
                         <div class="col-md-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
@@ -230,15 +242,17 @@
         </div>
     </div>
 </section>
-<section id="infra">
+<section id="atividades desenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
         <div class="col-md-6">
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>Educação Ambiental</h3>
                     <h5>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma
                         lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,
@@ -246,11 +260,13 @@
                     </h5>
                 </div>
             </div>
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>GERENCIAMENTO DE RESÍDUOS SÓLIDOS</h3>
                     <h5>Está em elaboração um plano de gerenciamento de resíduos gerados pelo parque, incluindo a
                         avaliação dos detritos, segregação, manejo, coleta seletiva, treinamento dos guardas do parque,
@@ -258,11 +274,13 @@
                     </h5>
                 </div>
             </div>
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>PROGRAMA DE VISITAÇÃO</h3>
                     <h5>Esta ação visa informar melhor o visitante sobre pontos turísticos, trilhas e atividades
                         esportivas que podem ser realizadas no parque. As atividades de classificação de trilhas são
@@ -270,11 +288,13 @@
                     </h5>
                 </div>
             </div>
-            <div id="itens" class="iten-list">
-                <figure class="icone iten-list-col1">
-                    <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                </figure>
-                <div class="iten-list-col2">
+            <div class="row">
+                <div id="itens" class="col-md-3">
+                    <figure class="icone">
+                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-9">
                     <h3>COMBATE A INCÊNDIOS </h3>
                     <h5>Diariamente são realizadas vistorias no parque para identificação de focos de incêndio e sua
                         extinção. Abordagens e palestras serão realizadas para os moradores nos bairros limítrofes,
@@ -282,7 +302,6 @@
                     </h5>
                 </div>
             </div>
-
         </div>
         <div class="col-md-6">
             <div class="row">
@@ -296,7 +315,7 @@
                 <div class="col-md-4">
                     <div class="iten-list">
                         <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '2.png') ?>" alt="">
+                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '2.png') ?>" alt="2">
                         </figure>
                     </div>
                 </div>
@@ -342,14 +361,14 @@
                 <div class="col-md-4">
                     <div class="iten-list">
                         <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '8.jpg') ?>" alt="">
+                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '3.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="iten-list">
                         <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '9.jpg') ?>" alt="">
+                            <img class="img-infra" src="<? echo base_url(IMG_DESENVOLVIDA . '3.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
