@@ -383,7 +383,8 @@
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
-                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#mirante">MIRANTES</a></li>
+                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#mirante">MIRANTES</a>
+                </li>
                 <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#trilha">TRILHAS</a></li>
                 <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#cachoeira">CACHOEIRAS</a></li>
             </ul>
@@ -473,4 +474,60 @@
             </div>
         </div>
     </div>
+</section>
+<section id="localizacao">
+
+    <!--    <div>-->
+    <!--        <h1>Localização</h1>-->
+    <!--    </div>-->
+
+    <div class="mapa">
+        <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1JFdIPLpp43YDDGb40JBpMvjJmXU"
+            width="100%" height="800px" frameborder="0">
+
+        </iframe>
+    </div>
+
+
+</section>
+<section>
+    <div class="tituloesportes">
+        <h1>Contato</h1>
+    </div>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
+    <p>oi</p>
 </section>
