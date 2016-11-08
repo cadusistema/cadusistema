@@ -157,4 +157,10 @@ h5 {
 .colordiv{
     background: whitesmoke;
 }
+#atrativos{
+    background: url("../img_site/img_atrativos/fundo2.jpg");
+    /*background-position: center;*/
+    background-size: cover;
+}
+
 

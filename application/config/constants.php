@@ -101,4 +101,6 @@ define('CSSPATH', LAYOUTPATH . 'css/');
 //define o diretorio das fotos da secao infra
 define('IMG_INFRA', IMG_SITE . '/img_infra/');
 //define o diretorio das fotos da secao atividades desenvolivdas
-define('IMG_DESENVOLVIDA',IMG_SITE. '/img_atividades/');
+define('IMG_DESENVOLVIDA', IMG_SITE . '/img_atividades/');
+//define o diretorio das fotos da secao atrativos turisticos
+define('IMG_ATRATIVO', IMG_SITE . '/img_atrativos/');

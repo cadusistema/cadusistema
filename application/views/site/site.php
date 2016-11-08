@@ -157,7 +157,7 @@
                 </div>
                 <div class="tab-pane colordiv" id="tab2">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-5 textocentral">
                             <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
@@ -173,9 +173,9 @@
 
                             </p>
                         </div>
-                        <div class="col-md-8">
-                            <div id="fotoconteudocentral">
-                                <img class="img-responsive"
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
                                      src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
 
                             </div>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="tab-pane  colordiv" id="tab3">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-5 textocentral">
                             <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
@@ -200,9 +200,9 @@
 
                             </p>
                         </div>
-                        <div class="col-md-8">
-                            <div id="fotoconteudocentral">
-                                <img class="img-responsive"
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
                                      src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                             </div>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="tab-pane  colordiv" id="tab4">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-5 textocentral">
                             <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
@@ -227,9 +227,9 @@
 
                             </p>
                         </div>
-                        <div class="col-md-8">
-                            <div id="fotoconteudocentral">
-                                <img class="img-responsive"
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
                                      src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                             </div>
@@ -375,68 +375,102 @@
     </div>
 </section>
 <section id="atrativos">
+
     <div class="tituloesportes">
-        <h1>Esportes</h1>
+        <h1>Atrativos Turísticos</h1>
     </div>
 
-    <div class="tabbable"> <!-- Only required for left/right tabs -->
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-        </ul>
-        <div class="tab-content">
-            <div class="tab-pane active" id="tab1">
-                <p>I'm in Section 1.</p>
-            </div>
-            <div class="tab-pane" id="tab2">
-                <p>Howdy, I'm in Section 2.</p>
+    <div id="central" class="conteudocentral">
+        <div class="tabbable"> <!-- Only required for left/right tabs -->
+            <ul class="nav nav-tabs">
+                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#mirante">MIRANTES</a></li>
+                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#trilha">TRILHAS</a></li>
+                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#cachoeira">CACHOEIRAS</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active colordiv" id="mirante">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div id="tab1" class="textocentral">
+                                <p>1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                    pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                    malesuada
+                                    fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                    molestie
+                                    vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                    Morbi
+                                    non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                    fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                    mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                    purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                    pellentesque.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotoconteudocentral" class="fotocentral">
+                                <img class="img-responsive"
+                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane colordiv" id="trilha">
+                    <div class="row">
+                        <div class="col-md-5 textocentral">
+                            <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
+                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
+                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
+                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
+
+                            </p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
+                                     src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane  colordiv" id="cachoeira">
+                    <div class="row">
+                        <div class="col-md-5 textocentral">
+                            <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
+                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
+                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
+                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
+
+                            </p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
+                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <h1>oi</h1>
     </div>
-
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-    Esportes<br>
-
 </section>
