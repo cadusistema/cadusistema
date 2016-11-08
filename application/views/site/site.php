@@ -491,43 +491,44 @@
 
 
 </section>
-<section>
+<section id="contato">
     <div class="tituloesportes">
         <h1>Contato</h1>
     </div>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
-    <p>oi</p>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row contato">
+                <h3>Endereço</h3>
+                <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
+            </div>
+            <div class="row contato">
+                <h3>Telefone</h3>  <span>(31) 9 7163 04 84 </span>
+            </div>
+            <div class="row contato">
+                <h3>Email</h3> <span>pnma@gorceix.org.br</span>
+            </div>
+            <div class="row contato">
+                <h3>Horario</h3>  <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
+            </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 5%">
+            <div class="form-group contato-form">
+                <label for="usr">Name</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+            </div>
+            <div class="form-group contato-form">
+                <label for="usr">E-mail</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
+            </div>
+            <div class="form-group contato-form">
+                <label for="usr">Mensagem</label>
+                <textarea type="text" class="form-control" id="msg" name="msg" placeholder="Mensagem"
+                          rows="5"></textarea>
+            </div>
+            <div class="form-group contato-form">
+                <button class="btn btn-success">Enviar</button>
+            </div>
+
+        </div>
+    </div>
 </section>

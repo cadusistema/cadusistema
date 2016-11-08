@@ -152,52 +152,38 @@
 {content_for_layout}
 
 
-<!--<footer class="footer">-->
-<!--    <figure>-->
-<!--        --><? //
-//        $site_fundacao = 'http://www.gorceixonline.com.br';
-//        $site_demam = 'http://www.gorceixonline.com.br/demam';
-//        $site_prefeitura = 'http://www.ouropreto.mg.gov.br/';
-//        $img_fundacao = array(
-//            'src' => base_url() . ICONE . "fg.png",
-//            'alt' => 'logo da fundação gorceix'
-//        );
-//        $img_demam = array(
-//            'src' => base_url() . ICONE . "demam.png",
-//            'alt' => 'logo do departamento de meio ambiente'
-//        );
-//        $img_pm = array(
-//            'src' => base_url() . ICONE . "logopm.png",
-//            'alt' => 'logo da prefeitura municipal de ouro preto'
-//        );
-//        echo anchor($site_prefeitura, img($img_pm), array(
-//            'target' => '_blank',
-//            'class'  => 'footer-img'
-//        ));
-//        echo anchor($site_fundacao, img($img_fundacao), array(
-//            'target' => '_blank',
-//            'class'  => 'footer-img'
-//        ));
-//        echo anchor($site_demam, img($img_demam), array(
-//            'target' => '_blank',
-//            'class'  => 'footer-img'
-//        ));
-//        ?>
-<!--    </figure>-->
-<!--</footer>-->
-<!--<script>-->
-<!--    $(document).ready(function () {-->
-<!--        var nav = $('#menu-header');-->
-<!--        $(window).scroll(function () {-->
-<!--            if ($(this).scrollTop() > 1) {-->
-<!--                nav.addClass("menu-fixo");-->
-<!--            } else {-->
-<!--                nav.removeClass("menu-fixo");-->
-<!--            }-->
-<!--        });-->
-<!--    });-->
-<!--</script>-->
-
-
+<footer class="footer">
+    <figure>
+        <?
+        $site_fundacao = 'http://www.gorceixonline.com.br';
+        $site_demam = 'http://www.gorceixonline.com.br/demam';
+        $site_prefeitura = 'http://www.ouropreto.mg.gov.br/';
+        $img_fundacao = array(
+            'src' => base_url() . ICONE . "logo_rodape.png",
+            'alt' => 'logo da fundação gorceix'
+        );
+        $img_demam = array(
+            'src' => base_url() . ICONE . "demam.png",
+            'alt' => 'logo do departamento de meio ambiente'
+        );
+        $img_pm = array(
+            'src' => base_url() . ICONE . "logopm.png",
+            'alt' => 'logo da prefeitura municipal de ouro preto'
+        );
+        echo anchor($site_prefeitura, img($img_pm), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
+        echo anchor($site_fundacao, img($img_fundacao), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
+        echo anchor($site_demam, img($img_demam), array(
+            'target' => '_blank',
+            'class'  => 'footer-img'
+        ));
+        ?>
+    </figure>
+</footer>
 </body>
 </html>
