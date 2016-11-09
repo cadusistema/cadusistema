@@ -2,10 +2,6 @@
 b {
     color: black;
 }
-/*body{*/
-    /*width: auto;*/
-/*}*/
-
 /*configuração da nav-bar*/
 .navbar-nav > li {
     float: none;
@@ -22,7 +18,7 @@ b {
 .carousel-control {
     width: 70px;
     height: 80px;
-    margin-top: 300px;
+    margin-top: 21%;
 
 }
 .carousel-inner > .item > img {
@@ -31,13 +27,6 @@ b {
     /*height: 825px;*/
     max-height: 800px;
     /*min-height: 80%;*/
-}
-
-.carousel-control {
-    height: auto;
-    width: auto;
-    /*overflow: hidden;*/
-
 }
 
 /*configuração do tamanho dos icones*/
