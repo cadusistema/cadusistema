@@ -145,52 +145,68 @@ h5 {
     color: whitesmoke;
 }
 
-.btn-black{
+.btn-black {
     border-color: black;
     background-color: black;
     border-radius: 0 !important;
-    border:0;
+    border: 0;
 }
-.opaque{
-    background-color: rgba(0,0,0,0.6);
-    border:0;
+
+.opaque {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0;
 }
-.colordiv{
+
+.colordiv {
     background: whitesmoke;
 }
-#atrativos{
+
+#atrativos {
     background: url("../img_site/img_atrativos/trilhas.jpg");
     /*background-position: center;*/
     background-size: cover;
 }
-.mapa{
+
+.mapa {
     width: 100%;
     height: 50%;
     margin: auto;
 }
-.contato{
+
+.mapa iframe {
+    pointer-events: none;
+
+}
+
+.contato {
     margin-left: 30%;
     /*margin-top: 2%;*/
 }
-.contato-form{
-  margin-top: 2%;
+
+.contato-form {
+    margin-top: 2%;
 }
-.form-control{
+
+.form-control {
     width: 70%;
 }
-.footer{
+
+.footer {
     background-color: #001489;
 }
-.img_footer{
+
+.img_footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 1%;
 }
-.line{
+
+.line {
     margin-bottom: 6%;
 }
+
 .parallax {
     /* The image used */
     background-image: url("../img_site/parallax1.jpg");

@@ -187,5 +187,10 @@
         </figure>
     </div>
 </footer>
+<script type="text/javascript">
+    $('.mapa').click(function () {
+        $('.mapa iframe').css("pointer-events", "auto");
+    });
+</script>
 </body>
 </html>
