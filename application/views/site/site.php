@@ -491,6 +491,8 @@
 
 
 </section>
+<section id="paralallax"  class="parallax">
+</section>
 <section id="contato">
     <div class="tituloesportes">
         <h1>Contato</h1>
@@ -507,11 +509,11 @@
             <div class="row contato">
                 <h3>Email</h3> <span>pnma@gorceix.org.br</span>
             </div>
-            <div class="row contato">
+            <div class="row contato line">
                 <h3>Horario</h3>  <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
             </div>
         </div>
-        <div class="col-md-6" style="margin-top: 5%">
+        <div class="col-md-6" style="margin-top: 1%">
             <div class="form-group contato-form">
                 <label for="usr">Name</label>
                 <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
