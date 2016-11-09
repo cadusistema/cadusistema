@@ -2,6 +2,9 @@
 b {
     color: black;
 }
+/*body{*/
+    /*width: auto;*/
+/*}*/
 
 /*configuração da nav-bar*/
 .navbar-nav > li {
@@ -16,21 +19,12 @@ b {
 .navbar-default .navbar-nav > li > a {
     color: black;
 }
-
-/*.item img {*/
-/*margin: auto;*/
-/*height: 10px;*/
-/*}*/
 .carousel-control {
     width: 70px;
     height: 80px;
     margin-top: 300px;
 
 }
-
-/*.img-carousel{*/
-/*height: 50px;*/
-/*}*/
 .carousel-inner > .item > img {
     margin: auto;
     width: 100%;
@@ -175,7 +169,6 @@ h5 {
 
 .mapa iframe {
     pointer-events: none;
-
 }
 
 .contato {
