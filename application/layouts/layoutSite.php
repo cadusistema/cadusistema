@@ -239,6 +239,7 @@
             var img = $(this).attr('href');
             img = img.replace("#", "");
             var at = null;
+
             if ($(this).attr('class').indexOf('atrativos') !== -1)
                 at = document.getElementById('atrativos');
             else
