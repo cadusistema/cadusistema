@@ -85,7 +85,8 @@
                     <li><a href="#"><img src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px" alt=""><b>
                                 Parque
                                 das Andorinhas</b></a></li>
-                    <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span
+                                class="sr-only">(current)</span></a></li>
                     <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
                     <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades Desenvolvidas</a>
                     </li>
@@ -192,6 +193,7 @@
     </div>
 </footer>
 <script type="text/javascript">
+    //    trava o zoom do mapa
     $('.mapa').click(function () {
         $('.mapa iframe').css("pointer-events", "auto");
     });
@@ -230,6 +232,23 @@
             }
         };
     }
+    //    altera imagem de fundo da section atrativos e esportes
+    $('.btn-black').click(
+        function () {
+
+            var img = $(this).attr('href');
+            img = img.replace("#", "");
+            var at = null;
+            if ($(this).attr('class').indexOf('atrativos') !== -1)
+                at = document.getElementById('atrativos');
+            else
+                at = document.getElementById('esportes');
+            at.className = "fundo " + img;
+
+
+
+        }
+    );
 </script>
 </body>
 </html>

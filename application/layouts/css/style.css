@@ -1,7 +1,9 @@
+
 /*negrito parque das andorinhas na nav bar*/
 b {
     color: black;
 }
+
 /*configuração da nav-bar*/
 .navbar-nav > li {
     float: none;
@@ -9,18 +11,20 @@ b {
 
 .navbar {
     margin-bottom: 0%;
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: black;
 }
+
 .carousel-control {
     width: 70px;
     height: 80px;
     margin-top: 21%;
 
 }
+
 .carousel-inner > .item > img {
     margin: auto;
     width: 100%;
@@ -89,11 +93,7 @@ h5 {
     color: black;
 }
 
-#esportes {
-    background: url("../img_site/img_esportes/bike-fundo.jpg");
-    /*background-position: center;*/
-    background-size: cover;
-}
+
 
 .tituloesportes {
     background-color: black;
@@ -143,12 +143,6 @@ h5 {
 
 .colordiv {
     background: whitesmoke;
-}
-
-#atrativos {
-    background: url("../img_site/img_atrativos/trilhas.jpg");
-    /*background-position: center;*/
-    background-size: cover;
 }
 
 .mapa {
@@ -202,6 +196,63 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.fundo{
+    -webkit-transition:all ease-in-out 0.6s;
+    -moz-transition:all ease-in-out 0.6s;
+    -ms-transition:all ease-in-out 0.6s;
+    -o-transition:all ease-in-out 0.6s;
+    transition:all ease-in-out 0.6s;
+}
+
+.escalada{
+
+    background: url("../img_site/img_esportes/escalada.jpg");
+    background-size: cover;
+
+}
+
+.boulder{
+    background: url("../img_site/img_esportes/boulder.jpg");
+    background-size: cover;
+}
+.mountainbike{
+    background: url("../img_site/img_esportes/mountainbike.jpg");
+    background-size: cover;
+}
+
+.highline{
+    background: url("../img_site/img_esportes/highline.jpg");
+    background-size: cover;
+
+}
+
+.trilha{
+    background: url("../img_site/img_atrativos/trilha.png");
+    background-size: cover;
+}
+
+.mirante{
+    background: url("../img_site/img_atrativos/mirante.png");
+    background-size: cover;
+}
+.cachoeira{
+    background: url("../img_site/img_atrativos/cachoeira.png");
+    background-size: cover;
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover,.nav-tabs > li.active>a:hover,.nav-tabs > li > a:focus, .nav-tabs > li.active > a:focus{
+    color:white;
+    border-color: black;
+    background-color: black;
+    border-radius: 0 !important;
+}
+
+.btn-black{
+    color:white;
+    border-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0 !important;
+
 }
 
 

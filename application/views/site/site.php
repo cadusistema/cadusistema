@@ -112,7 +112,7 @@
         </div>
     </div>
 </section>
-<section id="esportes">
+<section id="esportes" class="escalada fundo">
 
     <div class="tituloesportes">
         <h1>Esportes</h1>
@@ -120,11 +120,13 @@
 
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
-                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#tab1">ESCALADA</a></li>
-                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab2">BOULDER</a></li>
-                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab3">MOUNTAIN BIKE</a></li>
-                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#tab4">HIGHLINE</a></li>
+            <ul id="button" class="nav nav-tabs">
+                <li class="active"><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#escalada">ESCALADA</a>
+                </li>
+                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#boulder">BOULDER</a></li>
+                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#mountainbike">MOUNTAIN
+                        BIKE</a></li>
+                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#highline">HIGHLINE</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active colordiv" id="tab1">
@@ -374,7 +376,7 @@
         </div>
     </div>
 </section>
-<section id="atrativos">
+<section id="atrativos" class="mirante fundo">
 
     <div class="tituloesportes">
         <h1>Atrativos Turísticos</h1>
@@ -383,10 +385,11 @@
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
-                <li><a class="btn btn-primary btn-black opaque active" data-toggle="tab" href="#mirante">MIRANTES</a>
+                <li class="active"><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#mirante">MIRANTES</a>
                 </li>
-                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#trilha">TRILHAS</a></li>
-                <li><a class="btn btn-primary btn-black" data-toggle="tab" href="#cachoeira">CACHOEIRAS</a></li>
+                <li><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#trilha">TRILHAS</a></li>
+                <li><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#cachoeira">CACHOEIRAS</a>
+                </li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active colordiv" id="mirante">
@@ -491,7 +494,7 @@
 
 
 </section>
-<section id="paralallax"  class="parallax">
+<section id="paralallax" class="parallax">
 </section>
 <section id="contato">
     <div class="tituloesportes">
