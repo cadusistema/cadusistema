@@ -240,7 +240,7 @@
         </div>
     </div>
 </section>
-<section id="atividades desenvolvidas">
+<section id="atividadesdesenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
         <div class="col-md-6">

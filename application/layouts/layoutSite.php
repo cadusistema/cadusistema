@@ -85,12 +85,13 @@
                     <li><a href="#"><img src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px" alt=""><b>
                                 Parque
                                 das Andorinhas</b></a></li>
-                    <li><a href="#">Infra-Estrutura <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Esportes</a></li>
-                    <li><a href="#">Atividades Desenvolvidas</a></li>
-                    <li><a href="#">Atrativos Turísticos</a></li>
-                    <li><a href="#">Localização</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
+                    <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades Desenvolvidas</a>
+                    </li>
+                    <li><a href="#" data-id="atrativos" class="scroll-link">Atrativos Turísticos</a></li>
+                    <li><a href="#" data-id="localizacao" class="scroll-link">Localização</a></li>
+                    <li><a href="#" data-id="contato" class="scroll-link">Contato</a></li>
                     <li><a href="#">Entrar</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -194,6 +195,41 @@
     $('.mapa').click(function () {
         $('.mapa iframe').css("pointer-events", "auto");
     });
+    $(document).ready(function () {
+        // navigation click actions
+        $('.scroll-link').on('click', function (event) {
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function (event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 'slow');
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed) {
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop: targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function () {
+            }
+        };
+    }
 </script>
 </body>
 </html>
