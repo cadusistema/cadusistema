@@ -120,15 +120,15 @@
 
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul id="button" class="nav nav-tabs">
-                <li class="active"><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#escalada">ESCALADA</a>
+            <ul id="ulesportes" class="nav nav-tabs">
+                <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','escalada')" data-toggle="tab" href="#escalada">ESCALADA</a>
                 </li>
-                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#boulder">BOULDER</a></li>
-                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#mountainbike">MOUNTAIN
+                <li id="liboulder"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','boulder')" data-toggle="tab" href="#boulder">BOULDER</a></li>
+                <li id="limountainbike"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','mountainbike')" data-toggle="tab" href="#mountainbike">MOUNTAIN
                         BIKE</a></li>
-                <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#highline">HIGHLINE</a></li>
+                <li id="lihighline"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','highline')" data-toggle="tab" href="#highline">HIGHLINE</a></li>
             </ul>
-            <div class="tab-content">
+            <div id="divesportes" class="tab-content">
                 <div class="tab-pane active colordiv" id="escalada">
                     <div class="row">
                         <div class="col-md-5">
@@ -384,14 +384,14 @@
 
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
-                <li class="active"><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#mirante">MIRANTES</a>
+            <ul id="ulatrativos" class="nav nav-tabs">
+                <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab" onclick="changeBackground('atrativos','mirante')" href="#mirante">MIRANTES</a>
                 </li>
-                <li><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#trilha">TRILHAS</a></li>
-                <li><a class="btn btn-primary btn-black atrativos" data-toggle="tab" href="#cachoeira">CACHOEIRAS</a>
+                <li id="litrilha"><a class="btn btn-primary btn-black" data-toggle="tab" onclick="changeBackground('atrativos','trilha')" href="#trilha">TRILHAS</a></li>
+                <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab" onclick="changeBackground('atrativos','cachoeira')" href="#cachoeira">CACHOEIRAS</a>
                 </li>
             </ul>
-            <div class="tab-content">
+            <div id="divatrativos" class="tab-content">
                 <div class="tab-pane active colordiv" id="mirante">
                     <div class="row">
                         <div class="col-md-5">
