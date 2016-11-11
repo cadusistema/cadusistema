@@ -129,7 +129,7 @@
                 <li><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#highline">HIGHLINE</a></li>
             </ul>
             <div class="tab-content">
-                <div class="tab-pane active colordiv" id="tab1">
+                <div class="tab-pane active colordiv" id="escalada">
                     <div class="row">
                         <div class="col-md-5">
                             <div id="tab1" class="textocentral">
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane colordiv" id="tab2">
+                <div class="tab-pane colordiv" id="boulder">
                     <div class="row">
                         <div class="col-md-5 textocentral">
                             <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane  colordiv" id="tab3">
+                <div class="tab-pane  colordiv" id="mountainbike">
                     <div class="row">
                         <div class="col-md-5 textocentral">
                             <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane  colordiv" id="tab4">
+                <div class="tab-pane  colordiv" id="highline">
                     <div class="row">
                         <div class="col-md-5 textocentral">
                             <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
