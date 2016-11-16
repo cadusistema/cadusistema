@@ -123,7 +123,8 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-11" aria-expanded="false" style="background-color: #ffffff">
+                        data-target="#bs-example-navbar-collapse-11" aria-expanded="false"
+                        style="background-color: #ffffff">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar" style="background-color: #0f0f0f"></span>
                     <span class="icon-bar" style="background-color: #0f0f0f"></span>
@@ -150,7 +151,7 @@
                                            href="#highline">HIGHLINE</a></li>
                 </ul>
             </div>
-            <div id="divesportes" class="tab-content">
+            <div id="divesportes" class="tab-content respiro">
                 <div class="tab-pane active colordiv" id="escalada">
                     <div class="row">
                         <div class="col-md-5">
@@ -405,19 +406,33 @@
     </div>
 
     <div id="central" class="conteudocentral">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-12" aria-expanded="false"
+                    style="background-color: #ffffff">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar" style="background-color: #0f0f0f"></span>
+                <span class="icon-bar" style="background-color: #0f0f0f"></span>
+                <span class="icon-bar" style="background-color: #0f0f0f"></span>
+            </button>
+        </div>
         <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul id="ulatrativos" class="nav nav-tabs">
-                <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                     onclick="changeBackground('atrativos','mirante')" href="#mirante">MIRANTES</a>
-                </li>
-                <li id="litrilha"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                     onclick="changeBackground('atrativos','trilha')" href="#trilha">TRILHAS</a></li>
-                <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                        onclick="changeBackground('atrativos','cachoeira')"
-                                        href="#cachoeira">CACHOEIRAS</a>
-                </li>
-            </ul>
-            <div id="divatrativos" class="tab-content">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                <ul id="ulatrativos" class="nav nav-tabs">
+                    <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                         onclick="changeBackground('atrativos','mirante')"
+                                                         href="#mirante">MIRANTES</a>
+                    </li>
+                    <li id="litrilha"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                         onclick="changeBackground('atrativos','trilha')" href="#trilha">TRILHAS</a>
+                    </li>
+                    <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                            onclick="changeBackground('atrativos','cachoeira')"
+                                            href="#cachoeira">CACHOEIRAS</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="divatrativos" class="tab-content respiro">
                 <div class="tab-pane active colordiv" id="mirante">
                     <div class="row">
                         <div class="col-md-5">

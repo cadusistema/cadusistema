@@ -130,7 +130,7 @@ h5 {
 .conteudocentral {
     /*background-color: whitesmoke;*/
     width: 95%;
-    height: 600px;
+    /*height: 600px;*/
     margin: auto;
     margin-top: 10%;
 }
@@ -275,8 +275,10 @@ h5 {
     color: white;
     border-color: rgba(0, 0, 0, 0.7);
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 0 !important;
-
+    /*border-radius: 0 !important;*/
+}
+.respiro{
+    padding-bottom: 5%;
 }
 
 
