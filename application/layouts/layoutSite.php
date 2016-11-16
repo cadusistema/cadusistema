@@ -117,7 +117,8 @@
             <div class="item active">
                 <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>" alt="...">
 
-                <a href="#trilha" data-id="atrativos" class="scroll-link esportes" onclick="changeBackground('atrativos','mirante')">
+                <a href="#trilha" data-id="atrativos" class="scroll-link esportes"
+                   onclick="changeBackground('atrativos','mirante')">
                     <div class="carouselbar">
                         <h1>Mirantes</h1>
                     </div>
@@ -153,7 +154,7 @@
                 </img>
             </div>
             <div class="item">
-                <img src="<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>" alt="...">
+                <img src="<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>" alt="..." height="200 px ">
                 <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','highline')">
                     <div class="carouselbar">
                         <h1>High Line</h1>
@@ -163,7 +164,8 @@
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>" alt="...">
-                <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','mountainbike')">
+                <a href="#" data-id="esportes" class="scroll-link"
+                   onclick="changeBackground('esportes','mountainbike')">
                     <div class="carouselbar">
                         <h1>Mountain Bike</h1>
                     </div>
@@ -282,10 +284,10 @@
     function changeBackground(divid, link) {
         var at = document.getElementById(divid);
         at.className = "fundo " + link;
-        $("#ul"+divid+">li.active").removeClass("active");
-        $("#div"+divid+">div.active").removeClass("active");
-        $("#"+link).addClass('active');
-        $("#li"+link).addClass("active");
+        $("#ul" + divid + ">li.active").removeClass("active");
+        $("#div" + divid + ">div.active").removeClass("active");
+        $("#" + link).addClass('active');
+        $("#li" + link).addClass("active");
 
 
     }
@@ -311,6 +313,11 @@
         }
     })(jQuery);
     $('#maincarousel').shuffle();
+
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+
 </script>
 </body>
 </html>
