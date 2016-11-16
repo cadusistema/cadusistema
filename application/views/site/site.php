@@ -557,7 +557,7 @@
                 <h3>Horario</h3>  <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
             </div>
         </div>
-        <div class="col-md-6 contato" style="margin-top: 1%">
+        <div class="col-md-6" style="margin-top: 1%">
             <div class="form-group contato-form">
                 <label for="usr">Name</label>
                 <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
