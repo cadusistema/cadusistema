@@ -1,111 +1,113 @@
 <section id="infra">
     <h1>Infra-Estrutura</h1>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="row">
-                <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
-                    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div id="itens" class="col-md-3">
+                        <figure class="icone">
+                            <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Centro Administrativo</h3>
+                        <h5>Conta com dois vestiários</h5>
+                    </div>
+
                 </div>
-                <div class="col-md-9">
-                    <h3>Centro Administrativo</h3>
-                    <h5>Conta com dois vestiários</h5>
+                <div class="row">
+                    <div id="itens" class="col-md-3">
+                        <figure class="icone">
+                            <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="col-md-9">
+                        <h3>Área de Lazer</h3>
+                        <h5>Campo de futebol, quadra de areia, quadra poliesportiva e churrasqueira</h5>
+                    </div>
                 </div>
 
-            </div>
-            <div class="row">
-                <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
-                    </figure>
-                </div>
-
-                <div class="col-md-9">
-                    <h3>Área de Lazer</h3>
-                    <h5>Campo de futebol, quadra de areia, quadra poliesportiva e churrasqueira</h5>
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
-                    </figure>
-                </div>
-                <div class="col-md-9">
-                    <h3>Portaria</h3>
-                    <h5>Ocupada por guarda-parques além de funcionar como um ponto de informações turísticas</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4 ">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '1.jpg') ?>" alt="">
+                <div class="row">
+                    <div id="itens" class="col-md-3">
+                        <figure class="icone">
+                            <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
                         </figure>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '2.jpg') ?>" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                        </figure>
+                    <div class="col-md-9">
+                        <h3>Portaria</h3>
+                        <h5>Ocupada por guarda-parques além de funcionar como um ponto de informações turísticas</h5>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '4.jpg') ?>" alt="">
-                        </figure>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '1.jpg') ?>" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '2.jpg') ?>" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
+                            </figure>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '5.jpg') ?>" alt="">
-                        </figure>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '4.jpg') ?>" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '5.jpg') ?>" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '6.jpg') ?>" alt="">
+                            </figure>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '6.jpg') ?>" alt="">
-                        </figure>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '7.jpg') ?>" alt="">
+                            </figure>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '7.jpg') ?>" alt="">
-                        </figure>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
+                            </figure>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="iten-list">
-                        <figure>
-                            <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                        </figure>
+                    <div class="col-md-4">
+                        <div class="iten-list">
+                            <figure>
+                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -541,40 +543,45 @@
     <div class="tituloesportes">
         <h1>Contato</h1>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="row contato">
-                <h3>Endereço</h3>
-                <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="row">
+                        <h2>Endereço</h2>
+                        <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
+                    </div>
+                    <div class="row">
+                        <h2>Telefone</h2>  <span>(31) 9 7163 04 84 </span>
+                    </div>
+                    <div class="row">
+                        <h2>Email</h2> <span>pnma@gorceix.org.br</span>
+                    </div>
+                    <div class="row line">
+                        <h2>Horario</h2>  <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
+                    </div>
+                </div>
             </div>
-            <div class="row contato">
-                <h3>Telefone</h3>  <span>(31) 9 7163 04 84 </span>
-            </div>
-            <div class="row contato">
-                <h3>Email</h3> <span>pnma@gorceix.org.br</span>
-            </div>
-            <div class="row contato line">
-                <h3>Horario</h3>  <span><strong>Diariamente:</strong> 07:30 - 18:30.<br></span>
-            </div>
-        </div>
-        <div class="col-md-6" style="margin-top: 1%">
-            <div class="form-group contato-form">
-                <label for="usr">Name</label>
-                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
-            </div>
-            <div class="form-group contato-form">
-                <label for="usr">E-mail</label>
-                <input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
-            </div>
-            <div class="form-group contato-form">
-                <label for="usr">Mensagem</label>
-                <textarea type="text" class="form-control" id="msg" name="msg" placeholder="Mensagem"
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="form-group contato-form">
+                        <label for="usr">Name</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                    </div>
+                    <div class="form-group contato-form">
+                        <label for="usr">E-mail</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group contato-form">
+                        <label for="usr">Mensagem</label>
+                    <textarea type="text" class="form-control" id="msg" name="msg" placeholder="Mensagem"
                           rows="5"></textarea>
+                    </div>
+                    <div class="form-group contato-form">
+                        <button class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
             </div>
-            <div class="form-group contato-form">
-                <button class="btn btn-success">Enviar</button>
-            </div>
-
         </div>
     </div>
 </section>
