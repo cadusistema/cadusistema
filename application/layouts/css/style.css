@@ -80,6 +80,7 @@ html {
     margin-left: 20%;
 }
 
+
 .img-infra {
     width: 200px;
     height: 150px;
@@ -293,7 +294,6 @@ h5 {
 }
 
 .btn-black:hover{
-    background-color: green;
     -webkit-transform: rotateZ(-5deg);
     -ms-transform: rotateZ(-5deg);
     transform: rotateZ(-5deg);
