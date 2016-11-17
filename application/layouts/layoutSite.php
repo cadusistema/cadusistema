@@ -19,6 +19,7 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!--    <link rel="icon" href="favicon.png" type="image/png">-->
     <link rel="shortcut icon" href="<? echo base_url(ICONE . 'andorinhas_logo.ico') ?>" type="img/x-icon">
 
