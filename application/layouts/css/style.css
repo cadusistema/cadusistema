@@ -2,6 +2,9 @@
 b {
     color: black;
 }
+body{
+    overflow-x: hidden;
+}
 
 html {
     font-size: 2.3vh;
@@ -313,4 +316,8 @@ h5 {
     bottom: -10px;
     border-width: 10px 10px 0 10px;
     border-color: black transparent transparent transparent;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
 }
