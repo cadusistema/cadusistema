@@ -82,7 +82,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav nav-justified">
-                    <li><a href="#" data-id="carousel" class="scroll-link"><img src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px" alt="">
+                    <li><a href="#" data-id="carousel" class="scroll-link"><img
+                                src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px" alt="">
                             <b>Parque das Andorinhas</b></a></li>
                     <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span
                                 class="sr-only">(current)</span></a></li>
@@ -116,35 +117,36 @@
             <div class="item active">
                 <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>" alt="...">
 
-                    <a href="#trilha" data-id="atrativos" class="scroll-link carousel-black esportes">
-                        <div class="carouselbar">
-                            <h1>Mirantes</h1>
-                        </div>
-                    </a>
+                <a href="#trilha" data-id="atrativos" class="scroll-link esportes"
+                   onclick="changeBackground('atrativos','mirante')">
+                    <div class="carouselbar">
+                        <h1>Mirantes</h1>
+                    </div>
+                </a>
                 </img>
 
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>" alt="...">
-                    <a href="#" data-id="atrativos" class="scroll-link">
-                        <div class="carouselbar">
-                            <h1>Cachoeiras</h1>
-                        </div>
-                    </a>
+                <a href="#" data-id="atrativos" class="scroll-link" onclick="changeBackground('atrativos','cachoeira')">
+                    <div class="carouselbar">
+                        <h1>Cachoeiras</h1>
+                    </div>
+                </a>
                 </img>
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>" alt="...">
-                    <a href="#" data-id="atrativos" class="scroll-link">
-                        <div class="carouselbar">
-                            <h1>Trilhas</h1>
-                        </div>
-                    </a>
+                <a href="#" data-id="atrativos" class="scroll-link" onclick="changeBackground('atrativos','trilha')">
+                    <div class="carouselbar">
+                        <h1>Trilhas</h1>
+                    </div>
+                </a>
                 </img>
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>" alt="...">
-                <a href="#" data-id="esportes" class="scroll-link">
+                <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','boulder')">
                     <div class="carouselbar">
                         <h1>Boulder</h1>
                     </div>
@@ -152,8 +154,8 @@
                 </img>
             </div>
             <div class="item">
-                <img src="<? echo base_url(IMG_ESPORTES. 'highlineoriginal.jpg') ?>" alt="...">
-                <a href="#" data-id="esportes" class="scroll-link">
+                <img src="<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>" alt="..." height="200 px ">
+                <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','highline')">
                     <div class="carouselbar">
                         <h1>High Line</h1>
                     </div>
@@ -162,7 +164,8 @@
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>" alt="...">
-                <a href="#" data-id="esportes" class="scroll-link">
+                <a href="#" data-id="esportes" class="scroll-link"
+                   onclick="changeBackground('esportes','mountainbike')">
                     <div class="carouselbar">
                         <h1>Mountain Bike</h1>
                     </div>
@@ -171,7 +174,7 @@
             </div>
             <div class="item">
                 <img src="<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>" alt="...">
-                <a href="#" data-id="esportes" class="scroll-link">
+                <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','escalada')">
                     <div class="carouselbar">
                         <h1>Escalada</h1>
                     </div>
@@ -276,37 +279,23 @@
         };
     }
     //    altera imagem de fundo da section atrativos e esportes
-    $('.btn-black').click(
-        function () {
 
-            callClick($(this));
-        }
-    );
 
-    $('.carousel-black').click(
+    function changeBackground(divid, link) {
+        var at = document.getElementById(divid);
+        at.className = "fundo " + link;
+        $("#ul" + divid + ">li.active").removeClass("active");
+        $("#div" + divid + ">div.active").removeClass("active");
+        $("#" + link).addClass('active');
+        $("#li" + link).addClass("active");
 
-        function () {
-            alert(1);
-            callClick($(this));
-        }
-    );
 
-    function callClick(element){
-        var img = element.attr('href');
-        img = img.replace("#", "");
-        var at = null;
-
-        if (element.attr('class').indexOf('atrativos') !== -1)
-            at = document.getElementById('atrativos');
-        else
-            at = document.getElementById('esportes');
-        at.className = "fundo " + img;
     }
 
     //randomizer do carousel
-    (function($){
-        $.fn.shuffle = function() {
-            return this.each(function(){
+    (function ($) {
+        $.fn.shuffle = function () {
+            return this.each(function () {
                 var items = $(this).children();
                 return (items.length)
                     ? $(this).html($.shuffle(items))
@@ -314,8 +303,8 @@
             });
         }
 
-        $.shuffle = function(arr) {
-            for(
+        $.shuffle = function (arr) {
+            for (
                 var j, x, i = arr.length; i;
                 j = parseInt(Math.random() * i),
                     x = arr[--i], arr[i] = arr[j], arr[j] = x
@@ -324,6 +313,10 @@
         }
     })(jQuery);
     $('#maincarousel').shuffle();
+
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
 </script>
 </body>
 </html>
