@@ -59,12 +59,6 @@ html {
 }
 
 /*configuração do tamanho dos icones*/
-.icone img {
-    /*height: 95px;*/
-    /*margin-top: 10%;*/
-    margin-left: 25%;
-}
-
 .iten-list {
     margin-bottom: 3%;
     margin-left: 10%;
@@ -153,8 +147,6 @@ h5 {
 .nav-tabs > li > a {
     color: whitesmoke;
 }
-
-
 
 .opaque {
     background-color: rgba(0, 0, 0, 0.6);
@@ -321,3 +313,21 @@ h5 {
     margin: 0px;
     padding: 0px;
 }
+.navbar-collapse{
+    padding-left: 0px;
+}
+/*@media (max-width: 568px) {*/
+    /*.teste{*/
+        /*background: url("../img_site/icon/64/administracao.png") no-repeat;*/
+        /*!*height: 64px;*!*/
+        /*!*color: #00CC00;*!*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 568px) {*/
+    /*.teste {*/
+        /*background: url("../img_site/icon/128/administracao.png") no-repeat;*/
+        /*!*height: 118px;*!*/
+        /*!*color: #00CC00;*!*/
+    /*}*/
+/*}*/
