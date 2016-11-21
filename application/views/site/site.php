@@ -284,6 +284,13 @@
                         sustentabilidade e educação patrimonial.
                     </h5>
                 </div>
+<!--                <div class="col-md-9">-->
+<!--                    <h3>Educação Ambiental</h3>-->
+<!--                    <h5>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma-->
+<!--                        lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,-->
+<!--                        sustentabilidade e educação patrimonial.-->
+<!--                    </h5>-->
+<!--                </div>-->
             </div>
             <div class="row">
                 <div id="itens" class="col-md-3">
