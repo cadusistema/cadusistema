@@ -121,12 +121,14 @@
         </div>
     </div>
 </section>
+
 <section id="esportes" class="escalada fundo">
 
     <div class="tituloesportes">
-        <h1>Esportes</h1>
+        <h1 id="h1esportes">Esportes</h1>
     </div>
-
+    <div id="wrapper" class="centralcontent">
+    <div id="slider">
     <div id="central" class="conteudocentral">
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -233,6 +235,7 @@
                                 facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
 
                             </p>
+                            <a class="btn btn-primary btnAdvance">saiba mais</a>
                         </div>
                         <div class="col-md-7">
                             <div id="fotocentral">
@@ -247,6 +250,113 @@
                     <div class="row">
                         <div class="col-md-5 textocentral">
                             <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                placerat. Morbi eget condimentum tortor.
+
+                            </p>
+                            <a class="btn btn-primary btnAdvance">saiba mais</a>
+
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
+                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lateral" class="conteudocentral">
+        <div class="tabbable"> <!-- Only required for left/right tabs -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                <ul id="ulesportes" class="nav nav-tabs">
+                    <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes"
+                                                          onclick="changeBackground('esportes','escalada')"
+                                                          data-toggle="tab" href="#bonsai">BONSAI</a>
+                    </li>
+                    <li id="lininja"><a class="btn btn-primary btn-black esportes"
+                                          onclick="changeBackground('esportes','boulder')" data-toggle="tab"
+                                          href="#boulder">NINJA</a></li>
+                    <li id="lininjutsu"><a class="btn btn-primary btn-black esportes"
+                                               onclick="changeBackground('esportes','mountainbike')" data-toggle="tab"
+                                               href="#mountainbike">NINJUTSU</a></li>
+                    <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
+                                           onclick="changeBackground('esportes','highline')" data-toggle="tab"
+                                           href="#highline">TAIJUTSU</a></li>
+                </ul>
+            </div>
+            <div id="bonsai" class="tab-content respiro">
+                <div class="tab-pane active colordiv" id="bonsai">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div id="tab1" class="textocentral">
+                                <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                    pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                    fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                    vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                    non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                    fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                    mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                    purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                    placerat. Morbi eget condimentum tortor.
+
+                                </p>
+                                <a id="btnRetreat" class="btn btn-primary">Voltar</a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotoconteudocentral" class="fotocentral">
+                                <img class="img-responsive"
+                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane colordiv" id="boulder">
+                    <div class="row">
+                        <div class="col-md-5 textocentral">
+                            <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
+                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
+                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
+                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
+
+                            </p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
+                                     src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane  colordiv" id="mountainbike">
+                    <div class="row">
+                        <div class="col-md-5 textocentral">
+                            <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                 pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                 fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
                                 vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
@@ -270,10 +380,44 @@
                         </div>
                     </div>
                 </div>
+                <div class="tab-pane  colordiv" id="highline">
+                    <div class="row">
+                        <div class="col-md-5 textocentral">
+                            <p>8-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
+                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
+                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
+                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
+                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
+                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
+                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
+                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
+                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
+                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
+                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
+
+                            </p>
+                            <a class="btn btn-primary btnRetreat">saiba mais</a>
+
+                        </div>
+                        <div class="col-md-7">
+                            <div id="fotocentral">
+                                <img class="img-responsive fotocentral"
+                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 </section>
+
+
+
 <section id="atividadesdesenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
