@@ -1,11 +1,11 @@
 <section id="infra">
     <h1>Infra-Estrutura</h1>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
                 <div class="row">
-                    <div id="itens" class="col-md-3">
-                        <figure class="icone">
+                    <div class="col-md-3">
+                        <figure class="icone teste">
                             <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
                         </figure>
                     </div>
@@ -16,7 +16,7 @@
 
                 </div>
                 <div class="row">
-                    <div id="itens" class="col-md-3">
+                    <div class="col-md-3">
                         <figure class="icone">
                             <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
                         </figure>
@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="row">
-                    <div id="itens" class="col-md-3">
+                    <div class="col-md-3">
                         <figure class="icone">
                             <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
                         </figure>
@@ -428,6 +428,13 @@
                         sustentabilidade e educação patrimonial.
                     </h5>
                 </div>
+<!--                <div class="col-md-9">-->
+<!--                    <h3>Educação Ambiental</h3>-->
+<!--                    <h5>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma-->
+<!--                        lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,-->
+<!--                        sustentabilidade e educação patrimonial.-->
+<!--                    </h5>-->
+<!--                </div>-->
             </div>
             <div class="row">
                 <div id="itens" class="col-md-3">
@@ -719,7 +726,7 @@
                     <div class="form-group contato-form">
                         <label for="usr">Mensagem</label>
                     <textarea type="text" class="form-control" id="msg" name="msg" placeholder="Mensagem"
-                          rows="5"></textarea>
+                              rows="5"></textarea>
                     </div>
                     <div class="form-group contato-form">
                         <button class="btn btn-success">Enviar</button>
