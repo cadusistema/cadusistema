@@ -5,9 +5,12 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-3">
-                        <figure class="icone teste">
-                            <img src="<? echo base_url(ICONE . 'administracao.ico') ?>" alt="">
-                        </figure>
+                        <picture>
+                            <source media="(max-width:45em"
+                                    srcset="<? echo base_url(ICONE . "/64/administracao.png") ?>">
+                            <img src="<? echo base_url(ICONE . "/128/administracao.png") ?>"
+                                 alt="Icone da administração do parque">
+                        </picture>
                     </div>
                     <div class="col-md-9">
                         <h3>Centro Administrativo</h3>
@@ -17,9 +20,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <figure class="icone">
-                            <img src="<? echo base_url(ICONE . 'areasports.ico') ?>" alt="">
-                        </figure>
+                        <picture>
+                            <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/areasports.png") ?>">
+                            <img src="<? echo base_url(ICONE . "/128/areasports.png") ?>"
+                                 alt="Icone da area de esportes do parque">
+                        </picture>
                     </div>
 
                     <div class="col-md-9">
@@ -30,9 +35,11 @@
 
                 <div class="row">
                     <div class="col-md-3">
-                        <figure class="icone">
-                            <img src="<? echo base_url(ICONE . 'ordonance.ico') ?>" alt="">
-                        </figure>
+                        <picture>
+                            <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/ordonance.png") ?>">
+                            <img src="<? echo base_url(ICONE . "/128/ordonance.png") ?>"
+                                 alt="Icone da portaria do parque">
+                        </picture>
                     </div>
                     <div class="col-md-9">
                         <h3>Portaria</h3>
@@ -273,9 +280,10 @@
         <div class="col-md-6">
             <div class="row">
                 <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                    </figure>
+                    <picture>
+                        <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/check.png") ?>">
+                        <img src="<? echo base_url(ICONE . "/128/check.png") ?>" alt="Icone da administração do parque">
+                    </picture>
                 </div>
                 <div class="col-md-9">
                     <h3>Educação Ambiental</h3>
@@ -284,19 +292,13 @@
                         sustentabilidade e educação patrimonial.
                     </h5>
                 </div>
-<!--                <div class="col-md-9">-->
-<!--                    <h3>Educação Ambiental</h3>-->
-<!--                    <h5>A ação é voltada para alunos do ensino fundamental da cidade e região, abordando, de forma-->
-<!--                        lúdica e prática, questões relativas à preservação ambiental, recursos hídricos,-->
-<!--                        sustentabilidade e educação patrimonial.-->
-<!--                    </h5>-->
-<!--                </div>-->
             </div>
             <div class="row">
                 <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                    </figure>
+                    <picture>
+                        <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/check.png") ?>">
+                        <img src="<? echo base_url(ICONE . "/128/check.png") ?>" alt="Icone da administração do parque">
+                    </picture>
                 </div>
                 <div class="col-md-9">
                     <h3>GERENCIAMENTO DE RESÍDUOS SÓLIDOS</h3>
@@ -308,9 +310,10 @@
             </div>
             <div class="row">
                 <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                    </figure>
+                    <picture>
+                        <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/check.png") ?>">
+                        <img src="<? echo base_url(ICONE . "/128/check.png") ?>" alt="Icone da administração do parque">
+                    </picture>
                 </div>
                 <div class="col-md-9">
                     <h3>PROGRAMA DE VISITAÇÃO</h3>
@@ -322,9 +325,10 @@
             </div>
             <div class="row">
                 <div id="itens" class="col-md-3">
-                    <figure class="icone">
-                        <img src="<? echo base_url(ICONE . 'check.ico') ?>" alt="">
-                    </figure>
+                    <picture>
+                        <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/check.png") ?>">
+                        <img src="<? echo base_url(ICONE . "/128/check.png") ?>" alt="Icone da administração do parque">
+                    </picture>
                 </div>
                 <div class="col-md-9">
                     <h3>COMBATE A INCÊNDIOS </h3>

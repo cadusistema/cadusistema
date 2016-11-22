@@ -316,18 +316,8 @@ h5 {
 .navbar-collapse{
     padding-left: 0px;
 }
-/*@media (max-width: 568px) {*/
-    /*.teste{*/
-        /*background: url("../img_site/icon/64/administracao.png") no-repeat;*/
-        /*!*height: 64px;*!*/
-        /*!*color: #00CC00;*!*/
-    /*}*/
-/*}*/
+.nav-tabs{
+    border-bottom: 0px;
+    margin-bottom: 0.2%;
+}
 
-/*@media (min-width: 568px) {*/
-    /*.teste {*/
-        /*background: url("../img_site/icon/128/administracao.png") no-repeat;*/
-        /*!*height: 118px;*!*/
-        /*!*color: #00CC00;*!*/
-    /*}*/
-/*}*/
