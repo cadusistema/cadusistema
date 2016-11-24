@@ -165,12 +165,10 @@
             <div id="divesportes" class="tab-content respiro">
                 <div class="tab-pane active colordiv" id="escalada">
                     <div class="row">
-                        <div class="col-md-5">
-                            <div id="tab1" class="textocentral">
-                                <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb.
-                                </p>
-                                <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
-                            </div>
+                        <div class="col-md-5 textocentral">
+                            <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb. Confira todos                                os setores no site "27 crags".
+                            </p>
+                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p></button></p>
                         </div>
                         <div class="col-md-7">
                             <div id="fotoconteudocentral" class="fotocentral">
@@ -183,21 +181,9 @@
                 <div class="tab-pane colordiv" id="boulder">
                     <div class="row">
                         <div class="col-md-5 textocentral">
-                            <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
-                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
-                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
-                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
-
+                            <p>Área de bouldering próximo ao centro da cidade, apenas há dez minutos. Ouro Preto é uma cidade histórica no coração de Minas Gerais. A rocha é um                                        quartzito macio com várias linhas. As retenções variam de prensas a slopers com graduações entre II e VIIIB.
                             </p>
-                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
+                            <p align="center"><button class="btn-custom" onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">Saiba mais</button></p>
                         </div>
                         <div class="col-md-7">
                             <div id="fotocentral">
@@ -270,23 +256,15 @@
         <div class="tabbable">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
                 <ul id="ulesportes" class="nav nav-tabs">
-                    <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes"
-
-                                                          data-toggle="tab" href="#bonsai">BONSAI</a>
-                    </li>
-                    <li id="lininja"><a class="btn btn-primary btn-black esportes"
-                                          onclick="changeBackground('esportes','boulder')" data-toggle="tab"
-                                          href="#boulder">NINJA</a></li>
-                    <li id="lininjutsu"><a class="btn btn-primary btn-black esportes"
-                                               onclick="changeBackground('esportes','mountainbike')" data-toggle="tab"
-                                               href="#mountainbike">NINJUTSU</a></li>
+                    <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#pedradoarco">PEDRA DO ARCO</a></li>
+                    <li id="lininjutsu"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','escalada')" data-toggle="tab" href="#pedrabranca">PEDRA BRANCA</a></li>
                     <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
-                                           onclick="changeBackground('esportes','highline')" data-toggle="tab"
-                                           href="#highline">TAIJUTSU</a></li>
+                                           onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                           href="#boulder">BONSAI</a></li>
                 </ul>
             </div>
             <div class="tab-content respiro">
-                <div class="tab-pane colordiv active" id="bonsai">
+                <div class="tab-pane colordiv active" id="pedradoarco">
                     <div class="row">
                         <div class="col-md-5 textocentral">
                                 <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
