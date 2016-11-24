@@ -160,7 +160,7 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div id="tab1" class="textocentral">
-                                <p>Ótimo local para escalada em rocha e caminhadas que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb.
+                                <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb.
                                 </p>
                                 <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
                             </div>
