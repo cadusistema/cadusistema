@@ -342,10 +342,10 @@ h5 {
     margin-right: 5vw;
 
 }
-
 .navbar-collapse{
     padding-left: 0px;
 }
+
 
 .row{
     margin-left: 0px;
@@ -376,3 +376,10 @@ h5 {
     position: absolute;
     transform: translate(0%, -100%);
 }
+
+.nav-tabs{
+    border-bottom: 0px;
+    margin-bottom: 0.2%;
+}
+
+

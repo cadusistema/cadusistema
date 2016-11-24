@@ -115,7 +115,6 @@
                             <h1>Mirantes</h1>
                         </div>
                     </a>
-                    </img>
 
                 </div>
                 <div class="item">
@@ -126,7 +125,6 @@
                             <h1>Cachoeiras</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
                 <div class="item">
                     <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>" alt="...">
@@ -136,7 +134,6 @@
                             <h1>Trilhas</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
                 <div class="item">
                     <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>" alt="...">
@@ -145,7 +142,6 @@
                             <h1>Boulder</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
                 <div class="item">
                     <img src="<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>" alt="..." height="200 px ">
@@ -155,7 +151,6 @@
                             <h1>High Line</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
                 <div class="item">
                     <img src="<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>" alt="...">
@@ -165,7 +160,6 @@
                             <h1>Mountain Bike</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
                 <div class="item">
                     <img src="<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>" alt="...">
@@ -175,7 +169,6 @@
                             <h1>Escalada</h1>
                         </div>
                     </a>
-                    </img>
                 </div>
             </div>
 
