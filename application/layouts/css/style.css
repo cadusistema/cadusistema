@@ -139,6 +139,8 @@ h5 {
 
 .textocentral {
     margin: auto;
+    margin-top: 15px;
+    height: 100%;
 }
 
 .fotocentral {
@@ -280,17 +282,14 @@ h5 {
 }
 
 
-.btn-black {
-    color: white;
-    border-color: rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.7);
-    /*border-radius: 0 !important;*/
-}
+
+
+
 .respiro{
     padding-bottom: 5%;
 }
 
-.btn-black:hover{
+.btn-black:hover,.btn-custom:hover{
     -webkit-transform: rotateZ(-5deg);
     -ms-transform: rotateZ(-5deg);
     transform: rotateZ(-5deg);
@@ -346,4 +345,34 @@ h5 {
 
 .navbar-collapse{
     padding-left: 0px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.btn-custom {
+    padding:10px 15px;
+    color: whitesmoke;
+    background-color: #000000;
+    border-color: #000000;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+.btn-custom:hover,.btn-custom:focus,.btn-custom:active,.btn-custom.active {
+    color: whitesmoke;
+    background-color: #000000;
+    border-color: #000000;
+    box-shadow: 3px 3px grey;
+}
+.btn-custom.disabled:hover,.btn-custom.disabled:focus,.btn-custom.disabled:active,.btn-custom.disabled.active,.btn-custom[disabled]:hover,.btn-custom[disabled]:focus,.btn-custom[disabled]:active,.btn-custom[disabled].active,fieldset[disabled] .btn-custom:hover,fieldset[disabled] .btn-custom:focus,fieldset[disabled] .btn-custom:active,fieldset[disabled] .btn-custom.active {
+    color: whitesmoke;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.left-bottom{
+    position: absolute;
+    transform: translate(0%, -100%);
 }

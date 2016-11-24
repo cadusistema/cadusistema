@@ -314,26 +314,28 @@
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
     });
-    var counter=0;
+    var counter = 0;
     //move whole section
     $(".btnAdvance").click(function () {
         if (counter == 0) {
             counter++;
             var slider = $('#central');
             var sliderWidth = document.getElementById('central').clientWidth * 1.05;
-            $('#slider').animate({left: '-=' + sliderWidth}, 1500);
+            $('#slider').animate({left: '-=' + sliderWidth}, 1000);
         }
 
 
     });
-    $("#btnRetreat").click(function () {
-        if(counter==1) {
+    $(".btnRetreat").click(function () {
+        if (counter == 1) {
             counter--;
             var slider = $('#central');
             var sliderWidth = document.getElementById('central').clientWidth * 1.05;
-            $('#slider').animate({left: '+=' + sliderWidth}, 1500);
+            $('#slider').animate({left: '+=' + sliderWidth}, 1000);
         }
     });
+
+
 </script>
 </body>
 </html>

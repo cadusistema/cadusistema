@@ -160,20 +160,9 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div id="tab1" class="textocentral">
-                                <p>1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                    pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada
-                                    fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                    molestie
-                                    vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                    Morbi
-                                    non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                    fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                    mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                    purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                    pellentesque.
-
+                                <p>Ótimo local para escalada em rocha e caminhadas que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb.
                                 </p>
+                                <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -201,6 +190,7 @@
                                 facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
 
                             </p>
+                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
                         </div>
                         <div class="col-md-7">
                             <div id="fotocentral">
@@ -228,7 +218,7 @@
                                 facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
 
                             </p>
-                            <a class="btn btn-primary btnAdvance">saiba mais</a>
+                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
                         </div>
                         <div class="col-md-7">
                             <div id="fotocentral">
@@ -253,7 +243,7 @@
                                 placerat. Morbi eget condimentum tortor.
 
                             </p>
-                            <a class="btn btn-primary btnAdvance">saiba mais</a>
+                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
 
                         </div>
                         <div class="col-md-7">
@@ -270,15 +260,11 @@
     </div>
 
     <div id="lateral" class="conteudocentral">
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <!-- Brand and toggle get grouped for better mobile display -->
-
-
-
+        <div class="tabbable">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
                 <ul id="ulesportes" class="nav nav-tabs">
                     <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes"
-                                                          onclick="changeBackground('esportes','escalada')"
+
                                                           data-toggle="tab" href="#bonsai">BONSAI</a>
                     </li>
                     <li id="lininja"><a class="btn btn-primary btn-black esportes"
@@ -292,11 +278,10 @@
                                            href="#highline">TAIJUTSU</a></li>
                 </ul>
             </div>
-            <div id="bonsai" class="tab-content respiro">
-                <div class="tab-pane active colordiv" id="bonsai">
+            <div class="tab-content respiro">
+                <div class="tab-pane colordiv active" id="bonsai">
                     <div class="row">
-                        <div class="col-md-5">
-                            <div id="tab1" class="textocentral">
+                        <div class="col-md-5 textocentral">
                                 <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
                                     pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
                                     fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
@@ -308,16 +293,19 @@
                                     placerat. Morbi eget condimentum tortor.
 
                                 </p>
-                                <a id="btnRetreat" class="btn btn-primary">Voltar</a>
-                            </div>
                         </div>
                         <div class="col-md-7">
-                            <div id="fotoconteudocentral" class="fotocentral">
+                            <div class="fotocentral">
                                 <img class="img-responsive"
                                      src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                             </div>
                         </div>
+
                     </div>
+                    <div class="left-bottom"><a class="btn btn-custom btnRetreat"><< Voltar</a></div>
+
+
+
                 </div>
                 <div class="tab-pane colordiv" id="boulder">
                     <div class="row">
@@ -390,7 +378,7 @@
                                 facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
 
                             </p>
-                            <a class="btn btn-primary btnRetreat">saiba mais</a>
+                            <a class="btn btn-black btnRetreat">aqui cadu</a>
 
                         </div>
                         <div class="col-md-7">
@@ -607,7 +595,7 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <div id="fotoconteudocentral" class="fotocentral">
+                            <div class="fotocentral">
                                 <img class="img-responsive"
                                      src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                             </div>
