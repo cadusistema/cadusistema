@@ -128,260 +128,395 @@
         <h1 id="h1esportes">Esportes</h1>
     </div>
     <div id="wrapper" class="centralcontent">
-    <div id="slider">
-    <div id="central" class="conteudocentral">
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-11" aria-expanded="false"
-                        style="background-color: #ffffff">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                    <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                    <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                </button>
+        <div id="slider">
+            <div id="central" class="conteudocentral">
+                <div class="tabbable"> <!-- Only required for left/right tabs -->
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-11" aria-expanded="false"
+                                style="background-color: #ffffff">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
+                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
+                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
+                        </button>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-11">
+                        <ul id="ulesportes" class="nav nav-tabs">
+                            <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes"
+                                                                  onclick="changeBackground('esportes','escalada')"
+                                                                  data-toggle="tab" href="#escalada">ESCALADA</a>
+                            </li>
+                            <li id="liboulder"><a class="btn btn-primary btn-black esportes"
+                                                  onclick="changeBackground('esportes','boulder')" data-toggle="tab"
+                                                  href="#boulder">BOULDER</a></li>
+                            <li id="limountainbike"><a class="btn btn-primary btn-black esportes"
+                                                       onclick="changeBackground('esportes','mountainbike')"
+                                                       data-toggle="tab"
+                                                       href="#mountainbike">MOUNTAIN
+                                    BIKE</a></li>
+                            <li id="lihighline"><a class="btn btn-primary btn-black esportes"
+                                                   onclick="changeBackground('esportes','highline')" data-toggle="tab"
+                                                   href="#highline">HIGHLINE</a></li>
+                        </ul>
+                    </div>
+                    <div id="divesportes" class="tab-content respiro">
+                        <div class="tab-pane active colordiv" id="escalada">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo
+                                        cerca de 3 vias de até 60m com graduações entre II a VIIIb. Confira todos os
+                                        setores no site "27 crags".
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom btnAdvance">Saiba mais</button>
+                                    </p>
+                                    </button></p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotoconteudocentral" class="fotocentral">
+                                        <img class="img-responsive"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane colordiv" id="boulder">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>Área de bouldering próximo ao centro da cidade, apenas há dez minutos. Ouro Preto
+                                        é uma cidade histórica no coração de Minas Gerais. A rocha é um quartzito macio
+                                        com várias linhas. As retenções variam de prensas a slopers com graduações entre
+                                        II e VIIIB.
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom"
+                                                onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">
+                                            Saiba mais
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="mountainbike">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
+                                        ac,
+                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
+                                        massa.
+                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
+                                        luctus, a
+                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
+                                        porta dui.
+
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom btnAdvance">Saiba mais</button>
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="highline">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor.
+
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom btnAdvance">Saiba mais</button>
+                                    </p>
+
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <div id="lateral" class="conteudocentral">
+                <div class="tabbable">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                        <ul id="ulesportes" class="nav nav-tabs">
+                            <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes"
+                                                                data-toggle="tab" href="#pedradoarco">PEDRA DO ARCO</a>
+                            </li>
+                            <li id="lininjutsu"><a class="btn btn-primary btn-black esportes"
+                                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                                   href="#pedrabranca">PEDRA BRANCA</a></li>
+                            <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
+                                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                                   href="#boulder">BONSAI</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content respiro">
+                        <div class="tab-pane colordiv active" id="pedradoarco">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor.
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-11">
-                <ul id="ulesportes" class="nav nav-tabs">
-                    <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes"
-                                                          onclick="changeBackground('esportes','escalada')"
-                                                          data-toggle="tab" href="#escalada">ESCALADA</a>
-                    </li>
-                    <li id="liboulder"><a class="btn btn-primary btn-black esportes"
-                                          onclick="changeBackground('esportes','boulder')" data-toggle="tab"
-                                          href="#boulder">BOULDER</a></li>
-                    <li id="limountainbike"><a class="btn btn-primary btn-black esportes"
-                                               onclick="changeBackground('esportes','mountainbike')" data-toggle="tab"
-                                               href="#mountainbike">MOUNTAIN
-                            BIKE</a></li>
-                    <li id="lihighline"><a class="btn btn-primary btn-black esportes"
-                                           onclick="changeBackground('esportes','highline')" data-toggle="tab"
-                                           href="#highline">HIGHLINE</a></li>
-                </ul>
-            </div>
-            <div id="divesportes" class="tab-content respiro">
-                <div class="tab-pane active colordiv" id="escalada">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo cerca de 3 vias de até 60m com graduações entre II a VIIIb. Confira todos                                os setores no site "27 crags".
-                            </p>
-                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p></button></p>
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="fotocentral">
+                                        <!--                                <img class="img-responsive"-->
+                                        <!--                                     src="-->
+                                        <? // echo base_url(IMG_CAROUSEL . '3.jpg') ?><!--" alt="...">-->
+
+                                        <section id="carousel">
+                                            <div id="carousel-example-generic" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-example-generic" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div id="teste" class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>"
+                                                             alt="...">
+
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-example-generic"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-example-generic"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom btnRetreat"><< Voltar</a></div>
+
+
                         </div>
-                        <div class="col-md-7">
-                            <div id="fotoconteudocentral" class="fotocentral">
-                                <img class="img-responsive"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                        <div class="tab-pane colordiv" id="boulder">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
+                                        ac,
+                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
+                                        massa.
+                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
+                                        luctus, a
+                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
+                                        porta dui.
+
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane colordiv" id="boulder">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>Área de bouldering próximo ao centro da cidade, apenas há dez minutos. Ouro Preto é uma cidade histórica no coração de Minas Gerais. A rocha é um                                        quartzito macio com várias linhas. As retenções variam de prensas a slopers com graduações entre II e VIIIB.
-                            </p>
-                            <p align="center"><button class="btn-custom" onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">Saiba mais</button></p>
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+                        <div class="tab-pane  colordiv" id="mountainbike">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
+                                        ac,
+                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
+                                        massa.
+                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
+                                        luctus, a
+                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
+                                        porta dui.
 
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane  colordiv" id="mountainbike">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
-                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
-                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
-                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
+                        <div class="tab-pane  colordiv" id="highline">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>8-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
+                                        mi
+                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
+                                        malesuada
+                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
+                                        molestie
+                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
+                                        Morbi
+                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
+                                        nisi, et
+                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
+                                        lobortis,
+                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
+                                        euismod
+                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
+                                        pellentesque
+                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
+                                        ac,
+                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
+                                        massa.
+                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
+                                        luctus, a
+                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
+                                        porta dui.
 
-                            </p>
-                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </p>
+                                    <a class="btn btn-black btnRetreat">aqui cadu</a>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane  colordiv" id="highline">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor.
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
-                            </p>
-                            <p align="center"><button class="btn-custom btnAdvance">Saiba mais</button></p>
-
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="lateral" class="conteudocentral">
-        <div class="tabbable">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
-                <ul id="ulesportes" class="nav nav-tabs">
-                    <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes" data-toggle="tab" href="#pedradoarco">PEDRA DO ARCO</a></li>
-                    <li id="lininjutsu"><a class="btn btn-primary btn-black esportes" onclick="changeBackground('esportes','escalada')" data-toggle="tab" href="#pedrabranca">PEDRA BRANCA</a></li>
-                    <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
-                                           onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                           href="#boulder">BONSAI</a></li>
-                </ul>
-            </div>
-            <div class="tab-content respiro">
-                <div class="tab-pane colordiv active" id="pedradoarco">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                                <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                    pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                    fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                    vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                    non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                    fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                    mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                    purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                    placerat. Morbi eget condimentum tortor.
-
-                                </p>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="fotocentral">
-                                <img class="img-responsive"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="left-bottom"><a class="btn btn-custom btnRetreat"><< Voltar</a></div>
-
-
-
-                </div>
-                <div class="tab-pane colordiv" id="boulder">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
-                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
-                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
-                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
-
-                            </p>
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane  colordiv" id="mountainbike">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
-                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
-                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
-                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
-
-                            </p>
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane  colordiv" id="highline">
-                    <div class="row">
-                        <div class="col-md-5 textocentral">
-                            <p>8-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus mi
-                                pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada
-                                fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus molestie
-                                vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu. Morbi
-                                non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus nisi, et
-                                fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat lobortis,
-                                mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie euismod
-                                purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis pellentesque
-                                placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia ac,
-                                dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae massa.
-                                Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim luctus, a
-                                facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus porta dui.
-
-                            </p>
-                            <a class="btn btn-black btnRetreat">aqui cadu</a>
-
-                        </div>
-                        <div class="col-md-7">
-                            <div id="fotocentral">
-                                <img class="img-responsive fotocentral"
-                                     src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
     </div>
 </section>
-
 
 
 <section id="atividadesdesenvolvidas">
