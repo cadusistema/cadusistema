@@ -123,12 +123,7 @@ h5 {
 }
 
 .conteudocentral {
-    /*background-color: whitesmoke;*/
     width: 95%;
-    /*height: 600px;*/
-
-    /*margin: auto;*/
-    /*margin-top: 10%;*/
 }
 
 .textocentral {
@@ -153,7 +148,7 @@ h5 {
 }
 
 .colordiv {
-    background: whitesmoke;
+    background: #fff;
 }
 
 .mapa {
@@ -274,10 +269,6 @@ h5 {
     box-shadow: 0 0 1px transparent;
 }
 
-.respiro {
-    padding-bottom: 5%;
-}
-
 .btn-black:hover, .btn-custom:hover {
     -webkit-transform: rotateZ(-5deg);
     -ms-transform: rotateZ(-5deg);
@@ -313,22 +304,22 @@ h5 {
 
 }
 
-#slider {
+.slider {
 
     width: 500%;
     height: 100%;
     position: absolute;
 }
 
-#slider > div {
+.slider > div {
     width: 90vw;
     height: 100%;
     float: left;
     left: 50%;
-    margin-top: 1%;
+    margin-top: 2.5vh;
     margin-left: 2.5vw;
     margin-right: 5vw;
-
+    margin-bottom: 2.5vh;
 }
 
 .navbar-collapse {
@@ -380,8 +371,6 @@ h5 {
 .tab-content {
     padding: 0px;
 }
-.tab-pane{
-    height: 52vh;
-}
+
 
 

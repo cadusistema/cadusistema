@@ -309,24 +309,29 @@
     });
     var counter = 0;
     //move whole section
-    $(".btnAdvance").click(function () {
+    function advance(id,classToShow) {
         if (counter == 0) {
             counter++;
-            var slider = $('#central');
-            var sliderWidth = document.getElementById('central').clientWidth * 1.05;
-            $('#slider').animate({left: '-=' + sliderWidth}, 1000);
+            $("#slider" + id + ">div.lateral"+id).addClass("hidden");
+            $('#'+classToShow).removeClass('hidden');
+            var slider = $('#central'+id);
+            var sliderWidth = document.getElementById('central'+id).clientWidth * 1.05;
+            $('#slider'+id).animate({left: '-=' + sliderWidth}, 1000);
         }
 
 
-    });
-    $(".btnRetreat").click(function () {
+    };
+
+    function retreat(id) {
         if (counter == 1) {
             counter--;
-            var slider = $('#central');
-            var sliderWidth = document.getElementById('central').clientWidth * 1.05;
-            $('#slider').animate({left: '+=' + sliderWidth}, 1000);
+
+
+            var slider = $('#central'+id);
+            var sliderWidth = document.getElementById('central'+id).clientWidth * 1.05;
+            $('#slider'+id).animate({left: '+=' + sliderWidth}, 1000);
         }
-    });
+    };
 
 </script>
 </body>
