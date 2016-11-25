@@ -173,6 +173,7 @@
                                     </p>
                                     <p align="center">
                                         <button class="btn-custom" onclick="advance('esportes')">Saiba mais</button>
+
                                     </p>
                                     </button></p>
                                 </div>
@@ -274,6 +275,7 @@
                                     </p>
                                     <p align="center">
                                         <button class="btn-custom" onclick="advance('esportes')">Saiba mais</button>
+
                                     </p>
 
                                 </div>
@@ -289,7 +291,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="lateral" class="conteudocentral">
                 <div class="tabbable">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
@@ -302,7 +303,7 @@
                                                    href="#pedrabranca">PEDRA BRANCA</a></li>
                             <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
                                                    onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                                   href="#boulder">BONSAI</a></li>
+                                                   href="#bonsai">BONSAI</a></li>
                         </ul>
                     </div>
                     <div class="tab-content respiro">
@@ -331,18 +332,63 @@
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <section id="carousel">
+                                            <div id="carousel-example-generic" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-example-generic" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div id="teste" class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>"
+                                                             alt="...">
+
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
+                                                             alt="...">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
+                                                             alt="...">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
+                                                             alt="...">
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-example-generic"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-example-generic"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
 
                             </div>
                             <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
-                                    Voltar</a></div>
-
-
+                                    Voltar</a>
+                            </div>
                         </div>
-                        <div class="tab-pane colordiv" id="boulder">
+                        <div class="tab-pane colordiv" id="pedrabranca">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
@@ -381,7 +427,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane  colordiv" id="mountainbike">
+                        <div class="tab-pane  colordiv" id="bonsai">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
