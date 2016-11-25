@@ -352,16 +352,19 @@
 
                                                     </div>
                                                     <div class="item">
-                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
-                                                             alt="...">
+                                                        <img
+                                                            src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
+                                                            alt="...">
                                                     </div>
                                                     <div class="item">
-                                                        <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
-                                                             alt="...">
+                                                        <img
+                                                            src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
+                                                            alt="...">
                                                     </div>
                                                     <div class="item">
-                                                        <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
-                                                             alt="...">
+                                                        <img
+                                                            src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
+                                                            alt="...">
                                                     </div>
                                                 </div>
 
@@ -664,9 +667,13 @@
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
                         <ul id="ulatrativos" class="nav nav-tabs">
-                            <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                                 onclick="changeBackground('atrativos','mirante')"
-                                                                 href="#mirante">MIRANTES</a>
+                            <li id="liatrativos" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                                   onclick="changeBackground('atrativos','sobre')"
+                                                                   href="#sobre">ATRATIVOS</a>
+                            </li>
+                            <li id="limirante"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                  onclick="changeBackground('atrativos','mirante')"
+                                                  href="#mirante">MIRANTES</a>
                             </li>
                             <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                     onclick="changeBackground('atrativos','cachoeira')"
@@ -675,7 +682,28 @@
                         </ul>
                     </div>
                     <div id="divatrativos" class="tab-content respiro">
-                        <div class="tab-pane active colordiv" id="mirante">
+                        <div class="tab-pane active colordiv" id="sobre">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção
+                                        Ambiental (APA) com 558ha de extensão, criada em 1968 com o intuito de
+                                        preservar os recursos naturais da região e sua exuberante beleza natural. O
+                                        parque conta com vários atrativos turísticos naturais, como a Cachoeira das
+                                        Andorinhas, que deu nome ao parque; o mirante da Pedra do Jacaré é de magnífica
+                                        beleza cênica; trilhas de vários níveis de dificuldade onde é possível observar
+                                        de perto a encantadora fauna e flora nativas.
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane colordiv" id="mirante">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <p>A partir do mirante, que está localizado a 1460 metros acima do nível do mar, é
@@ -684,13 +712,15 @@
                                         atrapalham a visão.
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom" onclick="advance('atrativos','lateralatrativosmirante')">Saiba mais</button>
+                                        <button class="btn-custom"
+                                                onclick="advance('atrativos','lateralatrativosmirante')">Saiba mais
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
                                     </div>
                                 </div>
                             </div>
@@ -704,7 +734,9 @@
                                         piscinas naturais.
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom" onclick="advance('atrativos','lateralatrativoscachoeira')">Saiba mais</button>
+                                        <button class="btn-custom"
+                                                onclick="advance('atrativos','lateralatrativoscachoeira')">Saiba mais
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-md-7">
@@ -722,18 +754,18 @@
             <div id="lateralatrativosmirante" class="conteudocentral lateralatrativos">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
-                        <ul id="ulatrativos" class="nav nav-tabs">
-                            <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                                 onclick="changeBackground('atrativos','mirante')"
-                                                                 href="#mirantepedradojacare">PEDRA DO JACARÉ</a>
+                        <ul id="ulmirante" class="nav nav-tabs">
+                            <li class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                  onclick="changeBackground('atrativos','mirante')"
+                                                  href="#mirantepedradojacare">PEDRA DO JACARÉ</a>
                             </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                    onclick="changeBackground('atrativos','mirante')"
-                                                    href="#miranteveúdasnoivas">VEÚ DAS NOIVAS</a>
+                            <li><a class="btn btn-primary btn-black" data-toggle="tab"
+                                   onclick="changeBackground('atrativos','mirante')"
+                                   href="#miranteveúdasnoivas">VEÚ DAS NOIVAS</a>
                             </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                    onclick="changeBackground('atrativos','mirante')"
-                                                    href="#mirantepedrabranca">PEDRA BRANCA</a>
+                            <li><a class="btn btn-primary btn-black" data-toggle="tab"
+                                   onclick="changeBackground('atrativos','mirante')"
+                                   href="#mirantepedrabranca">PEDRA BRANCA</a>
                             </li>
                         </ul>
                     </div>
@@ -801,32 +833,89 @@
                 </div>
             </div>
             <div id="lateralatrativoscachoeira" class="conteudocentral lateralatrativos">
-                <div class="tabbable"> <!-- Only required for left/right tabs -->
+                <div class="tabbable">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
-                        <ul id="ulatrativos" class="nav nav-tabs">
-                            <li id="limirante" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                                 onclick="changeBackground('atrativos','cachoeira')"
-                                                                 href="#mirantepedradojacare">cachoeira DO JACARÉ</a>
-                            </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                    onclick="changeBackground('atrativos','mirante')"
-                                                    href="#miranteveúdasnoivas">VEÚ DAS NOIVAS</a>
+                        <ul id="ulcachoeira" class="nav nav-tabs">
+                            <li id="licachoeira" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                                   onclick="changeBackground('atrativos','cachoeira')"
+                                                                   href="#cachoeiraandorinhas">ANDORINHAS</a>
                             </li>
                             <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                     onclick="changeBackground('atrativos','cachoeira')"
-                                                    href="#mirantepedrabranca">cachoira BRANCA</a>
+                                                    href="#cachoeirapelados">PELADOS</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeiraveudasnoivas">VÉU DAS NOIVAS</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeirafolhinha">FOLHINHA</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeirapraiadorancheiro">PRAIA DO RANCHEIRO</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeiracarioquinha">CARIOQUINHA</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeirapocodobau">POÇO DO BAÚ</a>
+                            </li>
+                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                                                    onclick="changeBackground('atrativos','cachoeira')"
+                                                    href="#cachoeirapocodaschurrasqueiras">POÇO DAS CHURRASQUEIRAS</a>
                             </li>
                         </ul>
                     </div>
                     <div id="divcachoeiras" class="tab-content respiro">
-                        <div class="tab-pane active colordiv" id="mirantepedradojacare">
+                        <div class="tab-pane active colordiv" id="cachoeiraandorinhas">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
-                                        curioso formato de uma cabeça de jacaré. Neste mirante é possível observar
-                                        também uma deslumbrante paisagem natural composta por serras e mata atlântica
-                                        que serve como plano de fundo para a famosa e belíssima Pedra do Jacaré.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira das Andorinhas</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">550m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            20 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail trail-green">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira das Andorinhas possui uma beleza natural singular, conta com uma
+                                            queda d'água de cerca de 10 metros de altura, situada no interior de uma
+                                            formação rochosoa que se assemelha a uma gruta. É assim chamada por abrigar
+                                            uma
+                                            considerável quantidade de andorinhas de coleira durante a primavera-verão.
+                                            Esta
+                                            é a cachoeira mais visitada da região.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
@@ -838,14 +927,49 @@
                             <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
-                        <div class="tab-pane colordiv" id="miranteveúdasnoivas">
+                        <div class="tab-pane colordiv" id="cachoeirapelados">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
-                                        possível contemplar a beleza majestosa da natureza com uma exuberante mata
-                                        atlântica e serras de até 1.200 metros de altitude.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira dos Pelados</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">600m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-blue">
 
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira dos Pelados situa-se a cerca de 600 metros da sede do PNMA. Esta
+                                            cachoeira de beleza cênica exuberante, conta com uma queda d'água de
+                                            aproximadamente 5 metros de altura, perfeita para se refrescar em ambiente
+                                            tranquilo e harmonioso.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
@@ -857,16 +981,182 @@
                             <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
-                        <div class="tab-pane  colordiv" id="mirantepedrabranca">
+                        <div class="tab-pane  colordiv" id="cachoeiraveudasnoivas">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
-                                        coloração esbranquiçada, daí a origem do nome. Trata-se do mirante mais alto do
-                                        parque, com cerca de 1.350 metros de altitude. Do topo da Pedra Branca é
-                                        possível observar quase toda a extensão do parque e contemplar uma paisagem de
-                                        beleza singular. Os mais aventureiros costumam chegar ao mirante através da
-                                        escalada da Pedra Branca. Mas se você não quer se arriscar tanto, não se
-                                        preocupe! Existe uma trilha de nível moderado que dá acesso ao topo da pedra.
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira Véu das Noivas</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">1100m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            60 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail trail-orange">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira Véu das Noivas apresenta duas quedas d'água que somam cerca de 40
+                                            metros de altura de deslumbrante e imponente beleza natural. Chegar a base
+                                            desta
+                                            cachoeira é tarefa para os visitantes mais aventureiros, pois é necessário
+                                            atravessar uma trilha bem fechada e muito íngrime que liga o topo à base
+                                            desta
+                                            cachoeira.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="cachoeirafolhinha">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira da Folhinha</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">2450m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            75 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito difícil
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira da Folhinha é um dos pontos mais procurados pelos visitantes que
+                                            moram na região. Este atrativo turístico natural de beleza magnífica, conta
+                                            com
+                                            um grande poço que se assemelha a um belo lago, ideal para nadar e relaxar.
+                                            Esta
+                                            cachoeira é chamada assim devido a grande quantidade de vegetação contendo
+                                            pequenas folhas que margeam o local, engrandecendo ainda mais seu fascinante
+                                            encanto natural.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="cachoeirapraiadorancheiro">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias em
+                                        boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
+                                        profundidade, além de uma extensa área plana coberta por gramínias. Ótimo local
+                                        para se acampar e fazer piquiniques com amigos e família. Lembrando que não é
+                                        permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho para
+                                        melhor garantir sua própria segurança.
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="cachoeiracarioquinha">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
+                                        refrescante queda d'água, além de um extenso poço, onde a profundidade aumenta
+                                        progressivamente, chegando até cerca de 1,5 metros de profundidade próximo da
+                                        queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras mais
+                                        profundas e com grandes quedas d'água.
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="cachoeirapocodobau">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
+                                        percursos para desfrutar de uma área para nadar com espetacular beleza natural.
+                                        Ese poço apresenta cerca de 1,80 metros de profundidade, em águas calmas sem
+                                        correnteza, além de uma grande área plana coberta por gramíneas. Perfeito local
+                                        para piquiniques e brincadeiras para crianças. Lembrando que não é permitido
+                                        fazer fogueiras nas dependências do parque.
+                                    </p>
+                                </div>
+                                <div class="col-md-7">
+                                    <div id="fotocentral">
+                                        <img class="img-responsive fotocentral"
+                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="cachoeirapocodaschurrasqueiras">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra próximo
+                                        a área de churrasqueiras. Poço de cerca de 1,0 metros de profundidade, ótimo
+                                        para se refrescar com as crianças, família e amigos enquanto prepara um saboroso
+                                        churrasco nos dias ensolarados.
                                     </p>
                                 </div>
                                 <div class="col-md-7">
