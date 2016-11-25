@@ -74,8 +74,8 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav nav-justified">
                         <li><a href="#" data-id="carousel" class="scroll-link"><img
-                                    src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px" alt="">
-                                <b>Parque das Andorinhas</b></a></li>
+                                    src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px">
+                                Parque das Andorinhas</a></li>
                         <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span
                                     class="sr-only">(current)</span></a></li>
                         <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
