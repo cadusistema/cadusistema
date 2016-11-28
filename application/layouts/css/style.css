@@ -136,8 +136,11 @@ h5 {
 }
 
 .fotocentral {
+    background-color: black;
     margin: auto;
     padding: 1%;
+    height:60vh;
+    overflow: hidden;
 }
 
 /*configuraçao da navbar de esportes*/
@@ -371,8 +374,17 @@ h5 {
     margin-bottom: 0.2%;
 }
 
-#teste img {
-    height: 50vh;
+.img-responsive {
+                           zoom: 2;
+    background-color: black;
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
 }
 
 .tab-content {
@@ -392,13 +404,39 @@ div[class*="trail-"]{
     width: 20px;
     transform: translate(15px, 0.85vh);
 }
-div[class*="orange"] {
+.trail-orange {
     background-color: orangered;
 }
 
-div[class*="blue"]{
+.trail-blue{
     background-color: blue;
 }
-div[class*="green"]{
+.trail-green{
     background-color: green;
+}
+
+.trail-yellow{
+    background-color: yellow;
+}
+
+.trail-red{
+    background-color: red;
+}
+.trail-lightblue{
+    background-color: lightblue;
+}
+
+.trail-gray{
+    background-color: gray;
+}
+.trail-lightgreen{
+    background-color: lightgreen;
+}
+
+.trail-indigo{
+            background-color: indigo;
+}
+
+.nopaddingright{
+    padding-right: 0px;
 }

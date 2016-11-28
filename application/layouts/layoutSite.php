@@ -307,31 +307,31 @@
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
     });
-    var counter = 0;
+    var counter = '';
     //move whole section
-    function advance(id,classToShow) {
-        if (counter == 0) {
-            counter++;
-            $("#slider" + id + ">div.lateral"+id).addClass("hidden");
-            $('#'+classToShow).removeClass('hidden');
-            var slider = $('#central'+id);
-            var sliderWidth = document.getElementById('central'+id).clientWidth * 1.05;
-            $('#slider'+id).animate({left: '-=' + sliderWidth}, 1000);
+    function advance(id, classToShow) {
+        if (counter.indexOf(id) == -1) {
+            counter+=id;
+            $("#slider" + id + ">div.lateral" + id).addClass("hidden");
+            $('#' + classToShow).removeClass('hidden');
+            var slider = $('#central' + id);
+            var sliderWidth = document.getElementById('central' + id).clientWidth * 1.05;
+            $('#slider' + id).animate({left: '-=' + sliderWidth}, 1000);
         }
 
 
-    };
-
+    }
+    ;
+    //retreat whole section
     function retreat(id) {
-        if (counter == 1) {
-            counter--;
-
-
-            var slider = $('#central'+id);
-            var sliderWidth = document.getElementById('central'+id).clientWidth * 1.05;
-            $('#slider'+id).animate({left: '+=' + sliderWidth}, 1000);
+        if(counter.indexOf(id)!==-1){
+            counter = counter.replace(id,'');
+            var slider = $('#central' + id);
+            var sliderWidth = document.getElementById('central' + id).clientWidth * 1.05;
+            $('#slider' + id).animate({left: '+=' + sliderWidth}, 1000);
         }
-    };
+    }
+    ;
 
 </script>
 </body>

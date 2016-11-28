@@ -130,21 +130,8 @@
     <div id="wrapper" class="centralcontent">
         <div id="slideresportes" class="slider">
             <div id="centralesportes" class="conteudocentral">
-                <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-11" aria-expanded="false"
-                                style="background-color: #ffffff">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                            <span class="icon-bar" style="background-color: #0f0f0f"></span>
-                        </button>
-                    </div>
-
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-11">
+                <div class="tabbable">
+                    <div class="collapse navbar-collapse">
                         <ul id="ulesportes" class="nav nav-tabs">
                             <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes"
                                                                   onclick="changeBackground('esportes','escalada')"
@@ -172,13 +159,14 @@
                                         setores no site "27 crags".
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom" onclick="advance('esportes')">Saiba mais</button>
-
+                                        <button class="btn-custom"
+                                                onclick="advance('esportes','lateralesportesescalada')">Saiba mais
+                                        </button>
                                     </p>
                                     </button></p>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotoconteudocentral" class="fotocentral">
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
@@ -200,9 +188,9 @@
                                         </button>
                                     </p>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
 
                                     </div>
@@ -239,12 +227,14 @@
 
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom" onclick="advance('esportes')">Saiba mais</button>
+                                        <button class="btn-custom"
+                                                onclick="advance('esportes','lateralesportesmountainbike')">Saiba mais
+                                        </button>
                                     </p>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                                     </div>
@@ -274,14 +264,16 @@
 
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom" onclick="advance('esportes')">Saiba mais</button>
+                                        <button class="btn-custom"
+                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais
+                                        </button>
 
                                     </p>
 
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                                     </div>
@@ -291,91 +283,113 @@
                     </div>
                 </div>
             </div>
-            <div id="lateral" class="conteudocentral">
+            <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                    <div class="collapse navbar-collapse">
                         <ul id="ulesportes" class="nav nav-tabs">
-                            <li id="libonsai" class="active"><a class="btn btn-primary btn-black esportes"
-                                                                data-toggle="tab" href="#pedradoarco">PEDRA DO ARCO</a>
+                            <li class="active"><a class="btn btn-primary btn-black esportes"
+                                                  data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
                             </li>
-                            <li id="lininjutsu"><a class="btn btn-primary btn-black esportes"
-                                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                                   href="#pedrabranca">PEDRA BRANCA</a></li>
-                            <li id="litaijutsu"><a class="btn btn-primary btn-black esportes"
-                                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                                   href="#bonsai">BONSAI</a></li>
+                            <li><a class="btn btn-primary btn-black esportes"
+                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                   href="#escaladapedrabranca">PEDRA BRANCA</a></li>
+                            <li><a class="btn btn-primary btn-black esportes"
+                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                   href="#escaladabonsai">BONSAI</a></li>
                         </ul>
                     </div>
-                    <div class="tab-content respiro">
-                        <div class="tab-pane colordiv active" id="pedradoarco">
+                    <div id="divescalada" class="tab-content respiro">
+                        <div class="tab-pane colordiv active" id="escaladapedradoarco">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>6-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor.
-
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Pedra do Arco</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">900m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            45 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-red">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Pedra do Arco é um setor de escalada natural ao ar livre com cerca de 12
+                                            metros de altura em paredão vertical contendo vias ativas já instaladas no
+                                            local. A formação rochosa trata-se de quartzito compacto e em ótimas
+                                            condições para a prática deste esporte.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <section id="carousel">
-                                            <div id="carousel-example-generic" class="carousel slide"
+                                            <div id="carousel-pedradoarco" class="carousel slide"
                                                  data-ride="carousel">
                                                 <!-- Indicators -->
                                                 <ol class="carousel-indicators">
-                                                    <li data-target="#carousel-example-generic" data-slide-to="0"
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="0"
                                                         class="active"></li>
-                                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="3"></li>
 
                                                 </ol>
 
                                                 <!-- Wrapper for slides -->
-                                                <div id="teste" class="carousel-inner" role="listbox">
+                                                <div class="carousel-inner" role="listbox">
                                                     <div class="item active">
-                                                        <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>"
+                                                        <img class="img-responsive"
+                                                             src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>"
                                                              alt="...">
 
                                                     </div>
                                                     <div class="item">
-                                                        <img
-                                                            src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
-                                                            alt="...">
+                                                        <img class="img-responsive"
+                                                             src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
+                                                             alt="...">
                                                     </div>
                                                     <div class="item">
-                                                        <img
-                                                            src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
-                                                            alt="...">
+                                                        <img class="img-responsive"
+                                                             src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
+                                                             alt="...">
                                                     </div>
                                                     <div class="item">
-                                                        <img
-                                                            src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
-                                                            alt="...">
+                                                        <img class="img-responsive"
+                                                             src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
+                                                             alt="...">
                                                     </div>
                                                 </div>
 
                                                 <!-- Controls -->
-                                                <a class="left carousel-control" href="#carousel-example-generic"
+                                                <a class="left carousel-control" href="#carousel-pedradoarco"
                                                    role="button" data-slide="prev">
                                                     <span class="glyphicon glyphicon-chevron-left"
                                                           aria-hidden="true"></span>
                                                     <span class="sr-only">Previous</span>
                                                 </a>
-                                                <a class="right carousel-control" href="#carousel-example-generic"
+                                                <a class="right carousel-control" href="#carousel-pedradoarco"
                                                    role="button" data-slide="next">
                                                     <span class="glyphicon glyphicon-chevron-right"
                                                           aria-hidden="true"></span>
@@ -391,119 +405,106 @@
                                     Voltar</a>
                             </div>
                         </div>
-                        <div class="tab-pane colordiv" id="pedrabranca">
+                        <div class="tab-pane colordiv" id="escaladapedrabranca">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
-                                        ac,
-                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
-                                        massa.
-                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
-                                        luctus, a
-                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
-                                        porta dui.
-
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Pedra Branca</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">820m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-yellow">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O setor de escalada Pedra Branca conta com mais de um paredão para a prática
+                                            do esporte. A modalidade de escalada neste local é em parede vertical, onde
+                                            já existem algumas vias com diferentes níveis de dificuldade. No topo deste
+                                            setor se encontra o mirante natural mais alto do parque, de onde é possível
+                                            observar uma paisagem natural de extrema beleza cênica.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane  colordiv" id="bonsai">
+                        <div class="tab-pane  colordiv" id="escaladabonsai">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
-                                        ac,
-                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
-                                        massa.
-                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
-                                        luctus, a
-                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
-                                        porta dui.
-
-                                    </p>
-                                </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Boulder Bonsai</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">1800m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            80 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-blue">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O setor de escalada Bonsai contém apenas um local para escalada, no entanto,
+                                            existe mais de uma via para a prática deste esporte. Este setor de escalada
+                                            é do tipo boulder, modalidade onde se escala uma parede com inclinação
+                                            negativa (teto), além disso, este setor dispensa o uso de cordas e ganchos
+                                            fixos na rocha.
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane  colordiv" id="highline">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <p>8-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
-                                        ac,
-                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
-                                        massa.
-                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
-                                        luctus, a
-                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
-                                        porta dui.
-
-                                    </p>
-                                    <a class="btn btn-black btnRetreat">aqui cadu</a>
-
-                                </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                                     </div>
@@ -665,7 +666,7 @@
         <div id="slideratrativos" class="slider">
             <div id="centralatrativos" class="conteudocentral">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                    <div class="collapse navbar-collapse">
                         <ul id="ulatrativos" class="nav nav-tabs">
                             <li id="liatrativos" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                                    onclick="changeBackground('atrativos','sobre')"
@@ -694,7 +695,7 @@
                                         de perto a encantadora fauna e flora nativas.
                                     </p>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
@@ -717,7 +718,7 @@
                                         </button>
                                     </p>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
@@ -739,9 +740,9 @@
                                         </button>
                                     </p>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
 
                                     </div>
@@ -753,7 +754,7 @@
             </div>
             <div id="lateralatrativosmirante" class="conteudocentral lateralatrativos">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                    <div class="collapse navbar-collapse">
                         <ul id="ulmirante" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                   onclick="changeBackground('atrativos','mirante')"
@@ -773,13 +774,48 @@
                         <div class="tab-pane active colordiv" id="mirantepedradojacare">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
-                                        curioso formato de uma cabeça de jacaré. Neste mirante é possível observar
-                                        também uma deslumbrante paisagem natural composta por serras e mata atlântica
-                                        que serve como plano de fundo para a famosa e belíssima Pedra do Jacaré.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Pedra do Jacaré</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">525m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            20 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-green">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
+                                            curioso formato de uma cabeça de jacaré. Neste mirante é possível observar
+                                            também uma deslumbrante paisagem natural composta por serras e mata
+                                            atlântica
+                                            que serve como plano de fundo para a famosa e belíssima Pedra do Jacaré.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
@@ -792,12 +828,46 @@
                         <div class="tab-pane colordiv" id="miranteveúdasnoivas">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
-                                        possível contemplar a beleza majestosa da natureza com uma exuberante mata
-                                        atlântica e serras de até 1.200 metros de altitude.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Cachoeira Véu das Noivas</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">820m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-orange">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
+                                            possível contemplar a beleza majestosa da natureza com uma exuberante mata
+                                            atlântica e serras de até 1.200 metros de altitude.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
@@ -810,18 +880,55 @@
                         <div class="tab-pane  colordiv" id="mirantepedrabranca">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
-                                        coloração esbranquiçada, daí a origem do nome. Trata-se do mirante mais alto do
-                                        parque, com cerca de 1.350 metros de altitude. Do topo da Pedra Branca é
-                                        possível observar quase toda a extensão do parque e contemplar uma paisagem de
-                                        beleza singular. Os mais aventureiros costumam chegar ao mirante através da
-                                        escalada da Pedra Branca. Mas se você não quer se arriscar tanto, não se
-                                        preocupe! Existe uma trilha de nível moderado que dá acesso ao topo da pedra.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Pedra Branca</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">940m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            45 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-blue">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
+                                            coloração esbranquiçada, daí a origem do nome. Trata-se do mirante mais alto
+                                            do
+                                            parque, com cerca de 1.350 metros de altitude. Do topo da Pedra Branca é
+                                            possível observar quase toda a extensão do parque e contemplar uma paisagem
+                                            de
+                                            beleza singular. Os mais aventureiros costumam chegar ao mirante através da
+                                            escalada da Pedra Branca. Mas se você não quer se arriscar tanto, não se
+                                            preocupe! Existe uma trilha de nível moderado que dá acesso ao topo da
+                                            pedra.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -834,7 +941,7 @@
             </div>
             <div id="lateralatrativoscachoeira" class="conteudocentral lateralatrativos">
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                    <div class="collapse navbar-collapse">
                         <ul id="ulcachoeira" class="nav nav-tabs">
                             <li id="licachoeira" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                                    onclick="changeBackground('atrativos','cachoeira')"
@@ -903,7 +1010,7 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail trail-green">
+                                        <div class="col-md-6 trail-green">
                                         </div>
                                     </div>
                                     <div class="row textocentral">
@@ -917,7 +1024,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
@@ -971,7 +1078,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
@@ -1013,7 +1120,7 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail trail-orange">
+                                        <div class="col-md-6 trail-orange">
 
                                         </div>
                                     </div>
@@ -1028,9 +1135,9 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1066,6 +1173,14 @@
                                             Muito difícil
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-yellow">
+
+                                        </div>
+                                    </div>
                                     <div class="row textocentral">
                                         <p>A Cachoeira da Folhinha é um dos pontos mais procurados pelos visitantes que
                                             moram na região. Este atrativo turístico natural de beleza magnífica, conta
@@ -1078,9 +1193,9 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1091,17 +1206,55 @@
                         <div class="tab-pane  colordiv" id="cachoeirapraiadorancheiro">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias em
-                                        boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
-                                        profundidade, além de uma extensa área plana coberta por gramínias. Ótimo local
-                                        para se acampar e fazer piquiniques com amigos e família. Lembrando que não é
-                                        permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho para
-                                        melhor garantir sua própria segurança.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Praia do Rancheiro</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">3000m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            100 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-red">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias
+                                            em
+                                            boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
+                                            profundidade, além de uma extensa área plana coberta por gramínias. Ótimo
+                                            local
+                                            para se acampar e fazer piquiniques com amigos e família. Lembrando que não
+                                            é
+                                            permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho
+                                            para
+                                            melhor garantir sua própria segurança.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1112,16 +1265,54 @@
                         <div class="tab-pane  colordiv" id="cachoeiracarioquinha">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
-                                        refrescante queda d'água, além de um extenso poço, onde a profundidade aumenta
-                                        progressivamente, chegando até cerca de 1,5 metros de profundidade próximo da
-                                        queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras mais
-                                        profundas e com grandes quedas d'água.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira do Carioquinha</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">1540m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            60 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-lightblue">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
+                                            refrescante queda d'água, além de um extenso poço, onde a profundidade
+                                            aumenta
+                                            progressivamente, chegando até cerca de 1,5 metros de profundidade próximo
+                                            da
+                                            queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras
+                                            mais
+                                            profundas e com grandes quedas d'água.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1132,17 +1323,54 @@
                         <div class="tab-pane  colordiv" id="cachoeirapocodobau">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
-                                        percursos para desfrutar de uma área para nadar com espetacular beleza natural.
-                                        Ese poço apresenta cerca de 1,80 metros de profundidade, em águas calmas sem
-                                        correnteza, além de uma grande área plana coberta por gramíneas. Perfeito local
-                                        para piquiniques e brincadeiras para crianças. Lembrando que não é permitido
-                                        fazer fogueiras nas dependências do parque.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira Pocinho do Baú</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">690m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            15 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-gray">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
+                                            percursos para desfrutar de uma área para nadar com espetacular beleza
+                                            natural.
+                                            Ese poço apresenta cerca de 1,80 metros de profundidade, em águas calmas sem
+                                            correnteza, além de uma grande área plana coberta por gramíneas. Perfeito
+                                            local
+                                            para piquiniques e brincadeiras para crianças. Lembrando que não é permitido
+                                            fazer fogueiras nas dependências do parque.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1153,15 +1381,50 @@
                         <div class="tab-pane  colordiv" id="cachoeirapocodaschurrasqueiras">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra próximo
-                                        a área de churrasqueiras. Poço de cerca de 1,0 metros de profundidade, ótimo
-                                        para se refrescar com as crianças, família e amigos enquanto prepara um saboroso
-                                        churrasco nos dias ensolarados.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira Poço das Churrasqueiras</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">170m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            3 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-indigo">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra
+                                            próximo a área de churrasqueiras. Poço de cerca de 1,0 metros de
+                                            profundidade, ótimo para se refrescar com as crianças, família e amigos
+                                            enquanto prepara um saboroso churrasco nos dias ensolarados.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-7">
-                                    <div id="fotocentral">
-                                        <img class="img-responsive fotocentral"
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <img class="img-responsive"
                                              src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
@@ -1169,6 +1432,7 @@
                             <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
+
                     </div>
                 </div>
             </div>
