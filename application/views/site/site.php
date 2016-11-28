@@ -130,9 +130,20 @@
     <div id="wrapper" class="centralcontent">
         <div id="slideresportes" class="slider">
             <div id="centralesportes" class="conteudocentral">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-12" aria-expanded="false" style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
+
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse">
-                        <ul id="ulesportes" class="nav nav-tabs">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
+                        <ul id="ulesportes" class="nav nav-tabs head-menu">
                             <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes"
                                                                   onclick="changeBackground('esportes','escalada')"
                                                                   data-toggle="tab" href="#escalada">ESCALADA</a>
@@ -163,7 +174,6 @@
                                                 onclick="advance('esportes','lateralesportesescalada')">Saiba mais
                                         </button>
                                     </p>
-                                    </button></p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
@@ -284,8 +294,20 @@
                 </div>
             </div>
             <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-14" aria-expanded="false" style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
+
+
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-14">
                         <ul id="ulesportes" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black esportes"
                                                   data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
@@ -665,8 +687,17 @@
     <div id="wrapper" class="centralcontent">
         <div id="slideratrativos" class="slider">
             <div id="centralatrativos" class="conteudocentral">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-13" aria-expanded="false" style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-13">
                         <ul id="ulatrativos" class="nav nav-tabs">
                             <li id="liatrativos" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                                    onclick="changeBackground('atrativos','sobre')"
