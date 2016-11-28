@@ -392,13 +392,35 @@ div[class*="trail-"]{
     width: 20px;
     transform: translate(15px, 0.85vh);
 }
-div[class*="orange"] {
+.trail-orange {
     background-color: orangered;
 }
 
-div[class*="blue"]{
+.trail-blue{
     background-color: blue;
 }
-div[class*="green"]{
+.trail-green{
     background-color: green;
+}
+
+.trail-yellow{
+    background-color: yellow;
+}
+
+.trail-red{
+    background-color: red;
+}
+.trail-lightblue{
+    background-color: lightblue;
+}
+
+.trail-gray{
+    background-color: gray;
+}
+.trail-lightgreen{
+    background-color: lightgreen;
+}
+
+.trail-indigo{
+            background-color: indigo;
 }

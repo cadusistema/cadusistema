@@ -773,11 +773,46 @@
                         <div class="tab-pane active colordiv" id="mirantepedradojacare">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
-                                        curioso formato de uma cabeça de jacaré. Neste mirante é possível observar
-                                        também uma deslumbrante paisagem natural composta por serras e mata atlântica
-                                        que serve como plano de fundo para a famosa e belíssima Pedra do Jacaré.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Pedra do Jacaré</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">525m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            20 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-green">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
+                                            curioso formato de uma cabeça de jacaré. Neste mirante é possível observar
+                                            também uma deslumbrante paisagem natural composta por serras e mata
+                                            atlântica
+                                            que serve como plano de fundo para a famosa e belíssima Pedra do Jacaré.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
@@ -792,10 +827,44 @@
                         <div class="tab-pane colordiv" id="miranteveúdasnoivas">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
-                                        possível contemplar a beleza majestosa da natureza com uma exuberante mata
-                                        atlântica e serras de até 1.200 metros de altitude.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Cachoeira Véu das Noivas</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">820m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-orange">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
+                                            possível contemplar a beleza majestosa da natureza com uma exuberante mata
+                                            atlântica e serras de até 1.200 metros de altitude.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="fotocentral">
@@ -810,14 +879,51 @@
                         <div class="tab-pane  colordiv" id="mirantepedrabranca">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
-                                        coloração esbranquiçada, daí a origem do nome. Trata-se do mirante mais alto do
-                                        parque, com cerca de 1.350 metros de altitude. Do topo da Pedra Branca é
-                                        possível observar quase toda a extensão do parque e contemplar uma paisagem de
-                                        beleza singular. Os mais aventureiros costumam chegar ao mirante através da
-                                        escalada da Pedra Branca. Mas se você não quer se arriscar tanto, não se
-                                        preocupe! Existe uma trilha de nível moderado que dá acesso ao topo da pedra.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Mirante Pedra Branca</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">940m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            45 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-blue">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
+                                            coloração esbranquiçada, daí a origem do nome. Trata-se do mirante mais alto
+                                            do
+                                            parque, com cerca de 1.350 metros de altitude. Do topo da Pedra Branca é
+                                            possível observar quase toda a extensão do parque e contemplar uma paisagem
+                                            de
+                                            beleza singular. Os mais aventureiros costumam chegar ao mirante através da
+                                            escalada da Pedra Branca. Mas se você não quer se arriscar tanto, não se
+                                            preocupe! Existe uma trilha de nível moderado que dá acesso ao topo da
+                                            pedra.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div id="fotocentral">
@@ -903,7 +1009,7 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail trail-green">
+                                        <div class="col-md-6 trail-green">
                                         </div>
                                     </div>
                                     <div class="row textocentral">
@@ -1013,7 +1119,7 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail trail-orange">
+                                        <div class="col-md-6 trail-orange">
 
                                         </div>
                                     </div>
@@ -1066,6 +1172,14 @@
                                             Muito difícil
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-yellow">
+
+                                        </div>
+                                    </div>
                                     <div class="row textocentral">
                                         <p>A Cachoeira da Folhinha é um dos pontos mais procurados pelos visitantes que
                                             moram na região. Este atrativo turístico natural de beleza magnífica, conta
@@ -1091,13 +1205,51 @@
                         <div class="tab-pane  colordiv" id="cachoeirapraiadorancheiro">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias em
-                                        boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
-                                        profundidade, além de uma extensa área plana coberta por gramínias. Ótimo local
-                                        para se acampar e fazer piquiniques com amigos e família. Lembrando que não é
-                                        permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho para
-                                        melhor garantir sua própria segurança.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Praia do Rancheiro</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">3000m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            100 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-red">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias
+                                            em
+                                            boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
+                                            profundidade, além de uma extensa área plana coberta por gramínias. Ótimo
+                                            local
+                                            para se acampar e fazer piquiniques com amigos e família. Lembrando que não
+                                            é
+                                            permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho
+                                            para
+                                            melhor garantir sua própria segurança.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div id="fotocentral">
@@ -1112,12 +1264,50 @@
                         <div class="tab-pane  colordiv" id="cachoeiracarioquinha">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
-                                        refrescante queda d'água, além de um extenso poço, onde a profundidade aumenta
-                                        progressivamente, chegando até cerca de 1,5 metros de profundidade próximo da
-                                        queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras mais
-                                        profundas e com grandes quedas d'água.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira do Carioquinha</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">1540m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            60 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-lightblue">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
+                                            refrescante queda d'água, além de um extenso poço, onde a profundidade
+                                            aumenta
+                                            progressivamente, chegando até cerca de 1,5 metros de profundidade próximo
+                                            da
+                                            queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras
+                                            mais
+                                            profundas e com grandes quedas d'água.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div id="fotocentral">
@@ -1132,13 +1322,50 @@
                         <div class="tab-pane  colordiv" id="cachoeirapocodobau">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
-                                        percursos para desfrutar de uma área para nadar com espetacular beleza natural.
-                                        Ese poço apresenta cerca de 1,80 metros de profundidade, em águas calmas sem
-                                        correnteza, além de uma grande área plana coberta por gramíneas. Perfeito local
-                                        para piquiniques e brincadeiras para crianças. Lembrando que não é permitido
-                                        fazer fogueiras nas dependências do parque.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira Pocinho do Baú</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">690m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            15 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-gray">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
+                                            percursos para desfrutar de uma área para nadar com espetacular beleza
+                                            natural.
+                                            Ese poço apresenta cerca de 1,80 metros de profundidade, em águas calmas sem
+                                            correnteza, além de uma grande área plana coberta por gramíneas. Perfeito
+                                            local
+                                            para piquiniques e brincadeiras para crianças. Lembrando que não é permitido
+                                            fazer fogueiras nas dependências do parque.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div id="fotocentral">
@@ -1153,11 +1380,46 @@
                         <div class="tab-pane  colordiv" id="cachoeirapocodaschurrasqueiras">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra próximo
-                                        a área de churrasqueiras. Poço de cerca de 1,0 metros de profundidade, ótimo
-                                        para se refrescar com as crianças, família e amigos enquanto prepara um saboroso
-                                        churrasco nos dias ensolarados.
-                                    </p>
+                                    <div class="row" align="center">
+                                        <h3>Cachoeira Poço das Churrasqueiras</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">170m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            3 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Muito Fácil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-indigo">
+
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra
+                                            próximo a área de churrasqueiras. Poço de cerca de 1,0 metros de
+                                            profundidade, ótimo para se refrescar com as crianças, família e amigos
+                                            enquanto prepara um saboroso churrasco nos dias ensolarados.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div id="fotocentral">
@@ -1169,6 +1431,7 @@
                             <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
+
                     </div>
                 </div>
             </div>
