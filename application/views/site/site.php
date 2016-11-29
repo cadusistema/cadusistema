@@ -155,8 +155,7 @@
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo
-                                        cerca de 3 vias de até 60m com graduações entre II a VIIIb. Confira todos os
-                                        setores no site "27 crags".
+                                        cerca de 3 vias de até 60m com graduações entre II a VIIIb.
                                     </p>
                                     <p align="center">
                                         <button class="btn-custom"
@@ -167,8 +166,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada3.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@
                                     <p>Área de bouldering próximo ao centro da cidade, apenas há dez minutos. Ouro Preto
                                         é uma cidade histórica no coração de Minas Gerais. A rocha é um quartzito macio
                                         com várias linhas. As retenções variam de prensas a slopers com graduações entre
-                                        II e VIIIB.
+                                        II e VIIIB. Confira todos os setores no site "27 crags".
                                     </p>
                                     <p align="center">
                                         <button class="btn-custom"
@@ -190,8 +190,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
+                                        </div>
 
                                     </div>
                                 </div>
@@ -200,42 +201,19 @@
                         <div class="tab-pane  colordiv" id="mountainbike">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>3-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor. Nam libero augue, faucibus vel lacinia
-                                        ac,
-                                        dapibus sed tortor. Quisque quam nibh, fringilla at dapibus at, pharetra vitae
-                                        massa.
-                                        Aliquam vitae vulputate ligula, a porta nulla. Maecenas mattis lacus non enim
-                                        luctus, a
-                                        facilisis libero maximus. Cras augue nisi, vehicula at tortor vitae, finibus
-                                        porta dui.
-
-                                    </p>
-                                    <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('esportes','lateralesportesmountainbike')">Saiba mais
-                                        </button>
+                                    <div class="row" align="center">
+                                        <h3>Trilha do Vermelhão</h3>
+                                    </div>
+                                    <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um
+                                        destaque especial para a trilha do vermelhão, com mais de 3,0 Km de extensão em
+                                        declive acentuado, perfeito para a prática de downhill.
                                     </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
+                                        </div>
 
                                     </div>
                                 </div>
@@ -244,37 +222,24 @@
                         <div class="tab-pane  colordiv" id="highline">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>4-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at arcu finibus
-                                        mi
-                                        pharetra auctor. Pellentesque habitant morbi tristique senectus et netus et
-                                        malesuada
-                                        fames ac turpis egestas. Maecenas luctus vestibulum tellus, ac sagittis lectus
-                                        molestie
-                                        vitae. Suspendisse sed elit imperdiet, scelerisque lacus pharetra, iaculis arcu.
-                                        Morbi
-                                        non turpis faucibus, finibus ex vitae, semper ligula. Donec ultrices tempus
-                                        nisi, et
-                                        fringilla velit. Sed sed commodo libero. Aliquam egestas, nisl a feugiat
-                                        lobortis,
-                                        mauris mi auctor risus, non pellentesque felis dolor ac eros. Nam molestie
-                                        euismod
-                                        purus, et facilisis sapien tempus sit amet. Nam venenatis ligula id turpis
-                                        pellentesque
-                                        placerat. Morbi eget condimentum tortor.
-
+                                    <p>Famoso pelas cadeias de montanhas a perder de vista, cachoeiras de águas limpas,
+                                        penhascos rochosos e pontiagudos a quase 1400 metros de altitude, a pedra do
+                                        jacaré é o local perfeito para highline, contando com a vista da cachoeira das
+                                        andorinhas.
                                     </p>
-                                    <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais
-                                        </button>
-
-                                    </p>
+                                    <!--                                    <p align="center">-->
+                                    <!--                                        <button class="btn-custom"-->
+                                    <!--                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais-->
+                                    <!--                                        </button>-->
+                                    <!---->
+                                    <!--                                    </p>-->
 
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>">
+                                        </div>
 
                                     </div>
                                 </div>
@@ -286,7 +251,7 @@
             <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
                 <div class="tabbable">
                     <div class="collapse navbar-collapse">
-                        <ul id="ulesportes" class="nav nav-tabs">
+                        <ul id="ulescalada" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black esportes"
                                                   data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
                             </li>
@@ -360,25 +325,23 @@
                                                 <!-- Wrapper for slides -->
                                                 <div class="carousel-inner" role="listbox">
                                                     <div class="item active">
-                                                        <img class="img-responsive"
-                                                             src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>"
-                                                             alt="...">
-
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada1.jpg') ?>">
+                                                        </div>
                                                     </div>
                                                     <div class="item">
-                                                        <img class="img-responsive"
-                                                             src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>"
-                                                             alt="...">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>">
+                                                        </div>
                                                     </div>
                                                     <div class="item">
-                                                        <img class="img-responsive"
-                                                             src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>"
-                                                             alt="...">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada2.jpg') ?>">
+                                                        </div>
                                                     </div>
                                                     <div class="item">
-                                                        <img class="img-responsive"
-                                                             src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>"
-                                                             alt="...">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada3.jpg') ?>"></div>
                                                     </div>
                                                 </div>
 
@@ -451,11 +414,13 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '4.jpg') ?>" alt="...">
-
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>"></div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                                    Voltar</a>
                             </div>
                         </div>
                         <div class="tab-pane  colordiv" id="escaladabonsai">
@@ -504,11 +469,15 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
+                                        </div>
 
                                     </div>
                                 </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                                    Voltar</a>
                             </div>
                         </div>
                     </div>
@@ -697,8 +666,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'placas.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -720,8 +690,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'mirantepedradojacare.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -742,9 +713,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudasnoivasaerea.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -758,11 +729,11 @@
                         <ul id="ulmirante" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                   onclick="changeBackground('atrativos','mirante')"
-                                                  href="#mirantepedradojacare">PEDRA DO JACARÉ</a>
+                                                  href="#miranteveúdasnoivas">VEÚ DAS NOIVAS</a>
                             </li>
                             <li><a class="btn btn-primary btn-black" data-toggle="tab"
                                    onclick="changeBackground('atrativos','mirante')"
-                                   href="#miranteveúdasnoivas">VEÚ DAS NOIVAS</a>
+                                   href="#mirantepedradojacare">PEDRA DO JACARÉ</a>
                             </li>
                             <li><a class="btn btn-primary btn-black" data-toggle="tab"
                                    onclick="changeBackground('atrativos','mirante')"
@@ -771,7 +742,60 @@
                         </ul>
                     </div>
                     <div id="divmirantes" class="tab-content respiro">
-                        <div class="tab-pane active colordiv" id="mirantepedradojacare">
+                        <div class="tab-pane active colordiv" id="miranteveúdasnoivas">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Mirante Cachoeira Véu das Noivas</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">820m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-orange">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
+                                            possível contemplar a beleza majestosa da natureza com uma exuberante mata
+                                            atlântica e serras de até 1.200 metros de altitude.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'miranteveudasnoivas.jpg') ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                                    Voltar</a></div>
+                        </div>
+                        <div class="tab-pane colordiv" id="mirantepedradojacare">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <div class="row" align="center">
@@ -817,60 +841,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
-                                    Voltar</a></div>
-                        </div>
-                        <div class="tab-pane colordiv" id="miranteveúdasnoivas">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Mirante Cachoeira Véu das Noivas</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'mirantepedradojacare.jpg') ?>">
                                         </div>
-                                        <div class="col-md-6">820m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            40 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Difícil
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <div class="col-md-6 trail-orange">
-                                        </div>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
-                                            possível contemplar a beleza majestosa da natureza com uma exuberante mata
-                                            atlântica e serras de até 1.200 metros de altitude.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -928,8 +901,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'pedrabranca.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1026,8 +1000,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradasandorinhas.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1080,8 +1055,50 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill">
+                                            <a data-target=".bs-example-modal-lg" data-toggle="modal" href="#myModal">
+                                                <div class="overlay"></div>
+                                            </a>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                                                width="100%" height="100%" frameborder="0" style="border:0"
+                                                allowfullscreen></iframe>
+                                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                                 aria-labelledby="myLargeModalLabel">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-label="Close"><span
+                                                                    aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title" id="gridSystemModalLabel">Modal
+                                                                title</h4>
+                                                        </div>
+                                                        <div class="modal-body" width="50vh" height="50vh">
+                                                            <div class="row">
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                                                                    width="100%" height="100%" frameborder="0"
+                                                                    style="border:0"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                    data-dismiss="modal">Close
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">Save changes
+                                                            </button>
+                                                        </div>
+                                                    </div><!-- /.modal-content -->
+                                                </div><!-- /.modal-dialog -->
+                                            </div><!-- /.modal -->
+
+                                        </div>
+                                        <!--                                        <div class="fill"-->
+                                        <!--                                             style="background-image:url(-->
+                                        <? // echo base_url(IMG_ATRATIVOS . 'cachoeiradospelados.jpg') ?><!--">-->
+                                        <!--                                        </div>-->
                                     </div>
                                 </div>
                             </div>
@@ -1137,8 +1154,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudasnoivas.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1195,8 +1213,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradafolhinha.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1254,8 +1273,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'praiadorancheiro.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1312,8 +1332,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradocarioquinha.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1370,8 +1391,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'pocinhodobau.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1424,8 +1446,9 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <img class="img-responsive"
-                                             src="<? echo base_url(IMG_CAROUSEL . '3.jpg') ?>" alt="...">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'pocinhodaschurrasqueiras.jpg') ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>

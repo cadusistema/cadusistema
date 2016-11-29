@@ -118,7 +118,7 @@
 
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudanoiva.jpg') ?>" alt="...">
+                    <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudasnoivas.jpg') ?>" alt="...">
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','cachoeira')">
                         <div class="carouselbar">
