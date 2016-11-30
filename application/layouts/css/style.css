@@ -135,11 +135,7 @@ h5 {
     height: 100%;
 }
 
-.modal-body {
-    max-height: 80vh;
-    max-width: 80vh;
-/ / Sets the height to 80 / 100 ths of the viewport .
-}
+
 
 .overlay {
     background: transparent;
