@@ -135,8 +135,6 @@ h5 {
     height: 100%;
 }
 
-
-
 .overlay {
     background: transparent;
     position: absolute;
@@ -314,11 +312,10 @@ h5 {
     }
 }
 
-
 .btn-black:hover, .btn-custom:hover {
     -webkit-transform: rotateZ(-5deg) translate3d(0, 0, 0);
     -ms-transform: rotateZ(-5deg) translate3d(0, 0, 0);
-    transform: rotateZ(-5deg) translate3d(0,0,0);
+    transform: rotateZ(-5deg) translate3d(0, 0, 0);
 }
 
 .container-fluid {
@@ -475,3 +472,19 @@ div[class*="trail-"] {
 .nopaddingright {
     padding-right: 0px;
 }
+
+.modal-content {
+    width: 82vw;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 50% !important;
+    transform: translate(0, -50%) !important;
+    -ms-transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    margin: auto 5%;
+    width: 90%;
+    height: 80%;
+}
+
