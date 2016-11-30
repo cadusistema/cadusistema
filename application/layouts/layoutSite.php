@@ -72,11 +72,11 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav nav-justified">
+                    <ul id="supermenu" class="nav navbar-nav nav-justified">
                         <li><a href="#" data-id="carousel" class="scroll-link"><img
                                     src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px">
-                                Parque das Andorinhas</a></li>
-                        <li><a href="#" data-id="infra" class="scroll-link">Infra-Estrutura <span
+                                Home</a></li>
+                        <li><a href="#" data-id="infra" class="scroll-link">O Parque<span
                                     class="sr-only">(current)</span></a></li>
                         <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
                         <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades
@@ -107,9 +107,10 @@
             <!-- Wrapper for slides -->
             <div id="maincarousel" class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<? echo base_url(IMG_CAROUSEL . 'jacare.jpg') ?>" alt="...">
-
-                    <a href="#trilha" data-id="atrativos" class="scroll-link esportes"
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare.jpg') ?>">
+                    </div>
+                    <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','mirante')">
                         <div class="carouselbar">
                             <h1>Mirantes</h1>
@@ -118,7 +119,9 @@
 
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ATRATIVOS . 'cachoeiraveudasnoivas.jpg') ?>" alt="...">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiraveudasnoivas.jpg') ?>">
+                    </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','cachoeira')">
                         <div class="carouselbar">
@@ -127,16 +130,20 @@
                     </a>
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ATRATIVOS . 'trilhasoriginal.jpg') ?>" alt="...">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
+                    </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
-                       onclick="changeBackground('atrativos','trilha')">
+                       onclick="changeBackground('oparque','oparquesobre')">
                         <div class="carouselbar">
-                            <h1>Trilhas</h1>
+                            <h1>Parque Natural Municipal das Andorinhas</h1>
                         </div>
                     </a>
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>" alt="...">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'boulderoriginal.jpg') ?>">
+                    </div>
                     <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','boulder')">
                         <div class="carouselbar">
                             <h1>Boulder</h1>
@@ -144,7 +151,9 @@
                     </a>
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>" alt="..." height="200 px ">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highlineoriginal.jpg') ?>">
+                    </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','highline')">
                         <div class="carouselbar">
@@ -153,7 +162,9 @@
                     </a>
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>" alt="...">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'mountainbikeoriginal.jpg') ?>">
+                    </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','mountainbike')">
                         <div class="carouselbar">
@@ -162,7 +173,9 @@
                     </a>
                 </div>
                 <div class="item">
-                    <img src="<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>" alt="...">
+                    <div class="fillcarousel"
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'escaladabranca3.jpg') ?>">
+                    </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','escalada')">
                         <div class="carouselbar">
@@ -253,7 +266,8 @@
 
     // scroll function
     function scrollToID(id, speed) {
-        var offSet = 50;
+        var offSet = document.getElementById('supermenu').offsetHeight;
+        ;
         var targetOffset = $(id).offset().top - offSet;
         var mainNav = $('#main-nav');
         $('html,body').animate({scrollTop: targetOffset}, speed);

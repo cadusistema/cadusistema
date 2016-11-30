@@ -1,173 +1,109 @@
-<section id="infra">
-    <h1>Infra-Estrutura</h1>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-3">
-                        <picture>
-                            <source media="(max-width:45em"
-                                    srcset="<? echo base_url(ICONE . "/64/administracao.png") ?>">
-                            <img src="<? echo base_url(ICONE . "/128/administracao.png") ?>"
-                                 alt="Icone da administração do parque">
-                        </picture>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>Centro Administrativo</h3>
-                        <h5>Conta com dois vestiários</h5>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <picture>
-                            <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/areasports.png") ?>">
-                            <img src="<? echo base_url(ICONE . "/128/areasports.png") ?>"
-                                 alt="Icone da area de esportes do parque">
-                        </picture>
-                    </div>
-
-                    <div class="col-md-9">
-                        <h3>Área de Lazer</h3>
-                        <h5>Campo de futebol, quadra de areia, quadra poliesportiva e churrasqueira</h5>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <picture>
-                            <source media="(max-width:45em" srcset="<? echo base_url(ICONE . "/64/ordonance.png") ?>">
-                            <img src="<? echo base_url(ICONE . "/128/ordonance.png") ?>"
-                                 alt="Icone da portaria do parque">
-                        </picture>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>Portaria</h3>
-                        <h5>Ocupada por guarda-parques além de funcionar como um ponto de informações turísticas</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '1.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '2.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '4.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '5.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '6.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '7.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="iten-list">
-                            <figure>
-                                <img class="img-infra" src="<? echo base_url(IMG_INFRA . '3.jpg') ?>" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="esportes" class="escalada fundo">
-
+<section id="oparque" class="oparquesobre fundo">
     <div class="tituloesportes">
         <h1 id="h1esportes">Esportes</h1>
     </div>
     <div id="wrapper" class="centralcontent">
-        <div id="slideresportes" class="slider">
-            <div id="centralesportes" class="conteudocentral">
+        <div id="slideroparque" class="slider">
+            <div id="centraloparque" class="conteudocentral">
                 <div class="tabbable">
                     <div class="collapse navbar-collapse">
-                        <ul id="ulesportes" class="nav nav-tabs">
-                            <li id="liescalada" class="active"><a class="btn btn-primary btn-black esportes"
-                                                                  onclick="changeBackground('esportes','escalada')"
-                                                                  data-toggle="tab" href="#escalada">ESCALADA</a>
+                        <ul id="uloparque" class="nav nav-tabs">
+                            <li id="lioparquesobre" class="active"><a class="btn btn-primary btn-black oparque"
+                                                                      onclick="changeBackground('oparque','oparquesobre')"
+                                                                      data-toggle="tab"
+                                                                      href="#oparquesobre">O PARQUE</a>
                             </li>
-                            <li id="liboulder"><a class="btn btn-primary btn-black esportes"
-                                                  onclick="changeBackground('esportes','boulder')" data-toggle="tab"
-                                                  href="#boulder">BOULDER</a></li>
-                            <li id="limountainbike"><a class="btn btn-primary btn-black esportes"
-                                                       onclick="changeBackground('esportes','mountainbike')"
-                                                       data-toggle="tab"
-                                                       href="#mountainbike">MOUNTAIN
-                                    BIKE</a></li>
-                            <li id="lihighline"><a class="btn btn-primary btn-black esportes"
-                                                   onclick="changeBackground('esportes','highline')" data-toggle="tab"
-                                                   href="#highline">HIGHLINE</a></li>
+                            <li id="liregras"><a class="btn btn-primary btn-black oparque"
+                                                 onclick="changeBackground('oparque','regras')"
+                                                 data-toggle="tab" href="#regras">REGRAS</a>
+                            </li>
+                            <li id="liinfra"><a class="btn btn-primary btn-black oparque"
+                                                onclick="changeBackground('oparque','infra')" data-toggle="tab"
+                                                href="#infra">INFRA-ESTRUTURA</a></li>
+                            <li id="lidicas"><a class="btn btn-primary btn-black oparque"
+                                                onclick="changeBackground('oparque','dicas')"
+                                                data-toggle="tab"
+                                                href="#dicas">DICAS</a></li>
                         </ul>
                     </div>
-                    <div id="divesportes" class="tab-content respiro">
-                        <div class="tab-pane active colordiv" id="escalada">
+                    <div id="divoparque" class="tab-content respiro">
+                        <div class="tab-pane  colordiv active" id="oparquesobre">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Ótimo local para escalada em rocha que fica a 3 Km da sede do parque, possuindo
-                                        cerca de 3 vias de até 60m com graduações entre II a VIIIb.
+                                    <p>Criado pela Lei n° 390 em dezembro de 1968, para preservação dos recursos
+                                        naturais e nascente do Rio das Velhas, o Parque das Andorinhas possui uma área
+                                        de 557 ha. A área localiza-se na região da cabeceira do Rio das Velhas,
+                                        importante afluente do Rio São Francisco, com extensão de 761 quilômetros. O Rio
+                                        das Velhas nasce no município de Ouro Preto, e orienta-se no sentido Sudeste -
+                                        Noroeste. Suas nascentes encontram-se no Parque Natural Municipal da Cachoeira
+                                        das Andorinhas. Nessa região iniciou-se o Ciclo do Ouro das Minas Gerais,
+                                        referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
+                                        originou a cidade de Ouro Preto. Daí sua importância cultural e histórica. É uma
+                                        região geologicamente importante, com abundante ocorrência mineral na forma de
+                                        amplos depósitos ferríferos, como ouro, manganês, bauxita, gemas e rochas
+                                        ornamentais. Sua vegetação apresenta campos Úmidos, Rupestre com arbustivas de
+                                        Cerrado, Canga e Floresta Estacional Semidecidual Montana. O parque prioriza a
+                                        preservação dos recursos naturais da região e a nascente do Rio das Velhas, além
+                                        da preservação do espaço de lazer que o Parque propicia a moradores e estudante,
+                                        além do potencial turístico.
+
                                     </p>
-                                    <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('esportes','lateralesportesescalada')">Saiba mais
-                                        </button>
-                                    </p>
-                                    </button></p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada3.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane colordiv" id="regras">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <li>
+                                        <p>Aprecie o som da natureza, evitando fazer ruídos desnecessários.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Aprecie a paisagem, tire fotografias, evitando recolher plantas
+                                            e incomodar os animais.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Recolha sempre o seu lixo, mantendo o parque limpo.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Mantenha sempre o seu animal de estimação junto à guia.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Estacione o seu veículo apenas nos lugares permitidos.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Não alimente os animais silvestres.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Respeite a sinalização.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Para sua segurança, permaneça nas trilhas.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Ao chegar, identifique-se e oriente-se com os guarda-parques.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
                                         </div>
                                     </div>
                                 </div>
@@ -176,8 +112,8 @@
                         <div class="tab-pane colordiv" id="boulder">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Área de bouldering próximo ao centro da cidade, apenas há dez minutos. Ouro Preto
-                                        é uma cidade histórica no coração de Minas Gerais. A rocha é um quartzito macio
+                                    <p>Área de bouldering apenas a dez minutos do centro da cidade. A rocha é um
+                                        quartzito macio
                                         com várias linhas. As retenções variam de prensas a slopers com graduações entre
                                         II e VIIIB. Confira todos os setores no site "27 crags".
                                     </p>
@@ -260,7 +196,7 @@
                                    href="#escaladapedrabranca">PEDRA BRANCA</a></li>
                             <li><a class="btn btn-primary btn-black esportes"
                                    onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                   href="#escaladabonsai">BONSAI</a></li>
+                                   href="#escaladacampoescola">CAMPO ESCOLA</a></li>
                         </ul>
                     </div>
                     <div id="divescalada" class="tab-content respiro">
@@ -319,30 +255,38 @@
                                                     <li data-target="#carousel-pedradoarco" data-slide-to="1"></li>
                                                     <li data-target="#carousel-pedradoarco" data-slide-to="2"></li>
                                                     <li data-target="#carousel-pedradoarco" data-slide-to="3"></li>
-
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="4"></li>
                                                 </ol>
 
                                                 <!-- Wrapper for slides -->
                                                 <div class="carousel-inner" role="listbox">
                                                     <div class="item active">
                                                         <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada1.jpg') ?>">
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco1.jpg') ?>">
                                                         </div>
                                                     </div>
                                                     <div class="item">
                                                         <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>">
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco2.jpg') ?>">
                                                         </div>
                                                     </div>
                                                     <div class="item">
                                                         <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada2.jpg') ?>">
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco3.jpg') ?>">
                                                         </div>
                                                     </div>
                                                     <div class="item">
                                                         <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escalada3.jpg') ?>"></div>
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco4.jpg') ?>">
+                                                        </div>
                                                     </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco5.jpg') ?>">
+                                                        </div>
+                                                    </div>
+
+
                                                 </div>
 
                                                 <!-- Controls -->
@@ -414,8 +358,58 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaoriginal.jpg') ?>"></div>
+                                        <section id="carousel">
+                                            <div id="carousel-pedrabranca" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="3"></li>
+
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca1.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca2.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca3.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca4.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-pedrabranca"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-pedrabranca"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -423,11 +417,11 @@
                                     Voltar</a>
                             </div>
                         </div>
-                        <div class="tab-pane  colordiv" id="escaladabonsai">
+                        <div class="tab-pane  colordiv" id="escaladacampoescola">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <div class="row" align="center">
-                                        <h3>Setor de Escalada - Boulder Bonsai</h3>
+                                        <h3>Setor de Escalada - Campo Escola</h3>
                                     </div>
                                     <div class="row textocentral">
                                         <div class="col-md-6">
@@ -459,11 +453,455 @@
                                         </div>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>O setor de escalada Bonsai contém apenas um local para escalada, no entanto,
-                                            existe mais de uma via para a prática deste esporte. Este setor de escalada
-                                            é do tipo boulder, modalidade onde se escala uma parede com inclinação
-                                            negativa (teto), além disso, este setor dispensa o uso de cordas e ganchos
-                                            fixos na rocha.
+                                        <p>Texto a ser editado
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                                    Voltar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="esportes" class="esportessobre fundo">
+
+    <div class="tituloesportes">
+        <h1 id="h1esportes">Esportes</h1>
+    </div>
+    <div id="wrapper" class="centralcontent">
+        <div id="slideresportes" class="slider">
+            <div id="centralesportes" class="conteudocentral">
+                <div class="tabbable">
+                    <div class="collapse navbar-collapse">
+                        <ul id="ulesportes" class="nav nav-tabs">
+                            <li id="liesportessobre" class="active"><a class="btn btn-primary btn-black esportes"
+                                                                       onclick="changeBackground('esportes','esportessobre')"
+                                                                       data-toggle="tab"
+                                                                       href="#esportessobre">ESPORTES</a>
+                            </li>
+                            <li id="liescalada"><a class="btn btn-primary btn-black esportes"
+                                                   onclick="changeBackground('esportes','escalada')"
+                                                   data-toggle="tab" href="#escalada">ESCALADA</a>
+                            </li>
+                            <li id="liboulder"><a class="btn btn-primary btn-black esportes"
+                                                  onclick="changeBackground('esportes','boulder')" data-toggle="tab"
+                                                  href="#boulder">BOULDER</a></li>
+                            <li id="limountainbike"><a class="btn btn-primary btn-black esportes"
+                                                       onclick="changeBackground('esportes','mountainbike')"
+                                                       data-toggle="tab"
+                                                       href="#mountainbike">MOUNTAIN
+                                    BIKE</a></li>
+                            <li id="lihighline"><a class="btn btn-primary btn-black esportes"
+                                                   onclick="changeBackground('esportes','highline')" data-toggle="tab"
+                                                   href="#highline">HIGHLINE</a></li>
+                        </ul>
+                    </div>
+                    <div id="divesportes" class="tab-content respiro">
+                        <div class="tab-pane  colordiv active" id="esportessobre">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>O Parque natural Municipal das Andorinhas possui locais para realização de
+                                        práticas esportivas, como futebol, tênis, trekking, escaladas, boulder, mountain
+                                        bike, slackline e highline.
+                                        Tais práticas devem ser agendadas de acordo com a disponibilidade dos
+                                        guardas-parque e monitores.
+                                    </p>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane colordiv" id="escalada">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>Modalidade atlética em rocha que é feita com o uso de corda e mosquetões para
+                                        prover a segurança do escalador. É praticada em vias curtas, de variada
+                                        dificuldade técnica e sempre bem protegida. Na escalada esportiva, o escalador
+                                        sobe engatando a corda nos mosquetões previamente instalados à medida que
+                                        progride. O PNMA conta com cerca de 40 vias de graduações que variam entre o 3º
+                                        e 9º e alturas entre 10m e 25m.
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom"
+                                                onclick="advance('esportes','lateralesportesescalada')">Saiba mais
+                                        </button>
+                                    </p>
+                                    </button></p>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca2.jpg') ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane colordiv" id="boulder">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>Área de bouldering apenas a dez minutos do centro da cidade. A rocha é um
+                                        quartzito macio
+                                        com várias linhas. As retenções variam de prensas a slopers com graduações entre
+                                        II e VIIIB. Confira todos os setores no site "27 crags".
+                                    </p>
+                                    <p align="center">
+                                        <button class="btn-custom"
+                                                onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">
+                                            Saiba mais
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="mountainbike">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Trilha do Vermelhão</h3>
+                                    </div>
+                                    <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um
+                                        destaque especial para a trilha do vermelhão, com mais de 3,0 Km de extensão em
+                                        declive acentuado, perfeito para a prática de downhill.
+                                    </p>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="highline">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <p>Famoso pelas cadeias de montanhas a perder de vista, cachoeiras de águas limpas,
+                                        penhascos rochosos e pontiagudos a quase 1400 metros de altitude, a pedra do
+                                        jacaré é o local perfeito para highline, contando com a vista da cachoeira das
+                                        andorinhas.
+                                    </p>
+                                    <!--                                    <p align="center">-->
+                                    <!--                                        <button class="btn-custom"-->
+                                    <!--                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais-->
+                                    <!--                                        </button>-->
+                                    <!---->
+                                    <!--                                    </p>-->
+
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <div class="fill"
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
+                <div class="tabbable">
+                    <div class="collapse navbar-collapse">
+                        <ul id="ulescalada" class="nav nav-tabs">
+                            <li class="active"><a class="btn btn-primary btn-black esportes"
+                                                  data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
+                            </li>
+                            <li><a class="btn btn-primary btn-black esportes"
+                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                   href="#escaladapedrabranca">PEDRA BRANCA</a></li>
+                            <li><a class="btn btn-primary btn-black esportes"
+                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
+                                   href="#escaladacampoescola">CAMPO ESCOLA</a></li>
+                        </ul>
+                    </div>
+                    <div id="divescalada" class="tab-content respiro">
+                        <div class="tab-pane colordiv active" id="escaladapedradoarco">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Pedra do Arco</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">900m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            45 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Difícil
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-red">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>A Pedra do Arco é um setor de escalada natural ao ar livre com cerca de 12
+                                            metros de altura em paredão vertical contendo vias ativas já instaladas no
+                                            local. A formação rochosa trata-se de quartzito compacto e em ótimas
+                                            condições para a prática deste esporte.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <section id="carousel">
+                                            <div id="carousel-pedradoarco" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="3"></li>
+                                                    <li data-target="#carousel-pedradoarco" data-slide-to="4"></li>
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco1.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco2.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco3.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco4.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco5.jpg') ?>">
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-pedradoarco"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-pedradoarco"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                                    Voltar</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane colordiv" id="escaladapedrabranca">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Pedra Branca</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">820m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            40 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-yellow">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>O setor de escalada Pedra Branca conta com mais de um paredão para a prática
+                                            do esporte. A modalidade de escalada neste local é em parede vertical, onde
+                                            já existem algumas vias com diferentes níveis de dificuldade. No topo deste
+                                            setor se encontra o mirante natural mais alto do parque, de onde é possível
+                                            observar uma paisagem natural de extrema beleza cênica.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 nopaddingright">
+                                    <div class="fotocentral">
+                                        <section id="carousel">
+                                            <div id="carousel-pedrabranca" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-pedrabranca" data-slide-to="3"></li>
+
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca1.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca2.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca3.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca4.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-pedrabranca"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-pedrabranca"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                                    Voltar</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane  colordiv" id="escaladacampoescola">
+                            <div class="row">
+                                <div class="col-md-5 textocentral">
+                                    <div class="row" align="center">
+                                        <h3>Setor de Escalada - Campo Escola</h3>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <div class="col-md-6">
+                                            <li>Distância da Sede:</li>
+                                        </div>
+                                        <div class="col-md-6">1800m</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Tempo de Percurso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            80 minutos
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Nível de dificuldade de acesso:</li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            Normal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>Cor da trilha:</li>
+                                        </div>
+                                        <div class="col-md-6 trail-blue">
+                                        </div>
+                                    </div>
+                                    <div class="row textocentral">
+                                        <p>Texto a ser editado
                                         </p>
                                     </div>
                                 </div>
@@ -637,9 +1075,10 @@
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                     <div class="collapse navbar-collapse">
                         <ul id="ulatrativos" class="nav nav-tabs">
-                            <li id="liatrativos" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                                   onclick="changeBackground('atrativos','sobre')"
-                                                                   href="#sobre">ATRATIVOS</a>
+                            <li id="liatrativossobre" class="active"><a class="btn btn-primary btn-black"
+                                                                        data-toggle="tab"
+                                                                        onclick="changeBackground('atrativos','atrativossobre')"
+                                                                        href="#atrativossobre">ATRATIVOS</a>
                             </li>
                             <li id="limirante"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                   onclick="changeBackground('atrativos','mirante')"
@@ -652,16 +1091,25 @@
                         </ul>
                     </div>
                     <div id="divatrativos" class="tab-content respiro">
-                        <div class="tab-pane active colordiv" id="sobre">
+                        <div class="tab-pane active colordiv" id="atrativossobre">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>O Parque Natural Municipal das Andorinhas (PNMA) trata-se de uma Área de Proteção
-                                        Ambiental (APA) com 558ha de extensão, criada em 1968 com o intuito de
-                                        preservar os recursos naturais da região e sua exuberante beleza natural. O
-                                        parque conta com vários atrativos turísticos naturais, como a Cachoeira das
-                                        Andorinhas, que deu nome ao parque; o mirante da Pedra do Jacaré é de magnífica
-                                        beleza cênica; trilhas de vários níveis de dificuldade onde é possível observar
-                                        de perto a encantadora fauna e flora nativas.
+                                    <p>Criado pela Lei n° 390 em dezembro de 1968, para preservação dos recursos
+                                        naturais e nascente do Rio das Velhas, o Parque das Andorinhas possui uma área
+                                        de 557 ha. A área localiza-se na região da cabeceira do Rio das Velhas,
+                                        importante afluente do Rio São Francisco, com extensão de 761 quilômetros. O Rio
+                                        das Velhas nasce no município de Ouro Preto, e orienta-se no sentido Sudeste -
+                                        Noroeste. Suas nascentes encontram-se no Parque Natural Municipal da Cachoeira
+                                        das Andorinhas. Nessa região iniciou-se o Ciclo do Ouro das Minas Gerais,
+                                        referência para os caminhos percorridos pelos Bandeirantes, que mais tarde
+                                        originou a cidade de Ouro Preto. Daí sua importância cultural e histórica. É uma
+                                        região geologicamente importante, com abundante ocorrência mineral na forma de
+                                        amplos depósitos ferríferos, como ouro, manganês, bauxita, gemas e rochas
+                                        ornamentais. Sua vegetação apresenta campos Úmidos, Rupestre com arbustivas de
+                                        Cerrado, Canga e Floresta Estacional Semidecidual Montana. O parque prioriza a
+                                        preservação dos recursos naturais da região e a nascente do Rio das Velhas, além
+                                        da preservação do espaço de lazer que o Parque propicia a moradores e estudante,
+                                        além do potencial turístico.
                                     </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
@@ -988,13 +1436,10 @@
                                         </div>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>A Cachoeira das Andorinhas possui uma beleza natural singular, conta com uma
-                                            queda d'água de cerca de 10 metros de altura, situada no interior de uma
-                                            formação rochosoa que se assemelha a uma gruta. É assim chamada por abrigar
-                                            uma
-                                            considerável quantidade de andorinhas de coleira durante a primavera-verão.
-                                            Esta
-                                            é a cachoeira mais visitada da região.
+                                        <p>Possui uma beleza natural singular, conta com uma queda-d’água de cerca de 10
+                                            metros de altura, situada no interior de uma formação rochosa que se
+                                            assemelha a uma gruta. É assim chamada por abrigar uma considerável
+                                            quantidade de andorinhas de coleira durante a primavera - verão.
                                         </p>
                                     </div>
                                 </div>
@@ -1046,10 +1491,9 @@
                                         </div>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>A Cachoeira dos Pelados situa-se a cerca de 600 metros da sede do PNMA. Esta
-                                            cachoeira de beleza cênica exuberante, conta com uma queda d'água de
-                                            aproximadamente 5 metros de altura, perfeita para se refrescar em ambiente
-                                            tranquilo e harmonioso.
+                                        <p>Essa cachoeira de beleza cênica exuberante, conta com uma queda-d’água de
+                                            aproximadamente 5 metros de altura,
+                                            perfeita para se refrescar em ambiente tranquilo e harmonioso.
                                         </p>
                                     </div>
                                 </div>
@@ -1142,12 +1586,10 @@
                                         </div>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>A Cachoeira Véu das Noivas apresenta duas quedas d'água que somam cerca de 40
-                                            metros de altura de deslumbrante e imponente beleza natural. Chegar a base
-                                            desta
-                                            cachoeira é tarefa para os visitantes mais aventureiros, pois é necessário
-                                            atravessar uma trilha bem fechada e muito íngrime que liga o topo à base
-                                            desta
+                                        <p>Apresenta duas quedas-d’água que somam cerca de 50 metros de altura de
+                                            deslumbrante e imponente beleza natural. Chegar a base desta cachoeira é
+                                            tarefa para os visitantes mais aventureiros, pois é necessário atravessar
+                                            uma trilha bem fechada e muito íngrime que liga o topo à base desta
                                             cachoeira.
                                         </p>
                                     </div>
@@ -1200,13 +1642,9 @@
                                         </div>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>A Cachoeira da Folhinha é um dos pontos mais procurados pelos visitantes que
-                                            moram na região. Este atrativo turístico natural de beleza magnífica, conta
-                                            com
-                                            um grande poço que se assemelha a um belo lago, ideal para nadar e relaxar.
-                                            Esta
-                                            cachoeira é chamada assim devido a grande quantidade de vegetação contendo
-                                            pequenas folhas que margeam o local, engrandecendo ainda mais seu fascinante
+                                        <p>Conta com um grande poço que se assemelha a um belo lago, ideal para nadar e
+                                            relaxar. É chamada assim devido a grande quantidade de vegetação contendo
+                                            pequenas folhas que margeiam o local, engradecendo ainda mais seu fascinante
                                             encanto natural.
                                         </p>
                                     </div>
