@@ -1108,11 +1108,11 @@
                                                             <h4 class="modal-title" id="gridSystemModalLabel">Modal
                                                                 title</h4>
                                                         </div>
-                                                        <div class="modal-body" width="50vh" height="50vh">
+                                                        <div class="modal-body">
                                                             <div class="row">
                                                                 <iframe
                                                                     src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
-                                                                    width="100%" height="100%" frameborder="0"
+                                                                    width="800px" height="700px" frameborder="0"
                                                                     style="border:0"
                                                                     allowfullscreen></iframe>
                                                             </div>
