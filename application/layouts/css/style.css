@@ -472,9 +472,8 @@ div[class*="trail-"] {
 .nopaddingright {
     padding-right: 0px;
 }
-
-.modal-content {
-    width: 82vw;
+.modal-content{
+    height:80vh;
 }
 
 .modal-dialog {
