@@ -63,8 +63,7 @@
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <li>
-                                        <p>Aprecie o som da natureza, evitando fazer ruídos desnecessários.
-                                        </p>
+                                        Aprecie o som da natureza, evitando fazer ruídos desnecessários.
                                     </li>
                                     <li>
                                         <p>Aprecie a paisagem, tire fotografias, evitando recolher plantas
@@ -72,8 +71,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <p>Recolha sempre o seu lixo, mantendo o parque limpo.
-                                        </p>
+                                        <p>Recolha sempre o seu lixo, mantendo o parque limpo.</p>
                                     </li>
                                     <li>
                                         <p>Mantenha sempre o seu animal de estimação junto à guia.
