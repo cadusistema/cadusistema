@@ -162,7 +162,6 @@
         </div>
     </div>
 </section>
-
 <section id="esportes" class="esportessobre fundo">
 
     <div class="tituloesportes">
@@ -635,8 +634,6 @@
         </div>
     </div>
 </section>
-
-
 <section id="atividadesdesenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
