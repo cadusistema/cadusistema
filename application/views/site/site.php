@@ -1,6 +1,6 @@
 <section id="oparque" class="oparquesobre fundo">
     <div class="tituloesportes">
-        <h1 id="h1esportes">Esportes</h1>
+        <h1 id="h1esportes">PARQUE NACIONAL MUNICIPAL DAS ANDORINHAS</h1>
     </div>
     <div id="wrapper" class="centralcontent">
         <div id="slideroparque" class="slider">
@@ -14,14 +14,14 @@
                                                                       href="#oparquesobre">O PARQUE</a>
                             </li>
                             <li id="liregras"><a class="btn btn-primary btn-black oparque"
-                                                 onclick="changeBackground('oparque','regras')"
+                                                 onclick="changeBackground('oparque','oparquesobre')"
                                                  data-toggle="tab" href="#regras">REGRAS</a>
                             </li>
                             <li id="liinfra"><a class="btn btn-primary btn-black oparque"
-                                                onclick="changeBackground('oparque','infra')" data-toggle="tab"
+                                                onclick="changeBackground('oparque','oparquesobre')" data-toggle="tab"
                                                 href="#infra">INFRA-ESTRUTURA</a></li>
                             <li id="lidicas"><a class="btn btn-primary btn-black oparque"
-                                                onclick="changeBackground('oparque','dicas')"
+                                                onclick="changeBackground('oparque','oparquesobre')"
                                                 data-toggle="tab"
                                                 href="#dicas">DICAS</a></li>
                         </ul>
@@ -109,365 +109,44 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane colordiv" id="boulder">
+                        <div class="tab-pane colordiv" id="infra">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Área de bouldering apenas a dez minutos do centro da cidade. A rocha é um
-                                        quartzito macio
-                                        com várias linhas. As retenções variam de prensas a slopers com graduações entre
-                                        II e VIIIB. Confira todos os setores no site "27 crags".
+                                    <p>Texto a ser desenvolvido
                                     </p>
                                     <p align="center">
                                         <button class="btn-custom"
-                                                onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">
-                                            Saiba mais
+                                                onclick="advance('oparque','lateraloparqueinfra')">Saiba mais
                                         </button>
                                     </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane  colordiv" id="mountainbike">
+                        <div class="tab-pane  colordiv" id="dicas">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
                                     <div class="row" align="center">
-                                        <h3>Trilha do Vermelhão</h3>
+                                        <h3>Dicas</h3>
                                     </div>
-                                    <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um
-                                        destaque especial para a trilha do vermelhão, com mais de 3,0 Km de extensão em
-                                        declive acentuado, perfeito para a prática de downhill.
+                                    <p>Texto a ser desenvolvido
                                     </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
                                         </div>
 
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane  colordiv" id="highline">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <p>Famoso pelas cadeias de montanhas a perder de vista, cachoeiras de águas limpas,
-                                        penhascos rochosos e pontiagudos a quase 1400 metros de altitude, a pedra do
-                                        jacaré é o local perfeito para highline, contando com a vista da cachoeira das
-                                        andorinhas.
-                                    </p>
-                                    <!--                                    <p align="center">-->
-                                    <!--                                        <button class="btn-custom"-->
-                                    <!--                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais-->
-                                    <!--                                        </button>-->
-                                    <!---->
-                                    <!--                                    </p>-->
-
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
-                <div class="tabbable">
-                    <div class="collapse navbar-collapse">
-                        <ul id="ulescalada" class="nav nav-tabs">
-                            <li class="active"><a class="btn btn-primary btn-black esportes"
-                                                  data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
-                            </li>
-                            <li><a class="btn btn-primary btn-black esportes"
-                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                   href="#escaladapedrabranca">PEDRA BRANCA</a></li>
-                            <li><a class="btn btn-primary btn-black esportes"
-                                   onclick="changeBackground('esportes','escalada')" data-toggle="tab"
-                                   href="#escaladacampoescola">CAMPO ESCOLA</a></li>
-                        </ul>
-                    </div>
-                    <div id="divescalada" class="tab-content respiro">
-                        <div class="tab-pane colordiv active" id="escaladapedradoarco">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Setor de Escalada - Pedra do Arco</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
-                                        </div>
-                                        <div class="col-md-6">900m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            45 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Difícil
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <div class="col-md-6 trail-red">
-                                        </div>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>A Pedra do Arco é um setor de escalada natural ao ar livre com cerca de 12
-                                            metros de altura em paredão vertical contendo vias ativas já instaladas no
-                                            local. A formação rochosa trata-se de quartzito compacto e em ótimas
-                                            condições para a prática deste esporte.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <section id="carousel">
-                                            <div id="carousel-pedradoarco" class="carousel slide"
-                                                 data-ride="carousel">
-                                                <!-- Indicators -->
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#carousel-pedradoarco" data-slide-to="0"
-                                                        class="active"></li>
-                                                    <li data-target="#carousel-pedradoarco" data-slide-to="1"></li>
-                                                    <li data-target="#carousel-pedradoarco" data-slide-to="2"></li>
-                                                    <li data-target="#carousel-pedradoarco" data-slide-to="3"></li>
-                                                    <li data-target="#carousel-pedradoarco" data-slide-to="4"></li>
-                                                </ol>
-
-                                                <!-- Wrapper for slides -->
-                                                <div class="carousel-inner" role="listbox">
-                                                    <div class="item active">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco1.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco2.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco3.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco4.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladaarco5.jpg') ?>">
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-
-                                                <!-- Controls -->
-                                                <a class="left carousel-control" href="#carousel-pedradoarco"
-                                                   role="button" data-slide="prev">
-                                                    <span class="glyphicon glyphicon-chevron-left"
-                                                          aria-hidden="true"></span>
-                                                    <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="right carousel-control" href="#carousel-pedradoarco"
-                                                   role="button" data-slide="next">
-                                                    <span class="glyphicon glyphicon-chevron-right"
-                                                          aria-hidden="true"></span>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
-                                    Voltar</a>
-                            </div>
-                        </div>
-                        <div class="tab-pane colordiv" id="escaladapedrabranca">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Setor de Escalada - Pedra Branca</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
-                                        </div>
-                                        <div class="col-md-6">820m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            40 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Normal
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <div class="col-md-6 trail-yellow">
-                                        </div>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>O setor de escalada Pedra Branca conta com mais de um paredão para a prática
-                                            do esporte. A modalidade de escalada neste local é em parede vertical, onde
-                                            já existem algumas vias com diferentes níveis de dificuldade. No topo deste
-                                            setor se encontra o mirante natural mais alto do parque, de onde é possível
-                                            observar uma paisagem natural de extrema beleza cênica.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <section id="carousel">
-                                            <div id="carousel-pedrabranca" class="carousel slide"
-                                                 data-ride="carousel">
-                                                <!-- Indicators -->
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#carousel-pedrabranca" data-slide-to="0"
-                                                        class="active"></li>
-                                                    <li data-target="#carousel-pedrabranca" data-slide-to="1"></li>
-                                                    <li data-target="#carousel-pedrabranca" data-slide-to="2"></li>
-                                                    <li data-target="#carousel-pedrabranca" data-slide-to="3"></li>
-
-                                                </ol>
-
-                                                <!-- Wrapper for slides -->
-                                                <div class="carousel-inner" role="listbox">
-                                                    <div class="item active">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca1.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca2.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca3.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca4.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Controls -->
-                                                <a class="left carousel-control" href="#carousel-pedrabranca"
-                                                   role="button" data-slide="prev">
-                                                    <span class="glyphicon glyphicon-chevron-left"
-                                                          aria-hidden="true"></span>
-                                                    <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="right carousel-control" href="#carousel-pedrabranca"
-                                                   role="button" data-slide="next">
-                                                    <span class="glyphicon glyphicon-chevron-right"
-                                                          aria-hidden="true"></span>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
-                                    Voltar</a>
-                            </div>
-                        </div>
-                        <div class="tab-pane  colordiv" id="escaladacampoescola">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Setor de Escalada - Campo Escola</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
-                                        </div>
-                                        <div class="col-md-6">1800m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            80 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Normal
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <div class="col-md-6 trail-blue">
-                                        </div>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>Texto a ser editado
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulderoriginal.jpg') ?>">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
-                                    Voltar</a>
                             </div>
                         </div>
                     </div>
@@ -485,7 +164,20 @@
     <div id="wrapper" class="centralcontent">
         <div id="slideresportes" class="slider">
             <div id="centralesportes" class="conteudocentral">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-12" aria-expanded="false"
+                            style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
+
                 <div class="tabbable">
+
                     <div class="collapse navbar-collapse">
                         <ul id="ulesportes" class="nav nav-tabs">
                             <li id="liesportessobre" class="active"><a class="btn btn-primary btn-black esportes"
@@ -546,7 +238,6 @@
                                                 onclick="advance('esportes','lateralesportesescalada')">Saiba mais
                                         </button>
                                     </p>
-                                    </button></p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
@@ -633,9 +324,22 @@
                 </div>
             </div>
             <div id="lateralesportesescalada" class="conteudocentral lateralesportes">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-14" aria-expanded="false"
+                            style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
+
+
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse">
-                        <ul id="ulescalada" class="nav nav-tabs">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-14">
+                        <ul id="ulesportes" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black esportes"
                                                   data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
                             </li>
@@ -1072,8 +776,18 @@
     <div id="wrapper" class="centralcontent">
         <div id="slideratrativos" class="slider">
             <div id="centralatrativos" class="conteudocentral">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-13" aria-expanded="false"
+                            style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-13">
                         <ul id="ulatrativos" class="nav nav-tabs">
                             <li id="liatrativossobre" class="active"><a class="btn btn-primary btn-black"
                                                                         data-toggle="tab"
@@ -1519,25 +1233,24 @@
                                                                 title</h4>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="row">
+
                                                                 <iframe
                                                                     src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
-                                                                    width="800px" height="700px" frameborder="0"
-                                                                    style="border:0"
+                                                                    frameborder="0"
+                                                                    style="border:0;height: 80vh;width: 80vw"
                                                                     allowfullscreen></iframe>
-                                                            </div>
+
                                                         </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-default"
-                                                                    data-dismiss="modal">Close
-                                                            </button>
-                                                            <button type="button" class="btn btn-primary">Save changes
-                                                            </button>
-                                                        </div>
+<!--                                                        <div class="modal-footer">-->
+<!--                                                            <button type="button" class="btn btn-default"-->
+<!--                                                                    data-dismiss="modal">Close-->
+<!--                                                            </button>-->
+<!--                                                            <button type="button" class="btn btn-primary">Save changes-->
+<!--                                                            </button>-->
+<!--                                                        </div>-->
                                                     </div><!-- /.modal-content -->
                                                 </div><!-- /.modal-dialog -->
                                             </div><!-- /.modal -->
-
                                         </div>
                                         <!--                                        <div class="fill"-->
                                         <!--                                             style="background-image:url(-->

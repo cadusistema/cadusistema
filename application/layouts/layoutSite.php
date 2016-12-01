@@ -76,8 +76,7 @@
                         <li><a href="#" data-id="carousel" class="scroll-link"><img
                                     src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px">
                                 Home</a></li>
-                        <li><a href="#" data-id="infra" class="scroll-link">O Parque<span
-                                    class="sr-only">(current)</span></a></li>
+                        <li><a href="#" data-id="oparque" class="scroll-link">O Parque</a></li>                                
                         <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
                         <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades
                                 Desenvolvidas</a>
@@ -325,7 +324,7 @@
     //move whole section
     function advance(id, classToShow) {
         if (counter.indexOf(id) == -1) {
-            counter+=id;
+            counter += id;
             $("#slider" + id + ">div.lateral" + id).addClass("hidden");
             $('#' + classToShow).removeClass('hidden');
             var slider = $('#central' + id);
@@ -335,17 +334,50 @@
 
 
     }
-    ;
+
     //retreat whole section
     function retreat(id) {
-        if(counter.indexOf(id)!==-1){
-            counter = counter.replace(id,'');
+        if (counter.indexOf(id) !== -1) {
+            counter = counter.replace(id, '');
             var slider = $('#central' + id);
             var sliderWidth = document.getElementById('central' + id).clientWidth * 1.05;
             $('#slider' + id).animate({left: '+=' + sliderWidth}, 1000);
         }
     }
-    ;
+
+    //Stack menu when collapsed
+    $('#bs-example-navbar-collapse-12').on('show.bs.collapse', function() {
+        console.log('entrou');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-12').on('hide.bs.collapse', function() {
+        console.log('saiu');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+    //Stack menu when collapsed
+    $('#bs-example-navbar-collapse-13').on('show.bs.collapse', function () {
+        console.log('entrou');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-13').on('hide.bs.collapse', function () {
+        console.log('saiu');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+    $('#bs-example-navbar-collapse-14').on('show.bs.collapse', function () {
+        console.log('entrou');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-14').on('hide.bs.collapse', function () {
+        console.log('saiu');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+
 
 </script>
 </body>
