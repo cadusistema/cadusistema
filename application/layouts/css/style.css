@@ -137,10 +137,6 @@ h5 {
     height: 100%;
 }
 
-.modal-content {
-    max-height: 80vh;
-    max-width: 80vh;
-}
 
 .overlay {
     background: transparent;
