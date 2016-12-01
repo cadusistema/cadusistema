@@ -62,10 +62,11 @@
                         <div class="tab-pane colordiv" id="regras">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <li>
-                                        <p>Aprecie o som da natureza, evitando fazer ruídos desnecessários.
-                                        </p>
+                                    <p><li>
+                                       Aprecie o som da natureza, evitando fazer ruídos desnecessários.
+
                                     </li>
+                                    </p>
                                     <li>
                                         <p>Aprecie a paisagem, tire fotografias, evitando recolher plantas
                                             e incomodar os animais.
@@ -103,7 +104,7 @@
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +124,7 @@
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
                                         </div>
 
                                     </div>
@@ -136,13 +137,21 @@
                                     <div class="row" align="center">
                                         <h3>Dicas</h3>
                                     </div>
-                                    <p>Texto a ser desenvolvido
-                                    </p>
+                                    <li><p>Use protetor solar.
+                                        </p></li>
+                                    <li><p>Leve alimentos saudáveis.
+                                        </p></li>
+                                    <li><p>Use calçados confortáveis.
+                                        </p></li>
+                                    <li><p>Olhe sempre onde pisa.
+                                        </p></li>
+                                    <li><p>Não deixe seus filhos sozinho.
+                                        </p></li>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
                                         </div>
 
                                     </div>
@@ -1234,20 +1243,20 @@
                                                         </div>
                                                         <div class="modal-body">
 
-                                                                <iframe
-                                                                    src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
-                                                                    frameborder="0"
-                                                                    style="border:0;height: 80vh;width: 80vw"
-                                                                    allowfullscreen></iframe>
+                                                            <iframe
+                                                                src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                                                                frameborder="0"
+                                                                style="border:0;height: 80vh;width: 80vw"
+                                                                allowfullscreen></iframe>
 
                                                         </div>
-<!--                                                        <div class="modal-footer">-->
-<!--                                                            <button type="button" class="btn btn-default"-->
-<!--                                                                    data-dismiss="modal">Close-->
-<!--                                                            </button>-->
-<!--                                                            <button type="button" class="btn btn-primary">Save changes-->
-<!--                                                            </button>-->
-<!--                                                        </div>-->
+                                                        <!--                                                        <div class="modal-footer">-->
+                                                        <!--                                                            <button type="button" class="btn btn-default"-->
+                                                        <!--                                                                    data-dismiss="modal">Close-->
+                                                        <!--                                                            </button>-->
+                                                        <!--                                                            <button type="button" class="btn btn-primary">Save changes-->
+                                                        <!--                                                            </button>-->
+                                                        <!--                                                        </div>-->
                                                     </div><!-- /.modal-content -->
                                                 </div><!-- /.modal-dialog -->
                                             </div><!-- /.modal -->
