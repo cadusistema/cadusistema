@@ -135,7 +135,7 @@
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('oparque','oparquesobre')">
                         <div class="carouselbar">
-                            <h1>Parque Natural Municipal das Andorinhas</h1>
+                            <h1>O PARQUE</h1>
                         </div>
                     </a>
                 </div>

@@ -62,42 +62,36 @@
                         <div class="tab-pane colordiv" id="regras">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
+
                                     <li class="margin15">
                                         Aprecie o som da natureza, evitando fazer ruídos desnecessários.
 
                                     </li>
                                     <li class="margin15">
                                         Aprecie a paisagem, tire fotografias, evitando recolher plantas
-                                            e incomodar os animais.
-
+                                        e incomodar os animais.
                                     </li>
+
                                     <li class="margin15">
                                         Recolha sempre o seu lixo, mantendo o parque limpo.
-
                                     </li>
                                     <li class="margin15">
                                         Mantenha sempre o seu animal de estimação junto à guia.
-
                                     </li>
                                     <li class="margin15">
                                         Estacione o seu veículo apenas nos lugares permitidos.
-
                                     </li>
                                     <li class="margin15">
                                         Não alimente os animais silvestres.
-
                                     </li>
                                     <li class="margin15">
                                         Respeite a sinalização.
-
                                     </li>
                                     <li class="margin15">
                                         Para sua segurança, permaneça nas trilhas.
-
                                     </li>
                                     <li class="margin15">
                                         Ao chegar, identifique-se e oriente-se com os guarda-parques.
-
                                     </li>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
@@ -163,7 +157,6 @@
         </div>
     </div>
 </section>
-
 <section id="esportes" class="esportessobre fundo">
 
     <div class="tituloesportes">
@@ -636,8 +629,6 @@
         </div>
     </div>
 </section>
-
-
 <section id="atividadesdesenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
@@ -1242,11 +1233,19 @@
                                                         </div>
                                                         <div class="modal-body">
 
+                                                            <<<<<<< HEAD
+                                                            <iframe
+                                                                src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                                                                frameborder="0"
+                                                                style="border:0;height: 70vh;width: 100%"
+                                                                allowfullscreen></iframe>
+                                                            =======
                                                             <iframe
                                                                 src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
                                                                 frameborder="0"
                                                                 style="border:0;height: 80vh;width: 80vw"
                                                                 allowfullscreen></iframe>
+                                                            >>>>>>> f2a5ad87f645dd768b0a06fa7418c685d3f3cc0d
 
                                                         </div>
                                                         <!--                                                        <div class="modal-footer">-->
@@ -1646,7 +1645,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="container">
+                <div>
                     <div class="row">
                         <h2>Endereço</h2>
                         <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
@@ -1663,7 +1662,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="container">
+                <div>
                     <div class="form-group contato-form">
                         <label for="usr">Name</label>
                         <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
