@@ -65,7 +65,7 @@
                                     <li>
                                         Aprecie o som da natureza, evitando fazer ruídos desnecessários.
 
-                                    </li>git
+                                    </li>
                                     <li>
                                         <p>Aprecie a paisagem, tire fotografias, evitando recolher plantas
                                             e incomodar os animais.
@@ -1653,7 +1653,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="container">
+                <div>
                     <div class="row">
                         <h2>Endereço</h2>
                         <span>Rua das Andorinhas, s/n, Morro São João <br>Ouro Preto - Minas Gerais - Brasil</span>
@@ -1670,7 +1670,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="container">
+                <div>
                     <div class="form-group contato-form">
                         <label for="usr">Name</label>
                         <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
