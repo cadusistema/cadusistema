@@ -60,7 +60,7 @@
         <nav class="navbar navbar-default navbar navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
+                <div id="superheader" class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -265,8 +265,12 @@
 
     // scroll function
     function scrollToID(id, speed) {
-        var offSet = document.getElementById('supermenu').offsetHeight;
-        ;
+        var offSet;
+        if(window.innerWidth > 768)
+            offSet = document.getElementById('supermenu').offsetHeight;
+        else
+            offSet = document.getElementById('superheader').offsetHeight;
+        console.log(offSet);
         var targetOffset = $(id).offset().top - offSet;
         var mainNav = $('#main-nav');
         $('html,body').animate({scrollTop: targetOffset}, speed);

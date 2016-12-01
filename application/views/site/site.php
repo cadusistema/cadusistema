@@ -62,43 +62,42 @@
                         <div class="tab-pane colordiv" id="regras">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p><li>
-                                       Aprecie o som da natureza, evitando fazer ruídos desnecessários.
+                                    <li class="margin15">
+                                        Aprecie o som da natureza, evitando fazer ruídos desnecessários.
 
                                     </li>
-                                    </p>
-                                    <li>
-                                        <p>Aprecie a paisagem, tire fotografias, evitando recolher plantas
+                                    <li class="margin15">
+                                        Aprecie a paisagem, tire fotografias, evitando recolher plantas
                                             e incomodar os animais.
-                                        </p>
+
                                     </li>
-                                    <li>
-                                        <p>Recolha sempre o seu lixo, mantendo o parque limpo.
-                                        </p>
+                                    <li class="margin15">
+                                        Recolha sempre o seu lixo, mantendo o parque limpo.
+
                                     </li>
-                                    <li>
-                                        <p>Mantenha sempre o seu animal de estimação junto à guia.
-                                        </p>
+                                    <li class="margin15">
+                                        Mantenha sempre o seu animal de estimação junto à guia.
+
                                     </li>
-                                    <li>
-                                        <p>Estacione o seu veículo apenas nos lugares permitidos.
-                                        </p>
+                                    <li class="margin15">
+                                        Estacione o seu veículo apenas nos lugares permitidos.
+
                                     </li>
-                                    <li>
-                                        <p>Não alimente os animais silvestres.
-                                        </p>
+                                    <li class="margin15">
+                                        Não alimente os animais silvestres.
+
                                     </li>
-                                    <li>
-                                        <p>Respeite a sinalização.
-                                        </p>
+                                    <li class="margin15">
+                                        Respeite a sinalização.
+
                                     </li>
-                                    <li>
-                                        <p>Para sua segurança, permaneça nas trilhas.
-                                        </p>
+                                    <li class="margin15">
+                                        Para sua segurança, permaneça nas trilhas.
+
                                     </li>
-                                    <li>
-                                        <p>Ao chegar, identifique-se e oriente-se com os guarda-parques.
-                                        </p>
+                                    <li class="margin15">
+                                        Ao chegar, identifique-se e oriente-se com os guarda-parques.
+
                                     </li>
                                 </div>
                                 <div class="col-md-7 nopaddingright">

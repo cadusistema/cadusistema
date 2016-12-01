@@ -16,6 +16,10 @@ html {
     float: none;
 }
 
+.margin15{
+    margin-left: 0.7vw;
+}
+
 .navbar {
     margin-bottom: 0%;
     opacity: 0.9;
