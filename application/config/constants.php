@@ -92,6 +92,8 @@ define('IMG_CAROUSEL', IMG_SITE . '/img_carousel/');
 define('IMG_ATRATIVOS', IMG_SITE . 'img_atrativos/');
 //diretorio img_esportes
 define('IMG_ESPORTES', IMG_SITE . 'img_esportes/');
+//diretorio img_parque
+define('IMG_PARQUE', IMG_SITE . 'img_parque/');
 //diretorio responsavel em armazenar o diretorio js da parte do admin
 define('JSPATHADMIN', 'application/layouts/js/admin/');
 //diretorio onde se encontra bootstrap,jquery e font-awesome
