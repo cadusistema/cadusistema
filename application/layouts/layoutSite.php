@@ -76,7 +76,7 @@
                         <li><a href="#" data-id="carousel" class="scroll-link"><img
                                     src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px">
                                 Home</a></li>
-                        <li><a href="#" data-id="oparque" class="scroll-link">O Parque</a></li>                                
+                        <li><a href="#" data-id="oparque" class="scroll-link">O Parque</a></li>
                         <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
                         <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades
                                 Desenvolvidas</a>
@@ -107,7 +107,7 @@
             <div id="maincarousel" class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','mirante')">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiraveudasnoivas.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiradafolhinha_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','cachoeira')">
@@ -351,24 +351,24 @@
 
     //Stack menu when collapsed
     $('#bs-example-navbar-collapse-12').on('show.bs.collapse', function() {
-        console.log('entrou');
+        console.log('entrou-esportes');
         $('.nav-tabs').addClass('nav-stacked');
     });
 
     //Unstack menu when not collapsed
     $('#bs-example-navbar-collapse-12').on('hide.bs.collapse', function() {
-        console.log('saiu');
+        console.log('saiu-esportes');
         $('.nav-tabs').removeClass('nav-stacked');
     });
     //Stack menu when collapsed
     $('#bs-example-navbar-collapse-13').on('show.bs.collapse', function () {
-        console.log('entrou');
+        console.log('entrou-atrativos');
         $('.nav-tabs').addClass('nav-stacked');
     });
 
     //Unstack menu when not collapsed
     $('#bs-example-navbar-collapse-13').on('hide.bs.collapse', function () {
-        console.log('saiu');
+        console.log('saiu-atrativos');
         $('.nav-tabs').removeClass('nav-stacked');
     });
     $('#bs-example-navbar-collapse-14').on('show.bs.collapse', function () {
@@ -379,6 +379,26 @@
     //Unstack menu when not collapsed
     $('#bs-example-navbar-collapse-14').on('hide.bs.collapse', function () {
         console.log('saiu');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+    $('#bs-example-navbar-collapse-15').on('show.bs.collapse', function () {
+        console.log('entrou-atrativos-lateral');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-15').on('hide.bs.collapse', function () {
+        console.log('saiu-atrativos-lateral');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+    $('#bs-example-navbar-collapse-16').on('show.bs.collapse', function () {
+        console.log('entrou-cahoeira-lateral');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-16').on('hide.bs.collapse', function () {
+        console.log('saiu-cahoeira-lateral');
         $('.nav-tabs').removeClass('nav-stacked');
     });
 

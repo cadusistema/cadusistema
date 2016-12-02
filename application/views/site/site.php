@@ -179,7 +179,7 @@
 
                 <div class="tabbable">
 
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
                         <ul id="ulesportes" class="nav nav-tabs">
                             <li id="liesportessobre" class="active"><a class="btn btn-primary btn-black esportes"
                                                                        onclick="changeBackground('esportes','esportessobre')"
@@ -643,8 +643,6 @@
                                                         class="active"></li>
                                                     <li data-target="#carousel-pedrabranca" data-slide-to="1"></li>
                                                     <li data-target="#carousel-pedrabranca" data-slide-to="2"></li>
-                                                    <li data-target="#carousel-pedrabranca" data-slide-to="3"></li>
-
                                                 </ol>
 
                                                 <!-- Wrapper for slides -->
@@ -662,11 +660,6 @@
                                                     <div class="item">
                                                         <div class="fill"
                                                              style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca3.jpg') ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="fill"
-                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca4.jpg') ?>">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -896,7 +889,7 @@
     </div>
 </section>
 
-<section id="atrativos" class="mirante fundo">
+<section id="atrativos" class="atrativossobre fundo">
 
     <div class="tituloesportes">
         <h1>Atrativos Turísticos</h1>
@@ -1014,8 +1007,18 @@
                 </div>
             </div>
             <div id="lateralatrativosmirante" class="conteudocentral lateralatrativos">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-15" aria-expanded="false"
+                            style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-15">
                         <ul id="ulmirante" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                   onclick="changeBackground('atrativos','mirante')"
@@ -1216,8 +1219,20 @@
                 </div>
             </div>
             <div id="lateralatrativoscachoeira" class="conteudocentral lateralatrativos">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-16" aria-expanded="false"
+                            style="background-color: black">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                        <span class="icon-bar" style="background-color: #f0f0f0"></span>
+                    </button>
+                </div>
+
                 <div class="tabbable">
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-16">
                         <ul id="ulcachoeira" class="nav nav-tabs">
                             <li id="licachoeira" class="active"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                                    onclick="changeBackground('atrativos','cachoeira')"
