@@ -1801,7 +1801,7 @@
             <div class="col-md-6">
                 <div>
                     <div class="form-group contato-form">
-                        <label for="usr">Name</label>
+                        <label for="usr">Nome</label>
                         <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
                     </div>
                     <div class="form-group contato-form">
