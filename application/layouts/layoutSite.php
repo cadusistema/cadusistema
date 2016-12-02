@@ -107,7 +107,7 @@
             <div id="maincarousel" class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','mirante')">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiraveudasnoivas.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiradafolhinha_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','cachoeira')">

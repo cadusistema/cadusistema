@@ -3,8 +3,6 @@ b {
     color: black;
 }
 
-
-
 html {
     font-size: 2.3vh;
 }
@@ -14,7 +12,7 @@ html {
     float: none;
 }
 
-.margin15{
+.margin15 {
     margin-left: 0.7vw;
 }
 
@@ -137,7 +135,6 @@ h5 {
     height: 100%;
 }
 
-
 .overlay {
     background: transparent;
     position: absolute;
@@ -231,30 +228,28 @@ h5 {
 }
 
 .escalada {
-    background: url("../img_site/img_esportes/escalada.jpg");
+    background: url("../img_site/img_esportes/escalada_sépia_1280.jpg");
     background-size: cover;
 }
 
-
-
 .boulder {
-    background: url("../img_site/img_esportes/boulder.jpg");
+    background: url("../img_site/img_esportes/boulder_sépia_1280.jpg");
     background-size: cover;
 }
 
 .mountainbike {
-    background: url("../img_site/img_esportes/mountainbike.jpg");
+    background: url("../img_site/img_esportes/mountainbike2_sépia_1280.jpg");
     background-size: cover;
 }
 
 .highline {
-    background: url("../img_site/img_esportes/highline.jpg");
+    background: url("../img_site/img_esportes/highline_sépia_1280.jpg");
     background-size: cover;
 
 }
 
 .trilha {
-    background: url("../img_site/img_atrativos/trilha.png");
+    background: url("../img_site/img_atrativos/trilha_sépia_1280.jpg");
     background-size: cover;
 }
 
@@ -268,13 +263,13 @@ h5 {
     background-size: cover;
 }
 
-.oparquesobre{
+.oparquesobre {
     background: url("../img_site/img_parque/portariabackground.jpg");
     background-size: cover;
 }
 
 .esportessobre {
-    background: url("../img_site/img_atrativos/trilha.png");
+    background: url("../img_site/img_esportes/mountainbike_sépia_1280.jpg");
     background-size: cover;
 }
 
@@ -300,8 +295,6 @@ h5 {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
 }
-
-
 
 .btn-black:hover, .btn-custom:hover {
     -webkit-transform: rotateZ(-5deg) translate3d(0, 0, 0);
@@ -470,8 +463,9 @@ div[class*="trail-"] {
 .nopaddingright {
     padding-right: 0px;
 }
-.modal-content{
-    height:80vh;
+
+.modal-content {
+    height: 80vh;
 }
 
 .modal-dialog {
@@ -485,9 +479,10 @@ div[class*="trail-"] {
     height: 80%;
 }
 
-.respiro{
+.respiro {
     margin-bottom: 5%;
 }
+
 @media screen and (min-width: 768px) {
     .btn-black:hover {
         -webkit-transform: rotateZ(-5deg);
@@ -510,9 +505,10 @@ div[class*="trail-"] {
         border-width: 10px 10px 0 10px;
         border-color: black transparent transparent transparent;
     }
-    #wrapper{
-        overflow:hidden ;
-        overflow-x:hidden ;
+
+    #wrapper {
+        overflow: hidden;
+        overflow-x: hidden;
 
     }
 
