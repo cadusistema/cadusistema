@@ -381,6 +381,26 @@
         console.log('saiu');
         $('.nav-tabs').removeClass('nav-stacked');
     });
+    $('#bs-example-navbar-collapse-15').on('show.bs.collapse', function () {
+        console.log('entrou-atrativos-lateral');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-15').on('hide.bs.collapse', function () {
+        console.log('saiu-atrativos-lateral');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
+    $('#bs-example-navbar-collapse-16').on('show.bs.collapse', function () {
+        console.log('entrou-cahoeira-lateral');
+        $('.nav-tabs').addClass('nav-stacked');
+    });
+
+    //Unstack menu when not collapsed
+    $('#bs-example-navbar-collapse-16').on('hide.bs.collapse', function () {
+        console.log('saiu-cahoeira-lateral');
+        $('.nav-tabs').removeClass('nav-stacked');
+    });
 
 
 </script>
