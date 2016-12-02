@@ -107,7 +107,7 @@
             <div id="maincarousel" class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare_1800.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare_1800x1100.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','mirante')">
@@ -141,7 +141,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'boulderoriginal.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'boulder_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','boulder')">
                         <div class="carouselbar">
@@ -151,7 +151,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highline5.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highline_1600.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','highline')">
