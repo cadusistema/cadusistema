@@ -151,7 +151,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highlineoriginal.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highline5.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','highline')">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'mountainbikeoriginal.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'mountainbike.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','mountainbike')">

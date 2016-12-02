@@ -108,15 +108,15 @@
                                 <div class="col-md-5 textocentral">
                                     <p>Texto a ser desenvolvido
                                     </p>
-                                    <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('oparque','lateraloparqueinfra')">Saiba mais
-                                        </button>
-                                    </p>
+                                    <!--                                    <p align="center">-->
+                                    <!--                                        <button class="btn-custom"-->
+                                    <!--                                                onclick="advance('oparque','lateraloparqueinfra')">-->
+                                    <!--                                        </button>-->
+                                    <!--                                    </p>-->
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <div class="fill"
+                                        <div class="fill" Saiba mais
                                              style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
                                         </div>
 
@@ -213,11 +213,17 @@
                                         Tais práticas devem ser agendadas de acordo com a disponibilidade dos
                                         guardas-parque e monitores.
                                     </p>
+                                    <p>Escalada, boulder, mountain bike e highline, como outros esportes de aventura são
+                                        esportes de risco! O domínio das técnicas, procedimentos de segurança e
+                                        equipamentos minimizam esse risco de forma considerável, fazendo com que esses
+                                        esportes sejam seguros quando bem praticado. Respeite e conheça seus limites,
+                                        busque sempre uma boa orientação através de cursos e instrutores experientes.
+                                    </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
+                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike.jpg') ?>">
                                         </div>
 
                                     </div>
@@ -235,8 +241,8 @@
                                         e 9º e alturas entre 10m e 25m.
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('esportes','lateralesportesescalada')">Saiba mais
+                                        <button class="btn-custom btn-blue"
+                                                onclick="advance('esportes','lateralesportesescalada')">Explore
                                         </button>
                                     </p>
                                 </div>
@@ -252,15 +258,15 @@
                         <div class="tab-pane colordiv" id="boulder">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Área de bouldering apenas a dez minutos do centro da cidade. A rocha é um
-                                        quartzito macio
-                                        com várias linhas. As retenções variam de prensas a slopers com graduações entre
-                                        II e VIIIB. Confira todos os setores no site "27 crags".
+                                    <p>A prática de Boulder já é consagrada em Ouro Preto. A cidade conta com um grande
+                                        festival (OuroBoulder) que acontece na área do PNMA. São vários setores
+                                        distribuídos dentro do PNMA com centenas de problemas que variam do V0 ao V14.
+                                        Confira todos os setores no site "27 crags".
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom"
+                                        <button class="btn-custom btn-blue"
                                                 onclick="window.open('https://27crags.com/crags/pedreira-do-sao-sebastiao-ouro-preto-mg')">
-                                            Saiba mais
+                                            Explore
                                         </button>
                                     </p>
                                 </div>
@@ -277,19 +283,77 @@
                         <div class="tab-pane  colordiv" id="mountainbike">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Trilha do Vermelhão</h3>
-                                    </div>
-                                    <p>O parque conta com trilhas que podem ser percorridas com bicicleta, tem-se um
-                                        destaque especial para a trilha do vermelhão, com mais de 3,0 Km de extensão em
+                                    <p>O parque conta com uma grande quantidade de trilhas que podem ser percorridas com
+                                        bicicleta. Existem trilhas de distâncias e dificuldades variadas, tendo um
+                                        destaque especial para a trilha do vermelhão, com mais de 3Km de extensão em
                                         declive acentuado, perfeito para a prática de downhill.
                                     </p>
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbikeoriginal.jpg') ?>">
-                                        </div>
+                                        <section>
+                                            <div id="carousel-mountainbike" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="3"></li>
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="4"></li>
+                                                    <li data-target="#carousel-mountainbike" data-slide-to="5"></li>
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike1.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike2.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike3.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike4.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike5.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-mountainbike"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-mountainbike"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
 
                                     </div>
                                 </div>
@@ -298,24 +362,77 @@
                         <div class="tab-pane  colordiv" id="highline">
                             <div class="row">
                                 <div class="col-md-5 textocentral">
-                                    <p>Famoso pelas cadeias de montanhas a perder de vista, cachoeiras de águas limpas,
-                                        penhascos rochosos e pontiagudos a quase 1400 metros de altitude, a pedra do
-                                        jacaré é o local perfeito para highline, contando com a vista da cachoeira das
-                                        andorinhas.
+                                    <p>A geologia característica do PNMA, com seus declives elevados, onde predominam os
+                                        processos de erosão, formam estruturas perfeitas para a prática do highline. O
+                                        Highliner conta com diversas linhas de altura e distância variadas, mas sempre
+                                        com a certeza de belas paisagens.
                                     </p>
-                                    <!--                                    <p align="center">-->
-                                    <!--                                        <button class="btn-custom"-->
-                                    <!--                                                onclick="advance('esportes','lateralesporteshighline')">Saiba mais-->
-                                    <!--                                        </button>-->
-                                    <!---->
-                                    <!--                                    </p>-->
-
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highlineoriginal.jpg') ?>">
-                                        </div>
+                                        <section>
+                                            <div id="carousel-highline" class="carousel slide"
+                                                 data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel-highline" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carousel-highline" data-slide-to="1"></li>
+                                                    <li data-target="#carousel-highline" data-slide-to="2"></li>
+                                                    <li data-target="#carousel-highline" data-slide-to="3"></li>
+                                                    <li data-target="#carousel-highline" data-slide-to="4"></li>
+                                                    <li data-target="#carousel-highline" data-slide-to="5"></li>
+                                                </ol>
+
+                                                <!-- Wrapper for slides -->
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline1.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline2.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline3.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline4.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="fill"
+                                                             style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline5.jpg') ?>">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Controls -->
+                                                <a class="left carousel-control" href="#carousel-highline"
+                                                   role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#carousel-highline"
+                                                   role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"
+                                                          aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </section>
 
                                     </div>
                                 </div>
@@ -340,7 +457,7 @@
 
                 <div class="tabbable">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-14">
-                        <ul id="ulesportes" class="nav nav-tabs">
+                        <ul id="ulescalada" class="nav nav-tabs">
                             <li class="active"><a class="btn btn-primary btn-black esportes"
                                                   data-toggle="tab" href="#escaladapedradoarco">PEDRA DO ARCO</a>
                             </li>
@@ -385,8 +502,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-red">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-red"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>A Pedra do Arco é um setor de escalada natural ao ar livre com cerca de 12
@@ -398,7 +518,7 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <section id="carousel">
+                                        <section>
                                             <div id="carousel-pedradoarco" class="carousel slide"
                                                  data-ride="carousel">
                                                 <!-- Indicators -->
@@ -461,7 +581,7 @@
                                 </div>
 
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('esportes')"><<
                                     Voltar</a>
                             </div>
                         </div>
@@ -497,8 +617,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-yellow">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-yellow"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>O setor de escalada Pedra Branca conta com mais de um paredão para a prática
@@ -511,7 +634,7 @@
                                 </div>
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
-                                        <section id="carousel">
+                                        <section>
                                             <div id="carousel-pedrabranca" class="carousel slide"
                                                  data-ride="carousel">
                                                 <!-- Indicators -->
@@ -566,7 +689,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('esportes')"><<
                                     Voltar</a>
                             </div>
                         </div>
@@ -602,11 +725,16 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-blue">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-blue"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
-                                        <p>Texto a ser editado
+                                        <p>Esse setor se encontra logo após o Arco. Conta com vias curtas e positivas,
+                                            variando entre 3º e 6º. De lá se tem uma ótima visão de toda serra que
+                                            envolve o o PNMA.
                                         </p>
                                     </div>
                                 </div>
@@ -619,7 +747,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('esportes')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('esportes')"><<
                                     Voltar</a>
                             </div>
                         </div>
@@ -767,6 +895,7 @@
         </div>
     </div>
 </section>
+
 <section id="atrativos" class="mirante fundo">
 
     <div class="tituloesportes">
@@ -844,8 +973,8 @@
                                         atrapalham a visão.
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('atrativos','lateralatrativosmirante')">Saiba mais
+                                        <button class="btn-custom btn-purple"
+                                                onclick="advance('atrativos','lateralatrativosmirante')">Surpreenda-se
                                         </button>
                                     </p>
                                 </div>
@@ -867,8 +996,8 @@
                                         piscinas naturais.
                                     </p>
                                     <p align="center">
-                                        <button class="btn-custom"
-                                                onclick="advance('atrativos','lateralatrativoscachoeira')">Saiba mais
+                                        <button class="btn-custom btn-blue"
+                                                onclick="advance('atrativos','lateralatrativoscachoeira')">Explore
                                         </button>
                                     </p>
                                 </div>
@@ -935,8 +1064,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-orange">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-orange"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>Este mirante natural trata-se do topo da Cachoeira Véu das Noivas, de onde é
@@ -953,7 +1085,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-purple"
+                                                        onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane colordiv" id="mirantepedradojacare">
@@ -988,8 +1121,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-green">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-green"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>A Pedra do Jacaré é uma formação rochosa de coloração esbranquiçada com um
@@ -1008,7 +1144,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-purple"
+                                                        onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="mirantepedrabranca">
@@ -1043,8 +1180,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-blue">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-blue"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>O mirante natural da Pedra Branca se situa no topo de uma formação rochosa de
@@ -1068,7 +1208,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-purple"
+                                                        onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                     </div>
@@ -1145,8 +1286,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-green">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-green"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>Possui uma beleza natural singular, conta com uma queda-d’água de cerca de 10
@@ -1164,7 +1308,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane colordiv" id="cachoeirapelados">
@@ -1199,9 +1343,12 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-blue">
+                                        <a data-target=".modalcachoeirapelados" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-blue"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
 
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>Essa cachoeira de beleza cênica exuberante, conta com uma queda-d’água de
@@ -1213,53 +1360,22 @@
                                 <div class="col-md-7 nopaddingright">
                                     <div class="fotocentral">
                                         <div class="fill">
-                                            <a data-target=".bs-example-modal-lg" data-toggle="modal" href="#myModal">
-                                                <div class="overlay"></div>
+                                            <a data-target=".modalcachoeirapelados" data-toggle="modal" href="#">
+                                                <div class="overlay"><img src="<? echo base_url(ICONE . "/360.png") ?>"
+                                                                          alt="Foto em 360º clique para visualizar">
+                                                </div>
                                             </a>
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
                                                 width="100%" height="100%" frameborder="0" style="border:0"
                                                 allowfullscreen></iframe>
-                                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
-                                                 aria-labelledby="myLargeModalLabel">
-                                                <div class="modal-dialog" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal"
-                                                                    aria-label="Close"><span
-                                                                    aria-hidden="true">&times;</span></button>
-                                                            <h4 class="modal-title" id="gridSystemModalLabel">Modal
-                                                                title</h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <iframe
-                                                                src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
-                                                                frameborder="0"
-                                                                style="border:0;height: 70vh;width: 100%"
-                                                                allowfullscreen>
-                                                            </iframe>
 
 
-                                                        </div>
-                                                        <!--                                                        <div class="modal-footer">-->
-                                                        <!--                                                            <button type="button" class="btn btn-default"-->
-                                                        <!--                                                                    data-dismiss="modal">Close-->
-                                                        <!--                                                            </button>-->
-                                                        <!--                                                            <button type="button" class="btn btn-primary">Save changes-->
-                                                        <!--                                                            </button>-->
-                                                        <!--                                                        </div>-->
-                                                    </div><!-- /.modal-content -->
-                                                </div><!-- /.modal-dialog -->
-                                            </div><!-- /.modal -->
                                         </div>
-                                        <!--                                        <div class="fill"-->
-                                        <!--                                             style="background-image:url(-->
-                                        <? // echo base_url(IMG_ATRATIVOS . 'cachoeiradospelados.jpg') ?><!--">-->
-                                        <!--                                        </div>-->
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeiraveudasnoivas">
@@ -1294,9 +1410,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-orange">
-
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-orange"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>Apresenta duas quedas-d’água que somam cerca de 50 metros de altura de
@@ -1315,7 +1433,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeirafolhinha">
@@ -1350,9 +1468,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-yellow">
-
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-yellow"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>Conta com um grande poço que se assemelha a um belo lago, ideal para nadar e
@@ -1370,7 +1490,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeirapraiadorancheiro">
@@ -1405,8 +1525,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-red">
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-red"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias
@@ -1430,7 +1553,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeiracarioquinha">
@@ -1465,9 +1588,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-lightblue">
-
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-lightblue"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
@@ -1489,7 +1614,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeirapocodobau">
@@ -1524,9 +1649,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-gray">
-
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-gray"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>O Pocinho do Baú é ideal para visitantes que não desejam caminhar longos
@@ -1548,7 +1675,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
                         <div class="tab-pane  colordiv" id="cachoeirapocodaschurrasqueiras">
@@ -1583,9 +1710,11 @@
                                         <div class="col-md-6">
                                             <li>Cor da trilha:</li>
                                         </div>
-                                        <div class="col-md-6 trail-indigo">
-
-                                        </div>
+                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
+                                            <div class="col-md-2 trail-indigo"></div>
+                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="row textocentral">
                                         <p>O Pocinho das Churrasqueiras é de extremo encanto natural que se encontra
@@ -1603,7 +1732,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="left-bottom"><a class="btn btn-custom" onclick="retreat('atrativos')"><<
+                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
                                     Voltar</a></div>
                         </div>
 
@@ -1677,3 +1806,53 @@
         </div>
     </div>
 </section>
+
+<div class="modal fade modalcachoeirapelados" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Cachoeira
+                    dos pelados</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                    frameborder="0"
+                    style="border:0;height: 70vh;width: 100%"
+                    allowfullscreen>
+                </iframe>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade modalinfo" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Informações sobre as trilhas</h4>
+            </div>
+            <div class="modal-body">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
+                    frameborder="0"
+                    style="border:0;height: 70vh;width: 100%"
+                    allowfullscreen>
+                </iframe>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

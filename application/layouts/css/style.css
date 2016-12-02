@@ -145,6 +145,15 @@ h5 {
     height: 100%; /* your iframe height */
     /*top:480px;  !* your iframe height *!*/
     /*margin-top:-480px;  !* your iframe height *!*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-img {
+    display: inline-block;
 }
 
 .fotocentral {
@@ -243,19 +252,14 @@ h5 {
 }
 
 .mountainbike {
-    background: url("../img_site/img_esportes/mountainbike.jpg");
+    background: url("../img_site/img_esportes/mountainbikebackground.jpg");
     background-size: cover;
 }
 
 .highline {
-    background: url("../img_site/img_esportes/highline.jpg");
+    background: url("../img_site/img_esportes/highlinebackground.jpg");
     background-size: cover;
 
-}
-
-.trilha {
-    background: url("../img_site/img_atrativos/trilha.png");
-    background-size: cover;
 }
 
 .mirante {
@@ -274,7 +278,7 @@ h5 {
 }
 
 .esportessobre {
-    background: url("../img_site/img_atrativos/trilha.png");
+    background: url("../img_site/img_atrativos/trilhas.jpg");
     background-size: cover;
 }
 
@@ -360,8 +364,6 @@ h5 {
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active {
     color: whitesmoke;
-    background-color: #000000;
-    border-color: #000000;
     box-shadow: 3px 3px grey;
 }
 
@@ -370,6 +372,16 @@ h5 {
     background-color: #000000;
     border-color: #000000;
 }
+
+.btn-purple{
+  background-color:#4d2c66;
+    border-color: #4d2c66;
+}
+
+ .btn-blue{
+     background-color:#1a81ad;
+     border-color: #1a81ad;
+ }
 
 .left-bottom {
     position: absolute;
@@ -428,6 +440,7 @@ section {
 div[class*="trail-"] {
     height: 5px;
     width: 20px;
+    margin-right: 5px;
     transform: translate(15px, 0.85vh);
 }
 
