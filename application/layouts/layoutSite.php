@@ -76,7 +76,7 @@
                         <li><a href="#" data-id="carousel" class="scroll-link"><img
                                     src="<? echo base_url(ICONE . 'logo_barra.png') ?>" height="30px">
                                 Home</a></li>
-                        <li><a href="#" data-id="oparque" class="scroll-link">O Parque</a></li>                                
+                        <li><a href="#" data-id="oparque" class="scroll-link">O Parque</a></li>
                         <li><a href="#" data-id="esportes" class="scroll-link">Esportes</a></li>
                         <li><a href="#" data-id="atividadesdesenvolvidas" class="scroll-link">Atividades
                                 Desenvolvidas</a>
@@ -351,24 +351,24 @@
 
     //Stack menu when collapsed
     $('#bs-example-navbar-collapse-12').on('show.bs.collapse', function() {
-        console.log('entrou');
+        console.log('entrou-esportes');
         $('.nav-tabs').addClass('nav-stacked');
     });
 
     //Unstack menu when not collapsed
     $('#bs-example-navbar-collapse-12').on('hide.bs.collapse', function() {
-        console.log('saiu');
+        console.log('saiu-esportes');
         $('.nav-tabs').removeClass('nav-stacked');
     });
     //Stack menu when collapsed
     $('#bs-example-navbar-collapse-13').on('show.bs.collapse', function () {
-        console.log('entrou');
+        console.log('entrou-atrativos');
         $('.nav-tabs').addClass('nav-stacked');
     });
 
     //Unstack menu when not collapsed
     $('#bs-example-navbar-collapse-13').on('hide.bs.collapse', function () {
-        console.log('saiu');
+        console.log('saiu-atrativos');
         $('.nav-tabs').removeClass('nav-stacked');
     });
     $('#bs-example-navbar-collapse-14').on('show.bs.collapse', function () {

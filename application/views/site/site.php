@@ -179,7 +179,7 @@
 
                 <div class="tabbable">
 
-                    <div class="collapse navbar-collapse">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
                         <ul id="ulesportes" class="nav nav-tabs">
                             <li id="liesportessobre" class="active"><a class="btn btn-primary btn-black esportes"
                                                                        onclick="changeBackground('esportes','esportessobre')"
