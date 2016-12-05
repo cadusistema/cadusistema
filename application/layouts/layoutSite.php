@@ -403,6 +403,21 @@
     });
 
 
+    //parallax
+    $('section.fundo').each(function(){
+        var $obj = $(this);
+
+        $(window).scroll(function() {
+            console.log($obj.data('speed'));
+            var yPos = -($(window).scrollTop() / $obj.data('speed'));
+
+            var bgpos = '150% '+ yPos + 'px';
+
+            $obj.css('background-position', bgpos );
+
+        });
+    });
+
 </script>
 </body>
 </html>

@@ -12,8 +12,12 @@ html {
     float: none;
 }
 
-.margin15 {
+
+.marginleft15 {
     margin-left: 0.7vw;
+}
+.margintop15{
+    margin-top: 2vh;
 }
 
 .navbar {
@@ -214,72 +218,94 @@ h5 {
     margin-bottom: 6%;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("../img_site/parallax1.jpg");
+.fundo {
+    -webkit-transition: background-image ease-in-out 0.6s;
+    -moz-transition: background-image ease-in-out 0.6s;
+    -ms-transition: background-image ease-in-out 0.6s;
+    -o-transition: background-image ease-in-out 0.6s;
+    transition: background-image ease-in-out 0.6s;
 
-    /* Full height */
+}
+
+.vazia{
+    background: url("../img_site/img_atrativos/cachoeiradafolhinha.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
+}
 
-    /* Create the parallax scrolling effect */
+.atrativossobre {
+    background: url("../img_site/img_atrativos/atrativosbackground.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.fundo {
-    -webkit-transition: all ease-in-out 0.6s;
-    -moz-transition: all ease-in-out 0.6s;
-    -ms-transition: all ease-in-out 0.6s;
-    -o-transition: all ease-in-out 0.6s;
-    transition: all ease-in-out 0.6s;
-}
-
-.escalada {
-    background: url("../img_site/img_esportes/escaladabackground.jpg");
-    background-size: cover;
-}
-
-.boulder {
-    background: url("../img_site/img_esportes/boulderbackground.jpg");
-    background-size: cover;
-}
-
-.mountainbike {
-    background: url("../img_site/img_esportes/mountainbikebackground.jpg");
-    background-size: cover;
-}
-
-.highline {
-
-    background: url("../img_site/img_esportes/highlinebackground.jpg");
-    background-size: cover;
-
-}
-
-.mirante {
-    background: url("../img_site/img_atrativos/mirantebackground.jpg");
-    background-size: cover;
-}
-
-.atrativossobre {
-    background: url("../img_site/img_atrativos/atrativosbackground.jpg");
-    background-size: cover;
-}
-
 .oparquesobre {
     background: url("../img_site/img_parque/portariabackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .esportessobre {
     background: url("../img_site/img_esportes/esportessobrebackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.escalada {
+    background: url("../img_site/img_esportes/escaladabackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.boulder {
+    background: url("../img_site/img_esportes/boulderbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mountainbike {
+    background: url("../img_site/img_esportes/mountainbikebackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highline {
+    background: url("../img_site/img_esportes/highlinebackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mirante {
+    background: url("../img_site/img_atrativos/mirantebackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .cachoeira {
     background: url("../img_site/img_atrativos/cachoeirabackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -368,14 +394,14 @@ h5 {
 }
 
 .btn-purple{
-  background-color:#4d2c66;
+    background-color:#4d2c66;
     border-color: #4d2c66;
 }
 
- .btn-blue{
-     background-color:#1a81ad;
-     border-color: #1a81ad;
- }
+.btn-blue{
+    background-color:#1a81ad;
+    border-color: #1a81ad;
+}
 
 .left-bottom {
     position: absolute;
@@ -432,14 +458,24 @@ section {
 }
 
 div[class*="trail-"] {
-    height: 5px;
+    height: 10px;
     width: 20px;
     margin-right: 5px;
     transform: translate(15px, 0.85vh);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+a,a:focus{
+    outline:none;
 }
 
 .trail-orange {
     background-color: orangered;
+}
+
+.trail-white {
+    background-color: whitesmoke;
 }
 
 .trail-blue {
@@ -478,11 +514,20 @@ div[class*="trail-"] {
     padding-right: 0px;
 }
 
-.modal-content {
+.modal-header{
+    text-align: center;
+
+}
+.modal-title{
+    font-size: 2.5vh;
+}
+
+.modal-content-lg {
     height: 80vh;
 }
 
-.modal-dialog {
+
+.modal-dialog-lg {
     position: absolute;
     top: 50% !important;
     transform: translate(0, -50%) !important;
