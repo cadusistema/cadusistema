@@ -1,4 +1,4 @@
-<section id="oparque" class="oparquesobre fundo">
+<section id="oparque" class="oparquesobre fundo" data-speed="20">
     <div class="tituloesportes">
         <h1 id="h1esportes">PARQUE NACIONAL MUNICIPAL DAS ANDORINHAS</h1>
     </div>
@@ -63,34 +63,43 @@
                             <div class="row">
                                 <div class="col-md-5 textocentral">
 
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Aprecie o som da natureza, evitando fazer ruídos desnecessários.
 
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Aprecie a paisagem, tire fotografias, evitando recolher plantas
                                         e incomodar os animais.
                                     </li>
 
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Recolha sempre o seu lixo, mantendo o parque limpo.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Mantenha sempre o seu animal de estimação junto à guia.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Estacione o seu veículo apenas nos lugares permitidos.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Não alimente os animais silvestres.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Respeite a sinalização.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Para sua segurança, permaneça nas trilhas.
                                     </li>
-                                    <li class="margin15">
+
+                                    <li class="marginleft15">
                                         Ao chegar, identifique-se e oriente-se com os guarda-parques.
                                     </li>
                                 </div>
@@ -157,7 +166,8 @@
         </div>
     </div>
 </section>
-<section id="esportes" class="esportessobre fundo">
+
+<section id="esportes" class="esportessobre fundo" data-speed="20">
 
     <div class="tituloesportes">
         <h1 id="h1esportes">Esportes</h1>
@@ -503,7 +513,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-red"></div>
+                                            <div class="col-md-2 trail-white"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -618,7 +628,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-yellow"></div>
+                                            <div class="col-md-2 trail-white"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -719,7 +729,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-blue"></div>
+                                            <div class="col-md-2 trail-white"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -750,6 +760,7 @@
         </div>
     </div>
 </section>
+
 <section id="atividadesdesenvolvidas">
     <h1>Atividades Desenvolvidas</h1>
     <div class="row">
@@ -889,7 +900,7 @@
     </div>
 </section>
 
-<section id="atrativos" class="atrativossobre fundo">
+<section id="atrativos" class="atrativossobre fundo" data-speed="20">
 
     <div class="tituloesportes">
         <h1>Atrativos Turísticos</h1>
@@ -1125,7 +1136,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-green"></div>
+                                            <div class="col-md-2 trail-yellow"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -1252,14 +1263,8 @@
                             </li>
                             <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
                                                     onclick="changeBackground('atrativos','cachoeira')"
-                                                    href="#cachoeirapraiadorancheiro">PRAIA DO RANCHEIRO</a>
-                            </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                    onclick="changeBackground('atrativos','cachoeira')"
-                                                    href="#cachoeiracarioquinha">CARIOQUINHA</a>
-                            </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
-                                                    onclick="changeBackground('atrativos','cachoeira')"
+
+
                                                     href="#cachoeirapocodobau">POÇO DO BAÚ</a>
                             </li>
                             <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
@@ -1302,7 +1307,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-green"></div>
+                                            <div class="col-md-2 trail-yellow"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -1485,7 +1490,7 @@
                                             <li>Cor da trilha:</li>
                                         </div>
                                         <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-yellow"></div>
+                                            <div class="col-md-2 trail-indigo"></div>
                                             <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </div>
                                         </a>
@@ -1502,130 +1507,6 @@
                                     <div class="fotocentral">
                                         <div class="fill"
                                              style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradafolhinha.jpg') ?>">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
-                                    Voltar</a></div>
-                        </div>
-                        <div class="tab-pane  colordiv" id="cachoeirapraiadorancheiro">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Praia do Rancheiro</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
-                                        </div>
-                                        <div class="col-md-6">3000m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            100 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Muito difícil
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-red"></div>
-                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>A Praia do Rancheiro é um excelente local para nadar e revigorar as energias
-                                            em
-                                            boa companhia. Contêm um grande poço de pouco mais de 1,5 metros de
-                                            profundidade, além de uma extensa área plana coberta por gramínias. Ótimo
-                                            local
-                                            para se acampar e fazer piquiniques com amigos e família. Lembrando que não
-                                            é
-                                            permitido fazer fogueiras nas dependências do parque. Evite acampar sozinho
-                                            para
-                                            melhor garantir sua própria segurança.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'praiadorancheiro.jpg') ?>">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-bottom"><a class="btn btn-custom btn-blue" onclick="retreat('atrativos')"><<
-                                    Voltar</a></div>
-                        </div>
-                        <div class="tab-pane  colordiv" id="cachoeiracarioquinha">
-                            <div class="row">
-                                <div class="col-md-5 textocentral">
-                                    <div class="row" align="center">
-                                        <h3>Cachoeira do Carioquinha</h3>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <div class="col-md-6">
-                                            <li>Distância da Sede:</li>
-                                        </div>
-                                        <div class="col-md-6">1540m</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Tempo de Percurso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            60 minutos
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Nível de dificuldade de acesso:</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            Normal
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <li>Cor da trilha:</li>
-                                        </div>
-                                        <a data-target=".modalinfo" data-toggle="modal" href="#">
-                                            <div class="col-md-2 trail-lightblue"></div>
-                                            <div class="col-md-4"><i class="fa fa-info-circle" aria-hidden="true"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="row textocentral">
-                                        <p>A Cachoeira do Carioquinha é de extrema beleza cênica, contendo uma pequena e
-                                            refrescante queda d'água, além de um extenso poço, onde a profundidade
-                                            aumenta
-                                            progressivamente, chegando até cerca de 1,5 metros de profundidade próximo
-                                            da
-                                            queda d'água. É ideal para visitantes que tem receio de nadar em cachoeiras
-                                            mais
-                                            profundas e com grandes quedas d'água.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 nopaddingright">
-                                    <div class="fotocentral">
-                                        <div class="fill"
-                                             style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradocarioquinha.jpg') ?>">
                                         </div>
                                     </div>
                                 </div>
@@ -1758,6 +1639,7 @@
         </div>
     </div>
 </section>
+
 <section id="localizacao">
 
     <!--    <div>-->
@@ -1774,8 +1656,10 @@
 
 
 </section>
-<section id="paralallax" class="parallax">
+
+<section class="vazia fundo" data-speed="20">
 </section>
+
 <section id="contato">
     <div class="tituloesportes">
         <h1>Contato</h1>
@@ -1825,8 +1709,8 @@
 
 <div class="modal fade modalcachoeirapelados" tabindex="-1" role="dialog"
      aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
+    <div class="modal-dialog modal-dialog-lg" role="document">
+        <div class="modal-content modal-content-lg">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"
                         aria-label="Close"><span
@@ -1848,8 +1732,8 @@
         </div>
     </div>
 </div>
-<div class="modal fade modalinfo" tabindex="-1" role="dialog"
-     aria-labelledby="myLargeModalLabel">
+<div class="modal fade modalinfo" tabindex="-1" role="dialog">
+
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -1858,17 +1742,73 @@
                         aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="gridSystemModalLabel">Informações sobre as trilhas</h4>
             </div>
-            <div class="modal-body">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sus!4v1480427553452!6m8!1m7!1sF%3A-5tkx2Hq2OXc%2FWBEqEeqGRzI%2FAAAAAAACi9c%2F6uwn7lmR_dEEIxOnxMmcHUjhPYEgkM2_QCLIB!2m2!1d-20.36046112832916!2d-43.48784632980824!3f118!4f0!5f0.7820865974627469"
-                    frameborder="0"
-                    style="border:0;height: 70vh;width: 100%"
-                    allowfullscreen>
-                </iframe>
-
-
+            <div class="modal-body textocentral">
+                <p>Todas as trilhas do parque contam com cores para os turistas não se perderem, e estas estão pintadas no
+                    chão
+                    ou em placas. Segue abaixo a lista das cores:</p>
+                <div class="row margintop15">
+                    <p align="center">Cachoeira das Andorinhas</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-yellow"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p align="center">Cachoeira da Folhinha</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-indigo"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p class="marginleft15" align="center">Cachoeira Véu das Noivas</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-orange"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p align="center">Mirante do Vermelhão</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-red"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p align="center">Cachoeira dos Pelados</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-blue"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p align="center">Setores de escalada</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-white"></div>
+                    </a>
+                </div>
+                <div class="row margintop15">
+                    <p align="center">Cachoeira Poço do Baú</p>
+                    <div class="col-md-6">
+                        <li>Cor da trilha:</li>
+                    </div>
+                    <a data-target=".modalinfo" data-toggle="modal" href="#">
+                        <div class="col-md-6 trail-gray"></div>
+                </div>
             </div>
-
         </div>
     </div>
 </div>
