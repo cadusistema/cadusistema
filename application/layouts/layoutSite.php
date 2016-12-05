@@ -261,6 +261,10 @@
             event.preventDefault();
             $('#main-nav').toggleClass("open");
         });
+
+        $('#btn-pelados').click(function () {
+            $('#img360').toggleClass('rotate');
+        });
     });
 
     // scroll function
@@ -400,12 +404,6 @@
     $('#bs-example-navbar-collapse-16').on('hide.bs.collapse', function () {
         console.log('saiu-cahoeira-lateral');
         $('.nav-tabs').removeClass('nav-stacked');
-    });
-
-    $('#btn-pelados').click(function () {
-        console.log("Pelados");
-        $('#img360').toggleClass('rotate');
-        $('#img360').animate({'opacity':'1'},2000);
     });
 
 

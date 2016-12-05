@@ -1381,9 +1381,11 @@
                                     <div class="fotocentral">
                                         <div class="fill">
                                             <a data-target=".modalcachoeirapelados" data-toggle="modal" href="#">
-                                                <div id="img360" class="overlay" style="opacity: 0">
-                                                    <img src="<? echo base_url(ICONE . "/360.png") ?>"
+                                                <div  class="overlay">
+                                                    <img id="img360" src="<? echo base_url(ICONE . "/circle360.png") ?>"
                                                                           alt="Foto em 360º clique para visualizar">
+                                                    <img src="<? echo base_url(ICONE . "/number360.png") ?>"
+                                                         alt="Foto em 360º clique para visualizar" style="position: absolute">
                                                 </div>
                                             </a>
                                             <iframe
