@@ -107,7 +107,7 @@
             <div id="maincarousel" class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_CAROUSEL. 'jacare_1800x1100.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_CAROUSEL . 'jacare_1800x1100.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','mirante')">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS. 'cachoeiradafolhinha_1800.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ATRATIVOS . 'cachoeiradafolhinha_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('atrativos','cachoeira')">
@@ -130,7 +130,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_PARQUE. 'portaria.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_PARQUE . 'portaria.jpg') ?>">
                     </div>
                     <a href="#" data-id="atrativos" class="scroll-link"
                        onclick="changeBackground('oparque','oparquesobre')">
@@ -141,7 +141,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'boulder_1800.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES . 'boulder_1800.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link" onclick="changeBackground('esportes','boulder')">
                         <div class="carouselbar">
@@ -151,7 +151,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'highline_1600.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES . 'highline_1600.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','highline')">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'mountainbike.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES . 'mountainbike.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','mountainbike')">
@@ -173,7 +173,7 @@
                 </div>
                 <div class="item">
                     <div class="fillcarousel"
-                         style="background-image:url(<? echo base_url(IMG_ESPORTES. 'escaladabranca3.jpg') ?>">
+                         style="background-image:url(<? echo base_url(IMG_ESPORTES . 'escaladabranca3.jpg') ?>">
                     </div>
                     <a href="#" data-id="esportes" class="scroll-link"
                        onclick="changeBackground('esportes','escalada')">
@@ -217,20 +217,20 @@
                 );
                 $img_pm = array(
 //            'src' => base_url() . ICONE . "logopm.png",
-'src' => base_url() . ICONE . "rsz_logopm.png",
-'alt' => 'logo da prefeitura municipal de ouro preto'
+                    'src' => base_url() . ICONE . "rsz_logopm.png",
+                    'alt' => 'logo da prefeitura municipal de ouro preto'
                 );
                 echo anchor($site_prefeitura, img($img_pm), array(
                     'target' => '_blank',
-                    'class'  => 'footer-img'
+                    'class' => 'footer-img'
                 ));
                 echo anchor($site_fundacao, img($img_fundacao), array(
                     'target' => '_blank',
-                    'class'  => 'footer-img'
+                    'class' => 'footer-img'
                 ));
                 echo anchor($site_demam, img($img_demam), array(
                     'target' => '_blank',
-                    'class'  => 'footer-img'
+                    'class' => 'footer-img'
                 ));
                 ?>
             </figure>
@@ -266,7 +266,7 @@
     // scroll function
     function scrollToID(id, speed) {
         var offSet;
-        if(window.innerWidth > 768)
+        if (window.innerWidth > 768)
             offSet = document.getElementById('supermenu').offsetHeight;
         else
             offSet = document.getElementById('superheader').offsetHeight;
@@ -350,13 +350,13 @@
     }
 
     //Stack menu when collapsed
-    $('#bs-example-navbar-collapse-12').on('show.bs.collapse', function() {
+    $('#bs-example-navbar-collapse-12').on('show.bs.collapse', function () {
         console.log('entrou-esportes');
         $('.nav-tabs').addClass('nav-stacked');
     });
 
     //Unstack menu when not collapsed
-    $('#bs-example-navbar-collapse-12').on('hide.bs.collapse', function() {
+    $('#bs-example-navbar-collapse-12').on('hide.bs.collapse', function () {
         console.log('saiu-esportes');
         $('.nav-tabs').removeClass('nav-stacked');
     });
@@ -400,6 +400,12 @@
     $('#bs-example-navbar-collapse-16').on('hide.bs.collapse', function () {
         console.log('saiu-cahoeira-lateral');
         $('.nav-tabs').removeClass('nav-stacked');
+    });
+
+    $('#btn-pelados').click(function () {
+        console.log("Pelados");
+        $('#img360').toggleClass('rotate');
+        $('#img360').animate({'opacity':'1'},2000);
     });
 
 

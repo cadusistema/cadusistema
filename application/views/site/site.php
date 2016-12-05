@@ -1238,7 +1238,7 @@
                                                                    onclick="changeBackground('atrativos','cachoeira')"
                                                                    href="#cachoeiraandorinhas">ANDORINHAS</a>
                             </li>
-                            <li id="licachoeira"><a class="btn btn-primary btn-black" data-toggle="tab"
+                            <li id="licachoeira"><a id= "btn-pelados" class="btn btn-primary btn-black" data-toggle="tab"
                                                     onclick="changeBackground('atrativos','cachoeira')"
                                                     href="#cachoeirapelados">PELADOS</a>
                             </li>
@@ -1376,7 +1376,8 @@
                                     <div class="fotocentral">
                                         <div class="fill">
                                             <a data-target=".modalcachoeirapelados" data-toggle="modal" href="#">
-                                                <div class="overlay"><img src="<? echo base_url(ICONE . "/360.png") ?>"
+                                                <div id="img360" class="overlay" style="opacity: 0">
+                                                    <img src="<? echo base_url(ICONE . "/360.png") ?>"
                                                                           alt="Foto em 360º clique para visualizar">
                                                 </div>
                                             </a>
